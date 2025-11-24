@@ -1,0 +1,12 @@
+.ss {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+
+.ss svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "senangstart-icons",
+  "version": "1.0.0",
+  "description": "A unique icon collection for SenangStart",
+  "main": "src/icons.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "web-components"
+  ],
+  "author": "",
+  "license": "ISC"
+}
