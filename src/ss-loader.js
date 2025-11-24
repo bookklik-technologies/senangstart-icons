@@ -6,15 +6,29 @@ function replaceIcons() {
     if (el.dataset.ssLoaded) return;
 
     const classes = Array.from(el.classList);
-    const iconClass = classes.find((c) => c.startsWith("ss-") && c !== "ss");
+    const iconClass = classes.find(
+      (c) => (c.startsWith("ss-") || c.startsWith("sw-")) && c !== "ss"
+    );
 
     if (iconClass) {
-      const iconName = iconClass.replace("ss-", "");
-      const svgPath = icons[iconName];
+      const iconName = iconClass.startsWith("sw-")
+        ? iconClass
+        : iconClass.replace("ss-", "");
+      const iconData = icons[iconName];
 
-      if (svgPath) {
+      if (iconData) {
+        const isString = typeof iconData === "string";
+        const svgPath = isString ? iconData : iconData.path;
+        const viewBox =
+          isString || !iconData.viewBox ? "0 0 24 24" : iconData.viewBox;
+        const fill = isString || !iconData.fill ? "none" : iconData.fill;
+        const stroke =
+          isString || !iconData.stroke ? "currentColor" : iconData.stroke;
+        const strokeWidth =
+          isString || !iconData.strokeWidth ? "2" : iconData.strokeWidth;
+
         el.innerHTML = `
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg viewBox="${viewBox}" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">
             <path d="${svgPath}" />
           </svg>
         `;

@@ -22,12 +22,22 @@ class SSIcon extends HTMLElement {
 
   render() {
     const iconName = this.getAttribute("icon");
-    const svgPath = icons[iconName];
+    const iconData = icons[iconName];
 
-    if (!svgPath) {
+    if (!iconData) {
       this.shadowRoot.innerHTML = "";
       return;
     }
+
+    const isString = typeof iconData === "string";
+    const svgPath = isString ? iconData : iconData.path;
+    const viewBox =
+      isString || !iconData.viewBox ? "0 0 24 24" : iconData.viewBox;
+    const fill = isString || !iconData.fill ? "none" : iconData.fill;
+    const stroke =
+      isString || !iconData.stroke ? "currentColor" : iconData.stroke;
+    const strokeWidth =
+      isString || !iconData.strokeWidth ? "2" : iconData.strokeWidth;
 
     this.shadowRoot.innerHTML = `
       <style>
@@ -35,9 +45,9 @@ class SSIcon extends HTMLElement {
           display: inline-block;
           width: 1em;
           height: 1em;
-          fill: none;
-          stroke: currentColor;
-          stroke-width: 2;
+          fill: ${fill};
+          stroke: ${stroke};
+          stroke-width: ${strokeWidth};
           stroke-linecap: round;
           stroke-linejoin: round;
         }
@@ -47,7 +57,7 @@ class SSIcon extends HTMLElement {
           overflow: visible;
         }
       </style>
-      <svg viewBox="0 0 24 24">
+      <svg viewBox="${viewBox}">
         <path d="${svgPath}" />
       </svg>
     `;
