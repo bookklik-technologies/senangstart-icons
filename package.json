@@ -2,8 +2,11 @@
   "name": "senangstart-icons",
   "version": "1.0.0",
   "description": "A unique icon collection for SenangStart",
-  "main": "src/icons.js",
+  "main": "dist/senangstart-icon.min.js",
   "scripts": {
+    "build": "webpack --mode production",
+    "build:watch": "webpack --mode production --watch",
+    "dev": "webpack --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,5 +15,16 @@
     "web-components"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
