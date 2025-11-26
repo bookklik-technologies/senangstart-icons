@@ -35,6 +35,10 @@ module.exports = {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
+      {
+        test: /\.json$/,
+        type: "json",
+      },
     ],
   },
   plugins: [

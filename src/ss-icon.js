@@ -1,4 +1,4 @@
-import { icons } from "./icons.js";
+import icons from "./icons.json";
 
 class SSIcon extends HTMLElement {
   static get observedAttributes() {

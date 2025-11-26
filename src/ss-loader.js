@@ -1,4 +1,4 @@
-import { icons } from "./icons.js";
+import icons from "./icons.json";
 
 function replaceIcons() {
   const elements = document.querySelectorAll("i.ss");
@@ -58,9 +58,21 @@ const observer = new MutationObserver((mutations) => {
   }
 });
 
-observer.observe(document.body, {
-  childList: true,
-  subtree: true,
-  attributes: true,
-  attributeFilter: ["class"],
-});
+// Start observing only after DOM is ready
+if (document.body) {
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+} else {
+  document.addEventListener("DOMContentLoaded", () => {
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+  });
+}
