@@ -3,103 +3,227 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SenangStart Icons</title>
+    <title>SenangStart Icons | Professional Icon Library</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
-      href="https://unpkg.com/senangwebs-index@latest/dist/swi.css"
     />
-    <style>
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, sans-serif;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #f8f9fa;
+
+    <!-- SenangStart Styles/Scripts -->
+    <link rel="stylesheet" href="dist/senangstart.min.css" />
+    <script src="dist/senangstart-icon.min.js"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              mono: ["JetBrains Mono", "monospace"],
+            },
+            colors: {
+              brand: {
+                600: "#2563EB", // Blue-600
+                700: "#1D4ED8",
+              },
+            },
+          },
+        },
+      };
+    </script>
+
+    <style type="text/tailwindcss">
+      @layer base {
+        body {
+          @apply antialiased text-slate-900 bg-slate-50;
+        }
       }
 
-      h1 {
-        color: #333;
-        text-align: center;
-        margin-bottom: 30px;
-      }
+      @layer components {
+        /* --- Search Bar Styling --- */
+        /* Since the library generates the input, we target it via CSS */
+        #search-container input {
+          @apply w-full max-w-xl px-5 py-3.5 text-base text-slate-900 bg-white border border-slate-200 rounded-full shadow-sm outline-none transition-all duration-200 placeholder:text-slate-400;
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='%2394a3b8' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z' /%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          background-position: right 1rem center;
+          background-size: 1.25rem;
+        }
 
-      .demo-container {
-        background: white;
-        padding: 30px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
+        #search-container input:focus {
+          @apply border-brand-600 ring-4 ring-blue-500/10;
+        }
 
-      .swi-item {
-        border-left: 4px solid #4a90e2;
-      }
+        /* --- Pagination Styling --- */
+        .swi-pagination-list {
+          @apply flex flex-wrap justify-center items-center gap-2 list-none p-0 mt-12;
+        }
 
-      .swi-item h3 {
-        margin: 0 0 10px 0;
-        color: #2c3e50;
-      }
+        .swi-pagination-btn {
+          @apply flex items-center justify-center min-w-[2.5rem] h-10 px-3 text-sm font-medium text-slate-600 bg-white border border-slate-200 rounded-lg transition-all duration-200 hover:border-brand-600 hover:text-brand-600;
+        }
 
-      .swi-item p {
-        margin: 5px 0;
-        color: #666;
-      }
+        .swi-pagination-item.swi-active .swi-pagination-btn {
+          @apply z-10 bg-brand-600 text-white border-brand-600 shadow-md shadow-blue-500/20 pointer-events-none;
+        }
 
-      .price {
-        font-weight: bold;
-        color: #27ae60;
-        font-size: 1.2em;
-      }
-
-      .category {
-        display: inline-block;
-        padding: 4px 12px;
-        background: #e8f4f8;
-        color: #2980b9;
-        border-radius: 12px;
-        font-size: 0.85em;
-        margin-top: 10px;
+        .swi-pagination-item.swi-disabled .swi-pagination-btn {
+          @apply opacity-50 cursor-not-allowed bg-slate-50 text-slate-400 hover:border-slate-200 hover:text-slate-400;
+        }
       }
     </style>
   </head>
-  <body>
-    <h1>SenangStart Icons</h1>
-
-    <div
-      class="demo-container"
-      data-swi-id="products"
-      data-swi-source="./src/icons.json"
-      data-swi-page-size="5"
-      data-swi-search-key="name"
+  <body class="flex flex-col min-h-screen">
+    <!-- Navbar -->
+    <header
+      class="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-slate-200"
     >
-      <!-- Search Controls -->
-      <div style="margin-bottom: 20px">
-        <input
-          type="text"
-          data-swi-search-input
-          placeholder="Search products by name..."
-          style="width: calc(100% - 120px)"
-        />
-        <button data-swi-search-action>Search</button>
+      <div
+        class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between"
+      >
+        <div class="flex items-center gap-2">
+          <!-- Simulated Logo Mark -->
+          <div
+            class="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-lg"
+          >
+            S
+          </div>
+          <span class="font-bold text-lg tracking-tight text-slate-900"
+            >SenangStart Icons</span
+          >
+        </div>
+        <div class="flex items-center gap-4">
+          <span
+            class="text-xs font-semibold px-2 py-1 bg-slate-100 text-slate-600 rounded"
+            >v1.0.0</span
+          >
+          <a
+            href="#"
+            class="text-sm font-medium text-slate-500 hover:text-brand-600 transition-colors"
+            >Documentation</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium text-slate-500 hover:text-brand-600 transition-colors"
+            >GitHub</a
+          >
+        </div>
       </div>
+    </header>
 
-      <!-- Container for rendered items -->
-      <div class="swi-item-container">
-        <!-- 
-        This template is hidden and cloned for each item in the JSON data.
-      -->
-        <div data-swi-template="item" style="display: none">
-          <h3 data-swi-value="item.name"></h3>
-          <p data-swi-value="item.description"></p>
-          <div class="price">$<span data-swi-value="item.price"></span></div>
-          <span class="category" data-swi-value="item.category"></span>
+    <!-- Main Content -->
+    <main class="flex-grow">
+      <!-- Hero / Search Section -->
+      <div class="bg-white border-b border-slate-100 pb-12 pt-16 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+          <h1
+            class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-4"
+          >
+            Icons for
+            <span class="text-brand-600">modern interfaces</span>.
+          </h1>
+          <p class="text-lg text-slate-500 mb-8 max-w-2xl mx-auto">
+            A professional, open-source icon set designed for clarity and
+            simplicity.
+          </p>
+
+          <!-- Search Container (Input injected here) -->
+          <div
+            id="search-container"
+            class="w-full flex justify-center items-center"
+          >
+            <input type="text" placeholder="Search icons..." />
+          </div>
         </div>
       </div>
 
-      <!-- Pagination Controls will be rendered here -->
-      <div data-swi-pagination></div>
-    </div>
+      <!-- Grid Section -->
+      <div class="max-w-7xl mx-auto px-6 py-12">
+        <div class="senangstart-icons">
+          <div
+            id="icons-container"
+            class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4"
+          >
+            <!-- Icons injected here -->
+          </div>
+
+          <div id="pagination-container">
+            <!-- Pagination injected here -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 py-8 mt-auto">
+      <div
+        class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4"
+      >
+        <p class="text-sm text-slate-500">
+          © 2025 SenangStart Icons. All rights reserved.
+        </p>
+        <div class="flex gap-6">
+          <a href="#" class="text-sm text-slate-400 hover:text-slate-900"
+            >License</a
+          >
+          <a href="#" class="text-sm text-slate-400 hover:text-slate-900"
+            >Privacy</a
+          >
+          <a href="#" class="text-sm text-slate-400 hover:text-slate-900"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </footer>
 
     <script src="https://unpkg.com/senangwebs-index@latest/dist/swi.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Ensure path matches your project structure
+        const icons = "./src/icons.json";
+
+        const swi = new SenangWebsIndex({
+          container: "#icons-container",
+          data: icons,
+          itemTemplate: (item) => {
+            // Polished Card Template
+            return `
+              <div class="group relative flex flex-col items-center justify-between p-6 bg-white border border-slate-200 rounded-xl cursor-pointer transition-all duration-300 hover:border-brand-600 hover:shadow-lg hover:shadow-blue-500/10 hover:-translate-y-1">
+                
+                <div class="flex-grow flex items-center justify-center mb-4 text-slate-700 transition-colors duration-300 group-hover:text-brand-600">
+                  <ss-icon icon="${item.slug}" class="w-8 h-8 md:w-10 md:h-10"></ss-icon>
+                </div>
+                
+                <div class="w-full text-center">
+                  <h3 class="text-sm font-semibold text-slate-900 truncate" title="${item.name}">${item.name}</h3>
+                  <div class="mt-2 inline-block max-w-full">
+                    <code class="block text-[10px] leading-tight text-slate-400 bg-slate-50 border border-slate-100 rounded px-1.5 py-0.5 font-mono truncate transition-colors group-hover:text-brand-600 group-hover:bg-blue-50 group-hover:border-blue-100">
+                      ${item.slug}
+                    </code>
+                  </div>
+                </div>
+
+              </div>
+            `;
+          },
+          search: {
+            enabled: true,
+            selector: "#search-container",
+            searchKey: "name",
+          },
+          pagination: {
+            enabled: true,
+            selector: "#pagination-container",
+            itemsPerPage: 48, // Multiple of 8 for the grid
+          },
+        });
+      });
+    </script>
   </body>
 </html>

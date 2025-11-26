@@ -1,4 +1,9 @@
-import icons from "./icons.json";
+import iconsArray from "./icons.json";
+
+const icons = iconsArray.reduce((acc, icon) => {
+  acc[icon.slug] = icon;
+  return acc;
+}, {});
 
 function replaceIcons() {
   const elements = document.querySelectorAll("i.ss");
@@ -18,7 +23,7 @@ function replaceIcons() {
 
       if (iconData) {
         const isString = typeof iconData === "string";
-        const svgPath = isString ? iconData : iconData.path;
+        const svgPath = isString ? iconData : iconData.src;
         const viewBox =
           isString || !iconData.viewBox ? "0 0 24 24" : iconData.viewBox;
         const fill = isString || !iconData.fill ? "none" : iconData.fill;

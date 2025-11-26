@@ -1,4 +1,9 @@
-import icons from "./icons.json";
+import iconsArray from "./icons.json";
+
+const icons = iconsArray.reduce((acc, icon) => {
+  acc[icon.slug] = icon;
+  return acc;
+}, {});
 
 class SSIcon extends HTMLElement {
   static get observedAttributes() {
@@ -30,7 +35,7 @@ class SSIcon extends HTMLElement {
     }
 
     const isString = typeof iconData === "string";
-    const svgPath = isString ? iconData : iconData.path;
+    const svgPath = isString ? iconData : iconData.src;
     const viewBox =
       isString || !iconData.viewBox ? "0 0 24 24" : iconData.viewBox;
     const fill = isString || !iconData.fill ? "none" : iconData.fill;
