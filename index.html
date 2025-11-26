@@ -79,6 +79,14 @@
         .swi-pagination-item.swi-disabled .swi-pagination-btn {
           @apply opacity-50 cursor-not-allowed bg-slate-50 text-slate-400 hover:border-slate-200 hover:text-slate-400;
         }
+
+        .swj-button {
+          @apply bg-brand-600 text-white;
+        }
+
+        .swj-btn .swj-button {
+          @apply w-full;
+        }
       }
     </style>
   </head>
@@ -304,7 +312,6 @@
     <script src="https://unpkg.com/senangwebs-index@latest/dist/swi.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
-        // Ensure path matches your project structure
         const icons = "./src/icons.json";
 
         const swi = new SenangWebsIndex({
@@ -313,7 +320,7 @@
           itemTemplate: (item) => {
             // Polished Card Template
             return `
-              <div class="group relative flex flex-col items-center justify-between p-6 bg-white border border-slate-200 rounded-xl cursor-pointer transition-all duration-300 hover:border-brand-600 hover:shadow-lg hover:shadow-blue-500/10">
+              <div class="group relative flex flex-col items-center justify-between p-4 bg-white border border-slate-200 rounded-xl cursor-pointer transition-all duration-300 hover:border-brand-600 hover:shadow-lg hover:shadow-blue-500/10">
                 
                 <div class="flex-grow flex items-center justify-center mb-4 text-slate-700 transition-colors duration-300 group-hover:text-brand-600">
                   <ss-icon icon="${item.slug}" class="w-8 h-8 md:w-10 md:h-10"></ss-icon>
@@ -328,7 +335,7 @@
                   </div>
                 </div>
 
-                <div class="flex justify-end w-full mt-2 hidden">
+                <div class="swj-btn flex justify-end w-full mt-2">
                   <textarea id="copy-code-${item.slug}" class="w-0 h-0" data-swj-id="copy-code-${item.slug}" data-swj-value><ss-icon icon="${item.slug}"></ss-icon></textarea>
                   <button
                     type="button"
@@ -348,10 +355,25 @@
           pagination: {
             enabled: true,
             selector: "#pagination-container",
-            itemsPerPage: 48, // Multiple of 8 for the grid
+            itemsPerPage: 48,
           },
         });
       });
+
+      const targetDiv = document.getElementById("icons-container");
+      const config = { childList: true, subtree: true, characterData: true };
+      const callback = function (mutationsList, observer) {
+        for (const mutation of mutationsList) {
+          if (
+            mutation.type === "childList" ||
+            mutation.type === "characterData"
+          ) {
+            SWJ.refresh();
+          }
+        }
+      };
+      const observer = new MutationObserver(callback);
+      observer.observe(targetDiv, config);
     </script>
   </body>
 </html>
