@@ -24,6 +24,13 @@
     />
     <script src="https://unpkg.com/senangwebs-jot@latest/dist/swj.js"></script>
 
+    <!-- Senangwebs Modals -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/senangwebs-modals@latest/dist/swm.css"
+    />
+    <script src="https://unpkg.com/senangwebs-modals@latest/dist/swm.js"></script>
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -320,28 +327,17 @@
           itemTemplate: (item) => {
             // Polished Card Template
             return `
-              <div class="group relative flex flex-col items-center justify-between p-4 bg-white border border-slate-200 rounded-xl cursor-pointer transition-all duration-300 hover:border-brand-600 hover:shadow-lg hover:shadow-blue-500/10">
-                
-                <div class="flex-grow flex items-center justify-center mb-4 text-slate-700 transition-colors duration-300 group-hover:text-brand-600">
+              <div class="group relative flex flex-col items-center justify-between p-4 bg-white border border-slate-200 rounded-xl cursor-pointer transition-all duration-300 hover:border-brand-600 hover:shadow-lg hover:shadow-blue-500/10 aspect-square" onclick="iconDetails('${item.name}', '${item.slug}', '${item.tags}')">                
+                <div class="flex-grow flex items-center justify-center mb-2 text-slate-700 transition-colors duration-300 group-hover:text-brand-600">
                   <ss-icon icon="${item.slug}" class="w-8 h-8 md:w-10 md:h-10"></ss-icon>
                 </div>
                 
                 <div class="w-full text-center">
-                  <h3 class="text-sm font-semibold text-slate-900 truncate" title="${item.name}">${item.name}</h3>
-                  <div class="mt-2 inline-block max-w-full">
-                    <code class="block text-[10px] leading-tight text-slate-400 bg-slate-50 border border-slate-100 rounded px-1.5 py-0.5 font-mono truncate transition-colors group-hover:text-brand-600 group-hover:bg-blue-50 group-hover:border-blue-100">
+                  <div class=" max-w-full">
+                    <code class="block text-[12px] leading-tight text-slate-400 bg-slate-50 border border-slate-100 rounded px-1.5 py-0.5 font-mono truncate transition-colors group-hover:text-brand-600 group-hover:bg-blue-50 group-hover:border-blue-100">
                       ${item.slug}
                     </code>
                   </div>
-                </div>
-
-                <div class="swj-btn flex justify-end w-full mt-2">
-                  <textarea id="copy-code-${item.slug}" class="w-0 h-0" data-swj-id="copy-code-${item.slug}" data-swj-value><ss-icon icon="${item.slug}"></ss-icon></textarea>
-                  <button
-                    type="button"
-                    class="bg-brand-600 rounded flex items-center justify-center text-white px-2 py-1"
-                    data-swj-copy="copy-code-${item.slug}"
-                  >Copy</button>
                 </div>
 
               </div>
@@ -355,7 +351,7 @@
           pagination: {
             enabled: true,
             selector: "#pagination-container",
-            itemsPerPage: 480,
+            itemsPerPage: 48,
           },
         });
       });
@@ -374,6 +370,35 @@
       };
       const observer = new MutationObserver(callback);
       observer.observe(targetDiv, config);
+
+      function iconDetails(name, slug, tags) {
+        SWM.createModal({
+          title: `${name}`,
+          content: `<div class="flex flex-col lg:flex-row gap-4 w-full lg:w-[600px] lg:max-w-[600px] py-2">
+            <div class="bg-slate-50 border border-slate-200 p-4 rounded-lg text-7xl aspect-square lg:w-36 flex items-center justify-center">
+              <ss-icon icon="${slug}"></ss-icon>
+            </div>
+            <div class="flex flex-col gap-2 justify-between flex-grow">
+              <div class="relative group">
+                <div class="absolute inset-y-0 left-0 w-1 bg-brand-600 rounded-l-lg"></div>
+                <pre class="bg-slate-900 text-slate-50 p-5 rounded-r-lg rounded-l-md overflow-x-auto font-mono text-sm shadow-xl"><code>&#x3C;ss-icon icon=&#x22;${slug}&#x22;&#x3E;&#x3C;/ss-icon&#x3E;</code></pre>
+              </div>
+              <div class="text-xs text-slate-400">tags: ${tags}</div>
+              <textarea id="copy-code-${slug}" class="w-0 h-0" data-swj-id="copy-code-${slug}" data-swj-value><ss-icon icon="${slug}"></ss-icon></textarea>
+              <div class="flex items-center justify-center lg:justify-end">
+              <button
+                type="button"
+                class="bg-brand-600 rounded flex items-center justify-center text-white px-2 py-1"
+                data-swj-copy="copy-code-${slug}"
+              >Copy</button>
+              </div>
+            </div>
+          </div>`,
+          position: "center",
+          zIndex: "50",
+        });
+        SWJ.refresh();
+      }
     </script>
   </body>
 </html>
