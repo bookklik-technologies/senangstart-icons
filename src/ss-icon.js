@@ -7,7 +7,7 @@ const icons = iconsArray.reduce((acc, icon) => {
 
 class SSIcon extends HTMLElement {
   static get observedAttributes() {
-    return ["icon"];
+    return ["icon", "thickness"];
   }
 
   constructor() {
@@ -16,7 +16,7 @@ class SSIcon extends HTMLElement {
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
-    if (name === "icon") {
+    if (name === "icon" || name === "thickness") {
       this.render();
     }
   }
@@ -41,8 +41,13 @@ class SSIcon extends HTMLElement {
     const fill = isString || !iconData.fill ? "none" : iconData.fill;
     const stroke =
       isString || !iconData.stroke ? "currentColor" : iconData.stroke;
-    const strokeWidth =
-      isString || !iconData.strokeWidth ? "2" : iconData.strokeWidth;
+
+    const thicknessAttr = this.getAttribute("thickness");
+    const strokeWidth = thicknessAttr
+      ? thicknessAttr
+      : isString || !iconData.strokeWidth
+      ? "2.25"
+      : iconData.strokeWidth;
 
     this.shadowRoot.innerHTML = `
       <style>
