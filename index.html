@@ -151,10 +151,36 @@
           </p>
 
           <div
-            id="search-container"
-            class="w-full flex justify-center items-center"
+            class="max-w-4xl mx-auto flex flex-col md:flex-row md:flex-row justify-center items-center gap-8"
           >
-            <input type="text" placeholder="Search icons..." />
+            <div
+              id="search-container"
+              class="flex flex-col md:flex-row justify-center items-center flex-grow max-w-xl"
+            >
+              <input type="text" placeholder="Search icons..." />
+            </div>
+            <div class="flex justify-center items-center gap-4">
+              <label
+                for="thickness-slider"
+                class="text-sm font-medium text-slate-700"
+                >Thickness</label
+              >
+
+              <input
+                id="thickness-slider"
+                type="range"
+                min="1"
+                max="4"
+                step="0.1"
+                value="2.2"
+                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
+              />
+              <span
+                id="thickness-value"
+                class="text-xs font-mono w-16 text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded"
+                >2.2</span
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -262,6 +288,12 @@
                 </div>
                 <div class="p-8 flex items-center justify-evenly gap-6">
                   <div class="flex flex-col items-center gap-3 mt-auto">
+                    <i class="ss ss-save text-blue-600 w-8 h-8"></i>
+                    <span class="text-xs text-slate-400 font-mono"
+                      >Icon: Save</span
+                    >
+                  </div>
+                  <div class="flex flex-col items-center gap-3 mt-auto">
                     <ss-icon icon="home"></ss-icon>
                     <span class="text-xs text-slate-400 font-mono"
                       >Size: Default</span
@@ -284,6 +316,7 @@
                 <pre
                   class="bg-slate-900 text-slate-50 p-4 rounded-lg overflow-x-auto font-mono text-sm leading-relaxed"
                 ><code><span class="text-slate-500">&lt;!-- Basic Usage --&gt;</span>
+&lt;i class="ss ss-save text-blue-600 w-8 h-8"&gt;&lt;/i&gt;
 &lt;ss-icon icon="home"&gt;&lt;/ss-icon&gt;
 
 <span class="text-slate-500">&lt;!-- With Tailwind Classes --&gt;</span>
@@ -319,6 +352,7 @@
 
     <script src="https://unpkg.com/senangwebs-index@latest/dist/swi.js"></script>
     <script>
+      let currentThickness = 2.5;
       document.addEventListener("DOMContentLoaded", () => {
         const icons = "./src/icons.json";
 
@@ -330,7 +364,7 @@
             return `
               <div class="group relative flex flex-col items-center justify-between p-4 bg-white border border-slate-200 rounded-xl cursor-pointer transition-all duration-300 hover:border-brand-600 hover:shadow-lg hover:shadow-blue-500/10 aspect-square" onclick="iconDetails('${item.name}', '${item.slug}', '${item.tags}')">                
                 <div class="flex-grow flex items-center justify-center mb-2 text-slate-700 transition-colors duration-300 group-hover:text-brand-600">
-                  <ss-icon icon="${item.slug}" class="w-8 h-8 md:w-10 md:h-10"></ss-icon>
+                  <ss-icon icon="${item.slug}" thickness="${currentThickness}" class="w-8 h-8 md:w-10 md:h-10"></ss-icon>
                 </div>
                 
                 <div class="w-full text-center">
@@ -355,6 +389,20 @@
             itemsPerPage: 48,
           },
         });
+
+        const thicknessSlider = document.getElementById("thickness-slider");
+        const thicknessValue = document.getElementById("thickness-value");
+
+        thicknessSlider.addEventListener("input", (e) => {
+          currentThickness = e.target.value;
+          thicknessValue.textContent = currentThickness;
+
+          // Update all currently visible icons
+          const icons = document.querySelectorAll("#icons-container ss-icon");
+          icons.forEach((icon) => {
+            icon.setAttribute("thickness", currentThickness);
+          });
+        });
       });
 
       const targetDiv = document.getElementById("icons-container");
@@ -373,19 +421,20 @@
       observer.observe(targetDiv, config);
 
       function iconDetails(name, slug, tags) {
+        let thickness = currentThickness;
         SWM.createModal({
           title: `${name}`,
-          content: `<div class="flex flex-col lg:flex-row gap-4 w-full lg:w-[600px] lg:max-w-[600px] py-2">
-            <div class="bg-slate-50 border border-slate-200 p-4 rounded-lg text-7xl aspect-square lg:w-36 flex items-center justify-center">
-              <ss-icon icon="${slug}"></ss-icon>
+          content: `<div class="flex flex-col justify-center items-center lg:flex-row gap-4 w-full py-2">
+            <div class="bg-slate-50 border border-slate-200 p-4 rounded-lg text-7xl aspect-square w-48 flex items-center justify-center">
+              <ss-icon icon="${slug}" thickness="${thickness}"></ss-icon>
             </div>
-            <div class="flex flex-col gap-2 justify-between flex-grow">
+            <div class="flex flex-col gap-2 justify-between flex-grow lg:h-48">
               <div class="relative group">
                 <div class="absolute inset-y-0 left-0 w-1 bg-brand-600 rounded-l-lg"></div>
-                <pre class="bg-slate-900 text-slate-50 p-5 rounded-r-lg rounded-l-md overflow-x-auto font-mono text-sm shadow-xl"><code>&#x3C;ss-icon icon=&#x22;${slug}&#x22;&#x3E;&#x3C;/ss-icon&#x3E;</code></pre>
+                <pre class="bg-slate-900 text-slate-50 p-5 rounded-r-lg rounded-l-md overflow-x-auto font-mono text-sm shadow-xl max-w-[calc(100vw-4rem)]"><code>&#x3C;ss-icon icon=&#x22;${slug}&#x22; thickness=&#x22;${thickness}&#x22;&#x3E;&#x3C;/ss-icon&#x3E;</code></pre>
               </div>
-              <div class="text-xs text-slate-400">tags: ${tags}</div>
-              <textarea id="copy-code-${slug}" class="w-0 h-0" data-swj-id="copy-code-${slug}" data-swj-value><ss-icon icon="${slug}"></ss-icon></textarea>
+              <div class="text-xs text-slate-400 mb-auto">tags: ${tags}</div>
+              <textarea id="copy-code-${slug}" class="w-0 h-0" data-swj-id="copy-code-${slug}" data-swj-value><ss-icon icon="${slug}" thickness="${thickness}"></ss-icon></textarea>
               <div class="flex items-center justify-center lg:justify-end">
               <button
                 type="button"
@@ -395,7 +444,7 @@
               </div>
             </div>
           </div>`,
-          position: "center",
+          position: "top",
           zIndex: "50",
         });
         SWJ.refresh();
