@@ -270,6 +270,12 @@
     "tags": ["add user", "register", "user-plus"]
   },
   {
+    "name": "User Minus",
+    "slug": "user-minus",
+    "src": "m19 10.5m0 0h3M19 10.5h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z",
+    "tags": ["remove user", "user-minus"]
+  },
+  {
     "name": "User Group",
     "slug": "user-group",
     "src": "M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z",
@@ -366,10 +372,40 @@
     "tags": ["image", "picture", "wide", "panorama"]
   },
   {
+    "name": "Trophy",
+    "slug": "trophy",
+    "src": "M6 9c-1.5 0-3-1.5-3-3V5h3M18 9c1.5 0 3-1.5 3-3V5h-3M6 9V5h12v4c0 3.3-2.7 6-6 6s-6-2.7-6-6zM12 15v3M9 21h6M10 18h4",
+    "tags": ["award", "winner", "achievement", "trophy"]
+  },
+  {
+    "name": "Medal",
+    "slug": "medal",
+    "src": "M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15M11 12 5.12 2.2M13 12l5.88-9.8M8 7h8M12 22a5 5 0 100-10 5 5 0 000 10zM12 18v-2h-.5",
+    "tags": ["award", "achievement", "winner", "medal"]
+  },
+  {
     "name": "Musical Note",
     "slug": "musical-note",
     "src": "M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z",
     "tags": ["audio", "song", "sound", "musical-note"]
+  },
+  {
+    "name": "Code",
+    "slug": "code",
+    "src": "M17.25 6.75L22.5 12l-5.25 5.25M6.75 17.25L1.5 12l5.25-5.25M14.25 3.75l-4.5 16.5",
+    "tags": ["coding", "programming", "developer", "code"]
+  },
+  {
+    "name": "Horizontal 3 Dots",
+    "slug": "horizontal-3-dots",
+    "src": "M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z",
+    "tags": ["menu", "more", "options", "ellipsis", "horizontal-3-dots"]
+  },
+  {
+    "name": "Vertical 3 Dots",
+    "slug": "vertical-3-dots",
+    "src": "M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z",
+    "tags": ["menu", "more", "options", "ellipsis", "vertical-3-dots"]
   },
   {
     "name": "Save",
@@ -880,6 +916,12 @@
     "tags": ["virtual reality", "glasses", "game", "vr"]
   },
   {
+    "name": "AR",
+    "slug": "ar",
+    "src": "m21 7.5-2.25-1.313M21 7.5v2.25m0-2.25-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3 2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75 2.25-1.313M12 21.75V19.5m0 2.25-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25",
+    "tags": ["augmented reality", "3d", "ar", "cube"]
+  },
+  {
     "name": "Group Object",
     "slug": "group-object",
     "src": "M3 7V5c0-1.1.9-2 2-2h2M17 3h2c1.1 0 2 .9 2 2v2M21 17v2c0 1.1-.9 2-2 2h-2M7 21H5c-1.1 0-2-.9-2-2v-2M8 7h5a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1ZM11 12h5a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1Z",
@@ -892,10 +934,52 @@
     "tags": ["separate", "split", "ungroup-object"]
   },
   {
+    "name": "Align Left Object",
+    "slug": "align-left-object",
+    "src": "M7 4h6a1 1 0 011 1v4a1 1 0 01-1 1H7a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h6a1 1 0 011 1v4a1 1 0 01-1 1h-11a1 1 0 01-1-1v-4a1 1 0 011-1ZM3 21 3 3",
+    "tags": ["align", "left", "object"]
+  },
+  {
+    "name": "Align Center Object",
+    "slug": "align-center-object",
+    "src": "M12 4h3a1 1 0 011 1v4a1 1 0 01-1 1H9a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h6a1 1 0 011 1v4a1 1 0 01-1 1h-12a1 1 0 01-1-1v-4a1 1 0 011-1ZM12 21 12 3",
+    "tags": ["align", "center", "object"]
+  },
+  {
+    "name": "Align Right Object",
+    "slug": "align-right-object",
+    "src": "M13 4h4a1 1 0 011 1v4a1 1 0 01-1 1H11a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h5a1 1 0 011 1v4a1 1 0 01-1 1h-11a1 1 0 01-1-1v-4a1 1 0 011-1ZM21 21 21 3",
+    "tags": ["align", "right", "object"]
+  },
+  {
+    "name": "Align Top Object",
+    "slug": "align-top-object",
+    "src": "M12 15h3a1 1 0 011 1v3a1 1 0 01-1 1H9a1 1 0 01-1-1V16a1 1 0 011-1ZM12 7h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 4 3 4",
+    "tags": ["align", "top", "object"]
+  },
+  {
+    "name": "Align Middle Object",
+    "slug": "align-middle-object",
+    "src": "M12 4h6a1 1 0 011 1v3a1 1 0 01-1 1H6a1 1 0 01-1-1V5a1 1 0 011-1ZM12 15h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 12 3 12",
+    "tags": ["align", "middle", "object"]
+  },
+  {
+    "name": "Align Bottom Object",
+    "slug": "align-bottom-object",
+    "src": "M12 4h3a1 1 0 011 1v3a1 1 0 01-1 1H9a1 1 0 01-1-1V5a1 1 0 011-1ZM12 12h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 20 3 20",
+    "tags": ["align", "bottom", "object"]
+  },
+  {
     "name": "Grid",
     "slug": "grid",
+    "src": "M9 3v18M15 3v18M3 9h18M3 15h18M3 21h18M3 3h18M3 3v18M21 3v18",
+    "tags": ["layout", "view", "grid"]
+  },
+  {
+    "name": "Tic Tac Toe",
+    "slug": "tic-tac-toe",
     "src": "M9 3v18 M15 3v18 M3 9h18 M3 15h18",
-    "tags": ["layout", "view", "matrix", "grid"]
+    "tags": ["layout", "view", "tic-tac-toe"]
   },
   {
     "name": "Robot",
@@ -958,6 +1042,12 @@
     "tags": ["dashboard", "ui", "grid", "layout"]
   },
   {
+    "name": "Focus",
+    "slug": "focus",
+    "src": "M3 7V5c0-1.1.9-2 2-2h2M17 3h2c1.1 0 2 .9 2 2v2M21 17v2c0 1.1-.9 2-2 2h-2M7 21H5c-1.1 0-2-.9-2-2v-2M5 3 7 3Z",
+    "tags": ["focus", "lock in", "scan", "fullscreen"]
+  },
+  {
     "name": "Hourglass 0",
     "slug": "hourglass-0",
     "src": "M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6zM9 6l6 0-3 3z",
@@ -1018,6 +1108,12 @@
     "tags": ["shape", "round", "3d", "cylinder"]
   },
   {
+    "name": "Tube",
+    "slug": "tube",
+    "src": "M21 6.5c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5S7 3 12 3s9 1.567 9 3.5zM21 6.5v11c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5v-11M17 6.5c0 .7-2 1.5-5 1.5s-5-.8-5-1.5S9 5 12 5s5 .8 5 1.5zM17 20.4 17 9.5",
+    "tags": ["shape", "round", "3d", "tube"]
+  },
+  {
     "name": "Cone",
     "slug": "cone",
     "src": "M21 19c0 1-3 3-9 3s-9-2-9-3c0-1 3-3 9-3s9 2 9 3zM3 19 12 3l9 16",
@@ -1028,6 +1124,12 @@
     "slug": "pyramid",
     "src": "M12 3l9.75 15-9.75 3-9.75-3L12 3z M12 3v18",
     "tags": ["shape", "triangle", "3d", "pyramid"]
+  },
+  {
+    "name": "Polygon",
+    "slug": "polygon",
+    "src": "M8 3l8 0L22 7 16 11 8 11 2 7 8 3M22 7v10M2 7v10M16 11v10M8 11v10M2 17l6 4L16 21 22 17",
+    "tags": ["shape", "polygon", "3d", "polygon"]
   },
   {
     "name": "Sparkles",
@@ -1072,6 +1174,12 @@
     "tags": ["shape", "rhombus", "diamond"]
   },
   {
+    "name": "Hexagon",
+    "slug": "hexagon",
+    "src": "M12 2l7 4v8l-7 4-7-4V6l7-4z",
+    "tags": ["shape", "polygon", "hexagon"]
+  },
+  {
     "name": "Draw Line",
     "slug": "draw-line",
     "src": "M3 21 21 3",
@@ -1104,13 +1212,13 @@
   {
     "name": "Font",
     "slug": "font",
-    "src": "M3.75 20.25h16.5M6 20.25l6-16.5 6 16.5M8.25 15h7.5",
+    "src": "M4 20.3h4M6 20.25l6-16.5 6 16.5M8 15h8M16 20.3h4",
     "tags": ["text", "typography", "letter", "font"]
   },
   {
     "name": "Text",
     "slug": "text",
-    "src": "M12 20.25V3.8M5.2 5.5 5.2 3.8h13.6L18.8 5.5M3.75 20.25h16.5",
+    "src": "M12 20.25V3.8M5.2 5.5 5.2 3.8h13.6L18.8 5.5M10 20.3h4",
     "tags": ["text", "typography", "letter", "type"]
   },
   {
