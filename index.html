@@ -352,7 +352,7 @@
 
     <script src="https://unpkg.com/senangwebs-index@latest/dist/swi.js"></script>
     <script>
-      let currentThickness = 2.5;
+      let currentThickness = 2.2;
       document.addEventListener("DOMContentLoaded", () => {
         const icons = "./src/icons.json";
 
@@ -364,7 +364,7 @@
             return `
               <div class="group relative flex flex-col items-center justify-between p-4 bg-white border border-slate-200 rounded-xl cursor-pointer transition-all duration-300 hover:border-brand-600 hover:shadow-lg hover:shadow-blue-500/10 aspect-square" onclick="iconDetails('${item.name}', '${item.slug}', '${item.tags}')">                
                 <div class="flex-grow flex items-center justify-center mb-2 text-slate-700 transition-colors duration-300 group-hover:text-brand-600">
-                  <ss-icon icon="${item.slug}" thickness="${currentThickness}" class="w-8 h-8 md:w-10 md:h-10"></ss-icon>
+                  <ss-icon icon="${item.slug}" thickness="${currentThickness}" class="w-12 h-12"></ss-icon>
                 </div>
                 
                 <div class="w-full text-center">
