@@ -18,6 +18,12 @@
     "tags": ["tick", "success", "confirm", "done", "check"]
   },
   {
+    "name": "Double Tick",
+    "slug": "double-tick",
+    "src": "M4.5 12.75l6 6 9-13.5m-12.5 3.75 3 3 4.6-6.8",
+    "tags": ["check", "done", "success", "double-tick"]
+  },
+  {
     "name": "Plus",
     "slug": "plus",
     "src": "M12 4.5v15m7.5-7.5h-15",
@@ -68,7 +74,7 @@
   {
     "name": "Trash",
     "slug": "trash",
-    "src": "M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0",
+    "src": "M18.2 18 14 18m5.228-12.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0M5.8 18 14 18",
     "tags": ["delete", "remove", "bin", "garbage", "trash"]
   },
   {
@@ -988,16 +994,40 @@
     "tags": ["undo", "history", "restore", "time-reset"]
   },
   {
+    "name": "Layer Stacks",
+    "slug": "layer-stacks",
+    "src": "M3.75 9L12 13.5 20.25 9 12 4.5 3.75 9zm0 4.5l8.25 4.5 8.25-4.5M3.75 18l8.25 4.5 8.25-4.5",
+    "tags": ["layers", "stack", "group", "layer-stacks"]
+  },
+  {
     "name": "Cube",
     "slug": "cube",
     "src": "M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9",
     "tags": ["3d", "block", "shape", "cube"]
   },
   {
-    "name": "Scissor",
-    "slug": "scissor",
-    "src": "M6 3A3 3 0 116 9 3 3 0 116 3M8.12 8.12 19 19M19 5 8.12 15.88M6 15A3 3 0 116 21 3 3 0 116 15M10 14 10 10",
-    "tags": ["cut", "tool", "scissor"]
+    "name": "Sphere",
+    "slug": "sphere",
+    "src": "M21 12a9 9 0 11-18 0 9 9 0 0118 0z M3 12c0 2.5 4.5 4.5 9 4.5s9-2 9-4.5 M12 3c2.5 0 4.5 4.5 4.5 9s-2 9-4.5 9",
+    "tags": ["shape", "round", "3d", "sphere"]
+  },
+  {
+    "name": "Cylinder",
+    "slug": "cylinder",
+    "src": "M21 6.5c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5S7.03 3 12 3s9 1.567 9 3.5z M21 6.5v11c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5v-11",
+    "tags": ["shape", "round", "3d", "cylinder"]
+  },
+  {
+    "name": "Cone",
+    "slug": "cone",
+    "src": "M21 19c0 1-3 3-9 3s-9-2-9-3c0-1 3-3 9-3s9 2 9 3zM3 19 12 3l9 16",
+    "tags": ["shape", "triangle", "3d", "cone"]
+  },
+  {
+    "name": "Pyramid",
+    "slug": "pyramid",
+    "src": "M12 3l9.75 15-9.75 3-9.75-3L12 3z M12 3v18",
+    "tags": ["shape", "triangle", "3d", "pyramid"]
   },
   {
     "name": "Sparkles",
@@ -1010,6 +1040,78 @@
     "slug": "contrast",
     "src": "M12 2.25a9.75 9.75 0 010 19.5m0-19.5a9.75 9.75 0 000 19.5m0-19.5v19.5M8.7 2.827V21.211M5.5 4.736V19.263",
     "tags": ["display", "accessibility", "contrast"]
+  },
+  {
+    "name": "Cursor",
+    "slug": "cursor",
+    "src": "M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z",
+    "tags": ["pointer", "mouse", "click", "cursor"]
+  },
+  {
+    "name": "Square",
+    "slug": "square",
+    "src": "M4 4h16v16H4z",
+    "tags": ["shape", "box", "square"]
+  },
+  {
+    "name": "Rectangle",
+    "slug": "rectangle",
+    "src": "M3 5h18v14H3z",
+    "tags": ["shape", "box", "rectangle"]
+  },
+  {
+    "name": "Circle",
+    "slug": "circle",
+    "src": "M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+    "tags": ["shape", "round", "circle"]
+  },
+  {
+    "name": "Diamond",
+    "slug": "diamond",
+    "src": "M12 3l9 9-9 9-9-9 9-9z",
+    "tags": ["shape", "rhombus", "diamond"]
+  },
+  {
+    "name": "Draw Line",
+    "slug": "draw-line",
+    "src": "M3 21 21 3",
+    "tags": ["edit", "write", "draw", "line", "draw-line"]
+  },
+  {
+    "name": "Draw Curve",
+    "slug": "draw-curve",
+    "src": "M3 21C6 4 18 20 21 3",
+    "tags": ["draw", "curve", "line", "s-curve"]
+  },
+  {
+    "name": "Pencil",
+    "slug": "pencil",
+    "src": "M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125",
+    "tags": ["edit", "write", "draw", "pencil"]
+  },
+  {
+    "name": "Eraser",
+    "slug": "eraser",
+    "src": "M21 21H8a2 2 0 0 1-1.42-.587l-3.994-3.999a2 2 0 0 1 0-2.828l10-10a2 2 0 0 1 2.829 0l5.999 6a2 2 0 0 1 0 2.828L12.834 21M5.082 11.09l8.828 8.828",
+    "tags": ["delete", "remove", "clear", "eraser"]
+  },
+  {
+    "name": "Scissor",
+    "slug": "scissor",
+    "src": "M6 3A3 3 0 116 9 3 3 0 116 3M8.12 8.12 19 19M19 5 8.12 15.88M6 15A3 3 0 116 21 3 3 0 116 15M10 14 10 10",
+    "tags": ["cut", "tool", "scissor"]
+  },
+  {
+    "name": "Font",
+    "slug": "font",
+    "src": "M3.75 20.25h16.5M6 20.25l6-16.5 6 16.5M8.25 15h7.5",
+    "tags": ["text", "typography", "letter", "font"]
+  },
+  {
+    "name": "Text",
+    "slug": "text",
+    "src": "M12 20.25V3.8M5.2 5.5 5.2 3.8h13.6L18.8 5.5M3.75 20.25h16.5",
+    "tags": ["text", "typography", "letter", "type"]
   },
   {
     "name": "Text Align Center",
