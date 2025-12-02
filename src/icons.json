@@ -39,7 +39,14 @@
     "name": "Magnifying Glass",
     "slug": "magnifying-glass",
     "src": "M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z",
-    "tags": ["search", "find", "zoom", "magnifying-glass"]
+    "tags": [
+      "search",
+      "find",
+      "zoom",
+      "magnifying-glass",
+      "senangwebs",
+      "sw-index"
+    ]
   },
   {
     "name": "Magnifying Glass Focus",
@@ -129,7 +136,15 @@
     "name": "Arrow Path",
     "slug": "arrow-path",
     "src": "M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99",
-    "tags": ["refresh", "reload", "cycle", "loop", "arrow-path"]
+    "tags": [
+      "refresh",
+      "reload",
+      "cycle",
+      "loop",
+      "arrow-path",
+      "senangwebs",
+      "sw-loading"
+    ]
   },
   {
     "name": "Arrow Rotate Cw",
@@ -291,7 +306,15 @@
     "name": "Alert",
     "slug": "alert",
     "src": "M3 8.25V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18V8.25m-18 0V6a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 6v2.25m-18 0h18zM8 13.3h8v3H8z",
-    "tags": ["warning", "danger", "notification", "alert"]
+    "tags": [
+      "warning",
+      "danger",
+      "notification",
+      "alert",
+      "senangwebs",
+      "popup",
+      "sw-modals"
+    ]
   },
   {
     "name": "Play",
@@ -363,13 +386,29 @@
     "name": "Photo",
     "slug": "photo",
     "src": "M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 4.5h16.5a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H3.75A2.25 2.25 0 001.5 6v12a2.25 2.25 0 002.25 2.25zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z",
-    "tags": ["image", "picture", "gallery", "photo"]
+    "tags": [
+      "image",
+      "picture",
+      "gallery",
+      "photo",
+      "senangwebs",
+      "lightbox",
+      "sw-gallery"
+    ]
   },
   {
     "name": "Panorama",
     "slug": "panorama",
     "src": "M2 5C8 9 16 9 22 5V19C16 15 8 15 2 19V5ZM8 13 12 11 12 13 16 11",
-    "tags": ["image", "picture", "wide", "panorama"]
+    "tags": [
+      "image",
+      "picture",
+      "wide",
+      "panorama",
+      "senangwebs",
+      "vr",
+      "sw-tour"
+    ]
   },
   {
     "name": "Musical Note",
@@ -411,7 +450,15 @@
     "name": "Computer Code",
     "slug": "computer-code",
     "src": "M 2.25 15 h 19.5 v 1.5 a 2.25 2.25 0 0 1 -2.25 2.25 h -15 A 2.25 2.25 0 0 1 2.25 16.5 V 15 Z m 2.25 0 V 6.75 A 2.25 2.25 0 0 1 6.75 4.5 h 10.5 a 2.25 2.25 0 0 1 2.25 2.25 V 15 M 10 8 L 8 10 l 2 2 m 4 -4 l 2 2 l -2 2",
-    "tags": ["develop", "program", "syntax", "computer-code"]
+    "tags": [
+      "develop",
+      "program",
+      "syntax",
+      "computer-code",
+      "senangwebs",
+      "code",
+      "sw-one"
+    ]
   },
   {
     "name": "Computer Desktop",
@@ -423,7 +470,14 @@
     "name": "Device Phone Mobile",
     "slug": "device-phone-mobile",
     "src": "M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3",
-    "tags": ["iphone", "smartphone", "cell", "device-phone-mobile"]
+    "tags": [
+      "iphone",
+      "smartphone",
+      "cell",
+      "device-phone-mobile",
+      "senangwebs",
+      "sw-roll"
+    ]
   },
   {
     "name": "Device Tablet",
@@ -459,13 +513,29 @@
     "name": "Controller",
     "slug": "controller",
     "src": "M12 2V6M5 6H19C20.6569 6 22 7.34315 22 9V15C22 16.6569 20.6569 18 19 18H5C3.34315 18 2 16.6569 2 15V9C2 7.34315 3.34315 6 5 6Z M6 12H10M8 10V14 M18 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0z",
-    "tags": ["game", "play", "joystick", "controller"]
+    "tags": [
+      "game",
+      "play",
+      "joystick",
+      "controller",
+      "senangwebs",
+      "vr",
+      "sw-verse"
+    ]
   },
   {
     "name": "Game",
     "slug": "game",
     "src": "M 13 13 L 13 4 A 9 9 0 1 0 22 13 Z M 20 8 a 2 2 0 1 1 -4 0 a 2 2 0 0 1 4 0 z M 10 12 a 1.5 1.5 0 1 1 -3 0 a 1.5 1.5 0 0 1 3 0 z",
-    "tags": ["controller", "play", "joystick", "game"]
+    "tags": [
+      "controller",
+      "play",
+      "joystick",
+      "game",
+      "senangwebs",
+      "2d",
+      "sw-xperience"
+    ]
   },
   {
     "name": "Window",
@@ -489,7 +559,16 @@
     "name": "Basket",
     "slug": "basket",
     "src": "m15 11 0 9m4-9-4-7M2 11h20m-18.5 0 1.6 7.4a2 2 0 002 1.6h9.8a2 2 0 002-1.6l1.7-7.4M4.5 15.5h15m-14.5-4.5 4-7m0 7 0 9",
-    "tags": ["buy", "checkout", "store", "basket"]
+    "tags": [
+      "buy",
+      "checkout",
+      "store",
+      "basket",
+      "senangwebs",
+      "cart",
+      "shop",
+      "sw-buy"
+    ]
   },
   {
     "name": "Credit Card",
@@ -571,13 +650,29 @@
     "name": "Presentation Media",
     "slug": "presentation-media",
     "src": "M 3.75 3 v 11.25 A 2.25 2.25 0 0 0 6 16.5 h 2.25 M 3.75 3 h -1.5 m 1.5 0 h 16.5 m 0 0 h 1.5 m -1.5 0 v 11.25 A 2.25 2.25 0 0 1 18 16.5 h -2.25 m -7.5 0 h 7.5 m -7.5 0 l -1 3 m 8.5 -3 l 1 3 m 0 0 l 0.5 1.5 m -0.5 -1.5 h -9.5 m 0 0 l -0.5 1.5 M 10 7 l 5.005 2.487 l -5.005 2.513 z",
-    "tags": ["analytics", "graph", "screen", "presentation-media"]
+    "tags": [
+      "analytics",
+      "graph",
+      "screen",
+      "presentation-media",
+      "senangwebs",
+      "presentation",
+      "sw-deck"
+    ]
   },
   {
     "name": "Whiteboard",
     "slug": "whiteboard",
     "src": "M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5zM2 17h20M6 17v4M18 17v4",
-    "tags": ["draw", "present", "board", "whiteboard"]
+    "tags": [
+      "draw",
+      "present",
+      "board",
+      "whiteboard",
+      "senangwebs",
+      "vector",
+      "sw-whiteboard"
+    ]
   },
   {
     "name": "Chart Line",
@@ -595,7 +690,15 @@
     "name": "Chart Pie",
     "slug": "chart-pie",
     "src": "M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z",
-    "tags": ["graph", "analytics", "stats", "chart-pie"]
+    "tags": [
+      "graph",
+      "analytics",
+      "stats",
+      "chart-pie",
+      "senangwebs",
+      "chart",
+      "sw-yield"
+    ]
   },
   {
     "name": "Currency Dollar",
@@ -631,7 +734,7 @@
     "name": "Tabs",
     "slug": "tabs",
     "src": "M21 7.5V18a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18V7.5V6a2.25 2.25 0 0 1 2.25-2.25H18.75a2.25 2.25 0 0 1 2.25 2.25V7.5H12V3.75",
-    "tags": ["browser", "ui", "navigation", "tabs"]
+    "tags": ["browser", "ui", "navigation", "tabs", "senangwebs", "sw-herd"]
   },
   {
     "name": "Document",
@@ -661,7 +764,14 @@
     "name": "Folder Open",
     "slug": "folder-open",
     "src": "M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 00-1.883 2.542l.857 6a2.25 2.25 0 002.227 1.932H19.05a2.25 2.25 0 002.227-1.932l.857-6a2.25 2.25 0 00-1.883-2.542m-16.5 0V6A2.25 2.25 0 016 3.75h3.879a1.5 1.5 0 011.06.44l2.122 2.12a1.5 1.5 0 001.06.44H18A2.25 2.25 0 0120.25 9v.776",
-    "tags": ["directory", "organize", "file", "folder-open"]
+    "tags": [
+      "directory",
+      "organize",
+      "file",
+      "folder-open",
+      "senangwebs",
+      "sw-unfold"
+    ]
   },
   {
     "name": "Folder Plus",
@@ -679,7 +789,7 @@
     "name": "Clipboard",
     "slug": "clipboard",
     "src": "M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184",
-    "tags": ["copy", "paste", "board", "clipboard"]
+    "tags": ["copy", "paste", "board", "clipboard", "senangwebs", "sw-jot"]
   },
   {
     "name": "Clipboard Document Check",
@@ -709,7 +819,7 @@
     "name": "Book Open",
     "slug": "book-open",
     "src": "M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25",
-    "tags": ["read", "learn", "library", "book-open"]
+    "tags": ["read", "learn", "library", "book-open", "senangwebs", "sw-story"]
   },
   {
     "name": "Book Close",
@@ -775,13 +885,29 @@
     "name": "Question Mark Circle",
     "slug": "question-mark-circle",
     "src": "M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z",
-    "tags": ["help", "faq", "support", "question-mark-circle"]
+    "tags": [
+      "help",
+      "faq",
+      "support",
+      "question-mark-circle",
+      "senangwebs",
+      "question",
+      "sw-quiz"
+    ]
   },
   {
     "name": "Bell",
     "slug": "bell",
     "src": "M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0",
-    "tags": ["notification", "alert", "alarm", "bell"]
+    "tags": [
+      "notification",
+      "alert",
+      "alarm",
+      "bell",
+      "senangwebs",
+      "prompt",
+      "sw-notices"
+    ]
   },
   {
     "name": "Bell Alert",
@@ -994,6 +1120,18 @@
     "tags": ["align", "bottom", "object"]
   },
   {
+    "name": "Carousel",
+    "slug": "carousel",
+    "src": "M3 6v12M21 6v12M8 5h8a2 2 0 012 2v10a2 2 0 01-2 2H8a2 2 0 01-2-2V7a2 2 0 012-2Z",
+    "tags": ["senangwebs", "carousel", "sw-frame"]
+  },
+  {
+    "name": "Reel",
+    "slug": "reel",
+    "src": "M6 3h12M6 21h12M19 8v8a2 2 0 01-2 2H7a2 2 0 01-2-2V8a2 2 0 012-2h10a2 2 0 012 2Z",
+    "tags": ["video", "movie", "film", "reel", "senangwebs", "sw-reel"]
+  },
+  {
     "name": "Grid",
     "slug": "grid",
     "src": "M9 3v18M15 3v18M3 9h18M3 15h18M3 21h18M3 3h18M3 3v18M21 3v18",
@@ -1015,7 +1153,7 @@
     "name": "Chatbot",
     "slug": "chatbot",
     "src": "M6 6h12a2.25 2.25 0 012.25 2.25v7.5A2.25 2.25 0 0118 18h-6l-4 3 0-3H6a2.25 2.25 0 01-2.25-2.25v-7.5A2.25 2.25 0 016 6zM12 3v3M9 3h6M8.25 12a.75.75 0 110-1.5.75.75 0 010 1.5zM15.75 12a.75.75 0 110-1.5.75.75 0 010 1.5zM9 15h6",
-    "tags": ["bot", "ai", "support", "chatbot"]
+    "tags": ["bot", "ai", "support", "chatbot", "senangwebs", "sw-chatbot"]
   },
   {
     "name": "Arrow Left Arrow Right",
@@ -1099,7 +1237,15 @@
     "name": "Clock",
     "slug": "clock",
     "src": "M12 6V12L16 12M21 12A9 9 0 113 12 9 9 0 0121 12Z",
-    "tags": ["time", "watch", "schedule", "clock"]
+    "tags": [
+      "time",
+      "watch",
+      "schedule",
+      "clock",
+      "senangwebs",
+      "time",
+      "sw-epoch"
+    ]
   },
   {
     "name": "Time Reset",
@@ -1117,7 +1263,7 @@
     "name": "Cube",
     "slug": "cube",
     "src": "M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9",
-    "tags": ["3d", "block", "shape", "cube"]
+    "tags": ["3d", "block", "shape", "cube", "senangwebs", "model", "sw-kiln"]
   },
   {
     "name": "Sphere",
@@ -1159,7 +1305,15 @@
     "name": "Sparkles",
     "slug": "sparkles",
     "src": "M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z",
-    "tags": ["ai", "magic", "new", "sparkles"]
+    "tags": [
+      "ai",
+      "magic",
+      "new",
+      "sparkles",
+      "senangwebs",
+      "motion",
+      "sw-animations"
+    ]
   },
   {
     "name": "Magic Wand",
@@ -1237,7 +1391,7 @@
     "name": "Scissor",
     "slug": "scissor",
     "src": "M6 3A3 3 0 116 9 3 3 0 116 3M8.12 8.12 19 19M19 5 8.12 15.88M6 15A3 3 0 116 21 3 3 0 116 15M10 14 10 10",
-    "tags": ["cut", "tool", "scissor"]
+    "tags": ["cut", "tool", "scissor", "senangwebs", "sw-photobooth"]
   },
   {
     "name": "Font",
@@ -1286,155 +1440,5 @@
     "slug": "sliders-vertical",
     "src": "M13.5 6H3.75m9.75 0a1.5 1.5 0 0 1 3 0m-3 0a1.5 1.5 0 0 0 3 0m3.75 0H16.5m-3 12H3.75m9.75 0a1.5 1.5 0 0 1 3 0m-3 0a1.5 1.5 0 0 0 3 0m3.75 0H16.5m-9-6H3.75m3.75 0a1.5 1.5 0 0 1 3 0m-3 0a1.5 1.5 0 0 0 3 0m9.75 0H10.5",
     "tags": ["settings", "filters", "adjust", "sliders-vertical"]
-  },
-  {
-    "name": "SenangWebs Animations",
-    "slug": "sw-animations",
-    "src": "M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z",
-    "tags": ["senangwebs", "motion", "sw-animations"]
-  },
-  {
-    "name": "SenangWebs Buy",
-    "slug": "sw-buy",
-    "src": "m15 11 0 9m4-9-4-7M2 11h20m-18.5 0 1.6 7.4a2 2 0 002 1.6h9.8a2 2 0 002-1.6l1.7-7.4M4.5 15.5h15m-14.5-4.5 4-7m0 7 0 9",
-    "tags": ["senangwebs", "cart", "shop", "sw-buy"]
-  },
-  {
-    "name": "SenangWebs Chatbot",
-    "slug": "sw-chatbot",
-    "src": "M6 6h12a2.25 2.25 0 012.25 2.25v7.5A2.25 2.25 0 0118 18h-6l-4 3 0-3H6a2.25 2.25 0 01-2.25-2.25v-7.5A2.25 2.25 0 016 6zM12 3v3M9 3h6M8.25 12a.75.75 0 110-1.5.75.75 0 010 1.5zM15.75 12a.75.75 0 110-1.5.75.75 0 010 1.5zM9 15h6",
-    "tags": ["senangwebs", "bot", "ai", "sw-chatbot"]
-  },
-  {
-    "name": "SenangWebs Deck",
-    "slug": "sw-deck",
-    "src": "M 3.75 3 v 11.25 A 2.25 2.25 0 0 0 6 16.5 h 2.25 M 3.75 3 h -1.5 m 1.5 0 h 16.5 m 0 0 h 1.5 m -1.5 0 v 11.25 A 2.25 2.25 0 0 1 18 16.5 h -2.25 m -7.5 0 h 7.5 m -7.5 0 l -1 3 m 8.5 -3 l 1 3 m 0 0 l 0.5 1.5 m -0.5 -1.5 h -9.5 m 0 0 l -0.5 1.5 M 10 7 l 5.005 2.487 l -5.005 2.513 z",
-    "tags": ["senangwebs", "presentation", "sw-deck"]
-  },
-  {
-    "name": "SenangWebs Epoch",
-    "slug": "sw-epoch",
-    "src": "M12 6v6l4 2m5-2a9 9 0 11-18 0 9 9 0 0118 0Z",
-    "tags": ["senangwebs", "time", "sw-epoch"]
-  },
-  {
-    "name": "SenangWebs Frame",
-    "slug": "sw-frame",
-    "src": "M3 6v12M21 6v12M8 5h8a2 2 0 012 2v10a2 2 0 01-2 2H8a2 2 0 01-2-2V7a2 2 0 012-2Z",
-    "tags": ["senangwebs", "carousel", "sw-frame"]
-  },
-  {
-    "name": "SenangWebs Gallery",
-    "slug": "sw-gallery",
-    "src": "M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 4.5h16.5a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H3.75A2.25 2.25 0 001.5 6v12a2.25 2.25 0 002.25 2.25zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z",
-    "tags": ["senangwebs", "lightbox", "sw-gallery"]
-  },
-  {
-    "name": "SenangWebs Herd",
-    "slug": "sw-herd",
-    "src": "M21 7.5V18a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18V7.5V6a2.25 2.25 0 0 1 2.25-2.25H18.75a2.25 2.25 0 0 1 2.25 2.25V7.5H12V3.75",
-    "tags": ["senangwebs", "tabs", "sw-herd"]
-  },
-  {
-    "name": "SenangWebs Index",
-    "slug": "sw-index",
-    "src": "M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z",
-    "tags": ["senangwebs", "search", "sw-index"]
-  },
-  {
-    "name": "SenangWebs Jot",
-    "slug": "sw-jot",
-    "src": "M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184",
-    "tags": ["senangwebs", "copy-paste", "sw-jot"]
-  },
-  {
-    "name": "SenangWebs Kiln",
-    "slug": "sw-kiln",
-    "src": "M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9",
-    "tags": ["senangwebs", "3d", "model", "sw-kiln"]
-  },
-  {
-    "name": "SenangWebs Loading",
-    "slug": "sw-loading",
-    "src": "M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99",
-    "tags": ["senangwebs", "progress", "sw-loading"]
-  },
-  {
-    "name": "SenangWebs Modals",
-    "slug": "sw-modals",
-    "src": "M3 8.25V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18V8.25m-18 0V6a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 6v2.25m-18 0h18zM8 13.3h8v3H8z",
-    "tags": ["senangwebs", "popup", "sw-modals"]
-  },
-  {
-    "name": "SenangWebs Notices",
-    "slug": "sw-notices",
-    "src": "M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0",
-    "tags": ["senangwebs", "alert", "prompt", "notification", "sw-notices"]
-  },
-  {
-    "name": "SenangWebs One",
-    "slug": "sw-one",
-    "src": "M 2.25 15 h 19.5 v 1.5 a 2.25 2.25 0 0 1 -2.25 2.25 h -15 A 2.25 2.25 0 0 1 2.25 16.5 V 15 Z m 2.25 0 V 6.75 A 2.25 2.25 0 0 1 6.75 4.5 h 10.5 a 2.25 2.25 0 0 1 2.25 2.25 V 15 M 10 8 L 8 10 l 2 2 m 4 -4 l 2 2 l -2 2",
-    "tags": ["senangwebs", "code", "sw-one"]
-  },
-  {
-    "name": "SenangWebs Photobooth",
-    "slug": "sw-photobooth",
-    "src": "M6 3A3 3 0 116 9 3 3 0 116 3M8.12 8.12 19 19M19 5 8.12 15.88M6 15A3 3 0 116 21 3 3 0 116 15M10 14 10 10",
-    "tags": ["senangwebs", "edit", "sw-photobooth"]
-  },
-  {
-    "name": "SenangWebs Quiz",
-    "slug": "sw-quiz",
-    "src": "M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z",
-    "tags": ["senangwebs", "question", "sw-quiz"]
-  },
-  {
-    "name": "SenangWebs Roll",
-    "slug": "sw-roll",
-    "src": "M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3",
-    "tags": ["senangwebs", "reel", "short", "sw-roll"]
-  },
-  {
-    "name": "SenangWebs Story",
-    "slug": "sw-story",
-    "src": "M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25",
-    "tags": ["senangwebs", "light-novel", "sw-story"]
-  },
-  {
-    "name": "SenangWebs Tour",
-    "slug": "sw-tour",
-    "src": "M2 5C8 9 16 9 22 5V19C16 15 8 15 2 19V5ZM8 13 12 11 12 13 16 11",
-    "tags": ["senangwebs", "panorama", "vr", "sw-tour"]
-  },
-  {
-    "name": "SenangWebs Unfold",
-    "slug": "sw-unfold",
-    "src": "M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 00-1.883 2.542l.857 6a2.25 2.25 0 002.227 1.932H19.05a2.25 2.25 0 002.227-1.932l.857-6a2.25 2.25 0 00-1.883-2.542m-16.5 0V6A2.25 2.25 0 016 3.75h3.879a1.5 1.5 0 011.06.44l2.122 2.12a1.5 1.5 0 001.06.44H18A2.25 2.25 0 0120.25 9v.776",
-    "tags": ["senangwebs", "json", "sw-unfold"]
-  },
-  {
-    "name": "SenangWebs Verse",
-    "slug": "sw-verse",
-    "src": "M12 2V6M5 6H19C20.6569 6 22 7.34315 22 9V15C22 16.6569 20.6569 18 19 18H5C3.34315 18 2 16.6569 2 15V9C2 7.34315 3.34315 6 5 6Z M6 12H10M8 10V14 M18 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0z",
-    "tags": ["senangwebs", "vr", "sw-verse"]
-  },
-  {
-    "name": "SenangWebs Whiteboard",
-    "slug": "sw-whiteboard",
-    "src": "M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5zM2 17h20M6 17v4M18 17v4",
-    "tags": ["senangwebs", "draw", "vector", "sw-whiteboard"]
-  },
-  {
-    "name": "SenangWebs Xperience",
-    "slug": "sw-xperience",
-    "src": "M 13 13 L 13 4 A 9 9 0 1 0 22 13 Z M 20 8 a 2 2 0 1 1 -4 0 a 2 2 0 0 1 4 0 z M 10 12 a 1.5 1.5 0 1 1 -3 0 a 1.5 1.5 0 0 1 3 0 z",
-    "tags": ["senangwebs", "game", "2d", "sw-xperience"]
-  },
-  {
-    "name": "SenangWebs Yield",
-    "slug": "sw-yield",
-    "src": "M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z",
-    "tags": ["senangwebs", "chart", "sw-yield"]
   }
 ]

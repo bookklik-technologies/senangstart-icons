@@ -33,8 +33,8 @@ function replaceIcons() {
           isString || !iconData.strokeWidth ? "2" : iconData.strokeWidth;
 
         el.innerHTML = `
-          <svg viewBox="${viewBox}" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">
-            <path d="${svgPath}" />
+          <svg viewBox="${viewBox}" width="100%" height="100%" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">
+            <g><path d="${svgPath}" /></g>
           </svg>
         `;
         el.dataset.ssLoaded = "true";

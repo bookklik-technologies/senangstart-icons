@@ -1,7 +1,7 @@
 {
   "name": "senangstart-icons",
-  "version": "1.0.0",
-  "description": "A unique icon collection for SenangStart",
+  "version": "1.0.3",
+  "description": "Curated Starter icons designed for web projects.",
   "main": "dist/senangstart-icon.min.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -14,8 +14,8 @@
     "svg",
     "web-components"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "a-hakim",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.23.0",
     "@babel/preset-env": "^7.23.0",

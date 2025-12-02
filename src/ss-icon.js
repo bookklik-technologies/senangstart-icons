@@ -49,28 +49,24 @@ class SSIcon extends HTMLElement {
       ? "2.25"
       : iconData.strokeWidth;
 
+    // Render initial markup
     this.shadowRoot.innerHTML = `
-      <style>
-        :host {
-          display: inline-block;
-          width: 1em;
-          height: 1em;
-          fill: ${fill};
-          stroke: ${stroke};
-          stroke-width: ${strokeWidth};
-          stroke-linecap: round;
-          stroke-linejoin: round;
-        }
-        svg {
-          width: 100%;
-          height: 100%;
-          overflow: visible;
-        }
-      </style>
-      <svg viewBox="${viewBox}">
+    <style>
+      :host {
+        display: inline-block;
+        fill: ${fill};
+        stroke: ${stroke};
+        stroke-width: ${strokeWidth};
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+    <svg viewBox="${viewBox}">
+      <g>
         <path d="${svgPath}" />
-      </svg>
-    `;
+      </g>
+    </svg>
+  `;
   }
 }
 
