@@ -4,9 +4,10 @@
   "description": "Curated Starter icons designed for web projects.",
   "main": "dist/senangstart-icon.min.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "build:watch": "webpack --mode production --watch",
-    "dev": "webpack --mode development --watch",
+    "build:svg": "node scripts/build-svgs.js",
+    "build": "npm run build:svg && webpack --mode production",
+    "build:watch": "npm run build:svg && webpack --mode production --watch",
+    "dev": "npm run build:svg && webpack --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

@@ -1,9 +1,4 @@
-import iconsArray from "./icons.json";
-
-const icons = iconsArray.reduce((acc, icon) => {
-  acc[icon.slug] = icon;
-  return acc;
-}, {});
+import icons from "./svg/index.js";
 
 class SSIcon extends HTMLElement {
   static get observedAttributes() {
@@ -27,45 +22,36 @@ class SSIcon extends HTMLElement {
 
   render() {
     const iconName = this.getAttribute("icon");
-    const iconData = icons[iconName];
+    const iconSvg = icons[iconName];
 
-    if (!iconData) {
+    if (!iconSvg) {
       this.shadowRoot.innerHTML = "";
       return;
     }
 
-    const isString = typeof iconData === "string";
-    const svgPath = isString ? iconData : iconData.src;
-    const viewBox =
-      isString || !iconData.viewBox ? "0 0 24 24" : iconData.viewBox;
-    const fill = isString || !iconData.fill ? "none" : iconData.fill;
-    const stroke =
-      isString || !iconData.stroke ? "currentColor" : iconData.stroke;
-
     const thicknessAttr = this.getAttribute("thickness");
-    const strokeWidth = thicknessAttr
-      ? thicknessAttr
-      : isString || !iconData.strokeWidth
-      ? "2.25"
-      : iconData.strokeWidth;
+    // If thickness is provided, we need to inject it into the SVG string
+    // This is a bit hacky but works for simple SVGs
+    let finalSvg = iconSvg;
+    if (thicknessAttr) {
+      finalSvg = finalSvg.replace(
+        /stroke-width="[^"]*"/,
+        `stroke-width="${thicknessAttr}"`
+      );
+    }
 
     // Render initial markup
     this.shadowRoot.innerHTML = `
     <style>
       :host {
         display: inline-block;
-        fill: ${fill};
-        stroke: ${stroke};
-        stroke-width: ${strokeWidth};
-        stroke-linecap: round;
-        stroke-linejoin: round;
+      }
+      svg {
+        width: 100%;
+        height: 100%;
       }
     </style>
-    <svg viewBox="${viewBox}">
-      <g>
-        <path d="${svgPath}" />
-      </g>
-    </svg>
+    ${finalSvg}
   `;
   }
 }

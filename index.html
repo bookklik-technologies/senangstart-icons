@@ -117,12 +117,8 @@
               x-on:click.outside="isOpen = false"
               class="flex w-12 h-12 cursor-pointer flex items-center justify-center lg:hidden text-3xl"
             >
-              <span :class="!isOpen ? '' : 'hidden'">
-                <i class="ss ss-bars-3"></i>
-              </span>
-              <span :class="isOpen ? '' : 'hidden'">
-                <i class="ss ss-x-mark"></i>
-              </span>
+              <i class="ss ss-bars-3" :class="!isOpen ? '' : 'hidden'"></i>
+              <i class="ss ss-x-mark" :class="isOpen ? '' : 'hidden'"></i>
             </div>
           </div>
           <div

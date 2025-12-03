@@ -1,9 +1,4 @@
-import iconsArray from "./icons.json";
-
-const icons = iconsArray.reduce((acc, icon) => {
-  acc[icon.slug] = icon;
-  return acc;
-}, {});
+import icons from "./svg/index.js";
 
 function replaceIcons() {
   const elements = document.querySelectorAll("i.ss");
@@ -19,24 +14,10 @@ function replaceIcons() {
       const iconName = iconClass.startsWith("sw-")
         ? iconClass
         : iconClass.replace("ss-", "");
-      const iconData = icons[iconName];
+      const iconSvg = icons[iconName];
 
-      if (iconData) {
-        const isString = typeof iconData === "string";
-        const svgPath = isString ? iconData : iconData.src;
-        const viewBox =
-          isString || !iconData.viewBox ? "0 0 24 24" : iconData.viewBox;
-        const fill = isString || !iconData.fill ? "none" : iconData.fill;
-        const stroke =
-          isString || !iconData.stroke ? "currentColor" : iconData.stroke;
-        const strokeWidth =
-          isString || !iconData.strokeWidth ? "2" : iconData.strokeWidth;
-
-        el.innerHTML = `
-          <svg viewBox="${viewBox}" width="100%" height="100%" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">
-            <g><path d="${svgPath}" /></g>
-          </svg>
-        `;
+      if (iconSvg) {
+        el.innerHTML = iconSvg;
         el.dataset.ssLoaded = "true";
       }
     }
