@@ -45,6 +45,9 @@ class SSIcon extends HTMLElement {
     <style>
       :host {
         display: inline-block;
+        width: 1em;
+        height: 1em;
+        vertical-align: middle;
       }
       svg {
         width: 100%;
