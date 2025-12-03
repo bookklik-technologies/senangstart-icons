@@ -44,7 +44,7 @@ class SSIcon extends HTMLElement {
     this.shadowRoot.innerHTML = `
     <style>
       :host {
-        display: inline-block;
+        display: inline-flex;
         width: 1em;
         height: 1em;
         vertical-align: middle;
