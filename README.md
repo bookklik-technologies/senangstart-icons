@@ -5,7 +5,7 @@ Curated Starter icons designed for web projects. `senangstart-icons` provides a 
 ## Installation
 
 ```bash
-npm install senangstart-icons
+npm i @bookklik/senangstart-icons
 ```
 
 ## Usage
