@@ -1,13 +1,14 @@
 {
   "name": "@bookklik/senangstart-icons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Curated Starter icons designed for web projects.",
   "main": "dist/senangstart-icon.min.js",
   "scripts": {
     "build:svg": "node scripts/build-svgs.js",
-    "build": "npm run build:svg && webpack --mode production",
-    "build:watch": "npm run build:svg && webpack --mode production --watch",
-    "dev": "npm run build:svg && webpack --mode development --watch",
+    "build:css": "node scripts/build-css.js",
+    "build": "npm run build:svg && npm run build:css && webpack --mode production",
+    "build:watch": "npm run build:svg && npm run build:css && webpack --mode production --watch",
+    "dev": "npm run build:svg && npm run build:css && webpack --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

@@ -35,7 +35,10 @@
     <script src="https://unpkg.com/senangwebs-modals@latest/dist/swm.js"></script>
 
     <!-- Alpine.js -->
-    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -94,7 +97,7 @@
         }
 
         .swj-button {
-          @apply bg-brand-600 text-white;
+          @apply bg-brand-600 text-white text-xs font-medium tracking-widest uppercase px-2 py-1 absolute top-1/2 -translate-y-1/2 right-2 rounded opacity-80 hover:opacity-100;
         }
 
         .swj-btn .swj-button {
@@ -242,21 +245,14 @@
                   ></div>
                   <pre
                     class="bg-slate-900 text-slate-50 p-5 rounded-r-lg rounded-l-md overflow-x-auto font-mono text-sm shadow-xl"
-                  ><code data-swj-id="code-install" data-swj-value>npm install senangstart-icons</code></pre>
-                </div>
-                <div class="flex justify-end w-full mt-2">
-                  <button
-                    type="button"
-                    class="absolute inset-y-0 top-2 right-2 w-8 h-8 bg-brand-600 rounded flex items-center justify-center"
-                    data-swj-copy="code-install"
-                  ></button>
+                  ><code>npm i @bookklik/senangstart-icons</code></pre>
                 </div>
               </div>
 
-              <div>
+              <div class="mb-8">
                 <div class="flex items-center justify-between mb-3">
                   <span class="text-sm font-semibold text-slate-900"
-                    >CDN Link</span
+                    >Class Name CDN</span
                   >
                   <span
                     class="text-xs text-brand-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-100"
@@ -269,8 +265,27 @@
                   ></div>
                   <pre
                     class="bg-slate-900 text-slate-50 p-5 rounded-r-lg rounded-l-md overflow-x-auto font-mono text-sm shadow-xl"
-                  ><code>&lt;link rel="stylesheet" href="https://cdn.example.com/senangstart.min.css" /&gt;
-&lt;script src="https://cdn.example.com/senangstart-icon.min.js"&gt;&lt;/script&gt;</code></pre>
+                  ><code>&lt;link rel="stylesheet" href="https://unpkg.com/@bookklik/senangstart-icons/dist/senangstart.min.css" /&gt;</code></pre>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex items-center justify-between mb-3">
+                  <span class="text-sm font-semibold text-slate-900"
+                    >Web Component CDN</span
+                  >
+                  <span
+                    class="text-xs text-brand-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-100"
+                    >Recommended for static sites</span
+                  >
+                </div>
+                <div class="relative group">
+                  <div
+                    class="absolute inset-y-0 left-0 w-1 bg-slate-600 rounded-l-lg"
+                  ></div>
+                  <pre
+                    class="bg-slate-900 text-slate-50 p-5 rounded-r-lg rounded-l-md overflow-x-auto font-mono text-sm shadow-xl"
+                  ><code>&lt;script src="https://unpkg.com/@bookklik/senangstart-icons/dist/senangstart-icon.min.js"&gt;&lt;/script&gt;</code></pre>
                 </div>
               </div>
             </div>
@@ -453,20 +468,23 @@
               <ss-icon icon="${slug}" thickness="${thickness}"></ss-icon>
             </div>
             <div class="flex flex-col gap-2 justify-between flex-grow lg:h-48">
-              <div class="relative group">
-                <div class="absolute inset-y-0 left-0 w-1 bg-brand-600 rounded-l-lg"></div>
-                <pre class="bg-slate-900 text-slate-50 p-5 rounded-r-lg rounded-l-md overflow-x-auto font-mono text-sm shadow-xl max-w-[calc(100vw-4rem)]"><code>&#x3C;ss-icon icon=&#x22;${slug}&#x22; thickness=&#x22;${thickness}&#x22;&#x3E;&#x3C;/ss-icon&#x3E;
-&#x3C;i class=&#x22;ss ss-${slug}&#x22;&#x3E;&#x3C;/i&#x3E;</code></pre>
+              <div class="relative h-12">
+                <pre class="bg-slate-900 text-slate-50 h-12 flex items-center p-3 rounded-r-lg rounded-l-md overflow-x-auto font-mono text-sm shadow-xl max-w-[calc(100vw-4rem)]"><code>&#x3C;ss-icon icon=&#x22;${slug}&#x22; thickness=&#x22;${thickness}&#x22;&#x3E;&#x3C;/ss-icon&#x3E;</code></pre>
+                <textarea id="js-copy-code-${slug}" class="w-0 h-0" data-swj-id="js-copy-code-${slug}" data-swj-value><ss-icon icon="${slug}" thickness="${thickness}"></ss-icon></textarea>
+                <button
+                  type="button"
+                  data-swj-copy="js-copy-code-${slug}"
+                >Copy</button>
               </div>
-              <div class="text-xs text-slate-400 mb-auto">tags: ${tags}</div>
-              <textarea id="copy-code-${slug}" class="w-0 h-0" data-swj-id="copy-code-${slug}" data-swj-value><ss-icon icon="${slug}" thickness="${thickness}"></ss-icon></textarea>
-              <div class="flex items-center justify-center lg:justify-end">
-              <button
-                type="button"
-                class="bg-brand-600 rounded flex items-center justify-center text-white px-2 py-1"
-                data-swj-copy="copy-code-${slug}"
-              >Copy</button>
+              <div class="relative h-12">
+                <pre class="bg-slate-900 text-slate-50 h-12 flex items-center p-3 rounded-r-lg rounded-l-md overflow-x-auto font-mono text-sm shadow-xl max-w-[calc(100vw-4rem)]"><code>&#x3C;i class=&#x22;ss ss-${slug}&#x22;&#x3E;&#x3C;/i&#x3E;</code></pre>
+                <textarea id="css-copy-code-${slug}" class="w-0 h-0" data-swj-id="css-copy-code-${slug}" data-swj-value><i class="ss ss-${slug}"></i></textarea>
+                <button
+                  type="button"
+                  data-swj-copy="css-copy-code-${slug}"
+                >Copy</button>
               </div>
+              <div class="text-sm text-slate-400 mt-auto">tags: ${tags}</div>
             </div>
           </div>`,
           position: "top",

@@ -2,6 +2,8 @@
 
 Curated Starter icons designed for web projects. `senangstart-icons` provides a collection of SVG icons that can be easily used via the `ss-icon` web component or the `ss ss-icon` class. Icons are designed to be simple & scalable.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
+
 ## Installation
 
 ```bash
@@ -10,26 +12,37 @@ npm i @bookklik/senangstart-icons
 
 ## Usage
 
-Add the component script to your page:
+You may use the `<ss-icon>` tag:
 
 ```html
-<link rel="stylesheet" href="dist/senangstart.min.css" />
-<script type="module" src="dist/ss-icon.js"></script>
+<head>
+  <script src="https://unpkg.com/@bookklik/senangstart-icons/dist/senangstart-icon.min.js"></script>
+</head>
+<body>
+  <ss-icon icon="check" thickness="2"></ss-icon>
+</body>
 ```
 
-Then use the `<ss-icon>` tag:
-
-```html
-<ss-icon icon="check" thickness="2"></ss-icon>
-```
+> **Note:**
+> You can customize the icon thickness (default `2.2`).
 
 Or use the `ss-icon` class:
 
 ```html
-<i class="ss ss-check"></i>
+<head>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@bookklik/senangstart-icons/dist/senangstart.min.css"
+  />
+</head>
+<body>
+  <i class="ss ss-check"></i>
+</body>
 ```
 
-You can customize the icon thickness (default `2.2`).
+## Preview
+
+![SenangStart Icons Preview](https://bookklik-technologies.github.io/senangstart-icons/preview.png)
 
 ## Contributing
 
