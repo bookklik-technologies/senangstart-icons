@@ -42,7 +42,7 @@ Or use the `ss-icon` class:
 
 ## Preview
 
-![SenangStart Icons Preview](https://bookklik-technologies.github.io/senangstart-icons/preview.png)
+![SenangStart Icons Preview](https://raw.githubusercontent.com/bookklik-technologies/senangstart-icons/master/preview.png)
 
 ## Contributing
 
