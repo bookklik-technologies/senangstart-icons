@@ -471,6 +471,34 @@
     ]
   },
   {
+    "name": "Chevron Double Up",
+    "slug": "chevron-double-up",
+    "src": "M4.5 18.75l7.5-7.5 7.5 7.5m-15-6L12 5.25l7.5 7.5",
+    "tags": [
+      "top",
+      "collapse",
+      "accordion",
+      "fold",
+      "dropdown",
+      "ascend",
+      "chevron-double-up"
+    ]
+  },
+  {
+    "name": "Chevron Double Down",
+    "slug": "chevron-double-down",
+    "src": "M19.5 5.25l-7.5 7.5-7.5-7.5m15 6L12 18.75l-7.5-7.5",
+    "tags": [
+      "bottom",
+      "expand",
+      "accordion",
+      "unfold",
+      "dropdown",
+      "descend",
+      "chevron-double-down"
+    ]
+  },
+  {
     "name": "Envelope",
     "slug": "envelope",
     "src": "M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75",
@@ -701,6 +729,12 @@
     "slug": "pause-circle",
     "src": "M14.25 9v6m-4.5 0V9M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z",
     "tags": ["stop", "media", "hold", "player", "pause-circle"]
+  },
+  {
+    "name": "Stop Circle",
+    "slug": "stop-circle",
+    "src": "M15 14 15 10Q15 9 14 9L10 9Q9 9 9 10L9 14Q9 15 10 15L14 15Q15 15 15 14M21 12a9 9 0 11-18 0 9 9 0 0118 0Z",
+    "tags": ["stop", "media", "hold", "player", "stop-circle"]
   },
   {
     "name": "Speaker Wave",
@@ -1634,13 +1668,13 @@
   {
     "name": "Hand Thumb Up",
     "slug": "hand-thumb-up",
-    "src": "M7.5 11.25h-3v8.25h3m0-8.25v-5.25a2.25 2.25 0 0 1 4.5 0v3.75h3.75a2.25 2.25 0 0 1 2.25 2.25v5.25a2.25 2.25 0 0 1-2.25 2.25h-8.25",
+    "src": "M8 11h-4v9h4m0-9v-5a2.25 2.25 0 015 0v3h5a2.25 2.25 0 012 2l-1 7a2.25 2.25 0 01-2 2h-9L8 11",
     "tags": ["like", "approve", "good", "yes", "agree", "vote", "hand-thumb-up"]
   },
   {
     "name": "Hand Thumb Down",
     "slug": "hand-thumb-down",
-    "src": "M7.5 12.75h-3v-8.25h3m0 8.25v5.25a2.25 2.25 0 0 0 4.5 0v-3.75h3.75a2.25 2.25 0 0 0 2.25-2.25v-5.25a2.25 2.25 0 0 0-2.25-2.25h-8.25",
+    "src": "M8 13h-4v-9h4m0 9v5a2.25 2.25 0 0 0 5 0v-3h5a2.25 2.25 0 0 0 2-2l-1-7a2.25 2.25 0 0 0-2-2h-9L8 13",
     "tags": [
       "dislike",
       "reject",
@@ -1650,6 +1684,18 @@
       "vote",
       "hand-thumb-down"
     ]
+  },
+  {
+    "name": "Hand",
+    "slug": "hand",
+    "src": "M5 16 4 10C3.5 7 8 7 8 10M8 14 8 6C8 5 9 3.9 10 4L18 5C19 5.1 20 6 20 7L20 17C20 18.5 18.5 20 17 20L9 20C7 20 5.4 18 5 16M11 11 11 4.2M14 11.5 14 4.5M17 12 17 4.9",
+    "tags": ["hand", "pointer", "select", "palm", "open", "click", "human", "gesture"]
+  },
+  {
+    "name": "Hand Grab",
+    "slug": "hand-grab",
+    "src": "M5 14 5 11C5 9 6 8 8 8M8 13 8 8C8 7 9 5.9 10 6L18 7C19 7.1 20 8 20 9L20 15C20 16.5 18.5 18 17 18L9 18C7 18 5 16 5 14M11 9.5 11 6.2M14 10 14 6.5M17 10.5 17 6.9",
+    "tags": ["hand", "grab", "clenched", "fist", "drag", "hold", "select", "gesture"]
   },
   {
     "name": "Flag",
@@ -1852,6 +1898,12 @@
     ]
   },
   {
+    "name": "Container",
+    "slug": "container",
+    "src": "M6 3h12M6 21h12M18 8v8a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2h8a2 2 0 012 2ZM3 6 3 18M21 6 21 18",
+    "tags": ["container", "box", "center", "layout", "design"]
+  },
+  {
     "name": "Grid",
     "slug": "grid",
     "src": "M9 3v18M15 3v18M3 9h18M3 15h18M3 21h18M3 3h18M3 3v18M21 3v18",
@@ -1957,6 +2009,18 @@
     "tags": ["collapse", "small", "shrink", "scale down", "minimize"]
   },
   {
+    "name": "Compress",
+    "slug": "compress",
+    "src": "M9 6l3 3 3-3m-3 3L12 2M18 15l-3-3 3-3m-3 3L22 12M15 18l-3-3-3 3m3-3L12 22m-6-13 3 3-3 3m3-3L2 12",
+    "tags": ["compress", "small", "shrink", "scale down", "minimize"]
+  },
+  {
+    "name": "Expand",
+    "slug": "expand",
+    "src": "M12 9l0-7L15 5 12 2 9 5M9 12l-7 0L5 9 2 12 5 15M12 15l0 7L9 19 12 22 15 19M15 12l7 0L19 9 22 12 19 15",
+    "tags": ["expand", "large", "grow", "scale up", "maximize"]
+  },
+  {
     "name": "Layout",
     "slug": "layout",
     "src": "M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5Z M3 9h18 M12 9v12",
@@ -1967,6 +2031,21 @@
       "interface",
       "sidebar",
       "template",
+      "layout"
+    ]
+  },
+  {
+    "name": "Table",
+    "slug": "table",
+    "src": "M3 5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5ZM3 9h18M16 9v12M3 13 21 13M3 17 21 17",
+    "tags": [
+      "table",
+      "grid",
+      "spreadsheet",
+      "data",
+      "rows",
+      "columns",
+      "cells",
       "layout"
     ]
   },
@@ -1983,6 +2062,12 @@
       "target",
       "center"
     ]
+  },
+  {
+    "name": "Crosshair",
+    "slug": "crosshair",
+    "src": "M12 9l0-6M12 15l0 6M15 12l6 0M9 12l-6 0M12 6A1 1 0 0012 18 1 1 0 0012 6",
+    "tags": ["crosshair", "aim", "target", "center", "focus", "game"]
   },
   {
     "name": "Hourglass 0",
@@ -2285,10 +2370,28 @@
     ]
   },
   {
+    "name": "Gradient",
+    "slug": "gradient",
+    "src": "M6 3V21M3 3V21L21 21 21 3 3 3M10 3V21M15 3V21 21M3 18 21 18M3 14 21 14M3 9 21 9",
+    "tags": ["gradient", "color", "design", "log"]
+  },
+  {
     "name": "Cursor",
     "slug": "cursor",
     "src": "M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z",
     "tags": ["pointer", "mouse", "click", "select", "arrow", "cursor"]
+  },
+  {
+    "name": "Marquee",
+    "slug": "marquee",
+    "src": "M3 6 3 3 6 3M10 3 14 3M3 10 3 14M10 21 14 21M21 10 21 14M18 3 21 3 21 6M21 18 21 21 18 21M3 18 3 21 6 21",
+    "tags": ["marquee", "select", "arrow", "cursor"]
+  },
+  {
+    "name": "Shapes",
+    "slug": "shapes",
+    "src": "M3 19l4-7 4 7H3zM12.5 11a3 3 0 110-8 3 3 0 010 8zM14 14h7v7h-7z",
+    "tags": ["shapes", "triangle", "circle", "square", "geometry", "design", "graphic"]
   },
   {
     "name": "Square",
@@ -2339,10 +2442,32 @@
     "tags": ["edit", "write", "draw", "modify", "update", "pencil"]
   },
   {
+    "name": "Brush",
+    "slug": "brush",
+    "src": "M16 21v-3M12 21v-5M9 21l-6 0L8 21v-8H20V20a1 1 180 01-1 1zM20 13a1 1 180 001-1v-1a2 2 180 00-2-2h-2a1 1 180 01-1-1v-2.9a2 2 180 10-4 0V8a1 1 180 01-1 1h-2a2 2 180 00-2 2v1a1 1 180 001 1",
+    "tags": ["brush", "paint", "draw", "art", "design", "style", "edit", "creative", "stroke", "painting"]
+  },
+  {
     "name": "Eraser",
     "slug": "eraser",
     "src": "M21 21H8a2 2 0 0 1-1.42-.587l-3.994-3.999a2 2 0 0 1 0-2.828l10-10a2 2 0 0 1 2.829 0l5.999 6a2 2 0 0 1 0 2.828L12.834 21M5.082 11.09l8.828 8.828",
     "tags": ["delete", "remove", "clear", "rub", "cleanup", "eraser"]
+  },
+  {
+    "name": "Crop",
+    "slug": "crop",
+    "src": "M7 3v14h14M17 21V7h-14",
+    "tags": [
+      "crop",
+      "trim",
+      "cut",
+      "resize",
+      "select",
+      "frame",
+      "boundary",
+      "image",
+      "edit"
+    ]
   },
   {
     "name": "Scissor",
