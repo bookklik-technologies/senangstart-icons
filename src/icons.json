@@ -348,6 +348,24 @@
     ]
   },
   {
+    "name": "Rotate Add",
+    "slug": "rotate-add",
+    "src": "M20.25 12a8.25 8.25 0 11-8.25-8.25c2.3 0 4.5 1 6 2.5L20.25 8.5m0-4.5v4.5h-4.5m-6.75 3.5L15 12m-3 3L12 9",
+    "tags": [
+      "rotate",
+      "arrow-rotate-add"
+    ]
+  },
+  {
+    "name": "Rotate Minus",
+    "slug": "rotate-minus",
+    "src": "M3.75 12a8.25 8.25 0 108.25-8.25c-2.3 0-4.5 1-6 2.5L3.75 8.5m0-4.5v4.5h4.5m.75 3.5L15 12",
+    "tags": [
+      "rotate",
+      "rotate-minus"
+    ]
+  },
+  {
     "name": "Arrow Top Right On Square",
     "slug": "arrow-top-right-on-square",
     "src": "M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25",
@@ -1902,6 +1920,18 @@
     "slug": "container",
     "src": "M6 3h12M6 21h12M18 8v8a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2h8a2 2 0 012 2ZM3 6 3 18M21 6 21 18",
     "tags": ["container", "box", "center", "layout", "design"]
+  },
+  {
+    "name": "Flip Horizontal",
+    "slug": "flip-horizontal",
+    "src": "m12 3L12 21M8 20 8 4 3 20 8 20M16 4 16 20 21 20 16 4",
+    "tags": ["flip", "horizontal", "flip-horizontal", "design"]
+  },
+  {
+    "name": "Flip Vertical",
+    "slug": "flip-vertical",
+    "src": "m21 12L3 12m1-4L20 8 4 3 4 8M20 16 4 16 4 21 20 16",
+    "tags": ["flip", "vertical", "flip-vertical", "design"]
   },
   {
     "name": "Grid",
