@@ -6,10 +6,13 @@
   "scripts": {
     "build:svg": "node scripts/build-svgs.js",
     "build:css": "node scripts/build-css.js",
-    "build": "npm run build:svg && npm run build:css && webpack --mode production",
+    "build": "node scripts/build.js",
     "build:watch": "npm run build:svg && npm run build:css && webpack --mode production --watch",
     "dev": "npm run build:svg && npm run build:css && webpack --mode development --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [
     "icons",
@@ -26,6 +29,7 @@
     "css-minimizer-webpack-plugin": "^5.0.1",
     "mini-css-extract-plugin": "^2.7.6",
     "terser-webpack-plugin": "^5.3.9",
+    "vitepress": "^1.6.4",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   }
