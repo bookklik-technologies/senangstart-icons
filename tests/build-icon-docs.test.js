@@ -82,7 +82,7 @@ describe('build-icon-docs.js', () => {
       
       // Check that at least some icons are linked
       const sampleIcon = icons[0];
-      expect(content).toContain(`href="/icons/${sampleIcon.slug}"`);
+      expect(content).toContain(`href="./${sampleIcon.slug}"`);
     });
   });
 
@@ -126,7 +126,7 @@ describe('build-icon-docs.js', () => {
       const content = fs.readFileSync(indexPath, 'utf8');
 
       expect(content).toContain('Pustaka Ikon'); // "Icon Library" in Malay
-      expect(content).toContain(`href="/ms/icons/${icons[0].slug}"`);
+      expect(content).toContain(`href="./${icons[0].slug}"`);
     });
   });
 });
