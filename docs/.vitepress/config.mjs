@@ -27,14 +27,83 @@ const sharedThemeConfig = {
   }
 }
 
+// Generate Malay icon sidebar items
+const iconSidebarItemsMs = icons.map(icon => ({
+  text: icon.name,
+  link: `/ms/icons/${icon.slug}`
+}))
+
 export default defineConfig({
   title: 'SenangStart Icons',
   description: 'Curated Starter icons designed for web projects',
   
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://senangstart.com/img/ss_icon_accent.svg' }],
     ['script', { type: 'senangstart/config' }, '{ "darkMode": "selector" }'],
   ],
+
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en'
+    },
+    ms: {
+      label: 'Bahasa Melayu',
+      lang: 'ms',
+      title: 'SenangStart Icons',
+      description: 'Ikon permulaan terkurasi untuk projek web',
+      themeConfig: {
+        nav: [
+          { text: 'Utama', link: '/ms/' },
+          { text: 'Panduan', link: '/ms/guide/getting-started' },
+          { text: 'Ikon', link: '/ms/icons/' },
+          {
+            text: `v${pkg.version}`,
+            items: [
+              { text: 'Changelog', link: '/changelog' },
+              { text: 'GitHub', link: 'https://github.com/bookklik-technologies/senangstart-icons' }
+            ]
+          }
+        ],
+        sidebar: {
+          '/ms/guide/': [
+            {
+              text: 'Pengenalan',
+              items: [
+                { text: 'Bermula', link: '/ms/guide/getting-started' },
+                { text: 'Pemasangan', link: '/ms/guide/installation' },
+                { text: 'Penggunaan', link: '/ms/guide/usage' }
+              ]
+            },
+            {
+              text: 'Penyesuaian',
+              items: [
+                { text: 'Penggayaan', link: '/ms/guide/styling' },
+                { text: 'Konfigurasi', link: '/ms/guide/configuration' }
+              ]
+            }
+          ],
+          '/ms/icons/': [
+            {
+              text: 'Pustaka Ikon',
+              items: [
+                { text: 'Semua Ikon', link: '/ms/icons/' }
+              ]
+            },
+            {
+              text: 'Ikon',
+              collapsed: false,
+              items: iconSidebarItemsMs
+            }
+          ]
+        },
+        footer: {
+          message: 'Dikeluarkan di bawah Lesen MIT.',
+          copyright: 'Hakcipta © 2025 Bookklik Technologies'
+        }
+      }
+    }
+  },
 
   themeConfig: {
     ...sharedThemeConfig,
@@ -42,7 +111,14 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/getting-started' },
-      { text: 'Icons', link: '/icons/' }
+      { text: 'Icons', link: '/icons/' },
+      {
+        text: `v${pkg.version}`,
+        items: [
+          { text: 'Changelog', link: '/changelog' },
+          { text: 'GitHub', link: 'https://github.com/bookklik-technologies/senangstart-icons' }
+        ]
+      }
     ],
 
     sidebar: {

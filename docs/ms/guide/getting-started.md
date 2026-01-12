@@ -1,0 +1,34 @@
+# Bermula
+
+SenangStart Icons adalah pustaka ikon terkurasi yang direka untuk projek web. Ia menyediakan API yang mudah dan konsisten untuk menggunakan ikon di seluruh aplikasi anda.
+
+## Apakah SenangStart Icons?
+
+SenangStart Icons menawarkan:
+
+- **Berasaskan Web Component** - Gunakan ikon sebagai elemen HTML tersuai
+- **Reka Bentuk Konsisten** - Semua ikon mengikut bahasa reka bentuk yang seragam
+- **Mudah Disesuaikan** - Kawal saiz, warna, dan lebar garisan
+- **Ringan** - Ikon SVG yang dioptimumkan untuk pemuatan pantas
+
+## Contoh Pantas
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://unpkg.com/@bookklik/senangstart-icons/dist/senangstart-icon.min.js"></script>
+</head>
+<body>
+  <ss-icon name="home"></ss-icon>
+  <ss-icon name="user" size="32"></ss-icon>
+  <ss-icon name="settings" color="#3498db"></ss-icon>
+</body>
+</html>
+```
+
+## Langkah Seterusnya
+
+- [Pemasangan](/ms/guide/installation) - Pelajari pelbagai cara untuk memasang
+- [Penggunaan](/ms/guide/usage) - Arahan penggunaan terperinci
+- [Penggayaan](/ms/guide/styling) - Sesuaikan penampilan ikon

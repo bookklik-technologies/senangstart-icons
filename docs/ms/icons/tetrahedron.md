@@ -1,0 +1,59 @@
+---
+title: Tetrahedron
+---
+
+# Tetrahedron
+
+<div style="display: flex; justify-content: center; padding: 2rem; background: var(--vp-c-bg-soft); border-radius: 8px; margin: 1rem 0;">
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 18H3L12 3zM12 3v12M12 15l-9 6M12 15l9 6"></path></svg>
+</div>
+
+## Penggunaan
+
+```html
+<ss-icon name="tetrahedron"></ss-icon>
+```
+
+### Dengan saiz tersuai
+
+```html
+<ss-icon name="tetrahedron" size="32"></ss-icon>
+```
+
+### Dengan warna tersuai
+
+```html
+<ss-icon name="tetrahedron" color="#3b82f6"></ss-icon>
+```
+
+### Dengan lebar garisan tersuai
+
+```html
+<ss-icon name="tetrahedron" stroke="2"></ss-icon>
+```
+
+## Butiran Ikon
+
+| Ciri | Nilai |
+|------|-------|
+| **Nama** | Tetrahedron |
+| **Slug** | `tetrahedron` |
+| **Tag** | `shape`, `pyramid`, `3d`, `triangle`, `platonic`, `geometry`, `tetrahedron` |
+
+## Laluan SVG
+
+```
+M12 3l9 18H3L12 3zM12 3v12M12 15l-9 6M12 15l9 6
+```
+
+## SVG Mentah
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3l9 18H3L12 3zM12 3v12M12 15l-9 6M12 15l9 6"></path>
+</svg>
+```
+
+---
+
+[← Kembali ke Pustaka Ikon](/ms/icons/)

@@ -1,0 +1,59 @@
+---
+title: Brush
+---
+
+# Brush
+
+<div style="display: flex; justify-content: center; padding: 2rem; background: var(--vp-c-bg-soft); border-radius: 8px; margin: 1rem 0;">
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-3M12 21v-5M9 21l-6 0L8 21v-8H20V20a1 1 180 01-1 1zM20 13a1 1 180 001-1v-1a2 2 180 00-2-2h-2a1 1 180 01-1-1v-2.9a2 2 180 10-4 0V8a1 1 180 01-1 1h-2a2 2 180 00-2 2v1a1 1 180 001 1"></path></svg>
+</div>
+
+## Penggunaan
+
+```html
+<ss-icon name="brush"></ss-icon>
+```
+
+### Dengan saiz tersuai
+
+```html
+<ss-icon name="brush" size="32"></ss-icon>
+```
+
+### Dengan warna tersuai
+
+```html
+<ss-icon name="brush" color="#3b82f6"></ss-icon>
+```
+
+### Dengan lebar garisan tersuai
+
+```html
+<ss-icon name="brush" stroke="2"></ss-icon>
+```
+
+## Butiran Ikon
+
+| Ciri | Nilai |
+|------|-------|
+| **Nama** | Brush |
+| **Slug** | `brush` |
+| **Tag** | `brush`, `paint`, `draw`, `art`, `design`, `style`, `edit`, `creative`, `stroke`, `painting` |
+
+## Laluan SVG
+
+```
+M16 21v-3M12 21v-5M9 21l-6 0L8 21v-8H20V20a1 1 180 01-1 1zM20 13a1 1 180 001-1v-1a2 2 180 00-2-2h-2a1 1 180 01-1-1v-2.9a2 2 180 10-4 0V8a1 1 180 01-1 1h-2a2 2 180 00-2 2v1a1 1 180 001 1
+```
+
+## SVG Mentah
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M16 21v-3M12 21v-5M9 21l-6 0L8 21v-8H20V20a1 1 180 01-1 1zM20 13a1 1 180 001-1v-1a2 2 180 00-2-2h-2a1 1 180 01-1-1v-2.9a2 2 180 10-4 0V8a1 1 180 01-1 1h-2a2 2 180 00-2 2v1a1 1 180 001 1"></path>
+</svg>
+```
+
+---
+
+[← Kembali ke Pustaka Ikon](/ms/icons/)

@@ -1,0 +1,59 @@
+---
+title: Device Phone Mobile
+---
+
+# Device Phone Mobile
+
+<div style="display: flex; justify-content: center; padding: 2rem; background: var(--vp-c-bg-soft); border-radius: 8px; margin: 1rem 0;">
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"></path></svg>
+</div>
+
+## Penggunaan
+
+```html
+<ss-icon name="device-phone-mobile"></ss-icon>
+```
+
+### Dengan saiz tersuai
+
+```html
+<ss-icon name="device-phone-mobile" size="32"></ss-icon>
+```
+
+### Dengan warna tersuai
+
+```html
+<ss-icon name="device-phone-mobile" color="#3b82f6"></ss-icon>
+```
+
+### Dengan lebar garisan tersuai
+
+```html
+<ss-icon name="device-phone-mobile" stroke="2"></ss-icon>
+```
+
+## Butiran Ikon
+
+| Ciri | Nilai |
+|------|-------|
+| **Nama** | Device Phone Mobile |
+| **Slug** | `device-phone-mobile` |
+| **Tag** | `iphone`, `smartphone`, `cell`, `screen`, `app`, `device-phone-mobile`, `senangwebs`, `sw-roll` |
+
+## Laluan SVG
+
+```
+M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3
+```
+
+## SVG Mentah
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"></path>
+</svg>
+```
+
+---
+
+[← Kembali ke Pustaka Ikon](/ms/icons/)
