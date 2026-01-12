@@ -1,6 +1,6 @@
 {
   "name": "@bookklik/senangstart-icons",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Curated Starter icons designed for web projects.",
   "main": "dist/senangstart-icon.min.js",
   "scripts": {
