@@ -36,6 +36,7 @@ const iconSidebarItemsMs = icons.map(icon => ({
 export default defineConfig({
   title: 'SenangStart Icons',
   description: 'Curated Starter icons designed for web projects',
+  base: '/senangstart-icons/',
   
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: 'https://senangstart.com/img/ss_icon_accent.svg' }],

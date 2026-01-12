@@ -193,7 +193,7 @@ Once you find the icon you need, use it like this:
 <div class="icon-grid">
 
 ${iconLinks.map(icon => {
-    return `<a href="/icons/${icon.slug}" class="icon-card" title="${icon.tags.join(', ')}">
+    return `<a href="./${icon.slug}" class="icon-card" title="${icon.tags.join(', ')}">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="${icons.find(i => i.slug === icon.slug).src}"></path></svg>
   <span>${icon.name}</span>
 </a>`;
@@ -268,7 +268,7 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
 <div class="icon-grid">
 
 ${iconLinks.map(icon => {
-    return `<a href="/ms/icons/${icon.slug}" class="icon-card" title="${icon.tags.join(', ')}">
+    return `<a href="./${icon.slug}" class="icon-card" title="${icon.tags.join(', ')}">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="${icons.find(i => i.slug === icon.slug).src}"></path></svg>
   <span>${icon.name}</span>
 </a>`;
