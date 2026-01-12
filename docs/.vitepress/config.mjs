@@ -1,8 +1,18 @@
 import { defineConfig } from 'vitepress'
 import { createRequire } from 'module'
+import fs from 'fs'
+import path from 'path'
 
 const require = createRequire(import.meta.url)
 const pkg = require('../../package.json')
+
+// Load icons from icons.json to generate sidebar
+const iconsPath = path.resolve(__dirname, '../../src/icons.json')
+const icons = JSON.parse(fs.readFileSync(iconsPath, 'utf8'))
+const iconSidebarItems = icons.map(icon => ({
+  text: icon.name,
+  link: `/icons/${icon.slug}`
+}))
 
 // Shared theme config
 const sharedThemeConfig = {
@@ -24,8 +34,6 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ['script', { type: 'senangstart/config' }, '{ "darkMode": "selector" }'],
-    ['script', { src: 'https://unpkg.com/@bookklik/senangstart-css@0.1.7/dist/senangstart-css.min.js' }],
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4' }]
   ],
 
   themeConfig: {
@@ -59,9 +67,13 @@ export default defineConfig({
         {
           text: 'Icon Library',
           items: [
-            { text: 'All Icons', link: '/icons/' },
-            { text: 'Categories', link: '/icons/categories' }
+            { text: 'All Icons', link: '/icons/' }
           ]
+        },
+        {
+          text: 'Icons',
+          collapsed: false,
+          items: iconSidebarItems
         }
       ]
     },

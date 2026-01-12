@@ -29,13 +29,12 @@ execSync('node scripts/build-svgs.js', { stdio: 'inherit' });
 console.log('\n🎨 Step 2: Building CSS...');
 execSync('node scripts/build-css.js', { stdio: 'inherit' });
 
-// Step 3: Run Webpack
-console.log('\n⚙️  Step 3: Running Webpack...');
-execSync('npx webpack --mode production', { stdio: 'inherit' });
+// Step 3: Run Generate Icon Docs
+console.log('\n⚙️  Step 3: Running Generate Icon Docs...');
+execSync('node scripts/build-icon-docs.js', { stdio: 'inherit' });
 
-// Step 4: Copy src and dist to docs/public
-console.log('\n📋 Step 4: Copying src/ and dist/ to docs/public/...');
-copyDir('src', 'docs/public/src');
-copyDir('dist', 'docs/public/dist');
+// Step 4: Run Webpack
+console.log('\n⚙️  Step 4: Running Webpack...');
+execSync('npx webpack --mode production', { stdio: 'inherit' });
 
 console.log('\n✅ Build complete! Files copied to docs/public/');

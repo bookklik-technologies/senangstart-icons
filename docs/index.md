@@ -13,7 +13,7 @@ hero:
       text: View Icons
       link: /icons/
   image:
-    src: /logo.svg
+    src: https://senangstart.com/img/use_senangstart.svg
     alt: SenangStart Icons
 
 features:
@@ -26,9 +26,6 @@ features:
   - icon: 🔧
     title: Easy Integration
     details: Simple API with multiple ways to use - Web Components, CDN, or npm.
-  - icon: 📦
-    title: Tree Shakeable
-    details: Import only the icons you need for optimal bundle size.
 ---
 
 ## Quick Start

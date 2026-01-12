@@ -5,6 +5,7 @@
   "main": "dist/senangstart-icon.min.js",
   "scripts": {
     "build:svg": "node scripts/build-svgs.js",
+    "build:icon-docs": "node scripts/build-icon-docs.js",
     "build:css": "node scripts/build-css.js",
     "build": "node scripts/build.js",
     "build:watch": "npm run build:svg && npm run build:css && webpack --mode production --watch",
