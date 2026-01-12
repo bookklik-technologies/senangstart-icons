@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: Lihat Ikon
       link: /ms/icons/
+  image:
+    src: https://senangstart.com/img/use_senangstart.svg
+    alt: SenangStart Icons
 
 features:
   - icon: 🎨

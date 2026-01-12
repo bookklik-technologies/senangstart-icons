@@ -19,7 +19,7 @@ const sharedThemeConfig = {
   logo: 'https://senangstart.com/img/ss_logo_typo.svg',
   siteTitle: false,
   socialLinks: [
-    { icon: 'github', link: 'https://github.com/bookklik-technologies/senangstart-css' }
+    { icon: 'github', link: 'https://github.com/bookklik-technologies/senangstart-icons' }
   ],
   footer: {
     message: 'Released under the MIT License.',
