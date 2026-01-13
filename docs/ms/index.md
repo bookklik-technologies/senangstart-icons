@@ -13,7 +13,7 @@ hero:
       text: Lihat Ikon
       link: /ms/icons/
   image:
-    src: https://senangstart.com/img/use_senangstart.svg
+    src: /public/assets/senangstart-icons-logo.svg
     alt: SenangStart Icons
 
 features:
