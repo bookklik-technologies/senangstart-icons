@@ -28,6 +28,12 @@ features:
     details: Simple API with multiple ways to use - Web Components, CDN, or npm.
 ---
 
+<style>
+  .VPImage {
+    filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 0.2));
+  }
+</style>
+
 ## Quick Start
 
 Add SenangStart Icons to your project:

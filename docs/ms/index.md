@@ -28,6 +28,12 @@ features:
     details: API mudah dengan pelbagai cara penggunaan - Web Components, CDN, atau npm.
 ---
 
+<style>
+  .VPImage {
+    filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 0.2));
+  }
+</style>
+
 ## Mula Pantas
 
 Tambah SenangStart Icons ke projek anda:

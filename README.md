@@ -40,14 +40,14 @@ Or use the `ss-icon` class:
 </body>
 ```
 
-## Preview
-
-![SenangStart Icons Preview](https://raw.githubusercontent.com/bookklik-technologies/senangstart-icons/master/preview.png)
-
 ## Contributing
 
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
 
+## Documentation
+
+Full docs at [bookklik-technologies.github.io/senangstart-icons](https://bookklik-technologies.github.io/senangstart-icons/)
+
 ## License
 
-MIT License
+Read [MIT License](LICENSE.md)
