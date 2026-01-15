@@ -13,7 +13,7 @@ hero:
       text: View Icons
       link: /icons/
   image:
-    src: /public/assets/senangstart-icons-logo.svg
+    src: /assets/senangstart-icons-logo.svg
     alt: SenangStart Icons
 
 features:
