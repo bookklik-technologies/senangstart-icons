@@ -16,14 +16,13 @@ const iconSidebarItems = icons.map(icon => ({
 
 // Shared theme config
 const sharedThemeConfig = {
-  logo: 'https://senangstart.com/img/ss_logo_typo.svg',
-  siteTitle: false,
+  logo: '/assets/ss-logo.svg',
   socialLinks: [
     { icon: 'github', link: 'https://github.com/bookklik-technologies/senangstart-icons' }
   ],
   footer: {
-    message: 'Released under the MIT License.',
-    copyright: 'Copyright © 2025 Bookklik Technologies'
+    message: 'SenangStart Icons v' + pkg.version + ' is part of the <a href="https://senangstart.com/" target="_blank" style="color: var(--vp-c-brand)">SenangStart</a> ecosystem.',
+    copyright: `Copyright © ${new Date().getFullYear()} <a href="https://bookklik.com/" target="_blank" style="color: #ff6600">Bookklik Technologies</a>. Released under the MIT License.`
   }
 }
 
@@ -97,10 +96,6 @@ export default defineConfig({
               items: iconSidebarItemsMs
             }
           ]
-        },
-        footer: {
-          message: 'Dikeluarkan di bawah Lesen MIT.',
-          copyright: 'Hakcipta © 2025 Bookklik Technologies'
         }
       }
     }
@@ -158,11 +153,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/bookklik-technologies/senangstart-icons' }
     ],
-
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025 Bookklik Technologies'
-    },
 
     search: {
       provider: 'local'
