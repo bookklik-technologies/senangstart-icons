@@ -50,7 +50,9 @@ describe('build-icon-docs.js', () => {
       const content = fs.readFileSync(mdPath, 'utf8');
 
       expect(content).toContain('## Usage');
-      expect(content).toContain(`<ss-icon name="${sampleIcon.slug}">`);
+      expect(content).toContain(`<ss-icon icon="${sampleIcon.slug}">`);
+      expect(content).toContain(`<i class="ss ss-${sampleIcon.slug}"></i>`);
+      expect(content).toContain(`thickness="1.2"`);
     });
 
     it('should include icon details table', () => {
