@@ -10,26 +10,22 @@ title: User Circle
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="user-circle"></ss-icon>
+<ss-icon icon="user-circle"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="user-circle" size="32"></ss-icon>
+<i class="ss ss-user-circle"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="user-circle" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="user-circle" stroke="2"></ss-icon>
+<ss-icon icon="user-circle" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

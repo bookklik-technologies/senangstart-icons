@@ -10,26 +10,22 @@ title: Check
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="check"></ss-icon>
+<ss-icon icon="check"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="check" size="32"></ss-icon>
+<i class="ss ss-check"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="check" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="check" stroke="2"></ss-icon>
+<ss-icon icon="check" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

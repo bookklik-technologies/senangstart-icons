@@ -10,26 +10,22 @@ title: Flip Vertical
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="flip-vertical"></ss-icon>
+<ss-icon icon="flip-vertical"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="flip-vertical" size="32"></ss-icon>
+<i class="ss ss-flip-vertical"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="flip-vertical" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="flip-vertical" stroke="2"></ss-icon>
+<ss-icon icon="flip-vertical" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

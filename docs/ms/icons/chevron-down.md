@@ -10,26 +10,22 @@ title: Chevron Down
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chevron-down"></ss-icon>
+<ss-icon icon="chevron-down"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chevron-down" size="32"></ss-icon>
+<i class="ss ss-chevron-down"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chevron-down" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chevron-down" stroke="2"></ss-icon>
+<ss-icon icon="chevron-down" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

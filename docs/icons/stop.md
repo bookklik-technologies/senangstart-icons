@@ -10,26 +10,22 @@ title: Stop
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="stop"></ss-icon>
+<ss-icon icon="stop"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="stop" size="32"></ss-icon>
+<i class="ss ss-stop"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="stop" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="stop" stroke="2"></ss-icon>
+<ss-icon icon="stop" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

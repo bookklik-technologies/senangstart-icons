@@ -10,26 +10,22 @@ title: Exclamation Circle
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="exclamation-circle"></ss-icon>
+<ss-icon icon="exclamation-circle"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="exclamation-circle" size="32"></ss-icon>
+<i class="ss ss-exclamation-circle"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="exclamation-circle" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="exclamation-circle" stroke="2"></ss-icon>
+<ss-icon icon="exclamation-circle" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -4,66 +4,58 @@ Pelajari cara menggunakan SenangStart Icons dalam projek anda.
 
 ## Penggunaan Asas
 
-Selepas memasukkan pustaka, gunakan elemen tersuai `<ss-icon>`:
+Selepas memasukkan pustaka, anda boleh menggunakan ikon dengan dua cara:
+
+### 1. Komponen Web
+
+Gunakan elemen tersuai `<ss-icon>`:
 
 ```html
-<ss-icon name="home"></ss-icon>
+<ss-icon icon="home"></ss-icon>
 ```
 
-## Atribut
+### 2. Kelas CSS
 
-### name
-
-**Diperlukan.** Nama ikon untuk dipaparkan.
+Gunakan tag `<i>` dengan kelas tertentu:
 
 ```html
-<ss-icon name="search"></ss-icon>
-<ss-icon name="user"></ss-icon>
-<ss-icon name="settings"></ss-icon>
+<i class="ss ss-home"></i>
 ```
 
-### size
+## Atribut (`<ss-icon>`)
 
-Tetapkan saiz ikon dalam piksel. Lalai adalah `24`.
+### icon
+
+**Diperlukan.** Slug ikon untuk dipaparkan.
 
 ```html
-<ss-icon name="home" size="16"></ss-icon>
-<ss-icon name="home" size="24"></ss-icon>
-<ss-icon name="home" size="32"></ss-icon>
-<ss-icon name="home" size="48"></ss-icon>
+<ss-icon icon="search"></ss-icon>
+<ss-icon icon="user"></ss-icon>
+<ss-icon icon="settings"></ss-icon>
 ```
 
-### color
+### thickness
 
-Tetapkan warna ikon. Menerima sebarang nilai warna CSS yang sah.
+Tetapkan ketebalan garisan untuk ikon. Lalai adalah `1.5`.
 
 ```html
-<ss-icon name="heart" color="red"></ss-icon>
-<ss-icon name="star" color="#f1c40f"></ss-icon>
-<ss-icon name="check" color="rgb(46, 204, 113)"></ss-icon>
+<ss-icon icon="circle" thickness="1"></ss-icon>
+<ss-icon icon="circle" thickness="2"></ss-icon>
+<ss-icon icon="circle" thickness="3"></ss-icon>
 ```
 
-### stroke-width
+## Penggayaan (Styling)
 
-Tetapkan lebar garisan untuk ikon bergaris luar.
+SenangStart Icons menggunakan `currentColor`, jadi mereka mewarisi warna teks daripada elemen induk. Anda boleh menggayakan mereka menggunakan CSS standard.
 
-```html
-<ss-icon name="circle" stroke-width="1"></ss-icon>
-<ss-icon name="circle" stroke-width="2"></ss-icon>
-<ss-icon name="circle" stroke-width="3"></ss-icon>
-```
-
-## Menggabungkan Atribut
-
-Gabungkan beberapa atribut untuk penyesuaian penuh:
+### Saiz & Warna
 
 ```html
-<ss-icon 
-  name="bell" 
-  size="32" 
-  color="#3498db"
-  stroke-width="2"
-></ss-icon>
+<!-- Melalui kelas utiliti (cth. Tailwind) -->
+<ss-icon icon="home" class="w-6 h-6 text-blue-500"></ss-icon>
+
+<!-- Melalui atribut style -->
+<ss-icon icon="heart" style="font-size: 32px; color: red;"></ss-icon>
 ```
 
 ## Dalam JavaScript
@@ -75,13 +67,14 @@ Anda juga boleh memanipulasi ikon secara programatik:
 const icon = document.querySelector('ss-icon');
 
 // Tukar ikon
-icon.setAttribute('name', 'check');
+icon.setAttribute('icon', 'check');
 
-// Kemas kini saiz
-icon.setAttribute('size', '48');
+// Kemas kini ketebalan
+icon.setAttribute('thickness', '2');
 
-// Kemas kini warna
-icon.setAttribute('color', 'green');
+// Kemas kini gaya
+icon.style.color = 'green';
+icon.style.fontSize = '48px';
 ```
 
 ## Kebolehcapaian
@@ -90,14 +83,14 @@ Untuk kebolehcapaian yang lebih baik, tambah `aria-label` atau `aria-hidden`:
 
 ```html
 <!-- Ikon hiasan -->
-<ss-icon name="star" aria-hidden="true"></ss-icon>
+<ss-icon icon="star" aria-hidden="true"></ss-icon>
 
 <!-- Ikon bermakna -->
-<ss-icon name="warning" aria-label="Amaran"></ss-icon>
+<ss-icon icon="warning" aria-label="Amaran"></ss-icon>
 
 <!-- Ikon dengan teks -->
 <button>
-  <ss-icon name="save" aria-hidden="true"></ss-icon>
+  <ss-icon icon="save" aria-hidden="true"></ss-icon>
   Simpan
 </button>
 ```

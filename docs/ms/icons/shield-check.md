@@ -10,26 +10,22 @@ title: Shield Check
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="shield-check"></ss-icon>
+<ss-icon icon="shield-check"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="shield-check" size="32"></ss-icon>
+<i class="ss ss-shield-check"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="shield-check" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="shield-check" stroke="2"></ss-icon>
+<ss-icon icon="shield-check" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Shopping Cart
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="shopping-cart"></ss-icon>
+<ss-icon icon="shopping-cart"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="shopping-cart" size="32"></ss-icon>
+<i class="ss ss-shopping-cart"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="shopping-cart" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="shopping-cart" stroke="2"></ss-icon>
+<ss-icon icon="shopping-cart" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

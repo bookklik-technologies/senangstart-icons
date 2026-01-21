@@ -10,26 +10,22 @@ title: Bars 3
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="bars-3"></ss-icon>
+<ss-icon icon="bars-3"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="bars-3" size="32"></ss-icon>
+<i class="ss ss-bars-3"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="bars-3" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="bars-3" stroke="2"></ss-icon>
+<ss-icon icon="bars-3" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

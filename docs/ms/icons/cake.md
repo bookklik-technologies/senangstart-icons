@@ -10,26 +10,22 @@ title: Cake
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="cake"></ss-icon>
+<ss-icon icon="cake"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="cake" size="32"></ss-icon>
+<i class="ss ss-cake"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="cake" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="cake" stroke="2"></ss-icon>
+<ss-icon icon="cake" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

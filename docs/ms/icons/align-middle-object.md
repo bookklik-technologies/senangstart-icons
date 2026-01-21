@@ -10,26 +10,22 @@ title: Align Middle Object
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="align-middle-object"></ss-icon>
+<ss-icon icon="align-middle-object"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="align-middle-object" size="32"></ss-icon>
+<i class="ss ss-align-middle-object"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="align-middle-object" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="align-middle-object" stroke="2"></ss-icon>
+<ss-icon icon="align-middle-object" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Presentation Media
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="presentation-media"></ss-icon>
+<ss-icon icon="presentation-media"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="presentation-media" size="32"></ss-icon>
+<i class="ss ss-presentation-media"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="presentation-media" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="presentation-media" stroke="2"></ss-icon>
+<ss-icon icon="presentation-media" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

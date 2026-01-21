@@ -10,26 +10,22 @@ title: Arrow Top Right On Square
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="arrow-top-right-on-square"></ss-icon>
+<ss-icon icon="arrow-top-right-on-square"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="arrow-top-right-on-square" size="32"></ss-icon>
+<i class="ss ss-arrow-top-right-on-square"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="arrow-top-right-on-square" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="arrow-top-right-on-square" stroke="2"></ss-icon>
+<ss-icon icon="arrow-top-right-on-square" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

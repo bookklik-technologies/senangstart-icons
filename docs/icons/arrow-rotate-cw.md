@@ -10,26 +10,22 @@ title: Arrow Rotate Cw
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="arrow-rotate-cw"></ss-icon>
+<ss-icon icon="arrow-rotate-cw"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="arrow-rotate-cw" size="32"></ss-icon>
+<i class="ss ss-arrow-rotate-cw"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="arrow-rotate-cw" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="arrow-rotate-cw" stroke="2"></ss-icon>
+<ss-icon icon="arrow-rotate-cw" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

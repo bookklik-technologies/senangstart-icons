@@ -10,26 +10,22 @@ title: Microphone
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="microphone"></ss-icon>
+<ss-icon icon="microphone"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="microphone" size="32"></ss-icon>
+<i class="ss ss-microphone"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="microphone" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="microphone" stroke="2"></ss-icon>
+<ss-icon icon="microphone" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

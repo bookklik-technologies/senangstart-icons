@@ -10,26 +10,22 @@ title: Cog 6 Tooth
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="cog-6-tooth"></ss-icon>
+<ss-icon icon="cog-6-tooth"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="cog-6-tooth" size="32"></ss-icon>
+<i class="ss ss-cog-6-tooth"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="cog-6-tooth" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="cog-6-tooth" stroke="2"></ss-icon>
+<ss-icon icon="cog-6-tooth" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Square
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="square"></ss-icon>
+<ss-icon icon="square"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="square" size="32"></ss-icon>
+<i class="ss ss-square"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="square" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="square" stroke="2"></ss-icon>
+<ss-icon icon="square" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Cone
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="cone"></ss-icon>
+<ss-icon icon="cone"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="cone" size="32"></ss-icon>
+<i class="ss ss-cone"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="cone" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="cone" stroke="2"></ss-icon>
+<ss-icon icon="cone" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

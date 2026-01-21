@@ -10,26 +10,22 @@ title: Ungroup Object
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="ungroup-object"></ss-icon>
+<ss-icon icon="ungroup-object"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="ungroup-object" size="32"></ss-icon>
+<i class="ss ss-ungroup-object"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="ungroup-object" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="ungroup-object" stroke="2"></ss-icon>
+<ss-icon icon="ungroup-object" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Moon
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="moon"></ss-icon>
+<ss-icon icon="moon"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="moon" size="32"></ss-icon>
+<i class="ss ss-moon"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="moon" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="moon" stroke="2"></ss-icon>
+<ss-icon icon="moon" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

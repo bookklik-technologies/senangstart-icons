@@ -10,26 +10,22 @@ title: Arrow Long Right
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="arrow-long-right"></ss-icon>
+<ss-icon icon="arrow-long-right"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="arrow-long-right" size="32"></ss-icon>
+<i class="ss ss-arrow-long-right"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="arrow-long-right" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="arrow-long-right" stroke="2"></ss-icon>
+<ss-icon icon="arrow-long-right" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

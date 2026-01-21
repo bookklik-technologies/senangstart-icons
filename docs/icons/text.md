@@ -10,26 +10,22 @@ title: Text
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="text"></ss-icon>
+<ss-icon icon="text"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="text" size="32"></ss-icon>
+<i class="ss ss-text"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="text" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="text" stroke="2"></ss-icon>
+<ss-icon icon="text" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Roof
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="roof"></ss-icon>
+<ss-icon icon="roof"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="roof" size="32"></ss-icon>
+<i class="ss ss-roof"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="roof" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="roof" stroke="2"></ss-icon>
+<ss-icon icon="roof" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Arrow Down
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="arrow-down"></ss-icon>
+<ss-icon icon="arrow-down"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="arrow-down" size="32"></ss-icon>
+<i class="ss ss-arrow-down"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="arrow-down" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="arrow-down" stroke="2"></ss-icon>
+<ss-icon icon="arrow-down" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

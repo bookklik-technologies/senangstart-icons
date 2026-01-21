@@ -10,26 +10,22 @@ title: User Circle
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="user-circle"></ss-icon>
+<ss-icon icon="user-circle"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="user-circle" size="32"></ss-icon>
+<i class="ss ss-user-circle"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="user-circle" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="user-circle" stroke="2"></ss-icon>
+<ss-icon icon="user-circle" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

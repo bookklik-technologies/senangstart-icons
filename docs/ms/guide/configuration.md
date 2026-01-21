@@ -2,58 +2,13 @@
 
 Konfigurasikan SenangStart Icons untuk keperluan projek anda.
 
-## Tetapan Lalai
-
-Tetapkan lalai global untuk semua ikon:
-
-```js
-// Tetapkan saiz lalai untuk semua ikon
-SSIcon.defaults = {
-  size: 24,
-  color: 'currentColor',
-  strokeWidth: 2
-};
-```
-
-## Laluan Ikon Tersuai
-
-Jika anda menghos ikon sendiri, konfigurasikan laluan asas:
-
-```js
-// Tetapkan laluan tersuai ke ikon
-SSIcon.config({
-  basePath: '/assets/icons/'
-});
-```
-
-## Pramuat Ikon
-
-Pramuat ikon yang kerap digunakan untuk prestasi yang lebih baik:
-
-```js
-// Pramuat ikon tertentu
-SSIcon.preload(['home', 'user', 'settings', 'menu']);
-```
-
-## Sokongan TypeScript
-
-SenangStart Icons termasuk definisi TypeScript:
-
-```ts
-import '@bookklik/senangstart-icons';
-
-// Elemen ikon ditaip
-const icon: HTMLElement = document.querySelector('ss-icon')!;
-icon.setAttribute('name', 'home');
-```
-
 ## Integrasi Rangka Kerja
 
 ### Vue.js
 
 ```vue
 <template>
-  <ss-icon :name="iconName" :size="iconSize"></ss-icon>
+  <ss-icon :icon="iconName" :style="{ fontSize: iconSize + 'px' }"></ss-icon>
 </template>
 
 <script setup>
@@ -71,7 +26,7 @@ import '@bookklik/senangstart-icons';
 
 function App() {
   return (
-    <ss-icon name="home" size="24"></ss-icon>
+    <ss-icon icon="home" style={{ fontSize: '24px' }}></ss-icon>
   );
 }
 ```
@@ -91,7 +46,7 @@ export class AppModule { }
 
 ```html
 <!-- component.html -->
-<ss-icon name="home" size="24"></ss-icon>
+<ss-icon icon="home" style="font-size: 24px;"></ss-icon>
 ```
 
 ## Konfigurasi Pembinaan

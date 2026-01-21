@@ -10,26 +10,22 @@ title: Arrow Right
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="arrow-right"></ss-icon>
+<ss-icon icon="arrow-right"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="arrow-right" size="32"></ss-icon>
+<i class="ss ss-arrow-right"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="arrow-right" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="arrow-right" stroke="2"></ss-icon>
+<ss-icon icon="arrow-right" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

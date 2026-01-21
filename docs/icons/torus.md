@@ -10,26 +10,22 @@ title: Torus
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="torus"></ss-icon>
+<ss-icon icon="torus"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="torus" size="32"></ss-icon>
+<i class="ss ss-torus"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="torus" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="torus" stroke="2"></ss-icon>
+<ss-icon icon="torus" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: AR
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="ar"></ss-icon>
+<ss-icon icon="ar"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="ar" size="32"></ss-icon>
+<i class="ss ss-ar"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="ar" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="ar" stroke="2"></ss-icon>
+<ss-icon icon="ar" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Currency Dollar
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="currency-dollar"></ss-icon>
+<ss-icon icon="currency-dollar"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="currency-dollar" size="32"></ss-icon>
+<i class="ss ss-currency-dollar"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="currency-dollar" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="currency-dollar" stroke="2"></ss-icon>
+<ss-icon icon="currency-dollar" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

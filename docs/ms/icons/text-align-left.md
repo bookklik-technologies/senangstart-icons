@@ -10,26 +10,22 @@ title: Text Align Left
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="text-align-left"></ss-icon>
+<ss-icon icon="text-align-left"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="text-align-left" size="32"></ss-icon>
+<i class="ss ss-text-align-left"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="text-align-left" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="text-align-left" stroke="2"></ss-icon>
+<ss-icon icon="text-align-left" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

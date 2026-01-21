@@ -10,26 +10,22 @@ title: Inbox
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="inbox"></ss-icon>
+<ss-icon icon="inbox"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="inbox" size="32"></ss-icon>
+<i class="ss ss-inbox"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="inbox" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="inbox" stroke="2"></ss-icon>
+<ss-icon icon="inbox" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

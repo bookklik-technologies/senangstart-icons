@@ -10,26 +10,22 @@ title: Battery 10
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="battery-10"></ss-icon>
+<ss-icon icon="battery-10"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="battery-10" size="32"></ss-icon>
+<i class="ss ss-battery-10"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="battery-10" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="battery-10" stroke="2"></ss-icon>
+<ss-icon icon="battery-10" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

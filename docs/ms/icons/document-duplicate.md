@@ -10,26 +10,22 @@ title: Document Duplicate
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="document-duplicate"></ss-icon>
+<ss-icon icon="document-duplicate"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="document-duplicate" size="32"></ss-icon>
+<i class="ss ss-document-duplicate"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="document-duplicate" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="document-duplicate" stroke="2"></ss-icon>
+<ss-icon icon="document-duplicate" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

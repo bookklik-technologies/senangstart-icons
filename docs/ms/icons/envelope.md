@@ -10,26 +10,22 @@ title: Envelope
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="envelope"></ss-icon>
+<ss-icon icon="envelope"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="envelope" size="32"></ss-icon>
+<i class="ss ss-envelope"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="envelope" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="envelope" stroke="2"></ss-icon>
+<ss-icon icon="envelope" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Device Phone Mobile
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="device-phone-mobile"></ss-icon>
+<ss-icon icon="device-phone-mobile"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="device-phone-mobile" size="32"></ss-icon>
+<i class="ss ss-device-phone-mobile"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="device-phone-mobile" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="device-phone-mobile" stroke="2"></ss-icon>
+<ss-icon icon="device-phone-mobile" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

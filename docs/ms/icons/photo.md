@@ -10,26 +10,22 @@ title: Photo
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="photo"></ss-icon>
+<ss-icon icon="photo"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="photo" size="32"></ss-icon>
+<i class="ss ss-photo"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="photo" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="photo" stroke="2"></ss-icon>
+<ss-icon icon="photo" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Magic Wand
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="magic-wand"></ss-icon>
+<ss-icon icon="magic-wand"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="magic-wand" size="32"></ss-icon>
+<i class="ss ss-magic-wand"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="magic-wand" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="magic-wand" stroke="2"></ss-icon>
+<ss-icon icon="magic-wand" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

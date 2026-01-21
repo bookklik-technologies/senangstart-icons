@@ -10,26 +10,22 @@ title: Trophy
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="trophy"></ss-icon>
+<ss-icon icon="trophy"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="trophy" size="32"></ss-icon>
+<i class="ss ss-trophy"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="trophy" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="trophy" stroke="2"></ss-icon>
+<ss-icon icon="trophy" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

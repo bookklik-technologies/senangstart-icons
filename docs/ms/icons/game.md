@@ -10,26 +10,22 @@ title: Game
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="game"></ss-icon>
+<ss-icon icon="game"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="game" size="32"></ss-icon>
+<i class="ss ss-game"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="game" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="game" stroke="2"></ss-icon>
+<ss-icon icon="game" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

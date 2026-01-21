@@ -10,26 +10,22 @@ title: Calendar Plus
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="calendar-plus"></ss-icon>
+<ss-icon icon="calendar-plus"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="calendar-plus" size="32"></ss-icon>
+<i class="ss ss-calendar-plus"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="calendar-plus" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="calendar-plus" stroke="2"></ss-icon>
+<ss-icon icon="calendar-plus" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

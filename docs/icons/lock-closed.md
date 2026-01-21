@@ -10,26 +10,22 @@ title: Lock Closed
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="lock-closed"></ss-icon>
+<ss-icon icon="lock-closed"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="lock-closed" size="32"></ss-icon>
+<i class="ss ss-lock-closed"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="lock-closed" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="lock-closed" stroke="2"></ss-icon>
+<ss-icon icon="lock-closed" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

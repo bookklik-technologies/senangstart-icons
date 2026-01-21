@@ -10,26 +10,22 @@ title: Battery 100
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="battery-100"></ss-icon>
+<ss-icon icon="battery-100"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="battery-100" size="32"></ss-icon>
+<i class="ss ss-battery-100"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="battery-100" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="battery-100" stroke="2"></ss-icon>
+<ss-icon icon="battery-100" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

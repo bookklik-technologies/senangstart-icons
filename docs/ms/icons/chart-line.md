@@ -10,26 +10,22 @@ title: Chart Line
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chart-line"></ss-icon>
+<ss-icon icon="chart-line"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chart-line" size="32"></ss-icon>
+<i class="ss ss-chart-line"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chart-line" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chart-line" stroke="2"></ss-icon>
+<ss-icon icon="chart-line" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

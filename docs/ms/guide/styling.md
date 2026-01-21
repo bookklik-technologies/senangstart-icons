@@ -8,8 +8,8 @@ Ikon boleh digayakan menggunakan ciri tersuai CSS:
 
 ```css
 ss-icon {
-  --ss-icon-color: #333;
-  --ss-icon-size: 24px;
+  color: #333;
+  font-size: 24px;
 }
 ```
 
@@ -18,7 +18,7 @@ ss-icon {
 Gunakan gaya terus pada elemen ikon:
 
 ```html
-<ss-icon name="home" style="color: blue;"></ss-icon>
+<ss-icon icon="home" style="color: blue; font-size: 24px;"></ss-icon>
 ```
 
 ## Kelas CSS
@@ -48,9 +48,9 @@ Cipta gaya ikon yang boleh diguna semula:
 ```
 
 ```html
-<ss-icon name="info" class="icon-primary"></ss-icon>
-<ss-icon name="x-circle" class="icon-danger"></ss-icon>
-<ss-icon name="check-circle" class="icon-success"></ss-icon>
+<ss-icon icon="info" class="icon-primary"></ss-icon>
+<ss-icon icon="x-circle" class="icon-danger"></ss-icon>
+<ss-icon icon="check-circle" class="icon-success"></ss-icon>
 ```
 
 ## Kesan Hover
@@ -95,8 +95,8 @@ Animasikan ikon dengan CSS:
 ```
 
 ```html
-<ss-icon name="loader" class="icon-spin"></ss-icon>
-<ss-icon name="heart" class="icon-pulse"></ss-icon>
+<ss-icon icon="loader" class="icon-spin"></ss-icon>
+<ss-icon icon="heart" class="icon-pulse"></ss-icon>
 ```
 
 ## Mod Gelap
@@ -146,11 +146,11 @@ Gayakan ikon dalam butang:
 
 ```html
 <button class="btn">
-  <ss-icon name="plus" size="16"></ss-icon>
+  <ss-icon icon="plus" style="font-size: 16px;"></ss-icon>
   Tambah Item
 </button>
 
 <button class="btn btn-icon-only">
-  <ss-icon name="menu"></ss-icon>
+  <ss-icon icon="menu"></ss-icon>
 </button>
 ```

@@ -10,26 +10,22 @@ title: Trash
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="trash"></ss-icon>
+<ss-icon icon="trash"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="trash" size="32"></ss-icon>
+<i class="ss ss-trash"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="trash" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="trash" stroke="2"></ss-icon>
+<ss-icon icon="trash" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

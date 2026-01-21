@@ -10,26 +10,22 @@ title: Polygon
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="polygon"></ss-icon>
+<ss-icon icon="polygon"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="polygon" size="32"></ss-icon>
+<i class="ss ss-polygon"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="polygon" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="polygon" stroke="2"></ss-icon>
+<ss-icon icon="polygon" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Folder minus
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="folder-minus"></ss-icon>
+<ss-icon icon="folder-minus"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="folder-minus" size="32"></ss-icon>
+<i class="ss ss-folder-minus"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="folder-minus" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="folder-minus" stroke="2"></ss-icon>
+<ss-icon icon="folder-minus" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

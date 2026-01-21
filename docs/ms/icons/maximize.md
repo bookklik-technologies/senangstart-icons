@@ -10,26 +10,22 @@ title: Maximize
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="maximize"></ss-icon>
+<ss-icon icon="maximize"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="maximize" size="32"></ss-icon>
+<i class="ss ss-maximize"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="maximize" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="maximize" stroke="2"></ss-icon>
+<ss-icon icon="maximize" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

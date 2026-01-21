@@ -10,26 +10,22 @@ title: Align Center Object
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="align-center-object"></ss-icon>
+<ss-icon icon="align-center-object"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="align-center-object" size="32"></ss-icon>
+<i class="ss ss-align-center-object"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="align-center-object" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="align-center-object" stroke="2"></ss-icon>
+<ss-icon icon="align-center-object" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

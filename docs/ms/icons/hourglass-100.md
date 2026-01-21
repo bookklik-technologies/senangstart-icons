@@ -10,26 +10,22 @@ title: Hourglass 100
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="hourglass-100"></ss-icon>
+<ss-icon icon="hourglass-100"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="hourglass-100" size="32"></ss-icon>
+<i class="ss ss-hourglass-100"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="hourglass-100" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="hourglass-100" stroke="2"></ss-icon>
+<ss-icon icon="hourglass-100" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

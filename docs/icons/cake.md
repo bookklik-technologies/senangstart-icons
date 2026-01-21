@@ -10,26 +10,22 @@ title: Cake
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="cake"></ss-icon>
+<ss-icon icon="cake"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="cake" size="32"></ss-icon>
+<i class="ss ss-cake"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="cake" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="cake" stroke="2"></ss-icon>
+<ss-icon icon="cake" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

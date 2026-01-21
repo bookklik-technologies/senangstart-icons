@@ -10,26 +10,22 @@ title: Chat Bubble Left Right
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="chat-bubble-left-right"></ss-icon>
+<ss-icon icon="chat-bubble-left-right"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="chat-bubble-left-right" size="32"></ss-icon>
+<i class="ss ss-chat-bubble-left-right"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="chat-bubble-left-right" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="chat-bubble-left-right" stroke="2"></ss-icon>
+<ss-icon icon="chat-bubble-left-right" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Medal
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="medal"></ss-icon>
+<ss-icon icon="medal"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="medal" size="32"></ss-icon>
+<i class="ss ss-medal"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="medal" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="medal" stroke="2"></ss-icon>
+<ss-icon icon="medal" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Musical Note
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="musical-note"></ss-icon>
+<ss-icon icon="musical-note"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="musical-note" size="32"></ss-icon>
+<i class="ss ss-musical-note"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="musical-note" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="musical-note" stroke="2"></ss-icon>
+<ss-icon icon="musical-note" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

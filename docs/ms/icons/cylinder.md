@@ -10,26 +10,22 @@ title: Cylinder
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="cylinder"></ss-icon>
+<ss-icon icon="cylinder"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="cylinder" size="32"></ss-icon>
+<i class="ss ss-cylinder"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="cylinder" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="cylinder" stroke="2"></ss-icon>
+<ss-icon icon="cylinder" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

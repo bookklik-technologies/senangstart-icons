@@ -10,26 +10,22 @@ title: Book Stacked
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="book-stacked"></ss-icon>
+<ss-icon icon="book-stacked"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="book-stacked" size="32"></ss-icon>
+<i class="ss ss-book-stacked"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="book-stacked" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="book-stacked" stroke="2"></ss-icon>
+<ss-icon icon="book-stacked" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

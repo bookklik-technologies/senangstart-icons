@@ -10,26 +10,22 @@ title: Moon
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="moon"></ss-icon>
+<ss-icon icon="moon"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="moon" size="32"></ss-icon>
+<i class="ss ss-moon"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="moon" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="moon" stroke="2"></ss-icon>
+<ss-icon icon="moon" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

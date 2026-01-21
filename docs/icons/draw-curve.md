@@ -10,26 +10,22 @@ title: Draw Curve
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="draw-curve"></ss-icon>
+<ss-icon icon="draw-curve"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="draw-curve" size="32"></ss-icon>
+<i class="ss ss-draw-curve"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="draw-curve" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="draw-curve" stroke="2"></ss-icon>
+<ss-icon icon="draw-curve" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

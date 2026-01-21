@@ -10,26 +10,22 @@ title: Rotate Add
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="rotate-add"></ss-icon>
+<ss-icon icon="rotate-add"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="rotate-add" size="32"></ss-icon>
+<i class="ss ss-rotate-add"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="rotate-add" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="rotate-add" stroke="2"></ss-icon>
+<ss-icon icon="rotate-add" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

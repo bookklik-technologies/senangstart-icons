@@ -10,26 +10,22 @@ title: Microphone Mute
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="microphone-mute"></ss-icon>
+<ss-icon icon="microphone-mute"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="microphone-mute" size="32"></ss-icon>
+<i class="ss ss-microphone-mute"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="microphone-mute" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="microphone-mute" stroke="2"></ss-icon>
+<ss-icon icon="microphone-mute" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

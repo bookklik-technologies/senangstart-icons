@@ -10,26 +10,22 @@ title: Pause
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="pause"></ss-icon>
+<ss-icon icon="pause"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="pause" size="32"></ss-icon>
+<i class="ss ss-pause"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="pause" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="pause" stroke="2"></ss-icon>
+<ss-icon icon="pause" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

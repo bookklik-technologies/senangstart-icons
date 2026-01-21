@@ -10,26 +10,22 @@ title: Diamond
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="diamond"></ss-icon>
+<ss-icon icon="diamond"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="diamond" size="32"></ss-icon>
+<i class="ss ss-diamond"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="diamond" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="diamond" stroke="2"></ss-icon>
+<ss-icon icon="diamond" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

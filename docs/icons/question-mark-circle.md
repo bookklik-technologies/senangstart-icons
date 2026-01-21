@@ -10,26 +10,22 @@ title: Question Mark Circle
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="question-mark-circle"></ss-icon>
+<ss-icon icon="question-mark-circle"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="question-mark-circle" size="32"></ss-icon>
+<i class="ss ss-question-mark-circle"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="question-mark-circle" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="question-mark-circle" stroke="2"></ss-icon>
+<ss-icon icon="question-mark-circle" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

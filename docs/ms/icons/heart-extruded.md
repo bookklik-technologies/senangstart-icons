@@ -10,26 +10,22 @@ title: Heart Extruded
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="heart-extruded"></ss-icon>
+<ss-icon icon="heart-extruded"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="heart-extruded" size="32"></ss-icon>
+<i class="ss ss-heart-extruded"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="heart-extruded" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="heart-extruded" stroke="2"></ss-icon>
+<ss-icon icon="heart-extruded" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

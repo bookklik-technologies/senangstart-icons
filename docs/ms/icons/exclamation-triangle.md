@@ -10,26 +10,22 @@ title: Exclamation Triangle
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="exclamation-triangle"></ss-icon>
+<ss-icon icon="exclamation-triangle"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="exclamation-triangle" size="32"></ss-icon>
+<i class="ss ss-exclamation-triangle"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="exclamation-triangle" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="exclamation-triangle" stroke="2"></ss-icon>
+<ss-icon icon="exclamation-triangle" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Layout
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="layout"></ss-icon>
+<ss-icon icon="layout"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="layout" size="32"></ss-icon>
+<i class="ss ss-layout"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="layout" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="layout" stroke="2"></ss-icon>
+<ss-icon icon="layout" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

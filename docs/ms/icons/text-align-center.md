@@ -10,26 +10,22 @@ title: Text Align Center
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="text-align-center"></ss-icon>
+<ss-icon icon="text-align-center"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="text-align-center" size="32"></ss-icon>
+<i class="ss ss-text-align-center"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="text-align-center" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="text-align-center" stroke="2"></ss-icon>
+<ss-icon icon="text-align-center" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

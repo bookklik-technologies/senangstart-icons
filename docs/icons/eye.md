@@ -10,26 +10,22 @@ title: Eye
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="eye"></ss-icon>
+<ss-icon icon="eye"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="eye" size="32"></ss-icon>
+<i class="ss ss-eye"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="eye" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="eye" stroke="2"></ss-icon>
+<ss-icon icon="eye" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

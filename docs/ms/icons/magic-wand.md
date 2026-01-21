@@ -10,26 +10,22 @@ title: Magic Wand
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="magic-wand"></ss-icon>
+<ss-icon icon="magic-wand"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="magic-wand" size="32"></ss-icon>
+<i class="ss ss-magic-wand"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="magic-wand" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="magic-wand" stroke="2"></ss-icon>
+<ss-icon icon="magic-wand" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

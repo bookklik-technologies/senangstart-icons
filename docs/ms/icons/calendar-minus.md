@@ -10,26 +10,22 @@ title: Calendar Minus
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="calendar-minus"></ss-icon>
+<ss-icon icon="calendar-minus"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="calendar-minus" size="32"></ss-icon>
+<i class="ss ss-calendar-minus"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="calendar-minus" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="calendar-minus" stroke="2"></ss-icon>
+<ss-icon icon="calendar-minus" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

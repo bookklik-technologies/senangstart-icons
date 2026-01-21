@@ -10,26 +10,22 @@ title: Magnifying Glass
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="magnifying-glass"></ss-icon>
+<ss-icon icon="magnifying-glass"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="magnifying-glass" size="32"></ss-icon>
+<i class="ss ss-magnifying-glass"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="magnifying-glass" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="magnifying-glass" stroke="2"></ss-icon>
+<ss-icon icon="magnifying-glass" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -157,5 +157,17 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
+  },
+
+  markdown: {
+    config: (md) => {
+      md.core.ruler.push('replace_version', (state) => {
+        state.tokens.forEach((token) => {
+          if (token.type === 'fence' && token.content.includes('__PKG_VERSION__')) {
+            token.content = token.content.replace(/__PKG_VERSION__/g, pkg.version)
+          }
+        })
+      })
+    }
   }
 })

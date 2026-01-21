@@ -10,26 +10,22 @@ title: Hexagon
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="hexagon"></ss-icon>
+<ss-icon icon="hexagon"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="hexagon" size="32"></ss-icon>
+<i class="ss ss-hexagon"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="hexagon" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="hexagon" stroke="2"></ss-icon>
+<ss-icon icon="hexagon" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

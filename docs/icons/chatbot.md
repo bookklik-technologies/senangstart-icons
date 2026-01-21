@@ -10,26 +10,22 @@ title: Chatbot
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="chatbot"></ss-icon>
+<ss-icon icon="chatbot"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="chatbot" size="32"></ss-icon>
+<i class="ss ss-chatbot"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="chatbot" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="chatbot" stroke="2"></ss-icon>
+<ss-icon icon="chatbot" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

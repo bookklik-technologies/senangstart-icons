@@ -10,26 +10,22 @@ title: Arrow Left Right
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="arrow-left-right"></ss-icon>
+<ss-icon icon="arrow-left-right"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="arrow-left-right" size="32"></ss-icon>
+<i class="ss ss-arrow-left-right"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="arrow-left-right" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="arrow-left-right" stroke="2"></ss-icon>
+<ss-icon icon="arrow-left-right" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

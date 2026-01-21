@@ -10,26 +10,22 @@ title: Device Phone Mobile
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="device-phone-mobile"></ss-icon>
+<ss-icon icon="device-phone-mobile"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="device-phone-mobile" size="32"></ss-icon>
+<i class="ss ss-device-phone-mobile"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="device-phone-mobile" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="device-phone-mobile" stroke="2"></ss-icon>
+<ss-icon icon="device-phone-mobile" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

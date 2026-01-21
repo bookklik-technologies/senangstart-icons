@@ -10,26 +10,22 @@ title: Rectangle
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="rectangle"></ss-icon>
+<ss-icon icon="rectangle"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="rectangle" size="32"></ss-icon>
+<i class="ss ss-rectangle"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="rectangle" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="rectangle" stroke="2"></ss-icon>
+<ss-icon icon="rectangle" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Text Align Justify
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="text-align-justify"></ss-icon>
+<ss-icon icon="text-align-justify"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="text-align-justify" size="32"></ss-icon>
+<i class="ss ss-text-align-justify"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="text-align-justify" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="text-align-justify" stroke="2"></ss-icon>
+<ss-icon icon="text-align-justify" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Shield Exclamation
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="shield-exclamation"></ss-icon>
+<ss-icon icon="shield-exclamation"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="shield-exclamation" size="32"></ss-icon>
+<i class="ss ss-shield-exclamation"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="shield-exclamation" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="shield-exclamation" stroke="2"></ss-icon>
+<ss-icon icon="shield-exclamation" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

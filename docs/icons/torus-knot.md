@@ -10,26 +10,22 @@ title: Torus Knot
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="torus-knot"></ss-icon>
+<ss-icon icon="torus-knot"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="torus-knot" size="32"></ss-icon>
+<i class="ss ss-torus-knot"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="torus-knot" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="torus-knot" stroke="2"></ss-icon>
+<ss-icon icon="torus-knot" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

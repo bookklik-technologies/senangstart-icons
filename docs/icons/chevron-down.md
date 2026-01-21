@@ -10,26 +10,22 @@ title: Chevron Down
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="chevron-down"></ss-icon>
+<ss-icon icon="chevron-down"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="chevron-down" size="32"></ss-icon>
+<i class="ss ss-chevron-down"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="chevron-down" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="chevron-down" stroke="2"></ss-icon>
+<ss-icon icon="chevron-down" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

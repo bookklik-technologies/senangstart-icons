@@ -10,26 +10,22 @@ title: Chart Pie
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chart-pie"></ss-icon>
+<ss-icon icon="chart-pie"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chart-pie" size="32"></ss-icon>
+<i class="ss ss-chart-pie"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chart-pie" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chart-pie" stroke="2"></ss-icon>
+<ss-icon icon="chart-pie" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

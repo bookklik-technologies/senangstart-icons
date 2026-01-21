@@ -10,26 +10,22 @@ title: Polygon
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="polygon"></ss-icon>
+<ss-icon icon="polygon"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="polygon" size="32"></ss-icon>
+<i class="ss ss-polygon"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="polygon" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="polygon" stroke="2"></ss-icon>
+<ss-icon icon="polygon" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

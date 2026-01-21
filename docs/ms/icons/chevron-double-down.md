@@ -10,26 +10,22 @@ title: Chevron Double Down
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chevron-double-down"></ss-icon>
+<ss-icon icon="chevron-double-down"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chevron-double-down" size="32"></ss-icon>
+<i class="ss ss-chevron-double-down"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chevron-double-down" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chevron-double-down" stroke="2"></ss-icon>
+<ss-icon icon="chevron-double-down" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

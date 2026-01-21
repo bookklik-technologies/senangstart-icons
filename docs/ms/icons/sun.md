@@ -10,26 +10,22 @@ title: Sun
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="sun"></ss-icon>
+<ss-icon icon="sun"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="sun" size="32"></ss-icon>
+<i class="ss ss-sun"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="sun" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="sun" stroke="2"></ss-icon>
+<ss-icon icon="sun" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

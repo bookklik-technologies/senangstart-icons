@@ -10,26 +10,22 @@ title: Calendar
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="calendar"></ss-icon>
+<ss-icon icon="calendar"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="calendar" size="32"></ss-icon>
+<i class="ss ss-calendar"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="calendar" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="calendar" stroke="2"></ss-icon>
+<ss-icon icon="calendar" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Information Circle
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="information-circle"></ss-icon>
+<ss-icon icon="information-circle"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="information-circle" size="32"></ss-icon>
+<i class="ss ss-information-circle"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="information-circle" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="information-circle" stroke="2"></ss-icon>
+<ss-icon icon="information-circle" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

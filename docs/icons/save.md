@@ -10,26 +10,22 @@ title: Save
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="save"></ss-icon>
+<ss-icon icon="save"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="save" size="32"></ss-icon>
+<i class="ss ss-save"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="save" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="save" stroke="2"></ss-icon>
+<ss-icon icon="save" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Camera
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="camera"></ss-icon>
+<ss-icon icon="camera"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="camera" size="32"></ss-icon>
+<i class="ss ss-camera"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="camera" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="camera" stroke="2"></ss-icon>
+<ss-icon icon="camera" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

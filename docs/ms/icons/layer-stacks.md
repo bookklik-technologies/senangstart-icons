@@ -10,26 +10,22 @@ title: Layer Stacks
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="layer-stacks"></ss-icon>
+<ss-icon icon="layer-stacks"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="layer-stacks" size="32"></ss-icon>
+<i class="ss ss-layer-stacks"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="layer-stacks" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="layer-stacks" stroke="2"></ss-icon>
+<ss-icon icon="layer-stacks" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

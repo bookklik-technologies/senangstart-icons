@@ -10,26 +10,22 @@ title: Time Reset
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="time-reset"></ss-icon>
+<ss-icon icon="time-reset"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="time-reset" size="32"></ss-icon>
+<i class="ss ss-time-reset"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="time-reset" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="time-reset" stroke="2"></ss-icon>
+<ss-icon icon="time-reset" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

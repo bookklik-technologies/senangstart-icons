@@ -10,26 +10,22 @@ title: Chat Bubble Left Right
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chat-bubble-left-right"></ss-icon>
+<ss-icon icon="chat-bubble-left-right"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chat-bubble-left-right" size="32"></ss-icon>
+<i class="ss ss-chat-bubble-left-right"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chat-bubble-left-right" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chat-bubble-left-right" stroke="2"></ss-icon>
+<ss-icon icon="chat-bubble-left-right" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

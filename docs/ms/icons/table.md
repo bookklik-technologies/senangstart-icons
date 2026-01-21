@@ -10,26 +10,22 @@ title: Table
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="table"></ss-icon>
+<ss-icon icon="table"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="table" size="32"></ss-icon>
+<i class="ss ss-table"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="table" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="table" stroke="2"></ss-icon>
+<ss-icon icon="table" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Container
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="container"></ss-icon>
+<ss-icon icon="container"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="container" size="32"></ss-icon>
+<i class="ss ss-container"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="container" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="container" stroke="2"></ss-icon>
+<ss-icon icon="container" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

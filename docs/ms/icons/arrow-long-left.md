@@ -10,26 +10,22 @@ title: Arrow Long Left
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="arrow-long-left"></ss-icon>
+<ss-icon icon="arrow-long-left"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="arrow-long-left" size="32"></ss-icon>
+<i class="ss ss-arrow-long-left"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="arrow-long-left" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="arrow-long-left" stroke="2"></ss-icon>
+<ss-icon icon="arrow-long-left" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

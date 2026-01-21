@@ -10,26 +10,22 @@ title: Text Align Right
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="text-align-right"></ss-icon>
+<ss-icon icon="text-align-right"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="text-align-right" size="32"></ss-icon>
+<i class="ss ss-text-align-right"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="text-align-right" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="text-align-right" stroke="2"></ss-icon>
+<ss-icon icon="text-align-right" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

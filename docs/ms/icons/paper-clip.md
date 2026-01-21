@@ -10,26 +10,22 @@ title: Paper Clip
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="paper-clip"></ss-icon>
+<ss-icon icon="paper-clip"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="paper-clip" size="32"></ss-icon>
+<i class="ss ss-paper-clip"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="paper-clip" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="paper-clip" stroke="2"></ss-icon>
+<ss-icon icon="paper-clip" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Tetrahedron
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="tetrahedron"></ss-icon>
+<ss-icon icon="tetrahedron"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="tetrahedron" size="32"></ss-icon>
+<i class="ss ss-tetrahedron"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="tetrahedron" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="tetrahedron" stroke="2"></ss-icon>
+<ss-icon icon="tetrahedron" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

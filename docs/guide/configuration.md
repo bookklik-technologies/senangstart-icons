@@ -2,58 +2,13 @@
 
 Configure SenangStart Icons for your project needs.
 
-## Default Settings
-
-Set global defaults for all icons:
-
-```js
-// Set default size for all icons
-SSIcon.defaults = {
-  size: 24,
-  color: 'currentColor',
-  strokeWidth: 2
-};
-```
-
-## Custom Icon Path
-
-If you're self-hosting the icons, configure the base path:
-
-```js
-// Set custom path to icons
-SSIcon.config({
-  basePath: '/assets/icons/'
-});
-```
-
-## Preloading Icons
-
-Preload commonly used icons for better performance:
-
-```js
-// Preload specific icons
-SSIcon.preload(['home', 'user', 'settings', 'menu']);
-```
-
-## TypeScript Support
-
-SenangStart Icons includes TypeScript definitions:
-
-```ts
-import '@bookklik/senangstart-icons';
-
-// Icon element is typed
-const icon: HTMLElement = document.querySelector('ss-icon')!;
-icon.setAttribute('name', 'home');
-```
-
 ## Framework Integration
 
 ### Vue.js
 
 ```vue
 <template>
-  <ss-icon :name="iconName" :size="iconSize"></ss-icon>
+  <ss-icon :icon="iconName" :style="{ fontSize: iconSize + 'px' }"></ss-icon>
 </template>
 
 <script setup>
@@ -71,7 +26,7 @@ import '@bookklik/senangstart-icons';
 
 function App() {
   return (
-    <ss-icon name="home" size="24"></ss-icon>
+    <ss-icon icon="home" style={{ fontSize: '24px' }}></ss-icon>
   );
 }
 ```
@@ -91,7 +46,7 @@ export class AppModule { }
 
 ```html
 <!-- component.html -->
-<ss-icon name="home" size="24"></ss-icon>
+<ss-icon icon="home" style="font-size: 24px;"></ss-icon>
 ```
 
 ## Build Configuration

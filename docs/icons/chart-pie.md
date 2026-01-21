@@ -10,26 +10,22 @@ title: Chart Pie
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="chart-pie"></ss-icon>
+<ss-icon icon="chart-pie"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="chart-pie" size="32"></ss-icon>
+<i class="ss ss-chart-pie"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="chart-pie" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="chart-pie" stroke="2"></ss-icon>
+<ss-icon icon="chart-pie" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

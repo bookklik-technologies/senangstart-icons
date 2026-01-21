@@ -10,26 +10,22 @@ title: Key
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="key"></ss-icon>
+<ss-icon icon="key"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="key" size="32"></ss-icon>
+<i class="ss ss-key"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="key" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="key" stroke="2"></ss-icon>
+<ss-icon icon="key" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

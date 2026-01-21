@@ -10,26 +10,22 @@ title: Map Pin
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="map-pin"></ss-icon>
+<ss-icon icon="map-pin"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="map-pin" size="32"></ss-icon>
+<i class="ss ss-map-pin"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="map-pin" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="map-pin" stroke="2"></ss-icon>
+<ss-icon icon="map-pin" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

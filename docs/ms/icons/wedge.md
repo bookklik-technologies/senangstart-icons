@@ -10,26 +10,22 @@ title: Wedge
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="wedge"></ss-icon>
+<ss-icon icon="wedge"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="wedge" size="32"></ss-icon>
+<i class="ss ss-wedge"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="wedge" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="wedge" stroke="2"></ss-icon>
+<ss-icon icon="wedge" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Banknotes
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="banknotes"></ss-icon>
+<ss-icon icon="banknotes"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="banknotes" size="32"></ss-icon>
+<i class="ss ss-banknotes"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="banknotes" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="banknotes" stroke="2"></ss-icon>
+<ss-icon icon="banknotes" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

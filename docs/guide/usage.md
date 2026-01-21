@@ -4,66 +4,58 @@ Learn how to use SenangStart Icons in your projects.
 
 ## Basic Usage
 
-After including the library, use the `<ss-icon>` custom element:
+After including the library, you can use icons in two ways:
+
+### 1. Web Component
+
+Use the `<ss-icon>` custom element:
 
 ```html
-<ss-icon name="home"></ss-icon>
+<ss-icon icon="home"></ss-icon>
 ```
 
-## Attributes
+### 2. CSS Classes
 
-### name
-
-**Required.** The name of the icon to display.
+Use the `<i>` tag with specific classes:
 
 ```html
-<ss-icon name="search"></ss-icon>
-<ss-icon name="user"></ss-icon>
-<ss-icon name="settings"></ss-icon>
+<i class="ss ss-home"></i>
 ```
 
-### size
+## Attributes (`<ss-icon>`)
 
-Set the icon size in pixels. Default is `24`.
+### icon
+
+**Required.** The slug of the icon to display.
 
 ```html
-<ss-icon name="home" size="16"></ss-icon>
-<ss-icon name="home" size="24"></ss-icon>
-<ss-icon name="home" size="32"></ss-icon>
-<ss-icon name="home" size="48"></ss-icon>
+<ss-icon icon="search"></ss-icon>
+<ss-icon icon="user"></ss-icon>
+<ss-icon icon="settings"></ss-icon>
 ```
 
-### color
+### thickness
 
-Set the icon color. Accepts any valid CSS color value.
+Set the stroke width for the icon. Default is `1.5`.
 
 ```html
-<ss-icon name="heart" color="red"></ss-icon>
-<ss-icon name="star" color="#f1c40f"></ss-icon>
-<ss-icon name="check" color="rgb(46, 204, 113)"></ss-icon>
+<ss-icon icon="circle" thickness="1"></ss-icon>
+<ss-icon icon="circle" thickness="2"></ss-icon>
+<ss-icon icon="circle" thickness="3"></ss-icon>
 ```
 
-### stroke-width
+## Styling
 
-Set the stroke width for outlined icons.
+SenangStart Icons are powered by currentColor, so they inherit the text color of their parent. You can style them using standard CSS.
 
-```html
-<ss-icon name="circle" stroke-width="1"></ss-icon>
-<ss-icon name="circle" stroke-width="2"></ss-icon>
-<ss-icon name="circle" stroke-width="3"></ss-icon>
-```
-
-## Combining Attributes
-
-Combine multiple attributes for full customization:
+### Sizing & Coloring
 
 ```html
-<ss-icon 
-  name="bell" 
-  size="32" 
-  color="#3498db"
-  stroke-width="2"
-></ss-icon>
+<!-- Via utility classes (e.g. Tailwind) -->
+<ss-icon icon="home" class="w-6 h-6 text-blue-500"></ss-icon>
+
+<!-- Via style attribute -->
+<ss-icon icon="heart" style="font-size: 32px; color: red;"></ss-icon>
 ```
 
 ## In JavaScript
@@ -75,13 +67,14 @@ You can also manipulate icons programmatically:
 const icon = document.querySelector('ss-icon');
 
 // Change icon
-icon.setAttribute('name', 'check');
+icon.setAttribute('icon', 'check');
 
-// Update size
-icon.setAttribute('size', '48');
+// Update thickness
+icon.setAttribute('thickness', '2');
 
-// Update color
-icon.setAttribute('color', 'green');
+// Update styling
+icon.style.color = 'green';
+icon.style.fontSize = '48px';
 ```
 
 ## Accessibility
@@ -90,14 +83,14 @@ For better accessibility, add `aria-label` or `aria-hidden`:
 
 ```html
 <!-- Decorative icon -->
-<ss-icon name="star" aria-hidden="true"></ss-icon>
+<ss-icon icon="star" aria-hidden="true"></ss-icon>
 
 <!-- Meaningful icon -->
-<ss-icon name="warning" aria-label="Warning"></ss-icon>
+<ss-icon icon="warning" aria-label="Warning"></ss-icon>
 
 <!-- Icon with text -->
 <button>
-  <ss-icon name="save" aria-hidden="true"></ss-icon>
+  <ss-icon icon="save" aria-hidden="true"></ss-icon>
   Save
 </button>
 ```

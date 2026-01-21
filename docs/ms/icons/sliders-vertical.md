@@ -10,26 +10,22 @@ title: Sliders Vertical
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="sliders-vertical"></ss-icon>
+<ss-icon icon="sliders-vertical"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="sliders-vertical" size="32"></ss-icon>
+<i class="ss ss-sliders-vertical"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="sliders-vertical" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="sliders-vertical" stroke="2"></ss-icon>
+<ss-icon icon="sliders-vertical" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

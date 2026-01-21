@@ -10,26 +10,22 @@ title: Play
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="play"></ss-icon>
+<ss-icon icon="play"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="play" size="32"></ss-icon>
+<i class="ss ss-play"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="play" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="play" stroke="2"></ss-icon>
+<ss-icon icon="play" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

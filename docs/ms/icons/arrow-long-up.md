@@ -10,26 +10,22 @@ title: Arrow Long Up
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="arrow-long-up"></ss-icon>
+<ss-icon icon="arrow-long-up"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="arrow-long-up" size="32"></ss-icon>
+<i class="ss ss-arrow-long-up"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="arrow-long-up" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="arrow-long-up" stroke="2"></ss-icon>
+<ss-icon icon="arrow-long-up" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

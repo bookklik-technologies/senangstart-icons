@@ -10,26 +10,22 @@ title: Envelope Open
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="envelope-open"></ss-icon>
+<ss-icon icon="envelope-open"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="envelope-open" size="32"></ss-icon>
+<i class="ss ss-envelope-open"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="envelope-open" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="envelope-open" stroke="2"></ss-icon>
+<ss-icon icon="envelope-open" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

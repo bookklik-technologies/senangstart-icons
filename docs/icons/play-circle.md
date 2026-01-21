@@ -10,26 +10,22 @@ title: Play Circle
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="play-circle"></ss-icon>
+<ss-icon icon="play-circle"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="play-circle" size="32"></ss-icon>
+<i class="ss ss-play-circle"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="play-circle" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="play-circle" stroke="2"></ss-icon>
+<ss-icon icon="play-circle" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

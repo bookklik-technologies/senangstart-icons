@@ -10,26 +10,22 @@ title: Rectangle
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="rectangle"></ss-icon>
+<ss-icon icon="rectangle"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="rectangle" size="32"></ss-icon>
+<i class="ss ss-rectangle"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="rectangle" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="rectangle" stroke="2"></ss-icon>
+<ss-icon icon="rectangle" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

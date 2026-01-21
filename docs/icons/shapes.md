@@ -10,26 +10,22 @@ title: Shapes
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="shapes"></ss-icon>
+<ss-icon icon="shapes"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="shapes" size="32"></ss-icon>
+<i class="ss ss-shapes"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="shapes" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="shapes" stroke="2"></ss-icon>
+<ss-icon icon="shapes" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

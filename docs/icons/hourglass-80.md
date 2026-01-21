@@ -10,26 +10,22 @@ title: Hourglass 80
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="hourglass-80"></ss-icon>
+<ss-icon icon="hourglass-80"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="hourglass-80" size="32"></ss-icon>
+<i class="ss ss-hourglass-80"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="hourglass-80" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="hourglass-80" stroke="2"></ss-icon>
+<ss-icon icon="hourglass-80" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

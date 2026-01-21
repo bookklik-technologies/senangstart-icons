@@ -10,26 +10,22 @@ title: Brush
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="brush"></ss-icon>
+<ss-icon icon="brush"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="brush" size="32"></ss-icon>
+<i class="ss ss-brush"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="brush" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="brush" stroke="2"></ss-icon>
+<ss-icon icon="brush" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

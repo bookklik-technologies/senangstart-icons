@@ -10,26 +10,22 @@ title: Calendar Approve
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="calendar-approve"></ss-icon>
+<ss-icon icon="calendar-approve"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="calendar-approve" size="32"></ss-icon>
+<i class="ss ss-calendar-approve"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="calendar-approve" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="calendar-approve" stroke="2"></ss-icon>
+<ss-icon icon="calendar-approve" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

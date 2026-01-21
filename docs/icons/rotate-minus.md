@@ -10,26 +10,22 @@ title: Rotate Minus
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="rotate-minus"></ss-icon>
+<ss-icon icon="rotate-minus"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="rotate-minus" size="32"></ss-icon>
+<i class="ss ss-rotate-minus"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="rotate-minus" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="rotate-minus" stroke="2"></ss-icon>
+<ss-icon icon="rotate-minus" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

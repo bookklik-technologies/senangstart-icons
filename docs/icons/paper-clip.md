@@ -10,26 +10,22 @@ title: Paper Clip
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="paper-clip"></ss-icon>
+<ss-icon icon="paper-clip"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="paper-clip" size="32"></ss-icon>
+<i class="ss ss-paper-clip"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="paper-clip" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="paper-clip" stroke="2"></ss-icon>
+<ss-icon icon="paper-clip" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

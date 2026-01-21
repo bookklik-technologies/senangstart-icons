@@ -10,26 +10,22 @@ title: Lock Open
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="lock-open"></ss-icon>
+<ss-icon icon="lock-open"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="lock-open" size="32"></ss-icon>
+<i class="ss ss-lock-open"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="lock-open" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="lock-open" stroke="2"></ss-icon>
+<ss-icon icon="lock-open" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

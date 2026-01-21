@@ -10,26 +10,22 @@ title: Exclamation Circle
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="exclamation-circle"></ss-icon>
+<ss-icon icon="exclamation-circle"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="exclamation-circle" size="32"></ss-icon>
+<i class="ss ss-exclamation-circle"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="exclamation-circle" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="exclamation-circle" stroke="2"></ss-icon>
+<ss-icon icon="exclamation-circle" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

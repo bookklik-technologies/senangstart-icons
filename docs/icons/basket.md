@@ -10,26 +10,22 @@ title: Basket
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="basket"></ss-icon>
+<ss-icon icon="basket"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="basket" size="32"></ss-icon>
+<i class="ss ss-basket"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="basket" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="basket" stroke="2"></ss-icon>
+<ss-icon icon="basket" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

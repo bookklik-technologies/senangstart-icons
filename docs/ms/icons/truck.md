@@ -10,26 +10,22 @@ title: Truck
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="truck"></ss-icon>
+<ss-icon icon="truck"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="truck" size="32"></ss-icon>
+<i class="ss ss-truck"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="truck" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="truck" stroke="2"></ss-icon>
+<ss-icon icon="truck" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

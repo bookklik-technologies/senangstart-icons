@@ -10,26 +10,22 @@ title: Document
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="document"></ss-icon>
+<ss-icon icon="document"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="document" size="32"></ss-icon>
+<i class="ss ss-document"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="document" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="document" stroke="2"></ss-icon>
+<ss-icon icon="document" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

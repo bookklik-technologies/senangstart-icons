@@ -10,26 +10,22 @@ title: Book Close
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="book-close"></ss-icon>
+<ss-icon icon="book-close"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="book-close" size="32"></ss-icon>
+<i class="ss ss-book-close"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="book-close" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="book-close" stroke="2"></ss-icon>
+<ss-icon icon="book-close" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

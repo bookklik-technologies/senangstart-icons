@@ -10,26 +10,22 @@ title: Hand Thumb Up
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="hand-thumb-up"></ss-icon>
+<ss-icon icon="hand-thumb-up"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="hand-thumb-up" size="32"></ss-icon>
+<i class="ss ss-hand-thumb-up"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="hand-thumb-up" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="hand-thumb-up" stroke="2"></ss-icon>
+<ss-icon icon="hand-thumb-up" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

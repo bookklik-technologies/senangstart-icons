@@ -10,26 +10,22 @@ title: Stop Circle
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="stop-circle"></ss-icon>
+<ss-icon icon="stop-circle"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="stop-circle" size="32"></ss-icon>
+<i class="ss ss-stop-circle"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="stop-circle" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="stop-circle" stroke="2"></ss-icon>
+<ss-icon icon="stop-circle" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

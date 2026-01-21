@@ -10,26 +10,22 @@ title: Folder
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="folder"></ss-icon>
+<ss-icon icon="folder"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="folder" size="32"></ss-icon>
+<i class="ss ss-folder"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="folder" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="folder" stroke="2"></ss-icon>
+<ss-icon icon="folder" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

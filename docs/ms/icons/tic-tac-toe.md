@@ -10,26 +10,22 @@ title: Tic Tac Toe
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="tic-tac-toe"></ss-icon>
+<ss-icon icon="tic-tac-toe"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="tic-tac-toe" size="32"></ss-icon>
+<i class="ss ss-tic-tac-toe"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="tic-tac-toe" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="tic-tac-toe" stroke="2"></ss-icon>
+<ss-icon icon="tic-tac-toe" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

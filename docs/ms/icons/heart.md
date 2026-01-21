@@ -10,26 +10,22 @@ title: Heart
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="heart"></ss-icon>
+<ss-icon icon="heart"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="heart" size="32"></ss-icon>
+<i class="ss ss-heart"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="heart" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="heart" stroke="2"></ss-icon>
+<ss-icon icon="heart" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

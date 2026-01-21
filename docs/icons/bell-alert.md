@@ -10,26 +10,22 @@ title: Bell Alert
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="bell-alert"></ss-icon>
+<ss-icon icon="bell-alert"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="bell-alert" size="32"></ss-icon>
+<i class="ss ss-bell-alert"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="bell-alert" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="bell-alert" stroke="2"></ss-icon>
+<ss-icon icon="bell-alert" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Text Align Center
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="text-align-center"></ss-icon>
+<ss-icon icon="text-align-center"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="text-align-center" size="32"></ss-icon>
+<i class="ss ss-text-align-center"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="text-align-center" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="text-align-center" stroke="2"></ss-icon>
+<ss-icon icon="text-align-center" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

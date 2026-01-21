@@ -10,26 +10,22 @@ title: Computer Code
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="computer-code"></ss-icon>
+<ss-icon icon="computer-code"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="computer-code" size="32"></ss-icon>
+<i class="ss ss-computer-code"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="computer-code" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="computer-code" stroke="2"></ss-icon>
+<ss-icon icon="computer-code" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

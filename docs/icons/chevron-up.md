@@ -10,26 +10,22 @@ title: Chevron Up
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="chevron-up"></ss-icon>
+<ss-icon icon="chevron-up"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="chevron-up" size="32"></ss-icon>
+<i class="ss ss-chevron-up"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="chevron-up" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="chevron-up" stroke="2"></ss-icon>
+<ss-icon icon="chevron-up" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Shield Exclamation
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="shield-exclamation"></ss-icon>
+<ss-icon icon="shield-exclamation"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="shield-exclamation" size="32"></ss-icon>
+<i class="ss ss-shield-exclamation"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="shield-exclamation" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="shield-exclamation" stroke="2"></ss-icon>
+<ss-icon icon="shield-exclamation" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

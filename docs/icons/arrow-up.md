@@ -10,26 +10,22 @@ title: Arrow Up
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="arrow-up"></ss-icon>
+<ss-icon icon="arrow-up"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="arrow-up" size="32"></ss-icon>
+<i class="ss ss-arrow-up"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="arrow-up" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="arrow-up" stroke="2"></ss-icon>
+<ss-icon icon="arrow-up" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

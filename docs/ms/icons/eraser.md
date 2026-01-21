@@ -10,26 +10,22 @@ title: Eraser
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="eraser"></ss-icon>
+<ss-icon icon="eraser"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="eraser" size="32"></ss-icon>
+<i class="ss ss-eraser"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="eraser" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="eraser" stroke="2"></ss-icon>
+<ss-icon icon="eraser" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

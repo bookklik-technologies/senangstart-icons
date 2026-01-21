@@ -10,26 +10,22 @@ title: Sliders Horizontal
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="sliders-horizontal"></ss-icon>
+<ss-icon icon="sliders-horizontal"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="sliders-horizontal" size="32"></ss-icon>
+<i class="ss ss-sliders-horizontal"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="sliders-horizontal" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="sliders-horizontal" stroke="2"></ss-icon>
+<ss-icon icon="sliders-horizontal" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

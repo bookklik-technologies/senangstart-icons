@@ -10,26 +10,22 @@ title: Octahedron
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="octahedron"></ss-icon>
+<ss-icon icon="octahedron"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="octahedron" size="32"></ss-icon>
+<i class="ss ss-octahedron"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="octahedron" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="octahedron" stroke="2"></ss-icon>
+<ss-icon icon="octahedron" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

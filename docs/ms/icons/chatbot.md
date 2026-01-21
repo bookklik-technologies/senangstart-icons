@@ -10,26 +10,22 @@ title: Chatbot
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chatbot"></ss-icon>
+<ss-icon icon="chatbot"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chatbot" size="32"></ss-icon>
+<i class="ss ss-chatbot"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chatbot" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chatbot" stroke="2"></ss-icon>
+<ss-icon icon="chatbot" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

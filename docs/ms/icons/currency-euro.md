@@ -10,26 +10,22 @@ title: Currency Euro
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="currency-euro"></ss-icon>
+<ss-icon icon="currency-euro"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="currency-euro" size="32"></ss-icon>
+<i class="ss ss-currency-euro"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="currency-euro" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="currency-euro" stroke="2"></ss-icon>
+<ss-icon icon="currency-euro" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

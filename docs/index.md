@@ -43,8 +43,9 @@ Add SenangStart Icons to your project:
 <script src="https://unpkg.com/@bookklik/senangstart-icons/dist/senangstart-icon.min.js"></script>
 
 <!-- Use icons -->
-<ss-icon name="home"></ss-icon>
-<ss-icon name="search" size="24"></ss-icon>
+<ss-icon icon="home"></ss-icon>
+<ss-icon icon="search" thicness="2"></ss-icon>
+<i class="ss ss-check"></i>
 ```
 
 Or install via npm:

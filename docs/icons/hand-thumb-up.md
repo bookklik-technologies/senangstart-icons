@@ -10,26 +10,22 @@ title: Hand Thumb Up
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="hand-thumb-up"></ss-icon>
+<ss-icon icon="hand-thumb-up"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="hand-thumb-up" size="32"></ss-icon>
+<i class="ss ss-hand-thumb-up"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="hand-thumb-up" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="hand-thumb-up" stroke="2"></ss-icon>
+<ss-icon icon="hand-thumb-up" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

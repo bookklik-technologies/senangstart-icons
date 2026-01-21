@@ -10,26 +10,22 @@ title: Users
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="users"></ss-icon>
+<ss-icon icon="users"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="users" size="32"></ss-icon>
+<i class="ss ss-users"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="users" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="users" stroke="2"></ss-icon>
+<ss-icon icon="users" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Pause Circle
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="pause-circle"></ss-icon>
+<ss-icon icon="pause-circle"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="pause-circle" size="32"></ss-icon>
+<i class="ss ss-pause-circle"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="pause-circle" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="pause-circle" stroke="2"></ss-icon>
+<ss-icon icon="pause-circle" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

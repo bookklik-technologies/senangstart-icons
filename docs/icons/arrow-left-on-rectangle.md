@@ -10,26 +10,22 @@ title: Arrow Left On Rectangle
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="arrow-left-on-rectangle"></ss-icon>
+<ss-icon icon="arrow-left-on-rectangle"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="arrow-left-on-rectangle" size="32"></ss-icon>
+<i class="ss ss-arrow-left-on-rectangle"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="arrow-left-on-rectangle" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="arrow-left-on-rectangle" stroke="2"></ss-icon>
+<ss-icon icon="arrow-left-on-rectangle" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

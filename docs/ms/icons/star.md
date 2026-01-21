@@ -10,26 +10,22 @@ title: Star
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="star"></ss-icon>
+<ss-icon icon="star"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="star" size="32"></ss-icon>
+<i class="ss ss-star"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="star" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="star" stroke="2"></ss-icon>
+<ss-icon icon="star" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

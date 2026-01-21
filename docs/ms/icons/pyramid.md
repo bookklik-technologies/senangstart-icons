@@ -10,26 +10,22 @@ title: Pyramid
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="pyramid"></ss-icon>
+<ss-icon icon="pyramid"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="pyramid" size="32"></ss-icon>
+<i class="ss ss-pyramid"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="pyramid" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="pyramid" stroke="2"></ss-icon>
+<ss-icon icon="pyramid" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

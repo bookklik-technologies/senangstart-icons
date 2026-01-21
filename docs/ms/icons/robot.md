@@ -10,26 +10,22 @@ title: Robot
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="robot"></ss-icon>
+<ss-icon icon="robot"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="robot" size="32"></ss-icon>
+<i class="ss ss-robot"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="robot" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="robot" stroke="2"></ss-icon>
+<ss-icon icon="robot" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

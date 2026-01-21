@@ -10,26 +10,22 @@ title: Tube
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="tube"></ss-icon>
+<ss-icon icon="tube"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="tube" size="32"></ss-icon>
+<i class="ss ss-tube"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="tube" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="tube" stroke="2"></ss-icon>
+<ss-icon icon="tube" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

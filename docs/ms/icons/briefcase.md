@@ -10,26 +10,22 @@ title: Briefcase
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="briefcase"></ss-icon>
+<ss-icon icon="briefcase"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="briefcase" size="32"></ss-icon>
+<i class="ss ss-briefcase"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="briefcase" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="briefcase" stroke="2"></ss-icon>
+<ss-icon icon="briefcase" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

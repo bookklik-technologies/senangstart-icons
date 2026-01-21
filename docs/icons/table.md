@@ -10,26 +10,22 @@ title: Table
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="table"></ss-icon>
+<ss-icon icon="table"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="table" size="32"></ss-icon>
+<i class="ss ss-table"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="table" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="table" stroke="2"></ss-icon>
+<ss-icon icon="table" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Computer Desktop
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="computer-desktop"></ss-icon>
+<ss-icon icon="computer-desktop"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="computer-desktop" size="32"></ss-icon>
+<i class="ss ss-computer-desktop"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="computer-desktop" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="computer-desktop" stroke="2"></ss-icon>
+<ss-icon icon="computer-desktop" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Icosahedron
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="icosahedron"></ss-icon>
+<ss-icon icon="icosahedron"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="icosahedron" size="32"></ss-icon>
+<i class="ss ss-icosahedron"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="icosahedron" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="icosahedron" stroke="2"></ss-icon>
+<ss-icon icon="icosahedron" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

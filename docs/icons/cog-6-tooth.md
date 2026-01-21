@@ -10,26 +10,22 @@ title: Cog 6 Tooth
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="cog-6-tooth"></ss-icon>
+<ss-icon icon="cog-6-tooth"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="cog-6-tooth" size="32"></ss-icon>
+<i class="ss ss-cog-6-tooth"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="cog-6-tooth" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="cog-6-tooth" stroke="2"></ss-icon>
+<ss-icon icon="cog-6-tooth" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

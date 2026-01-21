@@ -10,26 +10,22 @@ title: Magnifying Glass Focus
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="magnifying-glass-focus"></ss-icon>
+<ss-icon icon="magnifying-glass-focus"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="magnifying-glass-focus" size="32"></ss-icon>
+<i class="ss ss-magnifying-glass-focus"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="magnifying-glass-focus" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="magnifying-glass-focus" stroke="2"></ss-icon>
+<ss-icon icon="magnifying-glass-focus" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

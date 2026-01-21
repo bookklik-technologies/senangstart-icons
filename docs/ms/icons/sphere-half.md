@@ -10,26 +10,22 @@ title: Sphere Half
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="sphere-half"></ss-icon>
+<ss-icon icon="sphere-half"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="sphere-half" size="32"></ss-icon>
+<i class="ss ss-sphere-half"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="sphere-half" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="sphere-half" stroke="2"></ss-icon>
+<ss-icon icon="sphere-half" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

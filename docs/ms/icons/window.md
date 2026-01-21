@@ -10,26 +10,22 @@ title: Window
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="window"></ss-icon>
+<ss-icon icon="window"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="window" size="32"></ss-icon>
+<i class="ss ss-window"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="window" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="window" stroke="2"></ss-icon>
+<ss-icon icon="window" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

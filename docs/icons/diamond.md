@@ -10,26 +10,22 @@ title: Diamond
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="diamond"></ss-icon>
+<ss-icon icon="diamond"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="diamond" size="32"></ss-icon>
+<i class="ss ss-diamond"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="diamond" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="diamond" stroke="2"></ss-icon>
+<ss-icon icon="diamond" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Group Object
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="group-object"></ss-icon>
+<ss-icon icon="group-object"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="group-object" size="32"></ss-icon>
+<i class="ss ss-group-object"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="group-object" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="group-object" stroke="2"></ss-icon>
+<ss-icon icon="group-object" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

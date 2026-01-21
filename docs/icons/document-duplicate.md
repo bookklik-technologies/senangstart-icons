@@ -10,26 +10,22 @@ title: Document Duplicate
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="document-duplicate"></ss-icon>
+<ss-icon icon="document-duplicate"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="document-duplicate" size="32"></ss-icon>
+<i class="ss ss-document-duplicate"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="document-duplicate" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="document-duplicate" stroke="2"></ss-icon>
+<ss-icon icon="document-duplicate" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

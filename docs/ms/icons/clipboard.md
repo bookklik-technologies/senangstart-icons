@@ -10,26 +10,22 @@ title: Clipboard
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="clipboard"></ss-icon>
+<ss-icon icon="clipboard"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="clipboard" size="32"></ss-icon>
+<i class="ss ss-clipboard"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="clipboard" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="clipboard" stroke="2"></ss-icon>
+<ss-icon icon="clipboard" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

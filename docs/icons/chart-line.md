@@ -10,26 +10,22 @@ title: Chart Line
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="chart-line"></ss-icon>
+<ss-icon icon="chart-line"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="chart-line" size="32"></ss-icon>
+<i class="ss ss-chart-line"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="chart-line" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="chart-line" stroke="2"></ss-icon>
+<ss-icon icon="chart-line" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Tetrahedron
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="tetrahedron"></ss-icon>
+<ss-icon icon="tetrahedron"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="tetrahedron" size="32"></ss-icon>
+<i class="ss ss-tetrahedron"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="tetrahedron" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="tetrahedron" stroke="2"></ss-icon>
+<ss-icon icon="tetrahedron" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

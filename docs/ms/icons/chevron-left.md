@@ -10,26 +10,22 @@ title: Chevron Left
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chevron-left"></ss-icon>
+<ss-icon icon="chevron-left"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chevron-left" size="32"></ss-icon>
+<i class="ss ss-chevron-left"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chevron-left" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chevron-left" stroke="2"></ss-icon>
+<ss-icon icon="chevron-left" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

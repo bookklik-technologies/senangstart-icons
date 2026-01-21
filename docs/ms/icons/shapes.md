@@ -10,26 +10,22 @@ title: Shapes
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="shapes"></ss-icon>
+<ss-icon icon="shapes"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="shapes" size="32"></ss-icon>
+<i class="ss ss-shapes"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="shapes" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="shapes" stroke="2"></ss-icon>
+<ss-icon icon="shapes" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

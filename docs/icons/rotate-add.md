@@ -10,26 +10,22 @@ title: Rotate Add
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="rotate-add"></ss-icon>
+<ss-icon icon="rotate-add"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="rotate-add" size="32"></ss-icon>
+<i class="ss ss-rotate-add"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="rotate-add" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="rotate-add" stroke="2"></ss-icon>
+<ss-icon icon="rotate-add" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

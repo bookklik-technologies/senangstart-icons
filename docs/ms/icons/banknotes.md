@@ -10,26 +10,22 @@ title: Banknotes
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="banknotes"></ss-icon>
+<ss-icon icon="banknotes"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="banknotes" size="32"></ss-icon>
+<i class="ss ss-banknotes"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="banknotes" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="banknotes" stroke="2"></ss-icon>
+<ss-icon icon="banknotes" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

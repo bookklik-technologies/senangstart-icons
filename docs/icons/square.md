@@ -10,26 +10,22 @@ title: Square
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="square"></ss-icon>
+<ss-icon icon="square"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="square" size="32"></ss-icon>
+<i class="ss ss-square"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="square" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="square" stroke="2"></ss-icon>
+<ss-icon icon="square" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

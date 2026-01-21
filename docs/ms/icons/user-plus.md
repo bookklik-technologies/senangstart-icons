@@ -10,26 +10,22 @@ title: User Plus
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="user-plus"></ss-icon>
+<ss-icon icon="user-plus"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="user-plus" size="32"></ss-icon>
+<i class="ss ss-user-plus"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="user-plus" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="user-plus" stroke="2"></ss-icon>
+<ss-icon icon="user-plus" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

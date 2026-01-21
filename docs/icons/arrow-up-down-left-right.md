@@ -10,26 +10,22 @@ title: Arrow Up Down Left Right
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="arrow-up-down-left-right"></ss-icon>
+<ss-icon icon="arrow-up-down-left-right"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="arrow-up-down-left-right" size="32"></ss-icon>
+<i class="ss ss-arrow-up-down-left-right"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="arrow-up-down-left-right" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="arrow-up-down-left-right" stroke="2"></ss-icon>
+<ss-icon icon="arrow-up-down-left-right" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

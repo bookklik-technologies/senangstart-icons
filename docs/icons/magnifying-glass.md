@@ -10,26 +10,22 @@ title: Magnifying Glass
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="magnifying-glass"></ss-icon>
+<ss-icon icon="magnifying-glass"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="magnifying-glass" size="32"></ss-icon>
+<i class="ss ss-magnifying-glass"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="magnifying-glass" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="magnifying-glass" stroke="2"></ss-icon>
+<ss-icon icon="magnifying-glass" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

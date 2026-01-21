@@ -10,26 +10,22 @@ title: Hand Grab
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="hand-grab"></ss-icon>
+<ss-icon icon="hand-grab"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="hand-grab" size="32"></ss-icon>
+<i class="ss ss-hand-grab"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="hand-grab" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="hand-grab" stroke="2"></ss-icon>
+<ss-icon icon="hand-grab" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

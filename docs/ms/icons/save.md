@@ -10,26 +10,22 @@ title: Save
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="save"></ss-icon>
+<ss-icon icon="save"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="save" size="32"></ss-icon>
+<i class="ss ss-save"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="save" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="save" stroke="2"></ss-icon>
+<ss-icon icon="save" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Double Tick
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="double-tick"></ss-icon>
+<ss-icon icon="double-tick"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="double-tick" size="32"></ss-icon>
+<i class="ss ss-double-tick"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="double-tick" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="double-tick" stroke="2"></ss-icon>
+<ss-icon icon="double-tick" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

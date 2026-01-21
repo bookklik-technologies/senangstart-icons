@@ -10,26 +10,22 @@ title: Marquee
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="marquee"></ss-icon>
+<ss-icon icon="marquee"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="marquee" size="32"></ss-icon>
+<i class="ss ss-marquee"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="marquee" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="marquee" stroke="2"></ss-icon>
+<ss-icon icon="marquee" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

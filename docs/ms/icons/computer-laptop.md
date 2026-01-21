@@ -10,26 +10,22 @@ title: Computer Laptop
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="computer-laptop"></ss-icon>
+<ss-icon icon="computer-laptop"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="computer-laptop" size="32"></ss-icon>
+<i class="ss ss-computer-laptop"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="computer-laptop" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="computer-laptop" stroke="2"></ss-icon>
+<ss-icon icon="computer-laptop" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

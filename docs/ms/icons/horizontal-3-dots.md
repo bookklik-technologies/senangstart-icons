@@ -10,26 +10,22 @@ title: Horizontal 3 Dots
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="horizontal-3-dots"></ss-icon>
+<ss-icon icon="horizontal-3-dots"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="horizontal-3-dots" size="32"></ss-icon>
+<i class="ss ss-horizontal-3-dots"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="horizontal-3-dots" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="horizontal-3-dots" stroke="2"></ss-icon>
+<ss-icon icon="horizontal-3-dots" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

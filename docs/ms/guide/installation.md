@@ -13,7 +13,7 @@ Cara paling pantas untuk bermula ialah menggunakan CDN:
 Atau dengan versi tertentu:
 
 ```html
-<script src="https://unpkg.com/@bookklik/senangstart-icons@1.0.7/dist/senangstart-icon.min.js"></script>
+<script src="https://unpkg.com/@bookklik/senangstart-icons@__PKG_VERSION__/dist/senangstart-icon.min.js"></script>
 ```
 
 ## npm

@@ -10,26 +10,22 @@ title: Gift
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="gift"></ss-icon>
+<ss-icon icon="gift"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="gift" size="32"></ss-icon>
+<i class="ss ss-gift"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="gift" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="gift" stroke="2"></ss-icon>
+<ss-icon icon="gift" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

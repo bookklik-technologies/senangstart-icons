@@ -10,26 +10,22 @@ title: Contrast
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="contrast"></ss-icon>
+<ss-icon icon="contrast"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="contrast" size="32"></ss-icon>
+<i class="ss ss-contrast"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="contrast" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="contrast" stroke="2"></ss-icon>
+<ss-icon icon="contrast" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

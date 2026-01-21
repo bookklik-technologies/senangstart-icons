@@ -10,26 +10,22 @@ title: Stop
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="stop"></ss-icon>
+<ss-icon icon="stop"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="stop" size="32"></ss-icon>
+<i class="ss ss-stop"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="stop" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="stop" stroke="2"></ss-icon>
+<ss-icon icon="stop" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

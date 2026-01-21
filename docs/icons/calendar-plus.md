@@ -10,26 +10,22 @@ title: Calendar Plus
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="calendar-plus"></ss-icon>
+<ss-icon icon="calendar-plus"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="calendar-plus" size="32"></ss-icon>
+<i class="ss ss-calendar-plus"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="calendar-plus" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="calendar-plus" stroke="2"></ss-icon>
+<ss-icon icon="calendar-plus" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

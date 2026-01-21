@@ -10,26 +10,22 @@ title: Microphone
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="microphone"></ss-icon>
+<ss-icon icon="microphone"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="microphone" size="32"></ss-icon>
+<i class="ss ss-microphone"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="microphone" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="microphone" stroke="2"></ss-icon>
+<ss-icon icon="microphone" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

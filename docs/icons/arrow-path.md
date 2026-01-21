@@ -10,26 +10,22 @@ title: Arrow Path
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="arrow-path"></ss-icon>
+<ss-icon icon="arrow-path"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="arrow-path" size="32"></ss-icon>
+<i class="ss ss-arrow-path"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="arrow-path" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="arrow-path" stroke="2"></ss-icon>
+<ss-icon icon="arrow-path" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

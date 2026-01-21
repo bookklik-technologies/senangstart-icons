@@ -10,26 +10,22 @@ title: Pyramid
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="pyramid"></ss-icon>
+<ss-icon icon="pyramid"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="pyramid" size="32"></ss-icon>
+<i class="ss ss-pyramid"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="pyramid" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="pyramid" stroke="2"></ss-icon>
+<ss-icon icon="pyramid" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

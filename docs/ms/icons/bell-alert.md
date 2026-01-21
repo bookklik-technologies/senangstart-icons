@@ -10,26 +10,22 @@ title: Bell Alert
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="bell-alert"></ss-icon>
+<ss-icon icon="bell-alert"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="bell-alert" size="32"></ss-icon>
+<i class="ss ss-bell-alert"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="bell-alert" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="bell-alert" stroke="2"></ss-icon>
+<ss-icon icon="bell-alert" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

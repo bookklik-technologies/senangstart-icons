@@ -10,26 +10,22 @@ title: Calendar Reject
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="calendar-reject"></ss-icon>
+<ss-icon icon="calendar-reject"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="calendar-reject" size="32"></ss-icon>
+<i class="ss ss-calendar-reject"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="calendar-reject" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="calendar-reject" stroke="2"></ss-icon>
+<ss-icon icon="calendar-reject" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

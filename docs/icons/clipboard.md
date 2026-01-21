@@ -10,26 +10,22 @@ title: Clipboard
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="clipboard"></ss-icon>
+<ss-icon icon="clipboard"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="clipboard" size="32"></ss-icon>
+<i class="ss ss-clipboard"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="clipboard" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="clipboard" stroke="2"></ss-icon>
+<ss-icon icon="clipboard" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

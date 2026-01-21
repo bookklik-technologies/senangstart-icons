@@ -10,26 +10,22 @@ title: Magnifying Glass Focus
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="magnifying-glass-focus"></ss-icon>
+<ss-icon icon="magnifying-glass-focus"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="magnifying-glass-focus" size="32"></ss-icon>
+<i class="ss ss-magnifying-glass-focus"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="magnifying-glass-focus" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="magnifying-glass-focus" stroke="2"></ss-icon>
+<ss-icon icon="magnifying-glass-focus" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

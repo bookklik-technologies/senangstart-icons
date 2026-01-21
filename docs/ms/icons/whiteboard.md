@@ -10,26 +10,22 @@ title: Whiteboard
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="whiteboard"></ss-icon>
+<ss-icon icon="whiteboard"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="whiteboard" size="32"></ss-icon>
+<i class="ss ss-whiteboard"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="whiteboard" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="whiteboard" stroke="2"></ss-icon>
+<ss-icon icon="whiteboard" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

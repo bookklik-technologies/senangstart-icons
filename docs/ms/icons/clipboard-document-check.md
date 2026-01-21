@@ -10,26 +10,22 @@ title: Clipboard Document Check
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="clipboard-document-check"></ss-icon>
+<ss-icon icon="clipboard-document-check"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="clipboard-document-check" size="32"></ss-icon>
+<i class="ss ss-clipboard-document-check"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="clipboard-document-check" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="clipboard-document-check" stroke="2"></ss-icon>
+<ss-icon icon="clipboard-document-check" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

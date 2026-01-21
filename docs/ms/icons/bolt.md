@@ -10,26 +10,22 @@ title: Bolt
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="bolt"></ss-icon>
+<ss-icon icon="bolt"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="bolt" size="32"></ss-icon>
+<i class="ss ss-bolt"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="bolt" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="bolt" stroke="2"></ss-icon>
+<ss-icon icon="bolt" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

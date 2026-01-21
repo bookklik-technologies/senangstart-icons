@@ -10,26 +10,22 @@ title: Arrow Long Down
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="arrow-long-down"></ss-icon>
+<ss-icon icon="arrow-long-down"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="arrow-long-down" size="32"></ss-icon>
+<i class="ss ss-arrow-long-down"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="arrow-long-down" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="arrow-long-down" stroke="2"></ss-icon>
+<ss-icon icon="arrow-long-down" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

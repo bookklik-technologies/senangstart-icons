@@ -10,26 +10,22 @@ title: Game
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="game"></ss-icon>
+<ss-icon icon="game"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="game" size="32"></ss-icon>
+<i class="ss ss-game"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="game" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="game" stroke="2"></ss-icon>
+<ss-icon icon="game" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

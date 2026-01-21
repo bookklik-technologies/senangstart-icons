@@ -10,26 +10,22 @@ title: Tic Tac Toe
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="tic-tac-toe"></ss-icon>
+<ss-icon icon="tic-tac-toe"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="tic-tac-toe" size="32"></ss-icon>
+<i class="ss ss-tic-tac-toe"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="tic-tac-toe" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="tic-tac-toe" stroke="2"></ss-icon>
+<ss-icon icon="tic-tac-toe" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

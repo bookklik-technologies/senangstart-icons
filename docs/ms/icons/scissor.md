@@ -10,26 +10,22 @@ title: Scissor
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="scissor"></ss-icon>
+<ss-icon icon="scissor"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="scissor" size="32"></ss-icon>
+<i class="ss ss-scissor"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="scissor" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="scissor" stroke="2"></ss-icon>
+<ss-icon icon="scissor" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

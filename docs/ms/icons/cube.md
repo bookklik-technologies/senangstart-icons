@@ -10,26 +10,22 @@ title: Cube
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="cube"></ss-icon>
+<ss-icon icon="cube"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="cube" size="32"></ss-icon>
+<i class="ss ss-cube"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="cube" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="cube" stroke="2"></ss-icon>
+<ss-icon icon="cube" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Video Camera
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="video-camera"></ss-icon>
+<ss-icon icon="video-camera"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="video-camera" size="32"></ss-icon>
+<i class="ss ss-video-camera"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="video-camera" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="video-camera" stroke="2"></ss-icon>
+<ss-icon icon="video-camera" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

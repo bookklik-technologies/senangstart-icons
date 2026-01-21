@@ -10,26 +10,22 @@ title: Arrow Path
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="arrow-path"></ss-icon>
+<ss-icon icon="arrow-path"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="arrow-path" size="32"></ss-icon>
+<i class="ss ss-arrow-path"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="arrow-path" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="arrow-path" stroke="2"></ss-icon>
+<ss-icon icon="arrow-path" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

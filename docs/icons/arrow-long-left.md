@@ -10,26 +10,22 @@ title: Arrow Long Left
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="arrow-long-left"></ss-icon>
+<ss-icon icon="arrow-long-left"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="arrow-long-left" size="32"></ss-icon>
+<i class="ss ss-arrow-long-left"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="arrow-long-left" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="arrow-long-left" stroke="2"></ss-icon>
+<ss-icon icon="arrow-long-left" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

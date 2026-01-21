@@ -10,26 +10,22 @@ title: Star
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="star"></ss-icon>
+<ss-icon icon="star"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="star" size="32"></ss-icon>
+<i class="ss ss-star"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="star" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="star" stroke="2"></ss-icon>
+<ss-icon icon="star" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

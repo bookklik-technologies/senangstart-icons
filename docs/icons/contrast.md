@@ -10,26 +10,22 @@ title: Contrast
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="contrast"></ss-icon>
+<ss-icon icon="contrast"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="contrast" size="32"></ss-icon>
+<i class="ss ss-contrast"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="contrast" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="contrast" stroke="2"></ss-icon>
+<ss-icon icon="contrast" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

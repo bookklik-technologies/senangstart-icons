@@ -10,26 +10,22 @@ title: Lock Closed
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="lock-closed"></ss-icon>
+<ss-icon icon="lock-closed"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="lock-closed" size="32"></ss-icon>
+<i class="ss ss-lock-closed"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="lock-closed" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="lock-closed" stroke="2"></ss-icon>
+<ss-icon icon="lock-closed" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

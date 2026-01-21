@@ -10,26 +10,22 @@ title: Currency Euro
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="currency-euro"></ss-icon>
+<ss-icon icon="currency-euro"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="currency-euro" size="32"></ss-icon>
+<i class="ss ss-currency-euro"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="currency-euro" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="currency-euro" stroke="2"></ss-icon>
+<ss-icon icon="currency-euro" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

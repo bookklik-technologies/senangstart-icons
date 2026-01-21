@@ -10,26 +10,22 @@ title: Shield Check
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="shield-check"></ss-icon>
+<ss-icon icon="shield-check"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="shield-check" size="32"></ss-icon>
+<i class="ss ss-shield-check"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="shield-check" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="shield-check" stroke="2"></ss-icon>
+<ss-icon icon="shield-check" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

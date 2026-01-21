@@ -10,26 +10,22 @@ title: Gradient
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="gradient"></ss-icon>
+<ss-icon icon="gradient"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="gradient" size="32"></ss-icon>
+<i class="ss ss-gradient"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="gradient" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="gradient" stroke="2"></ss-icon>
+<ss-icon icon="gradient" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

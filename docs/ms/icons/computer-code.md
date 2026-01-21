@@ -10,26 +10,22 @@ title: Computer Code
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="computer-code"></ss-icon>
+<ss-icon icon="computer-code"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="computer-code" size="32"></ss-icon>
+<i class="ss ss-computer-code"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="computer-code" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="computer-code" stroke="2"></ss-icon>
+<ss-icon icon="computer-code" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

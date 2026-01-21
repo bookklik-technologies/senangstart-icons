@@ -10,26 +10,22 @@ title: Heart
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="heart"></ss-icon>
+<ss-icon icon="heart"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="heart" size="32"></ss-icon>
+<i class="ss ss-heart"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="heart" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="heart" stroke="2"></ss-icon>
+<ss-icon icon="heart" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

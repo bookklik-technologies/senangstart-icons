@@ -10,26 +10,22 @@ title: User Minus
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="user-minus"></ss-icon>
+<ss-icon icon="user-minus"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="user-minus" size="32"></ss-icon>
+<i class="ss ss-user-minus"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="user-minus" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="user-minus" stroke="2"></ss-icon>
+<ss-icon icon="user-minus" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

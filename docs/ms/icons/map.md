@@ -10,26 +10,22 @@ title: Map
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="map"></ss-icon>
+<ss-icon icon="map"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="map" size="32"></ss-icon>
+<i class="ss ss-map"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="map" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="map" stroke="2"></ss-icon>
+<ss-icon icon="map" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

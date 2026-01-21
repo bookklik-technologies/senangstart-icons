@@ -10,26 +10,22 @@ title: Double Tick
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="double-tick"></ss-icon>
+<ss-icon icon="double-tick"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="double-tick" size="32"></ss-icon>
+<i class="ss ss-double-tick"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="double-tick" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="double-tick" stroke="2"></ss-icon>
+<ss-icon icon="double-tick" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

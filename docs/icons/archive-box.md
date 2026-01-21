@@ -10,26 +10,22 @@ title: Archive Box
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="archive-box"></ss-icon>
+<ss-icon icon="archive-box"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="archive-box" size="32"></ss-icon>
+<i class="ss ss-archive-box"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="archive-box" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="archive-box" stroke="2"></ss-icon>
+<ss-icon icon="archive-box" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

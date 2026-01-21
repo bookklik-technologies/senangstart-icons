@@ -10,26 +10,22 @@ title: Globe Alt
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="globe-alt"></ss-icon>
+<ss-icon icon="globe-alt"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="globe-alt" size="32"></ss-icon>
+<i class="ss ss-globe-alt"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="globe-alt" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="globe-alt" stroke="2"></ss-icon>
+<ss-icon icon="globe-alt" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

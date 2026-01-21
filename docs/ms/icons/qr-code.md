@@ -10,26 +10,22 @@ title: Qr Code
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="qr-code"></ss-icon>
+<ss-icon icon="qr-code"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="qr-code" size="32"></ss-icon>
+<i class="ss ss-qr-code"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="qr-code" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="qr-code" stroke="2"></ss-icon>
+<ss-icon icon="qr-code" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

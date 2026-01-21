@@ -10,26 +10,22 @@ title: Cylinder Half
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="cylinder-half"></ss-icon>
+<ss-icon icon="cylinder-half"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="cylinder-half" size="32"></ss-icon>
+<i class="ss ss-cylinder-half"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="cylinder-half" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="cylinder-half" stroke="2"></ss-icon>
+<ss-icon icon="cylinder-half" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Crosshair
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="crosshair"></ss-icon>
+<ss-icon icon="crosshair"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="crosshair" size="32"></ss-icon>
+<i class="ss ss-crosshair"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="crosshair" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="crosshair" stroke="2"></ss-icon>
+<ss-icon icon="crosshair" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

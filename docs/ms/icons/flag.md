@@ -10,26 +10,22 @@ title: Flag
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="flag"></ss-icon>
+<ss-icon icon="flag"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="flag" size="32"></ss-icon>
+<i class="ss ss-flag"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="flag" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="flag" stroke="2"></ss-icon>
+<ss-icon icon="flag" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

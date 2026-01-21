@@ -10,26 +10,22 @@ title: Panorama
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="panorama"></ss-icon>
+<ss-icon icon="panorama"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="panorama" size="32"></ss-icon>
+<i class="ss ss-panorama"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="panorama" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="panorama" stroke="2"></ss-icon>
+<ss-icon icon="panorama" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

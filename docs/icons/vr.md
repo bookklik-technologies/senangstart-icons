@@ -10,26 +10,22 @@ title: Vr
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="vr"></ss-icon>
+<ss-icon icon="vr"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="vr" size="32"></ss-icon>
+<i class="ss ss-vr"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="vr" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="vr" stroke="2"></ss-icon>
+<ss-icon icon="vr" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

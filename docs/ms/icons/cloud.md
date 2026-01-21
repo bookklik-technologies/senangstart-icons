@@ -10,26 +10,22 @@ title: Cloud
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="cloud"></ss-icon>
+<ss-icon icon="cloud"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="cloud" size="32"></ss-icon>
+<i class="ss ss-cloud"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="cloud" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="cloud" stroke="2"></ss-icon>
+<ss-icon icon="cloud" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Credit Card
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="credit-card"></ss-icon>
+<ss-icon icon="credit-card"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="credit-card" size="32"></ss-icon>
+<i class="ss ss-credit-card"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="credit-card" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="credit-card" stroke="2"></ss-icon>
+<ss-icon icon="credit-card" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

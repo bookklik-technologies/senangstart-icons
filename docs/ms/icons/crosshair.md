@@ -10,26 +10,22 @@ title: Crosshair
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="crosshair"></ss-icon>
+<ss-icon icon="crosshair"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="crosshair" size="32"></ss-icon>
+<i class="ss ss-crosshair"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="crosshair" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="crosshair" stroke="2"></ss-icon>
+<ss-icon icon="crosshair" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

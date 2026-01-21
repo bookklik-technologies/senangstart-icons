@@ -10,26 +10,22 @@ title: Alert
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="alert"></ss-icon>
+<ss-icon icon="alert"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="alert" size="32"></ss-icon>
+<i class="ss ss-alert"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="alert" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="alert" stroke="2"></ss-icon>
+<ss-icon icon="alert" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

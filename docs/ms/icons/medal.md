@@ -10,26 +10,22 @@ title: Medal
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="medal"></ss-icon>
+<ss-icon icon="medal"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="medal" size="32"></ss-icon>
+<i class="ss ss-medal"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="medal" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="medal" stroke="2"></ss-icon>
+<ss-icon icon="medal" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

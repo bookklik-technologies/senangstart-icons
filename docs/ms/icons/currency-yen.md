@@ -10,26 +10,22 @@ title: Currency Yen
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="currency-yen"></ss-icon>
+<ss-icon icon="currency-yen"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="currency-yen" size="32"></ss-icon>
+<i class="ss ss-currency-yen"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="currency-yen" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="currency-yen" stroke="2"></ss-icon>
+<ss-icon icon="currency-yen" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

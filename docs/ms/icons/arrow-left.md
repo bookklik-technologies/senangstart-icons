@@ -10,26 +10,22 @@ title: Arrow Left
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="arrow-left"></ss-icon>
+<ss-icon icon="arrow-left"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="arrow-left" size="32"></ss-icon>
+<i class="ss ss-arrow-left"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="arrow-left" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="arrow-left" stroke="2"></ss-icon>
+<ss-icon icon="arrow-left" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

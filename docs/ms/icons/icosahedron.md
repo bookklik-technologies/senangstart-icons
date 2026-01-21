@@ -10,26 +10,22 @@ title: Icosahedron
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="icosahedron"></ss-icon>
+<ss-icon icon="icosahedron"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="icosahedron" size="32"></ss-icon>
+<i class="ss ss-icosahedron"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="icosahedron" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="icosahedron" stroke="2"></ss-icon>
+<ss-icon icon="icosahedron" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

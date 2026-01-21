@@ -10,26 +10,22 @@ title: Arrow Right
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="arrow-right"></ss-icon>
+<ss-icon icon="arrow-right"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="arrow-right" size="32"></ss-icon>
+<i class="ss ss-arrow-right"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="arrow-right" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="arrow-right" stroke="2"></ss-icon>
+<ss-icon icon="arrow-right" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Chat Bubble Right Ellipsis
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="chat-bubble-right-ellipsis"></ss-icon>
+<ss-icon icon="chat-bubble-right-ellipsis"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="chat-bubble-right-ellipsis" size="32"></ss-icon>
+<i class="ss ss-chat-bubble-right-ellipsis"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="chat-bubble-right-ellipsis" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="chat-bubble-right-ellipsis" stroke="2"></ss-icon>
+<ss-icon icon="chat-bubble-right-ellipsis" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Book Stacked
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="book-stacked"></ss-icon>
+<ss-icon icon="book-stacked"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="book-stacked" size="32"></ss-icon>
+<i class="ss ss-book-stacked"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="book-stacked" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="book-stacked" stroke="2"></ss-icon>
+<ss-icon icon="book-stacked" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

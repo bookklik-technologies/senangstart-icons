@@ -10,26 +10,22 @@ title: Chevron Up
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chevron-up"></ss-icon>
+<ss-icon icon="chevron-up"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chevron-up" size="32"></ss-icon>
+<i class="ss ss-chevron-up"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chevron-up" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chevron-up" stroke="2"></ss-icon>
+<ss-icon icon="chevron-up" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

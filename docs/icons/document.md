@@ -10,26 +10,22 @@ title: Document
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="document"></ss-icon>
+<ss-icon icon="document"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="document" size="32"></ss-icon>
+<i class="ss ss-document"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="document" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="document" stroke="2"></ss-icon>
+<ss-icon icon="document" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

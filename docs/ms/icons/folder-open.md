@@ -10,26 +10,22 @@ title: Folder Open
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="folder-open"></ss-icon>
+<ss-icon icon="folder-open"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="folder-open" size="32"></ss-icon>
+<i class="ss ss-folder-open"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="folder-open" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="folder-open" stroke="2"></ss-icon>
+<ss-icon icon="folder-open" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

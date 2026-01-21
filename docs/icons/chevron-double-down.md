@@ -10,26 +10,22 @@ title: Chevron Double Down
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="chevron-double-down"></ss-icon>
+<ss-icon icon="chevron-double-down"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="chevron-double-down" size="32"></ss-icon>
+<i class="ss ss-chevron-double-down"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="chevron-double-down" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="chevron-double-down" stroke="2"></ss-icon>
+<ss-icon icon="chevron-double-down" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

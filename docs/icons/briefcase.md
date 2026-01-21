@@ -10,26 +10,22 @@ title: Briefcase
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="briefcase"></ss-icon>
+<ss-icon icon="briefcase"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="briefcase" size="32"></ss-icon>
+<i class="ss ss-briefcase"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="briefcase" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="briefcase" stroke="2"></ss-icon>
+<ss-icon icon="briefcase" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

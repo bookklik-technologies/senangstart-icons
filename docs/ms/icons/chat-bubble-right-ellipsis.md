@@ -10,26 +10,22 @@ title: Chat Bubble Right Ellipsis
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chat-bubble-right-ellipsis"></ss-icon>
+<ss-icon icon="chat-bubble-right-ellipsis"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chat-bubble-right-ellipsis" size="32"></ss-icon>
+<i class="ss ss-chat-bubble-right-ellipsis"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chat-bubble-right-ellipsis" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chat-bubble-right-ellipsis" stroke="2"></ss-icon>
+<ss-icon icon="chat-bubble-right-ellipsis" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

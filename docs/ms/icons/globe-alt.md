@@ -10,26 +10,22 @@ title: Globe Alt
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="globe-alt"></ss-icon>
+<ss-icon icon="globe-alt"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="globe-alt" size="32"></ss-icon>
+<i class="ss ss-globe-alt"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="globe-alt" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="globe-alt" stroke="2"></ss-icon>
+<ss-icon icon="globe-alt" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

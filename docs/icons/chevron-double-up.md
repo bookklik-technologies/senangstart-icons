@@ -10,26 +10,22 @@ title: Chevron Double Up
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="chevron-double-up"></ss-icon>
+<ss-icon icon="chevron-double-up"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="chevron-double-up" size="32"></ss-icon>
+<i class="ss ss-chevron-double-up"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="chevron-double-up" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="chevron-double-up" stroke="2"></ss-icon>
+<ss-icon icon="chevron-double-up" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

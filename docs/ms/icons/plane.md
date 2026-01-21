@@ -10,26 +10,22 @@ title: Plane
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="plane"></ss-icon>
+<ss-icon icon="plane"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="plane" size="32"></ss-icon>
+<i class="ss ss-plane"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="plane" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="plane" stroke="2"></ss-icon>
+<ss-icon icon="plane" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

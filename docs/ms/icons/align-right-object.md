@@ -10,26 +10,22 @@ title: Align Right Object
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="align-right-object"></ss-icon>
+<ss-icon icon="align-right-object"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="align-right-object" size="32"></ss-icon>
+<i class="ss ss-align-right-object"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="align-right-object" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="align-right-object" stroke="2"></ss-icon>
+<ss-icon icon="align-right-object" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

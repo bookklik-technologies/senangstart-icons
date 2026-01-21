@@ -10,26 +10,22 @@ title: Chat Bubble Right
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chat-bubble-right"></ss-icon>
+<ss-icon icon="chat-bubble-right"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chat-bubble-right" size="32"></ss-icon>
+<i class="ss ss-chat-bubble-right"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chat-bubble-right" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chat-bubble-right" stroke="2"></ss-icon>
+<ss-icon icon="chat-bubble-right" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

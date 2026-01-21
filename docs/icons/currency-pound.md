@@ -10,26 +10,22 @@ title: Currency Pound
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="currency-pound"></ss-icon>
+<ss-icon icon="currency-pound"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="currency-pound" size="32"></ss-icon>
+<i class="ss ss-currency-pound"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="currency-pound" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="currency-pound" stroke="2"></ss-icon>
+<ss-icon icon="currency-pound" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

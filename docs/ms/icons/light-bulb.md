@@ -10,26 +10,22 @@ title: Light Bulb
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="light-bulb"></ss-icon>
+<ss-icon icon="light-bulb"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="light-bulb" size="32"></ss-icon>
+<i class="ss ss-light-bulb"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="light-bulb" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="light-bulb" stroke="2"></ss-icon>
+<ss-icon icon="light-bulb" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Minimize
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="minimize"></ss-icon>
+<ss-icon icon="minimize"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="minimize" size="32"></ss-icon>
+<i class="ss ss-minimize"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="minimize" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="minimize" stroke="2"></ss-icon>
+<ss-icon icon="minimize" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

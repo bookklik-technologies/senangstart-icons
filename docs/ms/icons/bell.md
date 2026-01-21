@@ -10,26 +10,22 @@ title: Bell
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="bell"></ss-icon>
+<ss-icon icon="bell"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="bell" size="32"></ss-icon>
+<i class="ss ss-bell"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="bell" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="bell" stroke="2"></ss-icon>
+<ss-icon icon="bell" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

@@ -10,26 +10,22 @@ title: Chevron Double Right
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="chevron-double-right"></ss-icon>
+<ss-icon icon="chevron-double-right"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="chevron-double-right" size="32"></ss-icon>
+<i class="ss ss-chevron-double-right"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="chevron-double-right" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="chevron-double-right" stroke="2"></ss-icon>
+<ss-icon icon="chevron-double-right" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

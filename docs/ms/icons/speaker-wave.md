@@ -10,26 +10,22 @@ title: Speaker Wave
 
 ## Penggunaan
 
+### Dengan Komponen Web
+
 ```html
-<ss-icon name="speaker-wave"></ss-icon>
+<ss-icon icon="speaker-wave"></ss-icon>
 ```
 
-### Dengan saiz tersuai
+### Dengan tag ikon
 
 ```html
-<ss-icon name="speaker-wave" size="32"></ss-icon>
+<i class="ss ss-speaker-wave"></i>    
 ```
 
-### Dengan warna tersuai
+### Dengan ketebalan garisan tersuai
 
 ```html
-<ss-icon name="speaker-wave" color="#3b82f6"></ss-icon>
-```
-
-### Dengan lebar garisan tersuai
-
-```html
-<ss-icon name="speaker-wave" stroke="2"></ss-icon>
+<ss-icon icon="speaker-wave" thickness="1.2"></ss-icon>
 ```
 
 ## Butiran Ikon

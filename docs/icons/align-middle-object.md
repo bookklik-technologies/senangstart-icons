@@ -10,26 +10,22 @@ title: Align Middle Object
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="align-middle-object"></ss-icon>
+<ss-icon icon="align-middle-object"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="align-middle-object" size="32"></ss-icon>
+<i class="ss ss-align-middle-object"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="align-middle-object" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="align-middle-object" stroke="2"></ss-icon>
+<ss-icon icon="align-middle-object" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details

@@ -10,26 +10,22 @@ title: Currency Dollar
 
 ## Usage
 
+### With Web Components
+
 ```html
-<ss-icon name="currency-dollar"></ss-icon>
+<ss-icon icon="currency-dollar"></ss-icon>
 ```
 
-### With custom size
+### With icon tag
 
 ```html
-<ss-icon name="currency-dollar" size="32"></ss-icon>
+<i class="ss ss-currency-dollar"></i>    
 ```
 
-### With custom color
+### With custom stroke width / thickness
 
 ```html
-<ss-icon name="currency-dollar" color="#3b82f6"></ss-icon>
-```
-
-### With custom stroke width
-
-```html
-<ss-icon name="currency-dollar" stroke="2"></ss-icon>
+<ss-icon icon="currency-dollar" thickness="1.2"></ss-icon>
 ```
 
 ## Icon Details
