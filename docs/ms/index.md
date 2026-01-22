@@ -10,8 +10,8 @@ hero:
       text: Bermula
       link: /ms/guide/getting-started
     - theme: alt
-      text: Lihat Ikon
-      link: /ms/icons/
+      text: Lihat di GitHub
+      link: https://github.com/bookklik-technologies/senangstart-icons
   image:
     src: /assets/senangstart-icons-logo.svg
     alt: SenangStart Icons

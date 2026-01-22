@@ -10,8 +10,8 @@ hero:
       text: Get Started
       link: /guide/getting-started
     - theme: alt
-      text: View Icons
-      link: /icons/
+      text: View on GitHub
+      link: https://github.com/bookklik-technologies/senangstart-icons
   image:
     src: /assets/senangstart-icons-logo.svg
     alt: SenangStart Icons
