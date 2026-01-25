@@ -28,6 +28,12 @@ SenangStart Icons menawarkan:
 </html>
 ```
 
+## Untuk Pembantu AI
+
+Jika anda menggunakan pembantu pengekodan AI (seperti Cursor, Windsurf, atau lain-lain), anda boleh membekalkan fail konteks khusus kami kepada mereka. Fail ini mengandungi senarai penuh ikon yang tersedia dan arahan penggunaan dalam format yang dioptimumkan untuk LLM.
+
+Lokasi fail: [`https://bookklik-technologies.github.io/senangstart-icons/llms.txt`](https://bookklik-technologies.github.io/senangstart-icons/llms.txt)
+
 ## Langkah Seterusnya
 
 - [Pemasangan](/ms/guide/installation) - Pelajari pelbagai cara untuk memasang

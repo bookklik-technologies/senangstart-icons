@@ -28,6 +28,12 @@ SenangStart Icons offers:
 </html>
 ```
 
+## For AI Assistants
+
+If you are using AI coding assistants (like Cursor, Windsurf, or others), you can provide them with our specialized context file. This file contains the full list of available icons and usage instructions in a format optimized for LLMs.
+
+File location: [`https://bookklik-technologies.github.io/senangstart-icons/llms.txt`](https://bookklik-technologies.github.io/senangstart-icons/llms.txt)
+
 ## Next Steps
 
 - [Installation](/guide/installation) - Learn different ways to install
