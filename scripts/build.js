@@ -37,4 +37,8 @@ execSync('node scripts/build-icon-docs.js', { stdio: 'inherit' });
 console.log('\n⚙️  Step 4: Running Webpack...');
 execSync('npx webpack --mode production', { stdio: 'inherit' });
 
+// Step 5: Generate llms.txt
+console.log('\n📝 Step 5: Generating llms.txt...');
+execSync('node scripts/generate-llms-txt.js', { stdio: 'inherit' });
+
 console.log('\n✅ Build complete! Files copied to docs/public/');

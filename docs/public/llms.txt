@@ -1,0 +1,285 @@
+# @bookklik/senangstart-icons
+
+Curated Starter icons designed for web projects.
+
+Version: 1.0.10
+License: MIT
+
+## Usage
+
+### Web Components
+
+1. Include the script:
+   ```html
+   <script src="https://unpkg.com/@bookklik/senangstart-icons/dist/senangstart-icon.min.js"></script>
+   ```
+
+2. Use the component:
+   ```html
+   <ss-icon icon="icon-slug"></ss-icon>
+   <!-- Optional: thickness="1.5" -->
+   <ss-icon icon="icon-slug" thickness="2"></ss-icon>
+   ```
+
+### CSS Icons
+
+1. Include the CSS:
+   ```html
+   <link rel="stylesheet" href="https://unpkg.com/@bookklik/senangstart-icons/dist/senangstart-icon.css">
+   ```
+
+2. Use the class:
+   ```html
+   <i class="ss ss-icon-slug"></i>
+   ```
+
+## Available Icons (246)
+
+Format: Icon Name (`slug`) - Tags
+
+- Bars 3 (`bars-3`) - menu, hamburger, navigation, list, sidebar, drawer, options, toggle, bars-3
+- X Mark (`x-mark`) - close, delete, remove, cancel, stop, exit, deny, reject, wrong, clear, x-mark
+- Check (`check`) - tick, success, confirm, done, correct, ok, accept, valid, approve, complete, check
+- Double Tick (`double-tick`) - check, done, success, read, seen, all done, delivered, double-tick
+- Plus (`plus`) - add, create, new, expand, positive, math, increase, more, plus
+- Minus (`minus`) - subtract, delete, remove, collapse, negative, math, decrease, less, minus
+- Magnifying Glass (`magnifying-glass`) - search, find, zoom, explore, lookup, inspect, query, magnifying-glass, senangwebs, sw-index
+- Magnifying Glass Focus (`magnifying-glass-focus`) - search, find, zoom fit, locate, center, target, magnifying-glass-focus
+- Magnifying Glass Plus (`magnifying-glass-plus`) - search, find, zoom in, enlarge, detail, inspect, magnifying-glass-plus, plus
+- Magnifying Glass Minus (`magnifying-glass-minus`) - search, find, zoom out, shrink, overview, magnifying-glass-minus, minus
+- Home (`home`) - house, dashboard, main, start, root, building, residence, home
+- Cog 6 Tooth (`cog-6-tooth`) - settings, gear, options, config, preferences, maintenance, system, mechanism, setup, cog-6-tooth
+- Trash (`trash`) - delete, remove, bin, garbage, rubbish, waste, recycle, discard, junk, trash
+- Arrow Left (`arrow-left`) - back, previous, direction, point, west, return, arrow-left
+- Arrow Right (`arrow-right`) - forward, next, direction, point, east, proceed, arrow-right
+- Arrow Up (`arrow-up`) - top, direction, point, north, ascend, upload, arrow-up
+- Arrow Down (`arrow-down`) - bottom, direction, point, south, descend, download, arrow-down
+- Arrow Long Left (`arrow-long-left`) - back, previous, direction, pointer, west, arrow-long-left
+- Arrow Long Right (`arrow-long-right`) - forward, next, direction, pointer, east, arrow-long-right
+- Arrow Long Up (`arrow-long-up`) - top, direction, pointer, north, arrow-long-up
+- Arrow Long Down (`arrow-long-down`) - bottom, direction, pointer, south, arrow-long-down
+- Arrow Path (`arrow-path`) - refresh, reload, cycle, loop, sync, update, restart, arrow-path, senangwebs, sw-loading
+- Arrow Rotate Cw (`arrow-rotate-cw`) - rotate, refresh, reload, redo, spin, clockwise, repeat, arrow-rotate-cw
+- Arrow Rotate Ccw (`arrow-rotate-ccw`) - rotate, undo, back, return, counter-clockwise, revert, arrow-rotate-ccw
+- Rotate Add (`rotate-add`) - rotate, arrow-rotate-add
+- Rotate Minus (`rotate-minus`) - rotate, rotate-minus
+- Arrow Top Right On Square (`arrow-top-right-on-square`) - external, link, open, export, new tab, share, arrow-top-right-on-square
+- Arrow Right On Rectangle (`arrow-right-on-rectangle`) - logout, exit, signout, leave, door, arrow-right-on-rectangle
+- Arrow Left On Rectangle (`arrow-left-on-rectangle`) - login, enter, signin, join, access, door, arrow-left-on-rectangle
+- Chevron Left (`chevron-left`) - back, previous, carousel, slider, pagination, chevron-left
+- Chevron Right (`chevron-right`) - forward, next, carousel, slider, pagination, chevron-right
+- Chevron Up (`chevron-up`) - top, collapse, accordion, fold, dropdown, ascend, chevron-up
+- Chevron Down (`chevron-down`) - bottom, expand, accordion, unfold, dropdown, descend, chevron-down
+- Chevron Double Left (`chevron-double-left`) - back, previous, fast, rewind, start, first, chevron-double-left
+- Chevron Double Right (`chevron-double-right`) - forward, next, fast, fast-forward, end, last, chevron-double-right
+- Chevron Double Up (`chevron-double-up`) - top, collapse, accordion, fold, dropdown, ascend, chevron-double-up
+- Chevron Double Down (`chevron-double-down`) - bottom, expand, accordion, unfold, dropdown, descend, chevron-double-down
+- Envelope (`envelope`) - mail, email, message, contact, letter, inbox, send, receive, envelope
+- Envelope Open (`envelope-open`) - mail, email, read, newsletter, draft, envelope-open
+- Chat Bubble Left (`chat-bubble-left`) - message, comment, talk, text, sms, feedback, dialog, chat-bubble-left
+- Chat Bubble Right (`chat-bubble-right`) - message, comment, talk, reply, response, chat-bubble-right
+- Chat Bubble Left Ellipsis (`chat-bubble-left-ellipsis`) - message, comment, typing, waiting, loading, chat-bubble-left-ellipsis
+- Chat Bubble Right Ellipsis (`chat-bubble-right-ellipsis`) - message, comment, typing, response, active, chat-bubble-right-ellipsis
+- Chat Bubble Left Right (`chat-bubble-left-right`) - conversation, exchange, discussion, interview, forum, chat-bubble-left-right
+- Phone (`phone`) - call, contact, mobile, telephone, support, dial, hotline, phone
+- Phone X Mark (`phone-x-mark`) - missed call, hang up, disconnect, reject call, busy, phone-x-mark
+- User (`user`) - person, profile, account, member, avatar, admin, human, user
+- User Circle (`user-circle`) - person, profile, account, portrait, avatar, user-circle
+- User Plus (`user-plus`) - add user, register, signup, new member, invite, friend, user-plus
+- User Minus (`user-minus`) - remove user, delete account, unfriend, block, user-minus
+- User Group (`user-group`) - people, team, community, audience, staff, members, user-group
+- Users (`users`) - people, team, community, public, clients, users
+- Alert (`alert`) - warning, danger, notification, popup, window, modal, dialog, alert, senangwebs, sw-modals
+- Play (`play`) - start, media, video, music, resume, stream, play
+- Pause (`pause`) - stop, media, video, music, hold, break, pause
+- Stop (`stop`) - media, video, end, terminate, halt, stop
+- Play Circle (`play-circle`) - start, media, video, button, player, play-circle
+- Pause Circle (`pause-circle`) - stop, media, hold, player, pause-circle
+- Stop Circle (`stop-circle`) - stop, media, hold, player, stop-circle
+- Speaker Wave (`speaker-wave`) - sound, volume, audio, noise, listen, speaker-wave
+- Speaker X Mark (`speaker-x-mark`) - mute, silent, audio, off, quiet, speaker-x-mark
+- Microphone (`microphone`) - record, audio, voice, speech, podcast, microphone
+- Microphone Mute (`microphone-mute`) - mute, silent, voice, off, disabled, microphone-mute
+- Video Camera (`video-camera`) - movie, film, record, cinema, camcorder, meeting, video-camera
+- Camera (`camera`) - photo, picture, image, capture, snapshot, camera
+- Photo (`photo`) - image, picture, gallery, media, landscape, photo, senangwebs, lightbox, sw-gallery
+- Panorama (`panorama`) - image, picture, wide, view, landscape, panorama, senangwebs, vr, sw-tour
+- Musical Note (`musical-note`) - audio, song, sound, melody, tune, musical-note
+- Code (`code`) - coding, programming, developer, syntax, script, dev, code
+- Console (`console`) - terminal, cli, command, prompt, system, admin, console
+- Horizontal 3 Dots (`horizontal-3-dots`) - menu, more, options, ellipsis, meatball, overflow, horizontal-3-dots
+- Vertical 3 Dots (`vertical-3-dots`) - menu, more, options, ellipsis, kebab, overflow, vertical-3-dots
+- Save (`save`) - disk, floppy, store, keep, record, save
+- Computer Laptop (`computer-laptop`) - device, macbook, pc, tech, screen, computer-laptop
+- Computer Code (`computer-code`) - develop, program, syntax, developer, screen, computer-code, senangwebs, code, sw-one
+- Computer Desktop (`computer-desktop`) - monitor, screen, pc, imac, display, workstation, computer-desktop
+- Device Phone Mobile (`device-phone-mobile`) - iphone, smartphone, cell, screen, app, device-phone-mobile, senangwebs, sw-roll
+- Device Tablet (`device-tablet`) - ipad, kindle, reader, screen, mobile, device-tablet
+- Battery 0 (`battery-0`) - power, empty, charge, dead, status, battery-0
+- Battery 10 (`battery-10`) - power, low, charge, status, battery-10
+- Battery 50 (`battery-50`) - power, half, medium, charge, status, battery-50
+- Battery 100 (`battery-100`) - power, full, complete, charged, status, energy, battery-100
+- Controller (`controller`) - game, play, joystick, gamepad, console, controller, senangwebs, vr, sw-verse
+- Game (`game`) - controller, play, joystick, arcade, entertainment, game, senangwebs, 2d, sw-xperience
+- Window (`window`) - browser, app, ui, program, application, window
+- Shopping Cart (`shopping-cart`) - buy, checkout, store, retail, ecommerce, shopping-cart
+- Shopping Bag (`shopping-bag`) - buy, checkout, store, mall, retail, shopping-bag
+- Basket (`basket`) - buy, checkout, store, market, grocery, basket, senangwebs, cart, shop, sw-buy
+- Credit Card (`credit-card`) - payment, money, purchase, debit, plastic, credit-card
+- Banknotes (`banknotes`) - money, cash, payment, bill, finance, banknotes
+- Calendar (`calendar`) - date, schedule, time, event, plan, month, year, calendar
+- Calendar Plus (`calendar-plus`) - date, schedule, time, calendar, add, new event, create, plus
+- Calendar Minus (`calendar-minus`) - date, schedule, time, calendar, subtract, remove event, delete, minus
+- Calendar Approve (`calendar-approve`) - date, schedule, time, calendar, approve, check, accept, booked
+- Calendar Reject (`calendar-reject`) - date, schedule, time, calendar, reject, x-mark, remove, cancel
+- Calendar Days (`calendar-days`) - date, schedule, time, week, month, agenda, calendar-days
+- Briefcase (`briefcase`) - work, business, office, job, portfolio, briefcase
+- Presentation Chart Line (`presentation-chart-line`) - analytics, graph, stats, report, data, trends, presentation-chart-line
+- Presentation Media (`presentation-media`) - analytics, graph, screen, slide, projection, presentation-media, senangwebs, presentation, sw-deck
+- Whiteboard (`whiteboard`) - draw, present, board, stand, easel, whiteboard, senangwebs, vector, sw-whiteboard
+- Chart Line (`chart-line`) - graph, analytics, stats, growth, trends, chart-line
+- Chart Bar (`chart-bar`) - graph, analytics, stats, comparison, data, chart-bar
+- Chart Pie (`chart-pie`) - graph, analytics, stats, ratio, percentage, chart-pie, senangwebs, chart, sw-yield
+- Currency Dollar (`currency-dollar`) - money, price, cost, usd, cash, finance, currency-dollar
+- Currency Euro (`currency-euro`) - money, price, cost, eur, cash, finance, currency-euro
+- Currency Pound (`currency-pound`) - money, price, cost, gbp, cash, finance, currency-pound
+- Currency Yen (`currency-yen`) - money, price, cost, jpy, cash, finance, currency-yen
+- Currency Ringgit (`currency-ringgit`) - money, price, cost, myr, cash, finance, currency-ringgit
+- Tabs (`tabs`) - browser, ui, navigation, group, folder, tabs, senangwebs, sw-herd
+- Document (`document`) - file, paper, page, sheet, record, document
+- Document Text (`document-text`) - file, paper, page, content, article, document-text
+- Document Duplicate (`document-duplicate`) - copy, clone, file, replicate, multiple, document-duplicate
+- Folder (`folder`) - directory, organize, file, archive, group, folder
+- Folder Open (`folder-open`) - directory, organize, file, browse, folder-open, senangwebs, sw-unfold
+- Folder Plus (`folder-plus`) - add folder, new directory, create folder, organize, folder-plus
+- Folder minus (`folder-minus`) - remove folder, delete directory, subtract folder, folder-minus
+- Clipboard (`clipboard`) - copy, paste, board, notes, tasks, survey, clipboard, senangwebs, sw-jot
+- Clipboard Document Check (`clipboard-document-check`) - checklist, task, done, audit, inventory, clipboard-document-check
+- Paper Clip (`paper-clip`) - attach, file, link, office, paper-clip
+- Archive Box (`archive-box`) - store, history, backup, inventory, storage, archive-box
+- Inbox (`inbox`) - email, message, tray, receive, box, inbox
+- Book Open (`book-open`) - read, learn, library, study, education, book-open, senangwebs, sw-story
+- Book Close (`book-close`) - read, learn, library, notebook, journal, book-close
+- Book Stacked (`book-stacked`) - read, learn, library, pile, education, book-stacked
+- Lock Closed (`lock-closed`) - secure, password, private, protect, auth, login, lock-closed
+- Lock Open (`lock-open`) - unlock, public, access, insecure, logout, lock-open
+- Key (`key`) - password, access, secure, admin, unlock, token, key
+- Shield Check (`shield-check`) - secure, safe, verified, protected, antivirus, shield-check
+- Shield Exclamation (`shield-exclamation`) - danger, warning, security, risk, unsecured, shield-exclamation
+- Exclamation Circle (`exclamation-circle`) - error, warning, alert, attention, problem, exclamation-circle
+- Exclamation Triangle (`exclamation-triangle`) - warning, danger, caution, risk, hazard, exclamation-triangle
+- Information Circle (`information-circle`) - help, details, info, about, hint, guide, information-circle
+- Question Mark Circle (`question-mark-circle`) - help, faq, support, unknown, query, question-mark-circle, senangwebs, question, sw-quiz
+- Bell (`bell`) - notification, alert, alarm, reminder, ring, bell, senangwebs, prompt, sw-notices
+- Bell Alert (`bell-alert`) - notification, alert, alarm, active, urgent, reminder, bell-alert
+- Eye (`eye`) - view, show, visible, watch, see, reveal, eye
+- Eye Slash (`eye-slash`) - hide, invisible, password, conceal, blind, off, eye-slash
+- Light Bulb (`light-bulb`) - idea, tip, solution, inspiration, lamp, light-bulb
+- Bolt (`bolt`) - energy, power, fast, lightning, flash, electric, bolt
+- Moon (`moon`) - dark mode, night, sleep, weather, crescent, moon
+- Sun (`sun`) - light mode, day, bright, weather, sunny, sun
+- Cloud (`cloud`) - weather, sky, overcast, upload, server, cloud
+- Thunder (`thunder`) - weather, storm, lightning, rain, flash, thunder
+- Star (`star`) - favorite, rating, like, review, bookmark, featured, star
+- Heart (`heart`) - like, love, favorite, save, health, romance, heart
+- Hand Thumb Up (`hand-thumb-up`) - like, approve, good, yes, agree, vote, hand-thumb-up
+- Hand Thumb Down (`hand-thumb-down`) - dislike, reject, bad, no, disagree, vote, hand-thumb-down
+- Hand (`hand`) - hand, pointer, select, palm, open, click, human, gesture
+- Hand Grab (`hand-grab`) - hand, grab, clenched, fist, drag, hold, select, gesture
+- Flag (`flag`) - report, country, goal, mark, banner, finish, flag
+- Bookmark (`bookmark`) - save, favorite, tag, marker, read later, bookmark
+- Map (`map`) - location, travel, guide, navigation, place, map
+- Map Pin (`map-pin`) - location, marker, spot, point, destination, gps, map-pin
+- Globe Alt (`globe-alt`) - world, internet, web, earth, network, global, globe-alt
+- Truck (`truck`) - delivery, shipping, transport, vehicle, logistics, lorry, truck
+- Cake (`cake`) - birthday, celebrate, party, dessert, food, cake
+- Gift (`gift`) - present, reward, bonus, box, surprise, giveaway, gift
+- Trophy (`trophy`) - award, winner, achievement, champion, prize, trophy
+- Medal (`medal`) - award, achievement, winner, badge, ribbon, medal
+- Qr Code (`qr-code`) - scan, code, link, barcode, reader, qr-code
+- Wifi (`wifi`) - internet, connection, network, signal, online, wifi
+- Vr (`vr`) - virtual reality, glasses, game, headset, metaverse, vr
+- AR (`ar`) - augmented reality, 3d, cube, virtual, model, ar
+- Group Object (`group-object`) - combine, merge, join, select, design, group-object
+- Ungroup Object (`ungroup-object`) - separate, split, detach, divide, design, ungroup-object
+- Align Left Object (`align-left-object`) - align, left, object, layout, position, design
+- Align Center Object (`align-center-object`) - align, center, object, layout, position, design
+- Align Right Object (`align-right-object`) - align, right, object, layout, position, design
+- Align Top Object (`align-top-object`) - align, top, object, layout, position, design
+- Align Middle Object (`align-middle-object`) - align, middle, object, layout, position, design
+- Align Bottom Object (`align-bottom-object`) - align, bottom, object, layout, position, design
+- Carousel (`carousel`) - slider, gallery, images, swipe, carousel, senangwebs, sw-frame
+- Reel (`reel`) - video, movie, film, tape, cinema, reel, senangwebs, sw-reel
+- Container (`container`) - container, box, center, layout, design
+- Flip Horizontal (`flip-horizontal`) - flip, horizontal, flip-horizontal, design
+- Flip Vertical (`flip-vertical`) - flip, vertical, flip-vertical, design
+- Grid (`grid`) - layout, view, table, cells, pattern, grid
+- Tic Tac Toe (`tic-tac-toe`) - layout, view, game, grid, tic-tac-toe
+- Robot (`robot`) - bot, ai, automation, toy, android, machine, robot
+- Chatbot (`chatbot`) - bot, ai, support, chat, assistant, chatbot, senangwebs, sw-chatbot
+- Arrow Left Arrow Right (`arrow-left-arrow-right`) - swap, exchange, switch, trade, compare, transfer, arrow-left-arrow-right
+- Arrow Up Arrow Down (`arrow-up-arrow-down`) - sort, swap, switch, order, transfer, vertical, arrow-up-arrow-down
+- Arrow Left Right (`arrow-left-right`) - swap, horizontal, resize, stretch, expand, arrow-left-right
+- Arrow Up Down (`arrow-up-down`) - swap, vertical, resize, stretch, expand, arrow-up-down
+- Arrow Up Down Left Right (`arrow-up-down-left-right`) - move, all directions, pan, drag, position, arrow-up-down-left-right
+- Maximize (`maximize`) - expand, fullscreen, enlarge, scale up, maximize
+- Minimize (`minimize`) - collapse, small, shrink, scale down, minimize
+- Compress (`compress`) - compress, small, shrink, scale down, minimize
+- Expand (`expand`) - expand, large, grow, scale up, maximize
+- Layout (`layout`) - dashboard, ui, grid, interface, sidebar, template, layout
+- Table (`table`) - table, grid, spreadsheet, data, rows, columns, cells, layout
+- Focus (`focus`) - focus, lock in, scan, fullscreen, aim, target, center
+- Crosshair (`crosshair`) - crosshair, aim, target, center, focus, game
+- Hourglass 0 (`hourglass-0`) - time, wait, loading, start, timer, hourglass-0
+- Hourglass 50 (`hourglass-50`) - time, wait, loading, halfway, process, hourglass-50
+- Hourglass 80 (`hourglass-80`) - time, wait, loading, almost done, pending, hourglass-80
+- Hourglass 100 (`hourglass-100`) - time, wait, loading, done, finished, complete, hourglass-100
+- Clock (`clock`) - time, watch, schedule, duration, timer, clock, senangwebs, time, sw-epoch
+- Time Reset (`time-reset`) - undo, history, restore, backwards, rewind, time-reset
+- Layer Stacks (`layer-stacks`) - layers, stack, group, collection, database, layer-stacks
+- Cube (`cube`) - 3d, block, shape, geometry, box, cube, senangwebs, model, sw-kiln
+- Sphere (`sphere`) - shape, round, 3d, circle, geometry, ball, sphere
+- Cylinder (`cylinder`) - shape, round, 3d, geometry, column, tube, cylinder
+- Tube (`tube`) - shape, round, 3d, pipe, hollow, geometry, tube
+- Cone (`cone`) - shape, triangle, 3d, geometry, pointed, cone
+- Pyramid (`pyramid`) - shape, triangle, 3d, geometry, egypt, pyramid
+- Polygon (`polygon`) - shape, polygon, 3d, mesh, geometry, hexagon, polygon
+- Torus (`torus`) - shape, donut, 3d, ring, circular, geometry, torus
+- Plane (`plane`) - shape, flat, 3d, surface, floor, ground, plane
+- Wedge (`wedge`) - shape, triangle, 3d, incline, slope, ramp, wedge
+- Roof (`roof`) - shape, prism, 3d, house, top, shelter, roof
+- Cylinder Half (`cylinder-half`) - shape, half, 3d, cut, section, geometry, cylinder-half
+- Sphere Half (`sphere-half`) - shape, hemisphere, 3d, dome, half, round, sphere-half
+- Heart Extruded (`heart-extruded`) - shape, love, 3d, valentine, like, favorite, heart-extruded
+- Torus Knot (`torus-knot`) - shape, knot, 3d, twisted, loop, geometry, torus-knot
+- Tetrahedron (`tetrahedron`) - shape, pyramid, 3d, triangle, platonic, geometry, tetrahedron
+- Octahedron (`octahedron`) - shape, diamond, 3d, crystal, platonic, geometry, octahedron
+- Icosahedron (`icosahedron`) - shape, poly, 3d, d20, game, platonic, geometry, icosahedron
+- Dodecahedron (`dodecahedron`) - shape, pentagon, 3d, d12, platonic, geometry, dodecahedron
+- Sparkles (`sparkles`) - ai, magic, new, shine, clean, glitter, sparkles, senangwebs, motion, sw-animations
+- Magic Wand (`magic-wand`) - magic, wizard, spell, edit, fix, auto, enhance, magic-wand
+- Contrast (`contrast`) - display, accessibility, brightness, mode, theme, contrast
+- Gradient (`gradient`) - gradient, color, design, log
+- Cursor (`cursor`) - pointer, mouse, click, select, arrow, cursor
+- Marquee (`marquee`) - marquee, select, arrow, cursor
+- Shapes (`shapes`) - shapes, triangle, circle, square, geometry, design, graphic
+- Square (`square`) - shape, box, stop, block, geometry, square
+- Rectangle (`rectangle`) - shape, box, card, geometry, rectangle
+- Circle (`circle`) - shape, round, radio, dot, geometry, circle
+- Diamond (`diamond`) - shape, rhombus, gem, card, geometry, diamond
+- Hexagon (`hexagon`) - shape, polygon, nut, geometry, hexagon
+- Draw Line (`draw-line`) - edit, write, draw, line, stroke, diagonal, draw-line
+- Draw Curve (`draw-curve`) - draw, curve, line, s-curve, spline, vector, bezier
+- Pencil (`pencil`) - edit, write, draw, modify, update, pencil
+- Brush (`brush`) - brush, paint, draw, art, design, style, edit, creative, stroke, painting
+- Eraser (`eraser`) - delete, remove, clear, rub, cleanup, eraser
+- Crop (`crop`) - crop, trim, cut, resize, select, frame, boundary, image, edit
+- Scissor (`scissor`) - cut, tool, clip, trim, snip, scissor, senangwebs, sw-photobooth
+- Font (`font`) - text, typography, letter, character, style, font
+- Text (`text`) - text, typography, letter, type, input, write
+- Text Align Center (`text-align-center`) - format, paragraph, center, middle, text-align-center
+- Text Align Left (`text-align-left`) - format, paragraph, left, start, text-align-left
+- Text Align Right (`text-align-right`) - format, paragraph, right, end, text-align-right
+- Text Align Justify (`text-align-justify`) - format, paragraph, justify, stretch, text-align-justify
+- Sliders Horizontal (`sliders-horizontal`) - settings, filters, adjust, levels, controls, sliders-horizontal
+- Sliders Vertical (`sliders-vertical`) - settings, filters, adjust, levels, controls, sliders-vertical
