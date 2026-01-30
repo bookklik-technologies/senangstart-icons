@@ -2,7 +2,7 @@
 
 Curated Starter icons designed for web projects.
 
-Version: 1.0.13
+Version: 1.0.14
 License: MIT
 
 ## Usage
