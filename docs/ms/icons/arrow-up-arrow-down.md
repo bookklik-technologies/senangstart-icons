@@ -28,6 +28,14 @@ title: Arrow Up Arrow Down
 <ss-icon icon="arrow-up-arrow-down" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['arrow-up-arrow-down'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

@@ -28,6 +28,14 @@ title: Map Pin
 <ss-icon icon="map-pin" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['map-pin'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

@@ -28,6 +28,14 @@ title: Arrow Left On Rectangle
 <ss-icon icon="arrow-left-on-rectangle" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['arrow-left-on-rectangle'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

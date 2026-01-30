@@ -28,6 +28,14 @@ title: Layer Stacks
 <ss-icon icon="layer-stacks" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['layer-stacks'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

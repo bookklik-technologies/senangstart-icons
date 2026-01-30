@@ -28,6 +28,14 @@ title: Horizontal 3 Dots
 <ss-icon icon="horizontal-3-dots" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['horizontal-3-dots'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

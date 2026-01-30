@@ -28,6 +28,14 @@ title: Diamond
 <ss-icon icon="diamond" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['diamond'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

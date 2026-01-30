@@ -28,6 +28,14 @@ title: Cylinder
 <ss-icon icon="cylinder" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['cylinder'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

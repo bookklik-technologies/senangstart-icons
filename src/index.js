@@ -5,5 +5,4 @@ import "./ss-loader.js";
 import "./style.css";
 
 // Export icons for library usage
-export { icons };
-export default { icons };
+export default icons;

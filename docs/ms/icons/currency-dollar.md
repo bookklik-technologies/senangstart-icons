@@ -28,6 +28,14 @@ title: Currency Dollar
 <ss-icon icon="currency-dollar" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['currency-dollar'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

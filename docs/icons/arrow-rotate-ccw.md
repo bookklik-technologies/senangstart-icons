@@ -28,6 +28,14 @@ title: Arrow Rotate Ccw
 <ss-icon icon="arrow-rotate-ccw" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['arrow-rotate-ccw'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

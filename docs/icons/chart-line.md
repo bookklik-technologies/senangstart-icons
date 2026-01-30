@@ -28,6 +28,14 @@ title: Chart Line
 <ss-icon icon="chart-line" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['chart-line'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

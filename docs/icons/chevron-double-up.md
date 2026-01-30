@@ -28,6 +28,14 @@ title: Chevron Double Up
 <ss-icon icon="chevron-double-up" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['chevron-double-up'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

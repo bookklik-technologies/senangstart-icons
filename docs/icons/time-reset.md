@@ -28,6 +28,14 @@ title: Time Reset
 <ss-icon icon="time-reset" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['time-reset'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

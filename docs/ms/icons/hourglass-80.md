@@ -28,6 +28,14 @@ title: Hourglass 80
 <ss-icon icon="hourglass-80" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['hourglass-80'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

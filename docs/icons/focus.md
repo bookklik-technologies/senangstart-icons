@@ -28,6 +28,14 @@ title: Focus
 <ss-icon icon="focus" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['focus'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

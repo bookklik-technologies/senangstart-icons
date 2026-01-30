@@ -28,6 +28,14 @@ title: Bolt
 <ss-icon icon="bolt" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['bolt'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

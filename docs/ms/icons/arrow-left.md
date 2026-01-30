@@ -28,6 +28,14 @@ title: Arrow Left
 <ss-icon icon="arrow-left" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['arrow-left'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

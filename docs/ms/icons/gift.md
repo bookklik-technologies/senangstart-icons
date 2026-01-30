@@ -28,6 +28,14 @@ title: Gift
 <ss-icon icon="gift" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['gift'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

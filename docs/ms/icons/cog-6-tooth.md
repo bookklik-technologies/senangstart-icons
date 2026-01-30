@@ -28,6 +28,14 @@ title: Cog 6 Tooth
 <ss-icon icon="cog-6-tooth" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['cog-6-tooth'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

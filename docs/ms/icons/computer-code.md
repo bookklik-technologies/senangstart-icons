@@ -28,6 +28,14 @@ title: Computer Code
 <ss-icon icon="computer-code" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['computer-code'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

@@ -28,6 +28,14 @@ title: Pencil
 <ss-icon icon="pencil" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['pencil'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

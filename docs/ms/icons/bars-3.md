@@ -28,6 +28,14 @@ title: Bars 3
 <ss-icon icon="bars-3" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['bars-3'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

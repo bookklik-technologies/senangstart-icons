@@ -28,6 +28,14 @@ title: Text Align Center
 <ss-icon icon="text-align-center" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['text-align-center'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

@@ -28,6 +28,14 @@ title: X Mark
 <ss-icon icon="x-mark" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['x-mark'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

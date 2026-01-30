@@ -28,6 +28,14 @@ title: Arrow Right On Rectangle
 <ss-icon icon="arrow-right-on-rectangle" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['arrow-right-on-rectangle'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

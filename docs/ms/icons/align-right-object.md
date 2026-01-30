@@ -28,6 +28,14 @@ title: Align Right Object
 <ss-icon icon="align-right-object" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['align-right-object'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

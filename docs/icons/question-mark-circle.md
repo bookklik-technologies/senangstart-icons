@@ -28,6 +28,14 @@ title: Question Mark Circle
 <ss-icon icon="question-mark-circle" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['question-mark-circle'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

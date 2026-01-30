@@ -28,6 +28,14 @@ title: Phone X Mark
 <ss-icon icon="phone-x-mark" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['phone-x-mark'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

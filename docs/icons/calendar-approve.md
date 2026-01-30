@@ -28,6 +28,14 @@ title: Calendar Approve
 <ss-icon icon="calendar-approve" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['calendar-approve'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

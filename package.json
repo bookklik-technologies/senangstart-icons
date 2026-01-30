@@ -1,8 +1,13 @@
 {
   "name": "@bookklik/senangstart-icons",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Curated Starter icons designed for web projects.",
   "main": "dist/senangstart-icon.min.js",
+  "exports": {
+    ".": "./dist/senangstart-icon.min.js",
+    "./icons": "./dist/icons.min.js",
+    "./style.css": "./dist/senangstart.min.css"
+  },
   "scripts": {
     "build:svg": "node scripts/build-svgs.js",
     "build:icon-docs": "node scripts/build-icon-docs.js",

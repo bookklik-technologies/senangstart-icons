@@ -28,6 +28,14 @@ title: Align Top Object
 <ss-icon icon="align-top-object" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['align-top-object'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

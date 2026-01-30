@@ -28,6 +28,14 @@ title: Eye Slash
 <ss-icon icon="eye-slash" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['eye-slash'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

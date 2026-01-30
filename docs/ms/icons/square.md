@@ -28,6 +28,14 @@ title: Square
 <ss-icon icon="square" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['square'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

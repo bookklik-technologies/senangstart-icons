@@ -28,6 +28,14 @@ title: Container
 <ss-icon icon="container" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['container'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

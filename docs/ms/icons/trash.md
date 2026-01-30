@@ -28,6 +28,14 @@ title: Trash
 <ss-icon icon="trash" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['trash'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

@@ -28,6 +28,14 @@ title: Save
 <ss-icon icon="save" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['save'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

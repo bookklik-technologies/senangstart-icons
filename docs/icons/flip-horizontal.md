@@ -28,6 +28,14 @@ title: Flip Horizontal
 <ss-icon icon="flip-horizontal" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['flip-horizontal'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

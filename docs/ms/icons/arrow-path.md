@@ -28,6 +28,14 @@ title: Arrow Path
 <ss-icon icon="arrow-path" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['arrow-path'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

@@ -28,6 +28,14 @@ title: Arrow Long Up
 <ss-icon icon="arrow-long-up" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['arrow-long-up'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

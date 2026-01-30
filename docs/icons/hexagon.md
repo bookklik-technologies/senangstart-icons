@@ -28,6 +28,14 @@ title: Hexagon
 <ss-icon icon="hexagon" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['hexagon'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

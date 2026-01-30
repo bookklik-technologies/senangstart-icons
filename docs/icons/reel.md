@@ -28,6 +28,14 @@ title: Reel
 <ss-icon icon="reel" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['reel'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

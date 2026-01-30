@@ -28,6 +28,14 @@ title: Tube
 <ss-icon icon="tube" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['tube'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

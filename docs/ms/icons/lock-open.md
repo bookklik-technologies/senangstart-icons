@@ -28,6 +28,14 @@ title: Lock Open
 <ss-icon icon="lock-open" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['lock-open'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

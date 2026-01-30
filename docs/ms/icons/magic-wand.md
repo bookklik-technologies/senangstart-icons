@@ -28,6 +28,14 @@ title: Magic Wand
 <ss-icon icon="magic-wand" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['magic-wand'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

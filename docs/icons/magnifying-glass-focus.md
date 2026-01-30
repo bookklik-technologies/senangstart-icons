@@ -28,6 +28,14 @@ title: Magnifying Glass Focus
 <ss-icon icon="magnifying-glass-focus" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['magnifying-glass-focus'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

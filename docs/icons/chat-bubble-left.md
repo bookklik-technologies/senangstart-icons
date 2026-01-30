@@ -28,6 +28,14 @@ title: Chat Bubble Left
 <ss-icon icon="chat-bubble-left" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['chat-bubble-left'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

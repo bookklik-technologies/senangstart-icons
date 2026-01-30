@@ -28,6 +28,14 @@ title: Vertical 3 Dots
 <ss-icon icon="vertical-3-dots" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['vertical-3-dots'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

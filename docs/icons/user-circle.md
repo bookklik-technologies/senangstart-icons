@@ -28,6 +28,14 @@ title: User Circle
 <ss-icon icon="user-circle" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['user-circle'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

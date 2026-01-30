@@ -28,6 +28,14 @@ title: Truck
 <ss-icon icon="truck" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['truck'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

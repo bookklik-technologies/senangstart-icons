@@ -28,6 +28,14 @@ title: Text Align Right
 <ss-icon icon="text-align-right" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['text-align-right'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

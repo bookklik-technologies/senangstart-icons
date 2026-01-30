@@ -28,6 +28,14 @@ title: Tic Tac Toe
 <ss-icon icon="tic-tac-toe" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['tic-tac-toe'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

@@ -21,6 +21,13 @@ function copyDir(src, dest) {
 
 console.log('🔨 Building SenangStart Icons...\n');
 
+// Step 0: Clean dist
+const distDir = path.resolve(__dirname, "../dist");
+if (fs.existsSync(distDir)) {
+    console.log('🧹 Cleaning dist directory...');
+    fs.rmSync(distDir, { recursive: true, force: true });
+}
+
 // Step 1: Build SVGs
 console.log('📦 Step 1: Building SVGs...');
 execSync('node scripts/build-svgs.js', { stdio: 'inherit' });

@@ -10,6 +10,14 @@ Curated Starter icons designed for web projects. `senangstart-icons` provides a 
 npm i @bookklik/senangstart-icons
 ```
 
+You can then import individual icons (supports tree-shaking):
+
+```js
+import { Home, User } from '@bookklik/senangstart-icons';
+// or for zero side-effects:
+import { Home } from '@bookklik/senangstart-icons/icons';
+```
+
 ## Usage
 
 You may use the `<ss-icon>` tag:

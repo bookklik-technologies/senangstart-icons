@@ -28,6 +28,14 @@ title: Magnifying Glass Minus
 <ss-icon icon="magnifying-glass-minus" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['magnifying-glass-minus'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

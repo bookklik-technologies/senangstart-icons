@@ -28,6 +28,14 @@ title: Arrow Up Down Left Right
 <ss-icon icon="arrow-up-down-left-right" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['arrow-up-down-left-right'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

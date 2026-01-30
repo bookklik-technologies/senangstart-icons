@@ -28,6 +28,14 @@ title: Stop Circle
 <ss-icon icon="stop-circle" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['stop-circle'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

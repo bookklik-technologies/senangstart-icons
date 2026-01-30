@@ -28,6 +28,14 @@ title: Cloud
 <ss-icon icon="cloud" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['cloud'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

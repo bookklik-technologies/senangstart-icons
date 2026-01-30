@@ -28,6 +28,14 @@ title: Presentation Media
 <ss-icon icon="presentation-media" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['presentation-media'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

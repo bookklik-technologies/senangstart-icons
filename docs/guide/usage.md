@@ -94,3 +94,19 @@ For better accessibility, add `aria-label` or `aria-hidden`:
   Save
 </button>
 ```
+
+## Using Icons data (Node.js/SSR)
+
+If you are using SenangStart Icons in a Node.js project or need to access the raw SVG strings programmatically (e.g., for SSR or custom rendering), you can import the icons separately.
+
+```js
+const icons = require('@bookklik/senangstart-icons/icons');
+
+// Access specific icon
+const arrowIcon = icons['arrow-right'];
+console.log(arrowIcon); 
+// Output: <svg viewBox="0 0 24 24" ...>...</svg>
+```
+
+This is useful when you don't need the web component and just want the icon data.
+

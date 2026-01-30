@@ -28,6 +28,14 @@ title: Shield Check
 <ss-icon icon="shield-check" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['shield-check'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

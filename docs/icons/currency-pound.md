@@ -28,6 +28,14 @@ title: Currency Pound
 <ss-icon icon="currency-pound" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['currency-pound'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

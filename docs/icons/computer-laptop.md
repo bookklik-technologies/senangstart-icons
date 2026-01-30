@@ -28,6 +28,14 @@ title: Computer Laptop
 <ss-icon icon="computer-laptop" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['computer-laptop'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

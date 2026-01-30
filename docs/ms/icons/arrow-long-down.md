@@ -28,6 +28,14 @@ title: Arrow Long Down
 <ss-icon icon="arrow-long-down" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['arrow-long-down'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

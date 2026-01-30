@@ -11,7 +11,6 @@ const icons = JSON.parse(fs.readFileSync(iconsPath, "utf8"));
 if (!fs.existsSync(svgDir)) {
   fs.mkdirSync(svgDir, { recursive: true });
 }
-
 const iconExports = [];
 
 icons.forEach((icon) => {
@@ -34,8 +33,6 @@ icons.forEach((icon) => {
   console.log(`Generated ${slug}.svg`);
 
   // Add to exports
-  // Convert slug to camelCase or valid identifier if needed, but for now using slug as key in object
-  // Since we want to export an object mapping slugs to svg content (via webpack asset/source)
   iconExports.push(`"${slug}": require("./${slug}.svg")`);
 });
 
@@ -44,7 +41,7 @@ const indexContent = `const icons = {
   ${iconExports.join(",\n  ")}
 };
 
-export default icons;
+module.exports = icons;
 `;
 
 fs.writeFileSync(path.join(svgDir, "index.js"), indexContent);

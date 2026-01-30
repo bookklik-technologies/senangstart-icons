@@ -28,6 +28,14 @@ title: Sphere Half
 <ss-icon icon="sphere-half" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['sphere-half'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

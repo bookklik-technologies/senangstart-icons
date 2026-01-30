@@ -28,6 +28,14 @@ title: Chevron Up
 <ss-icon icon="chevron-up" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['chevron-up'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

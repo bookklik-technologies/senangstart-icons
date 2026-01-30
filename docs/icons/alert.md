@@ -28,6 +28,14 @@ title: Alert
 <ss-icon icon="alert" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['alert'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

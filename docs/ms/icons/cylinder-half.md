@@ -28,6 +28,14 @@ title: Cylinder Half
 <ss-icon icon="cylinder-half" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['cylinder-half'];
+console.log(svg);
+```
+
 ## Butiran Ikon
 
 | Ciri | Nilai |

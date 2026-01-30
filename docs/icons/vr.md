@@ -28,6 +28,14 @@ title: Vr
 <ss-icon icon="vr" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['vr'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

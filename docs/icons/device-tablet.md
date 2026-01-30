@@ -28,6 +28,14 @@ title: Device Tablet
 <ss-icon icon="device-tablet" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['device-tablet'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

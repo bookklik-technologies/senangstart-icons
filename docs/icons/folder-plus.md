@@ -28,6 +28,14 @@ title: Folder Plus
 <ss-icon icon="folder-plus" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['folder-plus'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

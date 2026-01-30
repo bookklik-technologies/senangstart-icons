@@ -28,6 +28,14 @@ title: Exclamation Triangle
 <ss-icon icon="exclamation-triangle" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['exclamation-triangle'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

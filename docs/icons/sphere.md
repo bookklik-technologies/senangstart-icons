@@ -28,6 +28,14 @@ title: Sphere
 <ss-icon icon="sphere" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['sphere'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

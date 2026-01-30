@@ -28,6 +28,14 @@ title: Hourglass 0
 <ss-icon icon="hourglass-0" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['hourglass-0'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

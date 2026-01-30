@@ -28,6 +28,14 @@ title: Hand Thumb Down
 <ss-icon icon="hand-thumb-down" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['hand-thumb-down'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |

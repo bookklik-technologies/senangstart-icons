@@ -28,6 +28,14 @@ title: Sliders Horizontal
 <ss-icon icon="sliders-horizontal" thickness="1.2"></ss-icon>
 ```
 
+### Node.js
+
+```javascript
+const icons = require('@bookklik/senangstart-icons/icons');
+const svg = icons['sliders-horizontal'];
+console.log(svg);
+```
+
 ## Icon Details
 
 | Property | Value |
