@@ -99,11 +99,27 @@ For better accessibility, add `aria-label` or `aria-hidden`:
 
 If you are using SenangStart Icons in a Node.js project or need to access the raw SVG strings programmatically (e.g., for SSR or custom rendering), you can import the icons separately.
 
+### ES Modules (Recommended)
+
+```js
+import icons from '@bookklik/senangstart-icons/icons';
+
+// Access specific icon
+const arrowIcon = icons['arrow-right'];
+```
+
+### CommonJS (Legacy)
+
 ```js
 const icons = require('@bookklik/senangstart-icons/icons');
 
 // Access specific icon
 const arrowIcon = icons['arrow-right'];
+```
+
+Both methods give you access to the raw SVG string:
+
+```js
 console.log(arrowIcon); 
 // Output: <svg viewBox="0 0 24 24" ...>...</svg>
 ```

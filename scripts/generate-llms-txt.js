@@ -27,6 +27,29 @@ License: ${pkg.license}
 
 const usage = `## Usage
 
+### Node.js / Bundlers (Webpack, Vite, etc.)
+
+1. Install the package:
+   \`\`\`bash
+   npm i ${pkg.name}
+   \`\`\`
+
+2. Import icons:
+   
+   **ES Modules (Recommended):**
+   \`\`\`js
+   import icons from '${pkg.name}/icons';
+   
+   const { "arrow-right": ArrowRight, "user": User } = icons;
+   \`\`\`
+
+   **CommonJS:**
+   \`\`\`js
+   const icons = require('${pkg.name}/icons');
+   
+   const { "arrow-right": ArrowRight, "user": User } = icons;
+   \`\`\`
+
 ### Web Components
 
 1. Include the script:

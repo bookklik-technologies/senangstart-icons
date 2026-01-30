@@ -99,11 +99,27 @@ Untuk kebolehcapaian yang lebih baik, tambah `aria-label` atau `aria-hidden`:
 
 Jika anda menggunakan SenangStart Icons dalam projek Node.js atau perlu mengakses rentetan SVG secara programatik (cth., untuk SSR atau rendering tersuai), anda boleh mengimport ikon secara berasingan.
 
+### ES Modules (Disyorkan)
+
+```js
+import icons from '@bookklik/senangstart-icons/icons';
+
+// Akses ikon tertentu
+const arrowIcon = icons['arrow-right'];
+```
+
+### CommonJS (Legasi)
+
 ```js
 const icons = require('@bookklik/senangstart-icons/icons');
 
 // Akses ikon tertentu
 const arrowIcon = icons['arrow-right'];
+```
+
+Kedua-dua kaedah memberi anda akses kepada rentetan SVG mentah:
+
+```js
 console.log(arrowIcon); 
 // Output: <svg viewBox="0 0 24 24" ...>...</svg>
 ```

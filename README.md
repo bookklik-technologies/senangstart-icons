@@ -10,15 +10,28 @@ Curated Starter icons designed for web projects. `senangstart-icons` provides a 
 npm i @bookklik/senangstart-icons
 ```
 
-You can then import individual icons (supports tree-shaking):
+## Usage
 
+### Node.js / Bundlers
+
+You can import the icons collection using ES Modules (recommended) or CommonJS.
+
+**ES Modules:**
 ```js
-import { Home, User } from '@bookklik/senangstart-icons';
-// or for zero side-effects:
-import { Home } from '@bookklik/senangstart-icons/icons';
+import icons from '@bookklik/senangstart-icons/icons';
+
+// Access specific icons
+const { "arrow-right": ArrowRight } = icons;
 ```
 
-## Usage
+**CommonJS:**
+```js
+const icons = require('@bookklik/senangstart-icons/icons');
+
+const { "arrow-right": ArrowRight } = icons;
+```
+
+### Browser / Web Components
 
 You may use the `<ss-icon>` tag:
 
@@ -33,6 +46,8 @@ You may use the `<ss-icon>` tag:
 
 > **Note:**
 > You can customize the icon thickness (default `2.2`).
+
+### CSS Icons
 
 Or use the `ss-icon` class:
 

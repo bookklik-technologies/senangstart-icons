@@ -2,10 +2,33 @@
 
 Curated Starter icons designed for web projects.
 
-Version: 1.0.12
+Version: 1.0.13
 License: MIT
 
 ## Usage
+
+### Node.js / Bundlers (Webpack, Vite, etc.)
+
+1. Install the package:
+   ```bash
+   npm i @bookklik/senangstart-icons
+   ```
+
+2. Import icons:
+   
+   **ES Modules (Recommended):**
+   ```js
+   import icons from '@bookklik/senangstart-icons/icons';
+   
+   const { "arrow-right": ArrowRight, "user": User } = icons;
+   ```
+
+   **CommonJS:**
+   ```js
+   const icons = require('@bookklik/senangstart-icons/icons');
+   
+   const { "arrow-right": ArrowRight, "user": User } = icons;
+   ```
 
 ### Web Components
 
