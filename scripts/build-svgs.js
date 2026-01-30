@@ -33,15 +33,26 @@ icons.forEach((icon) => {
   console.log(`Generated ${slug}.svg`);
 
   // Add to exports
-  iconExports.push(`"${slug}": require("./${slug}.svg")`);
+  const varName = `icon_${slug.replace(/-/g, "_")}`;
+  iconExports.push({ varName, slug });
 });
 
 // Generate index.js
-const indexContent = `const icons = {
-  ${iconExports.join(",\n  ")}
+const imports = iconExports
+  .map(({ varName, slug }) => `import ${varName} from "./${slug}.svg";`)
+  .join("\n");
+
+const exportsObj = iconExports
+  .map(({ varName, slug }) => `  "${slug}": ${varName}`)
+  .join(",\n");
+
+const indexContent = `${imports}
+
+const icons = {
+${exportsObj}
 };
 
-module.exports = icons;
+export default icons;
 `;
 
 fs.writeFileSync(path.join(svgDir, "index.js"), indexContent);
