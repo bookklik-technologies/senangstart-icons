@@ -11,6 +11,38 @@ const indexPathMs = path.join(docsIconsDirMs, 'index.md');
 // Read icons.json
 const icons = JSON.parse(fs.readFileSync(iconsJsonPath, 'utf8'));
 
+// Compatibility notes live in the generator so rebuilding preserves them.
+const usageNotes = {
+  "phone-x-mark": {
+    "en": "Legacy name: this drawing depicts an incoming call, not a rejection. The existing name and artwork remain available for compatibility. Prefer [phone-incoming](./phone-incoming) for incoming calls or [phone-reject](./phone-reject) for a handset with an X.",
+    "ms": "Nama legasi: lukisan ini menunjukkan panggilan masuk, bukan penolakan. Nama dan lukisan sedia ada dikekalkan untuk keserasian. Gunakan [phone-incoming](./phone-incoming) untuk panggilan masuk atau [phone-reject](./phone-reject) untuk gagang telefon dengan tanda X."
+  },
+  "arrow-right-on-rectangle": {
+    "en": "Legacy name: the arrow points left into the door. Prefer [sign-in](./sign-in) for this action. The legacy name and drawing are preserved for compatibility.",
+    "ms": "Nama legasi: anak panah menghala ke kiri, masuk ke pintu. Gunakan [sign-in](./sign-in) untuk tindakan ini. Nama dan lukisan legasi dikekalkan untuk keserasian."
+  },
+  "arrow-left-on-rectangle": {
+    "en": "Legacy name: the arrow points right out of the door. Prefer [sign-out](./sign-out) for this action. The legacy name and drawing are preserved for compatibility.",
+    "ms": "Nama legasi: anak panah menghala ke kanan, keluar dari pintu. Gunakan [sign-out](./sign-out) untuk tindakan ini. Nama dan lukisan legasi dikekalkan untuk keserasian."
+  },
+  "phone-incoming": {
+    "en": "Preferred name for the incoming-call drawing also available under the legacy name [phone-x-mark](./phone-x-mark). For rejecting a call, use [phone-reject](./phone-reject).",
+    "ms": "Nama yang disyorkan untuk lukisan panggilan masuk yang turut tersedia dengan nama legasi [phone-x-mark](./phone-x-mark). Untuk menolak panggilan, gunakan [phone-reject](./phone-reject)."
+  },
+  "phone-reject": {
+    "en": "A handset with an X for rejecting or declining a call. For an incoming-call arrow, use [phone-incoming](./phone-incoming).",
+    "ms": "Gagang telefon dengan tanda X untuk menolak panggilan. Untuk anak panah panggilan masuk, gunakan [phone-incoming](./phone-incoming)."
+  },
+  "sign-in": {
+    "en": "Preferred name for an arrow entering the door. Shares its drawing with the legacy name [arrow-right-on-rectangle](./arrow-right-on-rectangle).",
+    "ms": "Nama yang disyorkan untuk anak panah yang masuk ke pintu. Berkongsi lukisan dengan nama legasi [arrow-right-on-rectangle](./arrow-right-on-rectangle)."
+  },
+  "sign-out": {
+    "en": "Preferred name for an arrow leaving the door. Shares its drawing with the legacy name [arrow-left-on-rectangle](./arrow-left-on-rectangle).",
+    "ms": "Nama yang disyorkan untuk anak panah yang keluar dari pintu. Berkongsi lukisan dengan nama legasi [arrow-left-on-rectangle](./arrow-left-on-rectangle)."
+  }
+};
+
 // Ensure docs/icons directories exist
 fs.mkdirSync(docsIconsDir, { recursive: true });
 fs.mkdirSync(docsIconsDirMs, { recursive: true });
@@ -24,7 +56,7 @@ icons.forEach((icon, index) => {
     const { name, slug, src, tags } = icon;
     
     // Create SVG preview (stroke-based icon)
-    const svgPreview = `<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="${src}"></path></svg>`;
+    const svgPreview = `<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${src}"></path></svg>`;
     
     // Generate English markdown content
     const markdownEn = `---
@@ -32,7 +64,7 @@ title: ${name}
 ---
 
 # ${name}
-
+${usageNotes[slug] ? "\n> " + usageNotes[slug].en + "\n" : ""}
 <div style="display: flex; justify-content: center; padding: 2rem; background: var(--vp-c-bg-soft); border-radius: 8px; margin: 1rem 0;">
 ${svgPreview}
 </div>
@@ -48,7 +80,7 @@ ${svgPreview}
 ### With icon tag
 
 \`\`\`html
-<i class="ss ss-${slug}"></i>    
+<i class="ss ss-${slug}"></i>
 \`\`\`
 
 ### With custom stroke width / thickness
@@ -82,7 +114,7 @@ ${src}
 ## Raw SVG
 
 \`\`\`html
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="${src}"></path>
 </svg>
 \`\`\`
@@ -98,7 +130,7 @@ title: ${name}
 ---
 
 # ${name}
-
+${usageNotes[slug] ? "\n> " + usageNotes[slug].ms + "\n" : ""}
 <div style="display: flex; justify-content: center; padding: 2rem; background: var(--vp-c-bg-soft); border-radius: 8px; margin: 1rem 0;">
 ${svgPreview}
 </div>
@@ -114,7 +146,7 @@ ${svgPreview}
 ### Dengan tag ikon
 
 \`\`\`html
-<i class="ss ss-${slug}"></i>    
+<i class="ss ss-${slug}"></i>
 \`\`\`
 
 ### Dengan ketebalan garisan tersuai
@@ -148,7 +180,7 @@ ${src}
 ## SVG Mentah
 
 \`\`\`html
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="${src}"></path>
 </svg>
 \`\`\`
@@ -193,7 +225,7 @@ Browse all **${icons.length}** available icons in SenangStart Icons.
 Once you find the icon you need, use it like this:
 
 \`\`\`html
-<ss-icon name="icon-name"></ss-icon>
+<ss-icon icon="home"></ss-icon>
 \`\`\`
 
 ## All Icons
@@ -202,7 +234,7 @@ Once you find the icon you need, use it like this:
 
 ${iconLinks.map(icon => {
     return `<a href="./${icon.slug}" class="icon-card" title="${icon.tags.join(', ')}">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="${icons.find(i => i.slug === icon.slug).src}"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${icons.find(i => i.slug === icon.slug).src}"></path></svg>
   <span>${icon.name}</span>
 </a>`;
 }).join('\n\n')}
@@ -268,7 +300,7 @@ Layari semua **${icons.length}** ikon yang tersedia dalam SenangStart Icons.
 Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
 
 \`\`\`html
-<ss-icon name="nama-ikon"></ss-icon>
+<ss-icon icon="home"></ss-icon>
 \`\`\`
 
 ## Semua Ikon
@@ -277,7 +309,7 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
 
 ${iconLinks.map(icon => {
     return `<a href="./${icon.slug}" class="icon-card" title="${icon.tags.join(', ')}">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="${icons.find(i => i.slug === icon.slug).src}"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${icons.find(i => i.slug === icon.slug).src}"></path></svg>
   <span>${icon.name}</span>
 </a>`;
 }).join('\n\n')}

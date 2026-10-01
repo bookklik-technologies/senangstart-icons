@@ -48,7 +48,7 @@ Cipta gaya ikon yang boleh diguna semula:
 ```
 
 ```html
-<ss-icon icon="info" class="icon-primary"></ss-icon>
+<ss-icon icon="information-circle" class="icon-primary"></ss-icon>
 <ss-icon icon="x-circle" class="icon-danger"></ss-icon>
 <ss-icon icon="check-circle" class="icon-success"></ss-icon>
 ```
@@ -95,7 +95,7 @@ Animasikan ikon dengan CSS:
 ```
 
 ```html
-<ss-icon icon="loader" class="icon-spin"></ss-icon>
+<ss-icon icon="arrow-path" class="icon-spin"></ss-icon>
 <ss-icon icon="heart" class="icon-pulse"></ss-icon>
 ```
 
@@ -146,11 +146,11 @@ Gayakan ikon dalam butang:
 
 ```html
 <button class="btn">
-  <ss-icon icon="plus" style="font-size: 16px;"></ss-icon>
+  <ss-icon icon="plus" aria-hidden="true" style="font-size: 16px;"></ss-icon>
   Tambah Item
 </button>
 
-<button class="btn btn-icon-only">
-  <ss-icon icon="menu"></ss-icon>
+<button type="button" class="btn btn-icon-only" aria-label="Buka menu">
+  <ss-icon icon="bars-3" aria-hidden="true"></ss-icon>
 </button>
 ```

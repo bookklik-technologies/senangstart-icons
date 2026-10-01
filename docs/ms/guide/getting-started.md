@@ -23,7 +23,7 @@ SenangStart Icons menawarkan:
   <ss-icon icon="home"></ss-icon>
   <!-- Gunakan CSS untuk saiz dan warna -->
   <ss-icon icon="user" style="font-size: 32px;"></ss-icon>
-  <ss-icon icon="settings" style="color: #3498db;"></ss-icon>
+  <ss-icon icon="cog-6-tooth" style="color: #3498db;"></ss-icon>
 </body>
 </html>
 ```

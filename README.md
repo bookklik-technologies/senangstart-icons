@@ -45,7 +45,7 @@ You may use the `<ss-icon>` tag:
 ```
 
 > **Note:**
-> You can customize the icon thickness (default `2.2`).
+> You can customize the icon thickness (default `2`).
 
 ### CSS Icons
 

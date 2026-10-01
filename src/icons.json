@@ -353,7 +353,11 @@
     "src": "M20.25 12a8.25 8.25 0 11-8.25-8.25c2.3 0 4.5 1 6 2.5L20.25 8.5m0-4.5v4.5h-4.5m-6.75 3.5L15 12m-3 3L12 9",
     "tags": [
       "rotate",
-      "arrow-rotate-add"
+      "arrow-rotate-add",
+      "add",
+      "increase",
+      "rotation",
+      "rotate-add"
     ]
   },
   {
@@ -384,11 +388,13 @@
     "slug": "arrow-right-on-rectangle",
     "src": "M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75",
     "tags": [
-      "logout",
-      "exit",
-      "signout",
-      "leave",
+      "login",
+      "enter",
+      "signin",
+      "join",
+      "access",
       "door",
+      "legacy",
       "arrow-right-on-rectangle"
     ]
   },
@@ -397,12 +403,12 @@
     "slug": "arrow-left-on-rectangle",
     "src": "M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9",
     "tags": [
-      "login",
-      "enter",
-      "signin",
-      "join",
-      "access",
+      "logout",
+      "exit",
+      "signout",
+      "leave",
       "door",
+      "legacy",
       "arrow-left-on-rectangle"
     ]
   },
@@ -625,11 +631,11 @@
     "slug": "phone-x-mark",
     "src": "M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.055.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z",
     "tags": [
-      "missed call",
-      "hang up",
-      "disconnect",
-      "reject call",
-      "busy",
+      "incoming call",
+      "receive call",
+      "answer",
+      "phone",
+      "legacy",
       "phone-x-mark"
     ]
   },
@@ -1093,7 +1099,8 @@
       "add",
       "new event",
       "create",
-      "plus"
+      "plus",
+      "calendar-plus"
     ]
   },
   {
@@ -1108,7 +1115,8 @@
       "subtract",
       "remove event",
       "delete",
-      "minus"
+      "minus",
+      "calendar-minus"
     ]
   },
   {
@@ -1123,7 +1131,8 @@
       "approve",
       "check",
       "accept",
-      "booked"
+      "booked",
+      "calendar-approve"
     ]
   },
   {
@@ -1138,7 +1147,8 @@
       "reject",
       "x-mark",
       "remove",
-      "cancel"
+      "cancel",
+      "calendar-reject"
     ]
   },
   {
@@ -1713,7 +1723,17 @@
     "name": "Hand Grab",
     "slug": "hand-grab",
     "src": "M5 14 5 11C5 9 6 8 8 8M8 13 8 8C8 7 9 5.9 10 6L18 7C19 7.1 20 8 20 9L20 15C20 16.5 18.5 18 17 18L9 18C7 18 5 16 5 14M11 9.5 11 6.2M14 10 14 6.5M17 10.5 17 6.9",
-    "tags": ["hand", "grab", "clenched", "fist", "drag", "hold", "select", "gesture"]
+    "tags": [
+      "hand",
+      "grab",
+      "clenched",
+      "fist",
+      "drag",
+      "hold",
+      "select",
+      "gesture",
+      "hand-grab"
+    ]
   },
   {
     "name": "Flag",
@@ -1854,37 +1874,85 @@
     "name": "Align Left Object",
     "slug": "align-left-object",
     "src": "M7 4h6a1 1 0 011 1v4a1 1 0 01-1 1H7a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h6a1 1 0 011 1v4a1 1 0 01-1 1h-11a1 1 0 01-1-1v-4a1 1 0 011-1ZM3 21 3 3",
-    "tags": ["align", "left", "object", "layout", "position", "design"]
+    "tags": [
+      "align",
+      "left",
+      "object",
+      "layout",
+      "position",
+      "design",
+      "align-left-object"
+    ]
   },
   {
     "name": "Align Center Object",
     "slug": "align-center-object",
     "src": "M12 4h3a1 1 0 011 1v4a1 1 0 01-1 1H9a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h6a1 1 0 011 1v4a1 1 0 01-1 1h-12a1 1 0 01-1-1v-4a1 1 0 011-1ZM12 21 12 3",
-    "tags": ["align", "center", "object", "layout", "position", "design"]
+    "tags": [
+      "align",
+      "center",
+      "object",
+      "layout",
+      "position",
+      "design",
+      "align-center-object"
+    ]
   },
   {
     "name": "Align Right Object",
     "slug": "align-right-object",
     "src": "M13 4h4a1 1 0 011 1v4a1 1 0 01-1 1H11a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h5a1 1 0 011 1v4a1 1 0 01-1 1h-11a1 1 0 01-1-1v-4a1 1 0 011-1ZM21 21 21 3",
-    "tags": ["align", "right", "object", "layout", "position", "design"]
+    "tags": [
+      "align",
+      "right",
+      "object",
+      "layout",
+      "position",
+      "design",
+      "align-right-object"
+    ]
   },
   {
     "name": "Align Top Object",
     "slug": "align-top-object",
     "src": "M12 15h3a1 1 0 011 1v3a1 1 0 01-1 1H9a1 1 0 01-1-1V16a1 1 0 011-1ZM12 7h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 4 3 4",
-    "tags": ["align", "top", "object", "layout", "position", "design"]
+    "tags": [
+      "align",
+      "top",
+      "object",
+      "layout",
+      "position",
+      "design",
+      "align-top-object"
+    ]
   },
   {
     "name": "Align Middle Object",
     "slug": "align-middle-object",
     "src": "M12 4h6a1 1 0 011 1v3a1 1 0 01-1 1H6a1 1 0 01-1-1V5a1 1 0 011-1ZM12 15h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 12 3 12",
-    "tags": ["align", "middle", "object", "layout", "position", "design"]
+    "tags": [
+      "align",
+      "middle",
+      "object",
+      "layout",
+      "position",
+      "design",
+      "align-middle-object"
+    ]
   },
   {
     "name": "Align Bottom Object",
     "slug": "align-bottom-object",
     "src": "M12 4h3a1 1 0 011 1v3a1 1 0 01-1 1H9a1 1 0 01-1-1V5a1 1 0 011-1ZM12 12h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 20 3 20",
-    "tags": ["align", "bottom", "object", "layout", "position", "design"]
+    "tags": [
+      "align",
+      "bottom",
+      "object",
+      "layout",
+      "position",
+      "design",
+      "align-bottom-object"
+    ]
   },
   {
     "name": "Carousel",
@@ -2150,7 +2218,6 @@
       "timer",
       "clock",
       "senangwebs",
-      "time",
       "sw-epoch"
     ]
   },
@@ -2223,7 +2290,14 @@
     "name": "Polygon",
     "slug": "polygon",
     "src": "M8 3l8 0L22 7 16 11 8 11 2 7 8 3M22 7v10M2 7v10M16 11v10M8 11v10M2 17l6 4L16 21 22 17",
-    "tags": ["shape", "polygon", "3d", "mesh", "geometry", "hexagon", "polygon"]
+    "tags": [
+      "shape",
+      "polygon",
+      "3d",
+      "mesh",
+      "geometry",
+      "hexagon"
+    ]
   },
   {
     "name": "Torus",
@@ -2463,7 +2537,16 @@
     "name": "Draw Curve",
     "slug": "draw-curve",
     "src": "M3 21C6 4 18 20 21 3",
-    "tags": ["draw", "curve", "line", "s-curve", "spline", "vector", "bezier"]
+    "tags": [
+      "draw",
+      "curve",
+      "line",
+      "s-curve",
+      "spline",
+      "vector",
+      "bezier",
+      "draw-curve"
+    ]
   },
   {
     "name": "Pencil",
@@ -2574,6 +2657,359 @@
       "levels",
       "controls",
       "sliders-vertical"
+    ]
+  },
+  {
+    "name": "Arrow Down Tray",
+    "slug": "arrow-down-tray",
+    "src": "M12 3v11m-4-4 4 4 4-4M4 16v4h16v-4",
+    "tags": [
+      "download",
+      "export",
+      "save",
+      "file",
+      "transfer",
+      "receive",
+      "arrow-down-tray"
+    ]
+  },
+  {
+    "name": "Arrow Up Tray",
+    "slug": "arrow-up-tray",
+    "src": "M12 14V3m-4 4 4-4 4 4M4 16v4h16v-4",
+    "tags": [
+      "upload",
+      "import",
+      "file",
+      "transfer",
+      "send",
+      "arrow-up-tray"
+    ]
+  },
+  {
+    "name": "Funnel",
+    "slug": "funnel",
+    "src": "M3 4h18l-7 8v7l-4 2v-9L3 4z",
+    "tags": [
+      "filter",
+      "refine",
+      "results",
+      "search",
+      "table",
+      "funnel"
+    ]
+  },
+  {
+    "name": "Link",
+    "slug": "link",
+    "src": "M10 7l3-3a5 5 0 0 1 7 7l-3 3M14 17l-3 3a5 5 0 0 1-7-7l3-3M8 16l8-8",
+    "tags": [
+      "url",
+      "hyperlink",
+      "chain",
+      "connect",
+      "insert link",
+      "copy link",
+      "link"
+    ]
+  },
+  {
+    "name": "Link Slash",
+    "slug": "link-slash",
+    "src": "M11 6l2-2a5 5 0 017 7l-2 2m-5 5-2 2a5 5 0 01-7-7l2-2m2 5 1-1m6-6 1-1M3 3l18 18",
+    "tags": [
+      "unlink",
+      "remove link",
+      "disconnect",
+      "broken link",
+      "url",
+      "link-slash"
+    ]
+  },
+  {
+    "name": "Share",
+    "slug": "share",
+    "src": "M8 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 19a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM7.65 10.6l7.7-4.2M7.65 13.4l7.7 4.2",
+    "tags": [
+      "share",
+      "social",
+      "send",
+      "distribute",
+      "connect"
+    ]
+  },
+  {
+    "name": "Check Circle",
+    "slug": "check-circle",
+    "src": "M21 12a9 9 0 11-18 0 9 9 0 0118 0zM7.5 12l3 3 6-6",
+    "tags": [
+      "success",
+      "complete",
+      "confirm",
+      "approve",
+      "valid",
+      "tick",
+      "done",
+      "check-circle"
+    ]
+  },
+  {
+    "name": "X Circle",
+    "slug": "x-circle",
+    "src": "M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9 9l6 6m0-6-6 6",
+    "tags": [
+      "error",
+      "failure",
+      "reject",
+      "invalid",
+      "cancel",
+      "close",
+      "x-circle"
+    ]
+  },
+  {
+    "name": "Paper Airplane",
+    "slug": "paper-airplane",
+    "src": "M21 3 3 10l7 3 3 8 8-18zM10 13 21 3",
+    "tags": [
+      "send",
+      "message",
+      "submit",
+      "mail",
+      "outgoing",
+      "paper plane",
+      "paper-airplane"
+    ]
+  },
+  {
+    "name": "Printer",
+    "slug": "printer",
+    "src": "M7 8V3h10v5M7 17H4a1 1 0 0 1-1-1v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1h-3M7 14h10v7H7zM17 11h1",
+    "tags": [
+      "print",
+      "document",
+      "receipt",
+      "paper",
+      "office",
+      "printer"
+    ]
+  },
+  {
+    "name": "Bell Slash",
+    "slug": "bell-slash",
+    "src": "M9 3.8A6 6 0 0 1 18 9v.75a8.967 8.967 0 0 0 2.31 6.02M6.2 7.5A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.31 6.02A24 24 0 0 0 15 17.07M9.14 17.08a3 3 0 0 0 5.72 0M3 3l18 18",
+    "tags": [
+      "mute",
+      "notification",
+      "silent",
+      "alarm off",
+      "do not disturb",
+      "bell-slash"
+    ]
+  },
+  {
+    "name": "Wifi Slash",
+    "slug": "wifi-slash",
+    "src": "M2.25 7.5a11.25 11.25 0 0 1 1.4-1.25M7.4 4.55A11.25 11.25 0 0 1 19.5 7.5M5.25 10.5a7.5 7.5 0 0 1 1.5-1.15M10.5 7.98a7.5 7.5 0 0 1 6 2.52M8.25 13.5a3.75 3.75 0 0 1 2.75-1.08M11 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25zM3 3l18 18",
+    "tags": [
+      "offline",
+      "disconnected",
+      "no internet",
+      "network",
+      "signal",
+      "wifi off",
+      "wifi-slash"
+    ]
+  },
+  {
+    "name": "Cloud Arrow Up",
+    "slug": "cloud-arrow-up",
+    "src": "M2.25 15a4.5 4.5 0 0 0 4.5 4.5h.25M17 19.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-4.232-3.943 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15M12 21v-9m-3 3 3-3 3 3",
+    "tags": [
+      "cloud",
+      "upload",
+      "backup",
+      "storage",
+      "sync",
+      "save",
+      "cloud-arrow-up"
+    ]
+  },
+  {
+    "name": "Cloud Arrow Down",
+    "slug": "cloud-arrow-down",
+    "src": "M2.25 15a4.5 4.5 0 0 0 4.5 4.5h.25M17 19.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-4.232-3.943 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15M12 12v9m-2.5-2.5 2.5 2.5 2.5-2.5",
+    "tags": [
+      "cloud",
+      "download",
+      "restore",
+      "storage",
+      "sync",
+      "receive",
+      "cloud-arrow-down"
+    ]
+  },
+  {
+    "name": "Arrow Trending Up",
+    "slug": "arrow-trending-up",
+    "src": "M3 17l6-6 4 4 8-10M15 5h6v6",
+    "tags": [
+      "trend",
+      "increase",
+      "growth",
+      "analytics",
+      "rising",
+      "statistics",
+      "arrow-trending-up"
+    ]
+  },
+  {
+    "name": "Arrow Trending Down",
+    "slug": "arrow-trending-down",
+    "src": "M3 7l6 6 4-4 8 10M15 19h6v-6",
+    "tags": [
+      "trend",
+      "decrease",
+      "decline",
+      "analytics",
+      "falling",
+      "statistics",
+      "arrow-trending-down"
+    ]
+  },
+  {
+    "name": "Checkbox Unchecked",
+    "slug": "checkbox-unchecked",
+    "src": "M4 4h16v16H4z",
+    "tags": [
+      "checkbox",
+      "unchecked",
+      "unselected",
+      "empty",
+      "form",
+      "selection",
+      "checkbox-unchecked"
+    ]
+  },
+  {
+    "name": "Checkbox Checked",
+    "slug": "checkbox-checked",
+    "src": "M4 4h16v16H4zM7.5 12l3 3 6-6",
+    "tags": [
+      "checkbox",
+      "checked",
+      "selected",
+      "tick",
+      "form",
+      "selection",
+      "checkbox-checked"
+    ]
+  },
+  {
+    "name": "Radio Unchecked",
+    "slug": "radio-unchecked",
+    "src": "M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+    "tags": [
+      "radio",
+      "unchecked",
+      "unselected",
+      "option",
+      "form",
+      "choice",
+      "radio-unchecked"
+    ]
+  },
+  {
+    "name": "Radio Checked",
+    "slug": "radio-checked",
+    "src": "M21 12a9 9 0 11-18 0 9 9 0 0118 0zM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z",
+    "tags": [
+      "radio",
+      "checked",
+      "selected",
+      "option",
+      "form",
+      "choice",
+      "radio-checked"
+    ]
+  },
+  {
+    "name": "Toggle Off",
+    "slug": "toggle-off",
+    "src": "M8 6h8a6 6 0 0 1 0 12H8A6 6 0 0 1 8 6zM11 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z",
+    "tags": [
+      "toggle",
+      "switch",
+      "off",
+      "disabled",
+      "setting",
+      "false",
+      "toggle-off"
+    ]
+  },
+  {
+    "name": "Toggle On",
+    "slug": "toggle-on",
+    "src": "M8 6h8a6 6 0 0 1 0 12H8A6 6 0 0 1 8 6zM19 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z",
+    "tags": [
+      "toggle",
+      "switch",
+      "on",
+      "enabled",
+      "setting",
+      "true",
+      "toggle-on"
+    ]
+  },
+  {
+    "name": "Phone Incoming",
+    "slug": "phone-incoming",
+    "src": "M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.055.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z",
+    "tags": [
+      "phone-incoming",
+      "incoming call",
+      "receive call",
+      "answer",
+      "phone"
+    ]
+  },
+  {
+    "name": "Phone Reject",
+    "slug": "phone-reject",
+    "src": "M15 3l6 6m0-6-6 6M17.25 21.75c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.055.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z",
+    "tags": [
+      "phone-reject",
+      "reject call",
+      "hang up",
+      "disconnect",
+      "decline",
+      "phone"
+    ]
+  },
+  {
+    "name": "Sign In",
+    "slug": "sign-in",
+    "src": "M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75",
+    "tags": [
+      "sign-in",
+      "login",
+      "signin",
+      "enter",
+      "access",
+      "account"
+    ]
+  },
+  {
+    "name": "Sign Out",
+    "slug": "sign-out",
+    "src": "M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9",
+    "tags": [
+      "sign-out",
+      "logout",
+      "signout",
+      "exit",
+      "leave",
+      "account"
     ]
   }
 ]

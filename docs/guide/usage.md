@@ -29,20 +29,34 @@ Use the `<i>` tag with specific classes:
 **Required.** The slug of the icon to display.
 
 ```html
-<ss-icon icon="search"></ss-icon>
+<ss-icon icon="magnifying-glass"></ss-icon>
 <ss-icon icon="user"></ss-icon>
-<ss-icon icon="settings"></ss-icon>
+<ss-icon icon="cog-6-tooth"></ss-icon>
 ```
 
 ### thickness
 
-Set the stroke width for the icon. Default is `1.5`.
+Set the stroke width for the icon. Default is `2`.
+
+The `thickness` attribute affects only `<ss-icon>`. CSS class icons use a fixed stroke width of `2`.
 
 ```html
 <ss-icon icon="circle" thickness="1"></ss-icon>
 <ss-icon icon="circle" thickness="2"></ss-icon>
 <ss-icon icon="circle" thickness="3"></ss-icon>
 ```
+
+## Legacy Icon Names
+
+Existing names and drawings remain available for compatibility. Prefer these names to make the intended action clear:
+
+| Action | Preferred name | Legacy name with the same drawing |
+|---|---|---|
+| Incoming call | `phone-incoming` | `phone-x-mark` |
+| Sign in (arrow entering the door) | `sign-in` | `arrow-right-on-rectangle` |
+| Sign out (arrow leaving the door) | `sign-out` | `arrow-left-on-rectangle` |
+
+Use `phone-reject` to reject a call; it contains an actual X. Search tags are not runtime aliases.
 
 ## Styling
 
@@ -79,14 +93,19 @@ icon.style.fontSize = '48px';
 
 ## Accessibility
 
-For better accessibility, add `aria-label` or `aria-hidden`:
+Hide decorative icons with `aria-hidden="true"`. Give meaningful standalone icons `role="img"` and an `aria-label`. For an icon-only button, put the action name on the button:
 
 ```html
 <!-- Decorative icon -->
 <ss-icon icon="star" aria-hidden="true"></ss-icon>
 
 <!-- Meaningful icon -->
-<ss-icon icon="warning" aria-label="Warning"></ss-icon>
+<ss-icon icon="exclamation-triangle" role="img" aria-label="Warning"></ss-icon>
+
+<!-- Icon-only button -->
+<button type="button" aria-label="Open menu">
+  <ss-icon icon="bars-3" aria-hidden="true"></ss-icon>
+</button>
 
 <!-- Icon with text -->
 <button>
@@ -94,6 +113,8 @@ For better accessibility, add `aria-label` or `aria-hidden`:
   Save
 </button>
 ```
+
+The same pattern applies to CSS icons: use `<i class="ss ss-star" aria-hidden="true"></i>` for decoration. Keep labels and checked/selected state on native form controls; icons only decorate them.
 
 ## Using Icons data (Node.js/SSR)
 

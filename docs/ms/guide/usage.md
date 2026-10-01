@@ -29,20 +29,34 @@ Gunakan tag `<i>` dengan kelas tertentu:
 **Diperlukan.** Slug ikon untuk dipaparkan.
 
 ```html
-<ss-icon icon="search"></ss-icon>
+<ss-icon icon="magnifying-glass"></ss-icon>
 <ss-icon icon="user"></ss-icon>
-<ss-icon icon="settings"></ss-icon>
+<ss-icon icon="cog-6-tooth"></ss-icon>
 ```
 
 ### thickness
 
-Tetapkan ketebalan garisan untuk ikon. Lalai adalah `1.5`.
+Tetapkan ketebalan garisan untuk ikon. Lalai adalah `2`.
+
+Atribut `thickness` hanya mengubah komponen `<ss-icon>`. Ikon kelas CSS menggunakan ketebalan tetap `2`.
 
 ```html
 <ss-icon icon="circle" thickness="1"></ss-icon>
 <ss-icon icon="circle" thickness="2"></ss-icon>
 <ss-icon icon="circle" thickness="3"></ss-icon>
 ```
+
+## Nama Ikon Legasi
+
+Nama dan lukisan lama dikekalkan untuk keserasian. Gunakan nama berikut supaya tindakan lebih jelas:
+
+| Tindakan | Nama disyorkan | Nama legasi dengan lukisan yang sama |
+|---|---|---|
+| Panggilan masuk | `phone-incoming` | `phone-x-mark` |
+| Log masuk (anak panah masuk ke pintu) | `sign-in` | `arrow-right-on-rectangle` |
+| Log keluar (anak panah keluar dari pintu) | `sign-out` | `arrow-left-on-rectangle` |
+
+Gunakan `phone-reject` untuk menolak panggilan; ikon ini mempunyai tanda X sebenar. Tag carian bukan alias masa jalan.
 
 ## Penggayaan (Styling)
 
@@ -79,14 +93,19 @@ icon.style.fontSize = '48px';
 
 ## Kebolehcapaian
 
-Untuk kebolehcapaian yang lebih baik, tambah `aria-label` atau `aria-hidden`:
+Sembunyikan ikon hiasan dengan `aria-hidden="true"`. Gunakan `role="img"` dan `aria-label` untuk ikon bermakna yang berdiri sendiri. Bagi butang yang hanya mengandungi ikon, letakkan nama tindakan pada butang:
 
 ```html
 <!-- Ikon hiasan -->
 <ss-icon icon="star" aria-hidden="true"></ss-icon>
 
 <!-- Ikon bermakna -->
-<ss-icon icon="warning" aria-label="Amaran"></ss-icon>
+<ss-icon icon="exclamation-triangle" role="img" aria-label="Amaran"></ss-icon>
+
+<!-- Butang ikon sahaja -->
+<button type="button" aria-label="Buka menu">
+  <ss-icon icon="bars-3" aria-hidden="true"></ss-icon>
+</button>
 
 <!-- Ikon dengan teks -->
 <button>
@@ -94,6 +113,8 @@ Untuk kebolehcapaian yang lebih baik, tambah `aria-label` atau `aria-hidden`:
   Simpan
 </button>
 ```
+
+Corak yang sama terpakai pada ikon CSS: gunakan `<i class="ss ss-star" aria-hidden="true"></i>` untuk hiasan. Kekalkan label serta keadaan dipilih/ditandakan pada kawalan borang asli; ikon hanya menghiasinya.
 
 ## Menggunakan Data Ikon (Node.js/SSR)
 

@@ -57,3 +57,12 @@ export default icons;
 
 fs.writeFileSync(path.join(svgDir, "index.js"), indexContent);
 console.log("Generated src/svg/index.js");
+
+// Remove only obsolete files from the generated SVG directory after generation succeeds.
+const expectedFiles = new Set(icons.map(icon => icon.slug + ".svg"));
+for (const entry of fs.readdirSync(svgDir, { withFileTypes: true })) {
+  if (entry.isFile() && entry.name.endsWith(".svg") && !expectedFiles.has(entry.name)) {
+    fs.unlinkSync(path.join(svgDir, entry.name));
+    console.log("Removed obsolete generated SVG: " + entry.name);
+  }
+}

@@ -39,7 +39,23 @@ const optimization = {
       },
       extractComments: false,
     }),
-    new CssMinimizerPlugin(),
+    new CssMinimizerPlugin({
+      minimizerOptions: {
+        preset: ["default", {
+          svgo: {
+            plugins: [{
+              name: "preset-default",
+              params: {
+                overrides: {
+                  // Round-capped zero-length segments draw dots (e.g. qr-code).
+                  convertPathData: { removeUseless: false },
+                },
+              },
+            }],
+          },
+        }],
+      },
+    }),
   ],
 };
 

@@ -60,15 +60,15 @@ const usage = `## Usage
 2. Use the component:
    \`\`\`html
    <ss-icon icon="icon-slug"></ss-icon>
-   <!-- Optional: thickness="1.5" -->
-   <ss-icon icon="icon-slug" thickness="2"></ss-icon>
+   <!-- Default stroke width: 2. Optional custom thickness: -->
+   <ss-icon icon="icon-slug" thickness="1.5"></ss-icon>
    \`\`\`
 
 ### CSS Icons
 
 1. Include the CSS:
    \`\`\`html
-   <link rel="stylesheet" href="https://unpkg.com/${pkg.name}/dist/senangstart-icon.css">
+   <link rel="stylesheet" href="https://unpkg.com/${pkg.name}/dist/senangstart.min.css">
    \`\`\`
 
 2. Use the class:

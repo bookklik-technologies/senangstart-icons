@@ -2,7 +2,7 @@
 
 Curated Starter icons designed for web projects.
 
-Version: 1.0.14
+Version: 1.0.15
 License: MIT
 
 ## Usage
@@ -40,15 +40,15 @@ License: MIT
 2. Use the component:
    ```html
    <ss-icon icon="icon-slug"></ss-icon>
-   <!-- Optional: thickness="1.5" -->
-   <ss-icon icon="icon-slug" thickness="2"></ss-icon>
+   <!-- Default stroke width: 2. Optional custom thickness: -->
+   <ss-icon icon="icon-slug" thickness="1.5"></ss-icon>
    ```
 
 ### CSS Icons
 
 1. Include the CSS:
    ```html
-   <link rel="stylesheet" href="https://unpkg.com/@bookklik/senangstart-icons/dist/senangstart-icon.css">
+   <link rel="stylesheet" href="https://unpkg.com/@bookklik/senangstart-icons/dist/senangstart.min.css">
    ```
 
 2. Use the class:
@@ -56,7 +56,7 @@ License: MIT
    <i class="ss ss-icon-slug"></i>
    ```
 
-## Available Icons (246)
+## Available Icons (272)
 
 Format: Icon Name (`slug`) - Tags
 
@@ -84,11 +84,11 @@ Format: Icon Name (`slug`) - Tags
 - Arrow Path (`arrow-path`) - refresh, reload, cycle, loop, sync, update, restart, arrow-path, senangwebs, sw-loading
 - Arrow Rotate Cw (`arrow-rotate-cw`) - rotate, refresh, reload, redo, spin, clockwise, repeat, arrow-rotate-cw
 - Arrow Rotate Ccw (`arrow-rotate-ccw`) - rotate, undo, back, return, counter-clockwise, revert, arrow-rotate-ccw
-- Rotate Add (`rotate-add`) - rotate, arrow-rotate-add
+- Rotate Add (`rotate-add`) - rotate, arrow-rotate-add, add, increase, rotation, rotate-add
 - Rotate Minus (`rotate-minus`) - rotate, rotate-minus
 - Arrow Top Right On Square (`arrow-top-right-on-square`) - external, link, open, export, new tab, share, arrow-top-right-on-square
-- Arrow Right On Rectangle (`arrow-right-on-rectangle`) - logout, exit, signout, leave, door, arrow-right-on-rectangle
-- Arrow Left On Rectangle (`arrow-left-on-rectangle`) - login, enter, signin, join, access, door, arrow-left-on-rectangle
+- Arrow Right On Rectangle (`arrow-right-on-rectangle`) - login, enter, signin, join, access, door, legacy, arrow-right-on-rectangle
+- Arrow Left On Rectangle (`arrow-left-on-rectangle`) - logout, exit, signout, leave, door, legacy, arrow-left-on-rectangle
 - Chevron Left (`chevron-left`) - back, previous, carousel, slider, pagination, chevron-left
 - Chevron Right (`chevron-right`) - forward, next, carousel, slider, pagination, chevron-right
 - Chevron Up (`chevron-up`) - top, collapse, accordion, fold, dropdown, ascend, chevron-up
@@ -105,7 +105,7 @@ Format: Icon Name (`slug`) - Tags
 - Chat Bubble Right Ellipsis (`chat-bubble-right-ellipsis`) - message, comment, typing, response, active, chat-bubble-right-ellipsis
 - Chat Bubble Left Right (`chat-bubble-left-right`) - conversation, exchange, discussion, interview, forum, chat-bubble-left-right
 - Phone (`phone`) - call, contact, mobile, telephone, support, dial, hotline, phone
-- Phone X Mark (`phone-x-mark`) - missed call, hang up, disconnect, reject call, busy, phone-x-mark
+- Phone X Mark (`phone-x-mark`) - incoming call, receive call, answer, phone, legacy, phone-x-mark
 - User (`user`) - person, profile, account, member, avatar, admin, human, user
 - User Circle (`user-circle`) - person, profile, account, portrait, avatar, user-circle
 - User Plus (`user-plus`) - add user, register, signup, new member, invite, friend, user-plus
@@ -151,10 +151,10 @@ Format: Icon Name (`slug`) - Tags
 - Credit Card (`credit-card`) - payment, money, purchase, debit, plastic, credit-card
 - Banknotes (`banknotes`) - money, cash, payment, bill, finance, banknotes
 - Calendar (`calendar`) - date, schedule, time, event, plan, month, year, calendar
-- Calendar Plus (`calendar-plus`) - date, schedule, time, calendar, add, new event, create, plus
-- Calendar Minus (`calendar-minus`) - date, schedule, time, calendar, subtract, remove event, delete, minus
-- Calendar Approve (`calendar-approve`) - date, schedule, time, calendar, approve, check, accept, booked
-- Calendar Reject (`calendar-reject`) - date, schedule, time, calendar, reject, x-mark, remove, cancel
+- Calendar Plus (`calendar-plus`) - date, schedule, time, calendar, add, new event, create, plus, calendar-plus
+- Calendar Minus (`calendar-minus`) - date, schedule, time, calendar, subtract, remove event, delete, minus, calendar-minus
+- Calendar Approve (`calendar-approve`) - date, schedule, time, calendar, approve, check, accept, booked, calendar-approve
+- Calendar Reject (`calendar-reject`) - date, schedule, time, calendar, reject, x-mark, remove, cancel, calendar-reject
 - Calendar Days (`calendar-days`) - date, schedule, time, week, month, agenda, calendar-days
 - Briefcase (`briefcase`) - work, business, office, job, portfolio, briefcase
 - Presentation Chart Line (`presentation-chart-line`) - analytics, graph, stats, report, data, trends, presentation-chart-line
@@ -208,7 +208,7 @@ Format: Icon Name (`slug`) - Tags
 - Hand Thumb Up (`hand-thumb-up`) - like, approve, good, yes, agree, vote, hand-thumb-up
 - Hand Thumb Down (`hand-thumb-down`) - dislike, reject, bad, no, disagree, vote, hand-thumb-down
 - Hand (`hand`) - hand, pointer, select, palm, open, click, human, gesture
-- Hand Grab (`hand-grab`) - hand, grab, clenched, fist, drag, hold, select, gesture
+- Hand Grab (`hand-grab`) - hand, grab, clenched, fist, drag, hold, select, gesture, hand-grab
 - Flag (`flag`) - report, country, goal, mark, banner, finish, flag
 - Bookmark (`bookmark`) - save, favorite, tag, marker, read later, bookmark
 - Map (`map`) - location, travel, guide, navigation, place, map
@@ -225,12 +225,12 @@ Format: Icon Name (`slug`) - Tags
 - AR (`ar`) - augmented reality, 3d, cube, virtual, model, ar
 - Group Object (`group-object`) - combine, merge, join, select, design, group-object
 - Ungroup Object (`ungroup-object`) - separate, split, detach, divide, design, ungroup-object
-- Align Left Object (`align-left-object`) - align, left, object, layout, position, design
-- Align Center Object (`align-center-object`) - align, center, object, layout, position, design
-- Align Right Object (`align-right-object`) - align, right, object, layout, position, design
-- Align Top Object (`align-top-object`) - align, top, object, layout, position, design
-- Align Middle Object (`align-middle-object`) - align, middle, object, layout, position, design
-- Align Bottom Object (`align-bottom-object`) - align, bottom, object, layout, position, design
+- Align Left Object (`align-left-object`) - align, left, object, layout, position, design, align-left-object
+- Align Center Object (`align-center-object`) - align, center, object, layout, position, design, align-center-object
+- Align Right Object (`align-right-object`) - align, right, object, layout, position, design, align-right-object
+- Align Top Object (`align-top-object`) - align, top, object, layout, position, design, align-top-object
+- Align Middle Object (`align-middle-object`) - align, middle, object, layout, position, design, align-middle-object
+- Align Bottom Object (`align-bottom-object`) - align, bottom, object, layout, position, design, align-bottom-object
 - Carousel (`carousel`) - slider, gallery, images, swipe, carousel, senangwebs, sw-frame
 - Reel (`reel`) - video, movie, film, tape, cinema, reel, senangwebs, sw-reel
 - Container (`container`) - container, box, center, layout, design
@@ -257,7 +257,7 @@ Format: Icon Name (`slug`) - Tags
 - Hourglass 50 (`hourglass-50`) - time, wait, loading, halfway, process, hourglass-50
 - Hourglass 80 (`hourglass-80`) - time, wait, loading, almost done, pending, hourglass-80
 - Hourglass 100 (`hourglass-100`) - time, wait, loading, done, finished, complete, hourglass-100
-- Clock (`clock`) - time, watch, schedule, duration, timer, clock, senangwebs, time, sw-epoch
+- Clock (`clock`) - time, watch, schedule, duration, timer, clock, senangwebs, sw-epoch
 - Time Reset (`time-reset`) - undo, history, restore, backwards, rewind, time-reset
 - Layer Stacks (`layer-stacks`) - layers, stack, group, collection, database, layer-stacks
 - Cube (`cube`) - 3d, block, shape, geometry, box, cube, senangwebs, model, sw-kiln
@@ -266,7 +266,7 @@ Format: Icon Name (`slug`) - Tags
 - Tube (`tube`) - shape, round, 3d, pipe, hollow, geometry, tube
 - Cone (`cone`) - shape, triangle, 3d, geometry, pointed, cone
 - Pyramid (`pyramid`) - shape, triangle, 3d, geometry, egypt, pyramid
-- Polygon (`polygon`) - shape, polygon, 3d, mesh, geometry, hexagon, polygon
+- Polygon (`polygon`) - shape, polygon, 3d, mesh, geometry, hexagon
 - Torus (`torus`) - shape, donut, 3d, ring, circular, geometry, torus
 - Plane (`plane`) - shape, flat, 3d, surface, floor, ground, plane
 - Wedge (`wedge`) - shape, triangle, 3d, incline, slope, ramp, wedge
@@ -292,7 +292,7 @@ Format: Icon Name (`slug`) - Tags
 - Diamond (`diamond`) - shape, rhombus, gem, card, geometry, diamond
 - Hexagon (`hexagon`) - shape, polygon, nut, geometry, hexagon
 - Draw Line (`draw-line`) - edit, write, draw, line, stroke, diagonal, draw-line
-- Draw Curve (`draw-curve`) - draw, curve, line, s-curve, spline, vector, bezier
+- Draw Curve (`draw-curve`) - draw, curve, line, s-curve, spline, vector, bezier, draw-curve
 - Pencil (`pencil`) - edit, write, draw, modify, update, pencil
 - Brush (`brush`) - brush, paint, draw, art, design, style, edit, creative, stroke, painting
 - Eraser (`eraser`) - delete, remove, clear, rub, cleanup, eraser
@@ -306,3 +306,29 @@ Format: Icon Name (`slug`) - Tags
 - Text Align Justify (`text-align-justify`) - format, paragraph, justify, stretch, text-align-justify
 - Sliders Horizontal (`sliders-horizontal`) - settings, filters, adjust, levels, controls, sliders-horizontal
 - Sliders Vertical (`sliders-vertical`) - settings, filters, adjust, levels, controls, sliders-vertical
+- Arrow Down Tray (`arrow-down-tray`) - download, export, save, file, transfer, receive, arrow-down-tray
+- Arrow Up Tray (`arrow-up-tray`) - upload, import, file, transfer, send, arrow-up-tray
+- Funnel (`funnel`) - filter, refine, results, search, table, funnel
+- Link (`link`) - url, hyperlink, chain, connect, insert link, copy link, link
+- Link Slash (`link-slash`) - unlink, remove link, disconnect, broken link, url, link-slash
+- Share (`share`) - share, social, send, distribute, connect
+- Check Circle (`check-circle`) - success, complete, confirm, approve, valid, tick, done, check-circle
+- X Circle (`x-circle`) - error, failure, reject, invalid, cancel, close, x-circle
+- Paper Airplane (`paper-airplane`) - send, message, submit, mail, outgoing, paper plane, paper-airplane
+- Printer (`printer`) - print, document, receipt, paper, office, printer
+- Bell Slash (`bell-slash`) - mute, notification, silent, alarm off, do not disturb, bell-slash
+- Wifi Slash (`wifi-slash`) - offline, disconnected, no internet, network, signal, wifi off, wifi-slash
+- Cloud Arrow Up (`cloud-arrow-up`) - cloud, upload, backup, storage, sync, save, cloud-arrow-up
+- Cloud Arrow Down (`cloud-arrow-down`) - cloud, download, restore, storage, sync, receive, cloud-arrow-down
+- Arrow Trending Up (`arrow-trending-up`) - trend, increase, growth, analytics, rising, statistics, arrow-trending-up
+- Arrow Trending Down (`arrow-trending-down`) - trend, decrease, decline, analytics, falling, statistics, arrow-trending-down
+- Checkbox Unchecked (`checkbox-unchecked`) - checkbox, unchecked, unselected, empty, form, selection, checkbox-unchecked
+- Checkbox Checked (`checkbox-checked`) - checkbox, checked, selected, tick, form, selection, checkbox-checked
+- Radio Unchecked (`radio-unchecked`) - radio, unchecked, unselected, option, form, choice, radio-unchecked
+- Radio Checked (`radio-checked`) - radio, checked, selected, option, form, choice, radio-checked
+- Toggle Off (`toggle-off`) - toggle, switch, off, disabled, setting, false, toggle-off
+- Toggle On (`toggle-on`) - toggle, switch, on, enabled, setting, true, toggle-on
+- Phone Incoming (`phone-incoming`) - phone-incoming, incoming call, receive call, answer, phone
+- Phone Reject (`phone-reject`) - phone-reject, reject call, hang up, disconnect, decline, phone
+- Sign In (`sign-in`) - sign-in, login, signin, enter, access, account
+- Sign Out (`sign-out`) - sign-out, logout, signout, exit, leave, account
