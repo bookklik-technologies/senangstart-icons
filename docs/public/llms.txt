@@ -2,7 +2,7 @@
 
 Curated Starter icons designed for web projects.
 
-Version: 1.0.15
+Version: 1.0.16
 License: MIT
 
 ## Usage
@@ -56,7 +56,7 @@ License: MIT
    <i class="ss ss-icon-slug"></i>
    ```
 
-## Available Icons (272)
+## Available Icons (274)
 
 Format: Icon Name (`slug`) - Tags
 
@@ -250,6 +250,8 @@ Format: Icon Name (`slug`) - Tags
 - Compress (`compress`) - compress, small, shrink, scale down, minimize
 - Expand (`expand`) - expand, large, grow, scale up, maximize
 - Layout (`layout`) - dashboard, ui, grid, interface, sidebar, template, layout
+- Sidebar Left (`sidebar-left`) - dashboard, ui, grid, interface, sidebar, template, layout
+- Sidebar Right (`sidebar-right`) - dashboard, ui, grid, interface, sidebar, template, layout
 - Table (`table`) - table, grid, spreadsheet, data, rows, columns, cells, layout
 - Focus (`focus`) - focus, lock in, scan, fullscreen, aim, target, center
 - Crosshair (`crosshair`) - crosshair, aim, target, center, focus, game

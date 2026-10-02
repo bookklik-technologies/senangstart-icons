@@ -7,7 +7,7 @@ title: Arrow Left On Rectangle
 > Nama legasi: anak panah menghala ke kanan, keluar dari pintu. Gunakan [sign-out](./sign-out) untuk tindakan ini. Nama dan lukisan legasi dikekalkan untuk keserasian.
 
 <div style="display: flex; justify-content: center; padding: 2rem; background: var(--vp-c-bg-soft); border-radius: 8px; margin: 1rem 0;">
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 9V5A2.25 2.25 0 0013 3H5A2.25 2.25 0 003 5v14a2.25 2.25 0 002 2h8a2.25 2.25 0 002-2V15m3 0 3-3m0 0-3-3m3 3H8"></path></svg>
 </div>
 
 ## Penggunaan
@@ -49,14 +49,14 @@ console.log(svg);
 ## Laluan SVG
 
 ```
-M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9
+M15 9V5A2.25 2.25 0 0013 3H5A2.25 2.25 0 003 5v14a2.25 2.25 0 002 2h8a2.25 2.25 0 002-2V15m3 0 3-3m0 0-3-3m3 3H8
 ```
 
 ## SVG Mentah
 
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9"></path>
+  <path d="M15 9V5A2.25 2.25 0 0013 3H5A2.25 2.25 0 003 5v14a2.25 2.25 0 002 2h8a2.25 2.25 0 002-2V15m3 0 3-3m0 0-3-3m3 3H8"></path>
 </svg>
 ```
 

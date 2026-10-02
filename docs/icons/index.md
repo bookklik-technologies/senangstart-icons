@@ -4,7 +4,7 @@ title: Icon Library
 
 # Icon Library
 
-Browse all **272** available icons in SenangStart Icons.
+Browse all **274** available icons in SenangStart Icons.
 
 ## Usage
 
@@ -154,12 +154,12 @@ Once you find the icon you need, use it like this:
 </a>
 
 <a href="./arrow-right-on-rectangle" class="icon-card" title="login, enter, signin, join, access, door, legacy, arrow-right-on-rectangle">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12H8m3 3-3-3m0 0 3-3m4 6v4a2.25 2.25 0 01-2 2H5A2.25 2.25 0 013 19V5A2.25 2.25 0 015 3h8a2.25 2.25 0 012 2V9"></path></svg>
   <span>Arrow Right On Rectangle</span>
 </a>
 
 <a href="./arrow-left-on-rectangle" class="icon-card" title="logout, exit, signout, leave, door, legacy, arrow-left-on-rectangle">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 9V5A2.25 2.25 0 0013 3H5A2.25 2.25 0 003 5v14a2.25 2.25 0 002 2h8a2.25 2.25 0 002-2V15m3 0 3-3m0 0-3-3m3 3H8"></path></svg>
   <span>Arrow Left On Rectangle</span>
 </a>
 
@@ -968,6 +968,16 @@ Once you find the icon you need, use it like this:
   <span>Layout</span>
 </a>
 
+<a href="./sidebar-left" class="icon-card" title="dashboard, ui, grid, interface, sidebar, template, layout">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21V9M21 9H3M3 5V19a2 2 0 002 2H19a2 2 0 002-2V5A2 2 0 0019 3H5A2 2 0 003 5Z"></path></svg>
+  <span>Sidebar Left</span>
+</a>
+
+<a href="./sidebar-right" class="icon-card" title="dashboard, ui, grid, interface, sidebar, template, layout">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21V9m6 0H3M3 5V19a2 2 0 002 2H19a2 2 0 002-2V5A2 2 0 0019 3H5A2 2 0 003 5Z"></path></svg>
+  <span>Sidebar Right</span>
+</a>
+
 <a href="./table" class="icon-card" title="table, grid, spreadsheet, data, rows, columns, cells, layout">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5ZM3 9h18M16 9v12M3 13 21 13M3 17 21 17"></path></svg>
   <span>Table</span>
@@ -1369,12 +1379,12 @@ Once you find the icon you need, use it like this:
 </a>
 
 <a href="./sign-in" class="icon-card" title="sign-in, login, signin, enter, access, account">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l3-3L9 9m3 3H4m17 9-5-4V7l5-4M11 17v4H21V3H11V7"></path></svg>
   <span>Sign In</span>
 </a>
 
 <a href="./sign-out" class="icon-card" title="sign-out, logout, signout, exit, leave, account">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 15 4 12 7 9M4 12h8m9 9-5-4V7l5-4M11 17v4H21V3H11V7"></path></svg>
   <span>Sign Out</span>
 </a>
 
