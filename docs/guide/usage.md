@@ -52,11 +52,10 @@ Existing names and drawings remain available for compatibility. Prefer these nam
 
 | Action | Preferred name | Legacy name with the same drawing |
 |---|---|---|
-| Incoming call | `phone-incoming` | `phone-x-mark` |
 | Sign in (arrow entering the door) | `sign-in` | `arrow-right-on-rectangle` |
 | Sign out (arrow leaving the door) | `sign-out` | `arrow-left-on-rectangle` |
 
-Use `phone-reject` to reject a call; it contains an actual X. Search tags are not runtime aliases.
+Use `phone-incoming` for an incoming-call arrow and `phone-x-mark` for a handset with an X to reject a call. The `phone-x-mark` artwork has been corrected to match its name. Search tags are not runtime aliases.
 
 ## Styling
 

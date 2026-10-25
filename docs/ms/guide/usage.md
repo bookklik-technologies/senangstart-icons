@@ -52,11 +52,10 @@ Nama dan lukisan lama dikekalkan untuk keserasian. Gunakan nama berikut supaya t
 
 | Tindakan | Nama disyorkan | Nama legasi dengan lukisan yang sama |
 |---|---|---|
-| Panggilan masuk | `phone-incoming` | `phone-x-mark` |
 | Log masuk (anak panah masuk ke pintu) | `sign-in` | `arrow-right-on-rectangle` |
 | Log keluar (anak panah keluar dari pintu) | `sign-out` | `arrow-left-on-rectangle` |
 
-Gunakan `phone-reject` untuk menolak panggilan; ikon ini mempunyai tanda X sebenar. Tag carian bukan alias masa jalan.
+Gunakan `phone-incoming` untuk anak panah panggilan masuk dan `phone-x-mark` untuk gagang telefon dengan tanda X bagi menolak panggilan. Lukisan `phone-x-mark` telah dibetulkan agar sepadan dengan namanya. Tag carian bukan alias masa jalan.
 
 ## Penggayaan (Styling)
 

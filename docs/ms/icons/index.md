@@ -4,7 +4,7 @@ title: Pustaka Ikon
 
 # Pustaka Ikon
 
-Layari semua **274** ikon yang tersedia dalam SenangStart Icons.
+Layari semua **355** ikon yang tersedia dalam SenangStart Icons.
 
 ## Penggunaan
 
@@ -29,12 +29,12 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
 </a>
 
 <a href="./check" class="icon-card" title="tick, success, confirm, done, correct, ok, accept, valid, approve, complete, check">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.75l6 6 9-13.5"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12l5 5 10-10"></path></svg>
   <span>Check</span>
 </a>
 
 <a href="./double-tick" class="icon-card" title="check, done, success, read, seen, all done, delivered, double-tick">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.75l6 6 9-13.5m-12.5 3.75 3 3 4.6-6.8"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l5 5L18 7M12 17l9-9"></path></svg>
   <span>Double Tick</span>
 </a>
 
@@ -44,7 +44,7 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
 </a>
 
 <a href="./minus" class="icon-card" title="subtract, delete, remove, collapse, negative, math, decrease, less, minus">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12h15"></path></svg>
   <span>Minus</span>
 </a>
 
@@ -81,6 +81,21 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
 <a href="./trash" class="icon-card" title="delete, remove, bin, garbage, rubbish, waste, recycle, discard, junk, trash">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.2 18 14 18m5.228-12.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0M5.8 18 14 18"></path></svg>
   <span>Trash</span>
+</a>
+
+<a href="./horizontal-3-dots" class="icon-card" title="menu, more, options, ellipsis, meatball, overflow, horizontal-3-dots">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12h0M12 12h0M18 12h0"></path></svg>
+  <span>Horizontal 3 Dots</span>
+</a>
+
+<a href="./vertical-3-dots" class="icon-card" title="menu, more, options, ellipsis, kebab, overflow, vertical-3-dots">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6h0M12 12h0M12 18h0"></path></svg>
+  <span>Vertical 3 Dots</span>
+</a>
+
+<a href="./save" class="icon-card" title="disk, floppy, store, keep, record, save">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21A2.25 2.25 0 0021 19V7L17 3H5A2.25 2.25 0 003 5V19A2.25 2.25 0 005 21H17ZM12 18A3.75 3.75 0 1012 10.25 3.75 3.75 0 0012 18ZM7 3H13V7H7V5.8Z"></path></svg>
+  <span>Save</span>
 </a>
 
 <a href="./arrow-left" class="icon-card" title="back, previous, direction, point, west, return, arrow-left">
@@ -153,14 +168,24 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Arrow Top Right On Square</span>
 </a>
 
+<a href="./arrow-left-on-rectangle" class="icon-card" title="logout, exit, signout, leave, door, legacy, arrow-left-on-rectangle">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 9V5A2.25 2.25 0 0013 3H5A2.25 2.25 0 003 5v14a2.25 2.25 0 002 2h8a2.25 2.25 0 002-2V15m3 0 3-3m0 0-3-3m3 3H8"></path></svg>
+  <span>Arrow Left On Rectangle</span>
+</a>
+
 <a href="./arrow-right-on-rectangle" class="icon-card" title="login, enter, signin, join, access, door, legacy, arrow-right-on-rectangle">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12H8m3 3-3-3m0 0 3-3m4 6v4a2.25 2.25 0 01-2 2H5A2.25 2.25 0 013 19V5A2.25 2.25 0 015 3h8a2.25 2.25 0 012 2V9"></path></svg>
   <span>Arrow Right On Rectangle</span>
 </a>
 
-<a href="./arrow-left-on-rectangle" class="icon-card" title="logout, exit, signout, leave, door, legacy, arrow-left-on-rectangle">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 9V5A2.25 2.25 0 0013 3H5A2.25 2.25 0 003 5v14a2.25 2.25 0 002 2h8a2.25 2.25 0 002-2V15m3 0 3-3m0 0-3-3m3 3H8"></path></svg>
-  <span>Arrow Left On Rectangle</span>
+<a href="./sign-in" class="icon-card" title="sign-in, login, signin, enter, access, account">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l3-3L9 9m3 3H4m17 9-5-4V7l5-4M11 17v4H21V3H11V7"></path></svg>
+  <span>Sign In</span>
+</a>
+
+<a href="./sign-out" class="icon-card" title="sign-out, logout, signout, exit, leave, account">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 15 4 12 7 9M4 12h8m9 9-5-4V7l5-4M11 17v4H21V3H11V7"></path></svg>
+  <span>Sign Out</span>
 </a>
 
 <a href="./chevron-left" class="icon-card" title="back, previous, carousel, slider, pagination, chevron-left">
@@ -203,49 +228,279 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Chevron Double Down</span>
 </a>
 
-<a href="./envelope" class="icon-card" title="mail, email, message, contact, letter, inbox, send, receive, envelope">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path></svg>
-  <span>Envelope</span>
+<a href="./arrow-left-arrow-right" class="icon-card" title="swap, exchange, switch, trade, compare, transfer, arrow-left-arrow-right">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 21 3 16.5m0 0 4.5-4.5M3 16.5h13.5m0-13.5L21 7.5m0 0-4.5 4.5M21 7.5H7.5"></path></svg>
+  <span>Arrow Left Arrow Right</span>
 </a>
 
-<a href="./envelope-open" class="icon-card" title="mail, email, read, newsletter, draft, envelope-open">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z"></path></svg>
-  <span>Envelope Open</span>
+<a href="./arrow-up-arrow-down" class="icon-card" title="sort, swap, switch, order, transfer, vertical, arrow-up-arrow-down">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"></path></svg>
+  <span>Arrow Up Arrow Down</span>
 </a>
 
-<a href="./chat-bubble-left" class="icon-card" title="message, comment, talk, text, sms, feedback, dialog, chat-bubble-left">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 8.25h9m-9 3H12M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path></svg>
-  <span>Chat Bubble Left</span>
+<a href="./arrow-left-right" class="icon-card" title="swap, horizontal, resize, stretch, expand, arrow-left-right">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 3 12 h 18 M 7 16 L 3 12 l 4 -4 M 17 8 L 21 12 l -4 4"></path></svg>
+  <span>Arrow Left Right</span>
 </a>
 
-<a href="./chat-bubble-right" class="icon-card" title="message, comment, talk, reply, response, chat-bubble-right">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 8.25h9m0 3H12M21.75 12.76c0 1.6-1.123 2.994-2.707 3.227-1.087.16-2.185.283-3.293.369V21l-4.076-4.076a1.526 1.526 0 01-1.037-.443 48.282 48.282 0 00-5.68-.494c-1.584-.233-2.707-1.626-2.707-3.228V6.741c0-1.602 1.123-2.995 2.707-3.228A48.394 48.394 0 0112 3c2.392 0 4.744.175 7.043.513 1.584.233 2.707 1.627 2.707 3.228v6.018z"></path></svg>
-  <span>Chat Bubble Right</span>
+<a href="./arrow-up-down" class="icon-card" title="swap, vertical, resize, stretch, expand, arrow-up-down">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 12 3 v 18 M 8 7 L 12 3 l 4 4 M 16 17 L 12 21 l -4 -4"></path></svg>
+  <span>Arrow Up Down</span>
 </a>
 
-<a href="./chat-bubble-left-ellipsis" class="icon-card" title="message, comment, typing, waiting, loading, chat-bubble-left-ellipsis">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.8 9.8a.75.75 0 11-1.6 0 .75.75 0 011.6 0M12.8 9.8a.75.75 0 11-1.6 0 .75.75 0 011.6-0M17.8 9.8a.75.75 0 11-1.6 0 .75.75 0 011.6 0M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path></svg>
-  <span>Chat Bubble Left Ellipsis</span>
+<a href="./arrow-up-down-left-right" class="icon-card" title="move, all directions, pan, drag, position, arrow-up-down-left-right">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 3 12 h 18 M 12 3 v 18 M 6 15 L 3 12 l 3 -3 M 18 9 L 21 12 l -3 3 M 9 6 L 12 3 l 3 3 M 15 18 L 12 21 l -3 -3"></path></svg>
+  <span>Arrow Up Down Left Right</span>
 </a>
 
-<a href="./chat-bubble-right-ellipsis" class="icon-card" title="message, comment, typing, response, active, chat-bubble-right-ellipsis">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.8 9.8a.75.75 0 11-1.6 0 .75.75 0 011.6 0M12.8 9.8a.75.75 0 11-1.6 0 .75.75 0 011.6 0M17.8 9.8a.75.75 0 11-1.6 0 .75.75 0 011.6 0M21.75 12.76c0 1.6-1.123 2.994-2.707 3.227-1.087.16-2.185.283-3.293.369V21l-4.076-4.076a1.526 1.526 0 01-1.037-.443 48.282 48.282 0 00-5.68-.494c-1.584-.233-2.707-1.626-2.707-3.228V6.741c0-1.602 1.123-2.995 2.707-3.228A48.394 48.394 0 0112 3c2.392 0 4.744.175 7.043.513 1.584.233 2.707 1.627 2.707 3.228v6.018z"></path></svg>
-  <span>Chat Bubble Right Ellipsis</span>
+<a href="./arrow-down-tray" class="icon-card" title="download, export, save, file, transfer, receive, arrow-down-tray">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v11m-4-4 4 4 4-4M4 16v4h16v-4"></path></svg>
+  <span>Arrow Down Tray</span>
 </a>
 
-<a href="./chat-bubble-left-right" class="icon-card" title="conversation, exchange, discussion, interview, forum, chat-bubble-left-right">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"></path></svg>
-  <span>Chat Bubble Left Right</span>
+<a href="./arrow-up-tray" class="icon-card" title="upload, import, file, transfer, send, arrow-up-tray">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14V3m-4 4 4-4 4 4M4 16v4h16v-4"></path></svg>
+  <span>Arrow Up Tray</span>
 </a>
 
-<a href="./phone" class="icon-card" title="call, contact, mobile, telephone, support, dial, hotline, phone">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"></path></svg>
-  <span>Phone</span>
+<a href="./arrow-trending-up" class="icon-card" title="trend, increase, growth, analytics, rising, statistics, arrow-trending-up">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-10M15 5h6v6"></path></svg>
+  <span>Arrow Trending Up</span>
 </a>
 
-<a href="./phone-x-mark" class="icon-card" title="incoming call, receive call, answer, phone, legacy, phone-x-mark">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.055.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z"></path></svg>
-  <span>Phone X Mark</span>
+<a href="./arrow-trending-down" class="icon-card" title="trend, decrease, decline, analytics, falling, statistics, arrow-trending-down">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l6 6 4-4 8 10M15 19h6v-6"></path></svg>
+  <span>Arrow Trending Down</span>
+</a>
+
+<a href="./breadcrumb" class="icon-card" title="breadcrumb, navigation, path, trail, parent, hierarchy">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 6 7.5l3 3v6H3v-6ZM12 9l3 3-3 3M18 9l3 3-3 3"></path></svg>
+  <span>Breadcrumb</span>
+</a>
+
+<a href="./pagination" class="icon-card" title="pagination, pages, previous, next, navigation, results">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.75 7.5h4.5a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1 -1.5 1.5h-4.5a1.5 1.5 0 0 1 -1.5 -1.5v-6a1.5 1.5 0 0 1 1.5 -1.5ZM5.25 9 2.25 12l3 3M18.75 9l3 3-3 3M11.25 10.5H12v3M11.25 13.5h1.5"></path></svg>
+  <span>Pagination</span>
+</a>
+
+<a href="./sort-ascending" class="icon-card" title="sort, ascending, order, low to high, alphabetical, arrange, sort-ascending">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 20.25V3.75M2.75 7 6 3.75 9.25 7M12 6h3M12 12h6M12 18h9"></path></svg>
+  <span>Sort Ascending</span>
+</a>
+
+<a href="./sort-descending" class="icon-card" title="sort, descending, order, high to low, reverse alphabetical, arrange, sort-descending">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3.75v16.5M2.75 17 6 20.25 9.25 17M12 6h9M12 12h6M12 18h3"></path></svg>
+  <span>Sort Descending</span>
+</a>
+
+<a href="./alert" class="icon-card" title="warning, danger, notification, popup, window, modal, dialog, alert, senangwebs, sw-modals">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.25V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18V8.25m-18 0V6a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 6v2.25m-18 0h18zM8 13.3h8v3H8z"></path></svg>
+  <span>Alert</span>
+</a>
+
+<a href="./check-circle" class="icon-card" title="success, complete, confirm, approve, valid, tick, done, check-circle">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zM7.5 12l3 3 6-6"></path></svg>
+  <span>Check Circle</span>
+</a>
+
+<a href="./x-circle" class="icon-card" title="error, failure, reject, invalid, cancel, close, x-circle">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9 9l6 6m0-6-6 6"></path></svg>
+  <span>X Circle</span>
+</a>
+
+<a href="./exclamation-circle" class="icon-card" title="error, warning, alert, attention, problem, exclamation-circle">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"></path></svg>
+  <span>Exclamation Circle</span>
+</a>
+
+<a href="./exclamation-triangle" class="icon-card" title="warning, danger, caution, risk, hazard, exclamation-triangle">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.008v.008H12v-.008z"></path></svg>
+  <span>Exclamation Triangle</span>
+</a>
+
+<a href="./information-circle" class="icon-card" title="help, details, info, about, hint, guide, information-circle">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"></path></svg>
+  <span>Information Circle</span>
+</a>
+
+<a href="./question-mark-circle" class="icon-card" title="help, faq, support, unknown, query, question-mark-circle, senangwebs, question, sw-quiz">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z"></path></svg>
+  <span>Question Mark Circle</span>
+</a>
+
+<a href="./bell" class="icon-card" title="notification, alert, alarm, reminder, ring, bell, senangwebs, prompt, sw-notices">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"></path></svg>
+  <span>Bell</span>
+</a>
+
+<a href="./bell-alert" class="icon-card" title="notification, alert, alarm, active, urgent, reminder, bell-alert">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0M3.124 7.5A8.969 8.969 0 015.292 3m13.416 0a8.969 8.969 0 012.168 4.5"></path></svg>
+  <span>Bell Alert</span>
+</a>
+
+<a href="./bell-slash" class="icon-card" title="mute, notification, silent, alarm off, do not disturb, bell-slash">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3.8A6 6 0 0 1 18 9v.75a8.967 8.967 0 0 0 2.31 6.02M6.2 7.5A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.31 6.02A24 24 0 0 0 15 17.07M9.14 17.08a3 3 0 0 0 5.72 0M3 3l18 18"></path></svg>
+  <span>Bell Slash</span>
+</a>
+
+<a href="./eye" class="icon-card" title="view, show, visible, watch, see, reveal, eye">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178zM15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+  <span>Eye</span>
+</a>
+
+<a href="./eye-slash" class="icon-card" title="hide, invisible, password, conceal, blind, off, eye-slash">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88"></path></svg>
+  <span>Eye Slash</span>
+</a>
+
+<a href="./star" class="icon-card" title="favorite, rating, like, review, bookmark, featured, star">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.563.045.797.77.364 1.154l-4.22 3.737a.563.563 0 00-.172.527l1.283 5.376c.15.628-.548 1.13-1.066.77l-4.654-3.192a.563.563 0 00-.636 0l-4.654 3.192c-.518.36-1.216-.142-1.066-.77l1.283-5.376a.563.563 0 00-.172-.527l-4.22-3.737c-.433-.384-.199-1.11.364-1.154l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"></path></svg>
+  <span>Star</span>
+</a>
+
+<a href="./heart" class="icon-card" title="like, love, favorite, save, health, romance, heart">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"></path></svg>
+  <span>Heart</span>
+</a>
+
+<a href="./flag" class="icon-card" title="report, country, goal, mark, banner, finish, flag">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5"></path></svg>
+  <span>Flag</span>
+</a>
+
+<a href="./tabs" class="icon-card" title="browser, ui, navigation, group, folder, tabs, senangwebs, sw-herd">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 7.5V18a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18V7.5V6a2.25 2.25 0 0 1 2.25-2.25H18.75a2.25 2.25 0 0 1 2.25 2.25V7.5H12V3.75"></path></svg>
+  <span>Tabs</span>
+</a>
+
+<a href="./window" class="icon-card" title="browser, app, ui, program, application, window">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.25V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18V8.25m-18 0V6a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 6v2.25m-18 0h18M5.25 6h.008v.008H5.25V6zM7.5 6h.008v.008H7.5V6zM9.75 6h.008v.008H9.75V6z"></path></svg>
+  <span>Window</span>
+</a>
+
+<a href="./carousel" class="icon-card" title="slider, gallery, images, swipe, carousel, senangwebs, sw-frame">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6v12M21 6v12M8 5h8a2 2 0 012 2v10a2 2 0 01-2 2H8a2 2 0 01-2-2V7a2 2 0 012-2Z"></path></svg>
+  <span>Carousel</span>
+</a>
+
+<a href="./reel" class="icon-card" title="video, movie, film, tape, cinema, reel, senangwebs, sw-reel">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12M6 21h12M19 8v8a2 2 0 01-2 2H7a2 2 0 01-2-2V8a2 2 0 012-2h10a2 2 0 012 2Z"></path></svg>
+  <span>Reel</span>
+</a>
+
+<a href="./container" class="icon-card" title="container, box, center, layout, design">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12M6 21h12M18 8v8a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2h8a2 2 0 012 2ZM3 6 3 18M21 6 21 18"></path></svg>
+  <span>Container</span>
+</a>
+
+<a href="./grid" class="icon-card" title="layout, view, table, cells, pattern, grid">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v18M15 3v18M3 9h18M3 15h18M3 21h18M3 3h18M3 3v18M21 3v18"></path></svg>
+  <span>Grid</span>
+</a>
+
+<a href="./tic-tac-toe" class="icon-card" title="layout, view, game, grid, tic-tac-toe">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v18 M15 3v18 M3 9h18 M3 15h18"></path></svg>
+  <span>Tic Tac Toe</span>
+</a>
+
+<a href="./layout" class="icon-card" title="dashboard, ui, grid, interface, sidebar, template, layout">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5Z M3 9h18 M12 9v12"></path></svg>
+  <span>Layout</span>
+</a>
+
+<a href="./sidebar-left" class="icon-card" title="dashboard, ui, grid, interface, sidebar, template, layout">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21V9M21 9H3M3 5V19a2 2 0 002 2H19a2 2 0 002-2V5A2 2 0 0019 3H5A2 2 0 003 5Z"></path></svg>
+  <span>Sidebar Left</span>
+</a>
+
+<a href="./sidebar-right" class="icon-card" title="dashboard, ui, grid, interface, sidebar, template, layout">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21V9m6 0H3M3 5V19a2 2 0 002 2H19a2 2 0 002-2V5A2 2 0 0019 3H5A2 2 0 003 5Z"></path></svg>
+  <span>Sidebar Right</span>
+</a>
+
+<a href="./table" class="icon-card" title="table, grid, spreadsheet, data, rows, columns, cells, layout">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5ZM3 9h18M16 9v12M3 13 21 13M3 17 21 17"></path></svg>
+  <span>Table</span>
+</a>
+
+<a href="./sliders-horizontal" class="icon-card" title="settings, filters, adjust, levels, controls, sliders-horizontal">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 6H3.75m9.75 0a1.5 1.5 0 0 1 3 0m-3 0a1.5 1.5 0 0 0 3 0m3.75 0H16.5m-3 12H3.75m9.75 0a1.5 1.5 0 0 1 3 0m-3 0a1.5 1.5 0 0 0 3 0m3.75 0H16.5m-9-6H3.75m3.75 0a1.5 1.5 0 0 1 3 0m-3 0a1.5 1.5 0 0 0 3 0m9.75 0H10.5"></path></svg>
+  <span>Sliders Horizontal</span>
+</a>
+
+<a href="./sliders-vertical" class="icon-card" title="settings, filters, adjust, levels, controls, sliders-vertical">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"></path></svg>
+  <span>Sliders Vertical</span>
+</a>
+
+<a href="./funnel" class="icon-card" title="filter, refine, results, search, table, funnel">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h18l-7 8v7l-4 2v-9L3 4z"></path></svg>
+  <span>Funnel</span>
+</a>
+
+<a href="./checkbox-unchecked" class="icon-card" title="checkbox, unchecked, unselected, empty, form, selection, checkbox-unchecked">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path></svg>
+  <span>Checkbox Unchecked</span>
+</a>
+
+<a href="./checkbox-checked" class="icon-card" title="checkbox, checked, selected, tick, form, selection, checkbox-checked">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4zM7.5 12l3 3 6-6"></path></svg>
+  <span>Checkbox Checked</span>
+</a>
+
+<a href="./radio-unchecked" class="icon-card" title="radio, unchecked, unselected, option, form, choice, radio-unchecked">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+  <span>Radio Unchecked</span>
+</a>
+
+<a href="./radio-checked" class="icon-card" title="radio, checked, selected, option, form, choice, radio-checked">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path></svg>
+  <span>Radio Checked</span>
+</a>
+
+<a href="./toggle-off" class="icon-card" title="toggle, switch, off, disabled, setting, false, toggle-off">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h8a6 6 0 0 1 0 12H8A6 6 0 0 1 8 6zM11 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path></svg>
+  <span>Toggle Off</span>
+</a>
+
+<a href="./toggle-on" class="icon-card" title="toggle, switch, on, enabled, setting, true, toggle-on">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h8a6 6 0 0 1 0 12H8A6 6 0 0 1 8 6zM19 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path></svg>
+  <span>Toggle On</span>
+</a>
+
+<a href="./kanban" class="icon-card" title="kanban, board, tasks, workflow, project, columns">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h2.5a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-2.5a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1ZM10.75 3h2.5a1 1 0 0 1 1 1v16a1 1 0 0 1 -1 1h-2.5a1 1 0 0 1 -1 -1v-16a1 1 0 0 1 1 -1ZM17.5 3h2.5a1 1 0 0 1 1 1v7a1 1 0 0 1 -1 1h-2.5a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1Z"></path></svg>
+  <span>Kanban</span>
+</a>
+
+<a href="./list-numbered" class="icon-card" title="list, numbered, ordered, ranking, text, format, list-numbered">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4.5h1.5v4.5M3 9h3M2.75 15.75a1.625 1.625 0 0 1 3.25 0c0 1.5-3.25 2.25-3.25 3.75H6M10 6.75h11M10 17.25h11"></path></svg>
+  <span>List Numbered</span>
+</a>
+
+<a href="./tree-view" class="icon-card" title="tree, hierarchy, nested, navigation, directory, structure, tree-view">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h4a1 1 0 0 1 1 1v2.5a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-2.5a1 1 0 0 1 1 -1ZM13 10.5h7a1 1 0 0 1 1 1v2.5a1 1 0 0 1 -1 1h-7a1 1 0 0 1 -1 -1v-2.5a1 1 0 0 1 1 -1ZM13 18h7a1 1 0 0 1 1 1v2.5a1 1 0 0 1 -1 1h-7a1 1 0 0 1 -1 -1v-2.5a1 1 0 0 1 1 -1ZM6 7.5v12.75H12M6 12.75h6"></path></svg>
+  <span>Tree View</span>
+</a>
+
+<a href="./drag-handle" class="icon-card" title="drag, handle, grip, reorder, move, sortable, drag-handle">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.25 5.25h0M15.75 5.25h0M8.25 12h0M15.75 12h0M8.25 18.75h0M15.75 18.75h0"></path></svg>
+  <span>Drag Handle</span>
+</a>
+
+<a href="./progress-steps" class="icon-card" title="steps, stepper, progress, wizard, onboarding, workflow, progress-steps">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 12a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0ZM9.75 12a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0ZM17.25 12a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0ZM6.75 12h3M14.25 12h3"></path></svg>
+  <span>Progress Steps</span>
+</a>
+
+<a href="./text-input" class="icon-card" title="input, text field, form, typing, caret, textbox, text-input">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 6h15a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1 -2.25 2.25h-15a2.25 2.25 0 0 1 -2.25 -2.25v-7.5a2.25 2.25 0 0 1 2.25 -2.25ZM9 3.75h4.5M11.25 3.75v16.5M9 20.25h4.5M6 10.5v3"></path></svg>
+  <span>Text Input</span>
+</a>
+
+<a href="./dropdown-menu" class="icon-card" title="dropdown, select menu, combobox, expanded options, form control, dropdown-menu">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 2.25h15a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 9.75v-6a1.5 1.5 0 0 1 1.5-1.5ZM6 6.75h4.5M15 6l1.5 1.5L18 6M7.5 14.25h12a1.5 1.5 0 0 1 1.5 1.5v4.5a1.5 1.5 0 0 1-1.5 1.5h-12A1.5 1.5 0 0 1 6 20.25v-4.5a1.5 1.5 0 0 1 1.5-1.5ZM9.75 18h7.5"></path></svg>
+  <span>Dropdown Menu</span>
 </a>
 
 <a href="./user" class="icon-card" title="person, profile, account, member, avatar, admin, human, user">
@@ -278,9 +533,144 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Users</span>
 </a>
 
-<a href="./alert" class="icon-card" title="warning, danger, notification, popup, window, modal, dialog, alert, senangwebs, sw-modals">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.25V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18V8.25m-18 0V6a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 6v2.25m-18 0h18zM8 13.3h8v3H8z"></path></svg>
-  <span>Alert</span>
+<a href="./lock-closed" class="icon-card" title="secure, password, private, protect, auth, login, lock-closed">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"></path></svg>
+  <span>Lock Closed</span>
+</a>
+
+<a href="./lock-open" class="icon-card" title="unlock, public, access, insecure, logout, lock-open">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 10.5V6.75a4.5 4.5 0 119 0v3.75M3.75 21.75h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H3.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"></path></svg>
+  <span>Lock Open</span>
+</a>
+
+<a href="./key" class="icon-card" title="password, access, secure, admin, unlock, token, key">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z"></path></svg>
+  <span>Key</span>
+</a>
+
+<a href="./shield-check" class="icon-card" title="secure, safe, verified, protected, antivirus, shield-check">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.25 12l2.5 2.5 5-5M12 2.714A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"></path></svg>
+  <span>Shield Check</span>
+</a>
+
+<a href="./shield-exclamation" class="icon-card" title="danger, warning, security, risk, unsecured, shield-exclamation">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v3.75M12 15.75h.008v.008H12v-.008zM12 2.714A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"></path></svg>
+  <span>Shield Exclamation</span>
+</a>
+
+<a href="./hand-thumb-up" class="icon-card" title="like, approve, good, yes, agree, vote, hand-thumb-up">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 11h-4v9h4m0-9v-5a2.25 2.25 0 015 0v3h5a2.25 2.25 0 012 2l-1 7a2.25 2.25 0 01-2 2h-9L8 11"></path></svg>
+  <span>Hand Thumb Up</span>
+</a>
+
+<a href="./hand-thumb-down" class="icon-card" title="dislike, reject, bad, no, disagree, vote, hand-thumb-down">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 13h-4v-9h4m0 9v5a2.25 2.25 0 0 0 5 0v-3h5a2.25 2.25 0 0 0 2-2l-1-7a2.25 2.25 0 0 0-2-2h-9L8 13"></path></svg>
+  <span>Hand Thumb Down</span>
+</a>
+
+<a href="./hand" class="icon-card" title="hand, pointer, select, palm, open, click, human, gesture">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16 4 10C3.5 7 8 7 8 10M8 14 8 6C8 5 9 3.9 10 4L18 5C19 5.1 20 6 20 7L20 17C20 18.5 18.5 20 17 20L9 20C7 20 5.4 18 5 16M11 11 11 4.2M14 11.5 14 4.5M17 12 17 4.9"></path></svg>
+  <span>Hand</span>
+</a>
+
+<a href="./hand-grab" class="icon-card" title="hand, grab, clenched, fist, drag, hold, select, gesture, hand-grab">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 14 5 11C5 9 6 8 8 8M8 13 8 8C8 7 9 5.9 10 6L18 7C19 7.1 20 8 20 9L20 15C20 16.5 18.5 18 17 18L9 18C7 18 5 16 5 14M11 9.5 11 6.2M14 10 14 6.5M17 10.5 17 6.9"></path></svg>
+  <span>Hand Grab</span>
+</a>
+
+<a href="./accessibility" class="icon-card" title="accessibility, a11y, universal access, inclusive, assistive, preferences">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 4.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0ZM3.75 8.25 12 10.5l8.25-2.25M12 10.5V15M12 15l-4.5 6M12 15l4.5 6"></path></svg>
+  <span>Accessibility</span>
+</a>
+
+<a href="./fingerprint" class="icon-card" title="fingerprint, biometric, authentication, identity, touch id, verification">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 10.5a8.25 8.25 0 0 1 16.5 0M6.75 10.5a5.25 5.25 0 0 1 10.5 0v2.25a14 14 0 0 1-2.25 7.5M9.75 10.5a2.25 2.25 0 0 1 4.5 0v2.25c0 3-1.125 5.625-3 8.25M3.75 13.5c0 2.25-.375 4.5-1.5 6.75M6.75 13.5c0 3-.75 5.25-2.25 7.5M9.75 13.5c0 3-1.125 5.25-2.25 6.75M20.25 13.5c0 2.25-.375 4.5-1.125 6.75"></path></svg>
+  <span>Fingerprint</span>
+</a>
+
+<a href="./identification-card" class="icon-card" title="identification card, id card, identity document, employee badge, member credentials, verification document, identification-card">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 5.25h15a2.25 2.25 0 0 1 2.25 2.25v9a2.25 2.25 0 0 1 -2.25 2.25h-15a2.25 2.25 0 0 1 -2.25 -2.25v-9a2.25 2.25 0 0 1 2.25 -2.25ZM6 10.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM4.5 16.5v-.75a3 3 0 0 1 6 0v.75M14.25 9.75h4.5M14.25 14.25h3"></path></svg>
+  <span>Identification Card</span>
+</a>
+
+<a href="./envelope" class="icon-card" title="mail, email, message, contact, letter, inbox, send, receive, envelope">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path></svg>
+  <span>Envelope</span>
+</a>
+
+<a href="./envelope-open" class="icon-card" title="mail, email, read, newsletter, draft, envelope-open">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z"></path></svg>
+  <span>Envelope Open</span>
+</a>
+
+<a href="./chat-bubble-left" class="icon-card" title="message, comment, talk, text, sms, feedback, dialog, chat-bubble-left">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 8.25h9m-9 3H12M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path></svg>
+  <span>Chat Bubble Left</span>
+</a>
+
+<a href="./chat-bubble-left-ellipsis" class="icon-card" title="message, comment, typing, waiting, loading, chat-bubble-left-ellipsis">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 9.75h0M12 9.75h0M17 9.75h0M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path></svg>
+  <span>Chat Bubble Left Ellipsis</span>
+</a>
+
+<a href="./chat-bubble-right" class="icon-card" title="message, comment, talk, reply, response, chat-bubble-right">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 8.25h9m0 3H12M21.75 12.76c0 1.6-1.123 2.994-2.707 3.227-1.087.16-2.185.283-3.293.369V21l-4.076-4.076a1.526 1.526 0 01-1.037-.443 48.282 48.282 0 00-5.68-.494c-1.584-.233-2.707-1.626-2.707-3.228V6.741c0-1.602 1.123-2.995 2.707-3.228A48.394 48.394 0 0112 3c2.392 0 4.744.175 7.043.513 1.584.233 2.707 1.627 2.707 3.228v6.018z"></path></svg>
+  <span>Chat Bubble Right</span>
+</a>
+
+<a href="./chat-bubble-right-ellipsis" class="icon-card" title="message, comment, typing, response, active, chat-bubble-right-ellipsis">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 9.75h0M12 9.75h0M17 9.75h0M21.75 12.76c0 1.6-1.123 2.994-2.707 3.227-1.087.16-2.185.283-3.293.369V21l-4.076-4.076a1.526 1.526 0 01-1.037-.443 48.282 48.282 0 00-5.68-.494c-1.584-.233-2.707-1.626-2.707-3.228V6.741c0-1.602 1.123-2.995 2.707-3.228A48.394 48.394 0 0112 3c2.392 0 4.744.175 7.043.513 1.584.233 2.707 1.627 2.707 3.228v6.018z"></path></svg>
+  <span>Chat Bubble Right Ellipsis</span>
+</a>
+
+<a href="./chat-bubble-left-right" class="icon-card" title="conversation, exchange, discussion, interview, forum, chat-bubble-left-right">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"></path></svg>
+  <span>Chat Bubble Left Right</span>
+</a>
+
+<a href="./phone" class="icon-card" title="call, contact, mobile, telephone, support, dial, hotline, phone">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"></path></svg>
+  <span>Phone</span>
+</a>
+
+<a href="./phone-incoming" class="icon-card" title="phone-incoming, incoming call, receive call, answer, phone">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.055.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z"></path></svg>
+  <span>Phone Incoming</span>
+</a>
+
+<a href="./phone-x-mark" class="icon-card" title="incoming call, receive call, answer, phone, legacy, phone-x-mark">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3l6 6m0-6-6 6M17.25 21.75c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.055.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z"></path></svg>
+  <span>Phone X Mark</span>
+</a>
+
+<a href="./paper-airplane" class="icon-card" title="send, message, submit, mail, outgoing, paper plane, paper-airplane">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3 3 10l7 3 3 8 8-18zM10 13 21 3"></path></svg>
+  <span>Paper Airplane</span>
+</a>
+
+<a href="./share" class="icon-card" title="share, social, send, distribute, connect">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 19a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM7.65 10.6l7.7-4.2M7.65 13.4l7.7 4.2"></path></svg>
+  <span>Share</span>
+</a>
+
+<a href="./link" class="icon-card" title="url, hyperlink, chain, connect, insert link, copy link, link">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 7l3-3a5 5 0 0 1 7 7l-3 3M14 17l-3 3a5 5 0 0 1-7-7l3-3M8 16l8-8"></path></svg>
+  <span>Link</span>
+</a>
+
+<a href="./link-slash" class="icon-card" title="unlink, remove link, disconnect, broken link, url, link-slash">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 6l2-2a5 5 0 017 7l-2 2m-5 5-2 2a5 5 0 01-7-7l2-2m2 5 1-1m6-6 1-1M3 3l18 18"></path></svg>
+  <span>Link Slash</span>
+</a>
+
+<a href="./megaphone" class="icon-card" title="megaphone, announcement, broadcast, campaign, public notice, marketing">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9v6h4.5l12 6V3l-12 6H3ZM7.5 9v6M6 15l1.5 6H12l-2.25-4.875"></path></svg>
+  <span>Megaphone</span>
+</a>
+
+<a href="./at-sign" class="icon-card" title="at sign, mention, username, handle, email address, tag person, at-sign">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.75 8.25v6a2.25 2.25 0 0 0 4.5 0V12a8.25 8.25 0 1 0-3.5 6.75M8.25 11.25a3.75 3.75 0 1 0 7.5 0a3.75 3.75 0 1 0 -7.5 0Z"></path></svg>
+  <span>At Sign</span>
 </a>
 
 <a href="./play" class="icon-card" title="start, media, video, music, resume, stream, play">
@@ -288,24 +678,24 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Play</span>
 </a>
 
-<a href="./pause" class="icon-card" title="stop, media, video, music, hold, break, pause">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5.25v13.5m6-13.5v13.5"></path></svg>
-  <span>Pause</span>
-</a>
-
-<a href="./stop" class="icon-card" title="media, video, end, terminate, halt, stop">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z"></path></svg>
-  <span>Stop</span>
-</a>
-
 <a href="./play-circle" class="icon-card" title="start, media, video, button, player, play-circle">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zM15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"></path></svg>
   <span>Play Circle</span>
 </a>
 
+<a href="./pause" class="icon-card" title="stop, media, video, music, hold, break, pause">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5.25v13.5m6-13.5v13.5"></path></svg>
+  <span>Pause</span>
+</a>
+
 <a href="./pause-circle" class="icon-card" title="stop, media, hold, player, pause-circle">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.25 9v6m-4.5 0V9M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path></svg>
   <span>Pause Circle</span>
+</a>
+
+<a href="./stop" class="icon-card" title="media, video, end, terminate, halt, stop">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z"></path></svg>
+  <span>Stop</span>
 </a>
 
 <a href="./stop-circle" class="icon-card" title="stop, media, hold, player, stop-circle">
@@ -358,6 +748,26 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Musical Note</span>
 </a>
 
+<a href="./captions" class="icon-card" title="captions, closed captions, subtitles, cc, video accessibility, transcript display">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 5.25h15a2.25 2.25 0 0 1 2.25 2.25v9a2.25 2.25 0 0 1 -2.25 2.25h-15a2.25 2.25 0 0 1 -2.25 -2.25v-9a2.25 2.25 0 0 1 2.25 -2.25ZM10.5 9.75a3 3 0 1 0 0 4.5M18 9.75a3 3 0 1 0 0 4.5"></path></svg>
+  <span>Captions</span>
+</a>
+
+<a href="./audio-waveform" class="icon-card" title="audio waveform, waveform, sound signal, voice activity, audio editor, recording level, audio-waveform">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5v3M6.75 6.75v10.5M10.5 3.75v16.5M14.25 8.25v7.5M18 5.25v13.5M21.75 10.5v3"></path></svg>
+  <span>Audio Waveform</span>
+</a>
+
+<a href="./headphones" class="icon-card" title="headphones, audio output, listening, headphone device, audio monitoring, personal audio">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 13.5V12a8.25 8.25 0 0 1 16.5 0v1.5M5.25 12h1.5a1.5 1.5 0 0 1 1.5 1.5v5.25a1.5 1.5 0 0 1 -1.5 1.5h-1.5a1.5 1.5 0 0 1 -1.5 -1.5v-5.25a1.5 1.5 0 0 1 1.5 -1.5ZM17.25 12h1.5a1.5 1.5 0 0 1 1.5 1.5v5.25a1.5 1.5 0 0 1 -1.5 1.5h-1.5a1.5 1.5 0 0 1 -1.5 -1.5v-5.25a1.5 1.5 0 0 1 1.5 -1.5Z"></path></svg>
+  <span>Headphones</span>
+</a>
+
+<a href="./shuffle" class="icon-card" title="shuffle, randomize, random order, playlist shuffle, mix, random selection">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.25h3c4.5 0 7.5 13.5 12 13.5h3M18 15.75l3 3-3 3M3 18.75h3c1.5 0 3-2.25 4.5-5.25M13.5 10.5c1.5-3 3-5.25 4.5-5.25h3M18 2.25l3 3-3 3"></path></svg>
+  <span>Shuffle</span>
+</a>
+
 <a href="./code" class="icon-card" title="coding, programming, developer, syntax, script, dev, code">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.25 6.75L22.5 12l-5.25 5.25M6.75 17.25L1.5 12l5.25-5.25M14.25 3.75l-4.5 16.5"></path></svg>
   <span>Code</span>
@@ -368,19 +778,24 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Console</span>
 </a>
 
-<a href="./horizontal-3-dots" class="icon-card" title="menu, more, options, ellipsis, meatball, overflow, horizontal-3-dots">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path></svg>
-  <span>Horizontal 3 Dots</span>
+<a href="./regex" class="icon-card" title="regex, regular expression, pattern matching, advanced search, text pattern, validation rule">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.875 18a1.125 1.125 0 1 0 2.25 0a1.125 1.125 0 1 0 -2.25 0ZM15 3v12M9.75 6l10.5 6M9.75 12l10.5-6"></path></svg>
+  <span>Regex</span>
 </a>
 
-<a href="./vertical-3-dots" class="icon-card" title="menu, more, options, ellipsis, kebab, overflow, vertical-3-dots">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"></path></svg>
-  <span>Vertical 3 Dots</span>
+<a href="./function" class="icon-card" title="function, computed field, formula, expression, calculation rule, derived value">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 3H12a3 3 0 0 0-3 3v12a3 3 0 0 1-3 3H4.5M6 9h7.5M15 12l6 9M21 12l-6 9"></path></svg>
+  <span>Function</span>
 </a>
 
-<a href="./save" class="icon-card" title="disk, floppy, store, keep, record, save">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21A2.25 2.25 0 0021 19V7L17 3H5A2.25 2.25 0 003 5V19A2.25 2.25 0 005 21H17ZM12 18A3.75 3.75 0 1012 10.25 3.75 3.75 0 0012 18ZM7 3H13V7H7V5.8Z"></path></svg>
-  <span>Save</span>
+<a href="./sigma" class="icon-card" title="sigma, sum, aggregate, total, summation, spreadsheet formula">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.25 3.75H3.75L12 12l-8.25 8.25h16.5"></path></svg>
+  <span>Sigma</span>
+</a>
+
+<a href="./infinity" class="icon-card" title="infinity, unlimited, no limit, unbounded, lifetime, continuous availability">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12c-2.25-3-3.75-4.5-5.25-4.5a4.5 4.5 0 0 0 0 9c1.5 0 3-1.5 5.25-4.5s3.75-4.5 5.25-4.5a4.5 4.5 0 0 1 0 9c-1.5 0-3-1.5-5.25-4.5Z"></path></svg>
+  <span>Infinity</span>
 </a>
 
 <a href="./computer-laptop" class="icon-card" title="device, macbook, pc, tech, screen, computer-laptop">
@@ -408,6 +823,31 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Device Tablet</span>
 </a>
 
+<a href="./keyboard" class="icon-card" title="keyboard, typing, input, shortcuts, hotkeys, keys">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 5.25h15a2.25 2.25 0 0 1 2.25 2.25v9a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25v-9a2.25 2.25 0 0 1 2.25-2.25ZM6.375 9h0M6.375 12.75h0M10.125 9h0M10.125 12.75h0M13.875 9h0M13.875 12.75h0M17.625 9h0M17.625 12.75h0M7.5 16.5h9"></path></svg>
+  <span>Keyboard</span>
+</a>
+
+<a href="./command" class="icon-card" title="command, shortcut, hotkey, modifier, mac, keyboard">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9H6a3 3 0 1 1 3-3v12a3 3 0 1 1-3-3h12a3 3 0 1 1-3 3V6a3 3 0 1 1 3 3H9Z"></path></svg>
+  <span>Command</span>
+</a>
+
+<a href="./enter" class="icon-card" title="enter, return, submit, confirm, keyboard, shortcut">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.25 5.25v6a3 3 0 0 1-3 3H3.75M9 9l-5.25 5.25L9 19.5"></path></svg>
+  <span>Enter</span>
+</a>
+
+<a href="./backspace" class="icon-card" title="backspace, delete, erase, clear, keyboard, input">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5.25h10.5A1.5 1.5 0 0 1 21 6.75v10.5a1.5 1.5 0 0 1-1.5 1.5H9L2.25 12 9 5.25ZM11.25 9l6 6M17.25 9l-6 6"></path></svg>
+  <span>Backspace</span>
+</a>
+
+<a href="./mouse" class="icon-card" title="mouse, computer mouse, peripheral, mouse controls, scroll wheel, input device">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.25h0a6.75 6.75 0 0 1 6.75 6.75v6a6.75 6.75 0 0 1 -6.75 6.75h0a6.75 6.75 0 0 1 -6.75 -6.75v-6a6.75 6.75 0 0 1 6.75 -6.75ZM12 6v3M5.25 12h13.5"></path></svg>
+  <span>Mouse</span>
+</a>
+
 <a href="./battery-0" class="icon-card" title="power, empty, charge, dead, status, battery-0">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21M3.75 18h15A2.25 2.25 0 0021 15.75v-6a2.25 2.25 0 00-2.25-2.25h-15A2.25 2.25 0 001.5 9.75v6A2.25 2.25 0 003.75 18z"></path></svg>
   <span>Battery 0</span>
@@ -428,139 +868,79 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Battery 100</span>
 </a>
 
-<a href="./controller" class="icon-card" title="game, play, joystick, gamepad, console, controller, senangwebs, vr, sw-verse">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2V6M5 6H19C20.6569 6 22 7.34315 22 9V15C22 16.6569 20.6569 18 19 18H5C3.34315 18 2 16.6569 2 15V9C2 7.34315 3.34315 6 5 6Z M6 12H10M8 10V14 M18 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"></path></svg>
-  <span>Controller</span>
+<a href="./qr-code" class="icon-card" title="scan, code, link, barcode, reader, qr-code">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-3a1 1 0 011-1zM17 3h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-3a1 1 0 011-1zM4 16h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-3a1 1 0 011-1zM20 16h-2a2 2 0 00-2 2v2M12 8v2a2 2 0 01-2 2H8M4 12h0M12 4h0M16 12h5M12 21v-5"></path></svg>
+  <span>Qr Code</span>
 </a>
 
-<a href="./game" class="icon-card" title="controller, play, joystick, arcade, entertainment, game, senangwebs, 2d, sw-xperience">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 13 13 L 13 4 A 9 9 0 1 0 22 13 Z M 20 8 a 2 2 0 1 1 -4 0 a 2 2 0 0 1 4 0 z M 10 12 a 1.5 1.5 0 1 1 -3 0 a 1.5 1.5 0 0 1 3 0 z"></path></svg>
-  <span>Game</span>
+<a href="./wifi" class="icon-card" title="internet, connection, network, signal, online, wifi">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 8.25 13.5 a 3.75 3.75 0 0 1 5.25 0 m -8.25 -3 a 7.5 7.5 0 0 1 11.25 0 m -14.25 -3 a 11.25 11.25 0 0 1 17.25 0 M 11 16.5 a 1.125 1.125 0 1 0 0 2.25 a 1.125 1.125 0 0 0 0 -2.25 z"></path></svg>
+  <span>Wifi</span>
 </a>
 
-<a href="./window" class="icon-card" title="browser, app, ui, program, application, window">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.25V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18V8.25m-18 0V6a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 6v2.25m-18 0h18M5.25 6h.008v.008H5.25V6zM7.5 6h.008v.008H7.5V6zM9.75 6h.008v.008H9.75V6z"></path></svg>
-  <span>Window</span>
+<a href="./wifi-slash" class="icon-card" title="offline, disconnected, no internet, network, signal, wifi off, wifi-slash">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 7.5a11.25 11.25 0 0 1 1.4-1.25M7.4 4.55A11.25 11.25 0 0 1 19.5 7.5M5.25 10.5a7.5 7.5 0 0 1 1.5-1.15M10.5 7.98a7.5 7.5 0 0 1 6 2.52M8.25 13.5a3.75 3.75 0 0 1 2.75-1.08M11 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25zM3 3l18 18"></path></svg>
+  <span>Wifi Slash</span>
 </a>
 
-<a href="./shopping-cart" class="icon-card" title="buy, checkout, store, retail, ecommerce, shopping-cart">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path></svg>
-  <span>Shopping Cart</span>
+<a href="./vr" class="icon-card" title="virtual reality, glasses, game, headset, metaverse, vr">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7h14a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-4l-2.29-2.29a1 1 0 0 0-1.42 0L9 17H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2zm2.5 3.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm9 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"></path></svg>
+  <span>Vr</span>
 </a>
 
-<a href="./shopping-bag" class="icon-card" title="buy, checkout, store, mall, retail, shopping-bag">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"></path></svg>
-  <span>Shopping Bag</span>
+<a href="./ar" class="icon-card" title="augmented reality, 3d, cube, virtual, model, ar">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 7.5-2.25-1.313M21 7.5v2.25m0-2.25-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3 2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75 2.25-1.313M12 21.75V19.5m0 2.25-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25"></path></svg>
+  <span>AR</span>
 </a>
 
-<a href="./basket" class="icon-card" title="buy, checkout, store, market, grocery, basket, senangwebs, cart, shop, sw-buy">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 11 0 9m4-9-4-7M2 11h20m-18.5 0 1.6 7.4a2 2 0 002 1.6h9.8a2 2 0 002-1.6l1.7-7.4M4.5 15.5h15m-14.5-4.5 4-7m0 7 0 9"></path></svg>
-  <span>Basket</span>
+<a href="./robot" class="icon-card" title="bot, ai, automation, toy, android, machine, robot">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h12a2.25 2.25 0 0 1 2.25 2.25v7.5A2.25 2.25 0 0 1 18 18H6a2.25 2.25 0 0 1-2.25-2.25v-7.5A2.25 2.25 0 0 1 6 6zM12 3v3M9 3h6M8.25 12a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5zM15.75 12a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5zM9 15h6M7.5 18v3M16.5 18v3"></path></svg>
+  <span>Robot</span>
 </a>
 
-<a href="./credit-card" class="icon-card" title="payment, money, purchase, debit, plastic, credit-card">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"></path></svg>
-  <span>Credit Card</span>
+<a href="./chatbot" class="icon-card" title="bot, ai, support, chat, assistant, chatbot, senangwebs, sw-chatbot">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h12a2.25 2.25 0 012.25 2.25v7.5A2.25 2.25 0 0118 18h-6l-4 3 0-3H6a2.25 2.25 0 01-2.25-2.25v-7.5A2.25 2.25 0 016 6zM12 3v3M9 3h6M8.25 12a.75.75 0 110-1.5.75.75 0 010 1.5zM15.75 12a.75.75 0 110-1.5.75.75 0 010 1.5zM9 15h6"></path></svg>
+  <span>Chatbot</span>
 </a>
 
-<a href="./banknotes" class="icon-card" title="money, cash, payment, bill, finance, banknotes">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 18.75l15.75 2.25c1 .2 1-0 1.2-1L19.4 18.8M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z"></path></svg>
-  <span>Banknotes</span>
+<a href="./server-rack" class="icon-card" title="server, hosting, infrastructure, backend, rack, deployment, server-rack">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 3h15a1.5 1.5 0 0 1 1.5 1.5v4.5a1.5 1.5 0 0 1 -1.5 1.5h-15a1.5 1.5 0 0 1 -1.5 -1.5v-4.5a1.5 1.5 0 0 1 1.5 -1.5ZM4.5 13.5h15a1.5 1.5 0 0 1 1.5 1.5v4.5a1.5 1.5 0 0 1 -1.5 1.5h-15a1.5 1.5 0 0 1 -1.5 -1.5v-4.5a1.5 1.5 0 0 1 1.5 -1.5ZM6.75 6.75h.01M6.75 17.25h.01M11.25 6.75H18M11.25 17.25H18"></path></svg>
+  <span>Server Rack</span>
 </a>
 
-<a href="./calendar" class="icon-card" title="date, schedule, time, event, plan, month, year, calendar">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"></path></svg>
-  <span>Calendar</span>
+<a href="./plug" class="icon-card" title="plug, connect integration, connector, power cable, socket, hardware">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.25 2.25V7.5M15.75 2.25V7.5M6 7.5h12v3.75a6 6 0 0 1-12 0V7.5ZM12 17.25v4.5"></path></svg>
+  <span>Plug</span>
 </a>
 
-<a href="./calendar-plus" class="icon-card" title="date, schedule, time, calendar, add, new event, create, plus, calendar-plus">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5M12 12v6m3-3h-6"></path></svg>
-  <span>Calendar Plus</span>
+<a href="./power" class="icon-card" title="power, shutdown, restart device, standby, start session, power button">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.25v9M6.75 5.25a8.25 8.25 0 1 0 10.5 0"></path></svg>
+  <span>Power</span>
 </a>
 
-<a href="./calendar-minus" class="icon-card" title="date, schedule, time, calendar, subtract, remove event, delete, minus, calendar-minus">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25M15 15H9"></path></svg>
-  <span>Calendar Minus</span>
+<a href="./rss" class="icon-card" title="rss, feed, syndication, subscribe, updates, news feed">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 19.5a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0ZM4.5 10.5a9 9 0 0 1 9 9M4.5 3.75A15.75 15.75 0 0 1 20.25 19.5"></path></svg>
+  <span>RSS</span>
 </a>
 
-<a href="./calendar-approve" class="icon-card" title="date, schedule, time, calendar, approve, check, accept, booked, calendar-approve">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25M10.5 17.5 15 12.5M9 15.5l1.5 2"></path></svg>
-  <span>Calendar Approve</span>
+<a href="./microchip" class="icon-card" title="microchip, cpu, processor, compute, chip, hardware resources">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.25 6.75h7.5a1.5 1.5 0 0 1 1.5 1.5v7.5a1.5 1.5 0 0 1 -1.5 1.5h-7.5a1.5 1.5 0 0 1 -1.5 -1.5v-7.5a1.5 1.5 0 0 1 1.5 -1.5ZM10.5 9.75h3a0.75 0.75 0 0 1 0.75 0.75v3a0.75 0.75 0 0 1 -0.75 0.75h-3a0.75 0.75 0 0 1 -0.75 -0.75v-3a0.75 0.75 0 0 1 0.75 -0.75ZM9 3v3.75M15 3v3.75M9 17.25V21M15 17.25V21M3 9h3.75M3 15h3.75M17.25 9H21M17.25 15H21"></path></svg>
+  <span>Microchip</span>
 </a>
 
-<a href="./calendar-reject" class="icon-card" title="date, schedule, time, calendar, reject, x-mark, remove, cancel, calendar-reject">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25M9.5 17.5 14.5 12.5M9.5 12.5l5 5"></path></svg>
-  <span>Calendar Reject</span>
+<a href="./bug" class="icon-card" title="bug, debug, issue report, defect, software error, developer tools">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7.5h0a4.5 4.5 0 0 1 4.5 4.5v4.5a4.5 4.5 0 0 1 -4.5 4.5h0a4.5 4.5 0 0 1 -4.5 -4.5v-4.5a4.5 4.5 0 0 1 4.5 -4.5ZM9 3l1.5 4.5M15 3l-1.5 4.5M3 9l4.5 3M3 15h4.5M3 21l4.5-3M16.5 12 21 9M16.5 15H21M16.5 18 21 21M7.5 12h9M12 12v9"></path></svg>
+  <span>Bug</span>
 </a>
 
-<a href="./calendar-days" class="icon-card" title="date, schedule, time, week, month, agenda, calendar-days">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"></path></svg>
-  <span>Calendar Days</span>
+<a href="./bluetooth" class="icon-card" title="bluetooth, wireless pairing, paired device, short range connection, bluetooth settings, connect device">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 6 18 16.5 12 21V3l6 4.5L7.5 18"></path></svg>
+  <span>Bluetooth</span>
 </a>
 
-<a href="./briefcase" class="icon-card" title="work, business, office, job, portfolio, briefcase">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.675.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.675-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"></path></svg>
-  <span>Briefcase</span>
-</a>
-
-<a href="./presentation-chart-line" class="icon-card" title="analytics, graph, stats, report, data, trends, presentation-chart-line">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605"></path></svg>
-  <span>Presentation Chart Line</span>
-</a>
-
-<a href="./presentation-media" class="icon-card" title="analytics, graph, screen, slide, projection, presentation-media, senangwebs, presentation, sw-deck">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 3.75 3 v 11.25 A 2.25 2.25 0 0 0 6 16.5 h 2.25 M 3.75 3 h -1.5 m 1.5 0 h 16.5 m 0 0 h 1.5 m -1.5 0 v 11.25 A 2.25 2.25 0 0 1 18 16.5 h -2.25 m -7.5 0 h 7.5 m -7.5 0 l -1 3 m 8.5 -3 l 1 3 m 0 0 l 0.5 1.5 m -0.5 -1.5 h -9.5 m 0 0 l -0.5 1.5 M 10 7 l 5.005 2.487 l -5.005 2.513 z"></path></svg>
-  <span>Presentation Media</span>
-</a>
-
-<a href="./whiteboard" class="icon-card" title="draw, present, board, stand, easel, whiteboard, senangwebs, vector, sw-whiteboard">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5zM2 17h20M6 17v4M18 17v4"></path></svg>
-  <span>Whiteboard</span>
-</a>
-
-<a href="./chart-line" class="icon-card" title="graph, analytics, stats, growth, trends, chart-line">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v15c0 2 1 3 3 3h13M8 15l3-4 2 2 6-8"></path></svg>
-  <span>Chart Line</span>
-</a>
-
-<a href="./chart-bar" class="icon-card" title="graph, analytics, stats, comparison, data, chart-bar">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"></path></svg>
-  <span>Chart Bar</span>
-</a>
-
-<a href="./chart-pie" class="icon-card" title="graph, analytics, stats, ratio, percentage, chart-pie, senangwebs, chart, sw-yield">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"></path></svg>
-  <span>Chart Pie</span>
-</a>
-
-<a href="./currency-dollar" class="icon-card" title="money, price, cost, usd, cash, finance, currency-dollar">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-  <span>Currency Dollar</span>
-</a>
-
-<a href="./currency-euro" class="icon-card" title="money, price, cost, eur, cash, finance, currency-euro">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.25 7.756a4.5 4.5 0 100 8.488M7.5 10.5h5.25m-5.25 3h5.25M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-  <span>Currency Euro</span>
-</a>
-
-<a href="./currency-pound" class="icon-card" title="money, price, cost, gbp, cash, finance, currency-pound">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.1213 7.62877C12.9497 6.45719 11.0503 6.45719 9.87868 7.62877C9.37424 8.13321 9.08699 8.7726 9.01694 9.43073C8.9944 9.64251 9.01512 9.85582 9.04524 10.0667L9.5512 13.6084C9.68065 14.5146 9.5307 15.4386 9.12135 16.2573L9 16.5L10.5385 15.9872C11.0003 15.8332 11.4997 15.8332 11.9615 15.9872L12.6158 16.2053C13.182 16.394 13.7999 16.3501 14.3336 16.0832L15 15.75M8.25 12H12M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"></path></svg>
-  <span>Currency Pound</span>
-</a>
-
-<a href="./currency-yen" class="icon-card" title="money, price, cost, jpy, cash, finance, currency-yen">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7.5l3 4.5m0 0l3-4.5M12 12v5.25M15 12H9m6 3H9m12-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-  <span>Currency Yen</span>
-</a>
-
-<a href="./currency-ringgit" class="icon-card" title="money, price, cost, myr, cash, finance, currency-ringgit">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 15V9h2a1.5 1.5 0 0 1 0 3H7m2 0l1.5 3M13 15V9l2 3 2-3v6M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-  <span>Currency Ringgit</span>
-</a>
-
-<a href="./tabs" class="icon-card" title="browser, ui, navigation, group, folder, tabs, senangwebs, sw-herd">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 7.5V18a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18V7.5V6a2.25 2.25 0 0 1 2.25-2.25H18.75a2.25 2.25 0 0 1 2.25 2.25V7.5H12V3.75"></path></svg>
-  <span>Tabs</span>
+<a href="./usb" class="icon-card" title="usb, usb device, wired connection, peripheral connection, data port, usb settings">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.75 19.5a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0ZM12 17.25v-15M9.75 4.5 12 2.25l2.25 2.25M12 13.5H8.25a3 3 0 0 1-3-3V9M3 6.75a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0ZM12 10.5h3.75a3 3 0 0 0 3-3v-.75M17.625 3.75h2.25a0.375 0.375 0 0 1 0.375 0.375v2.25a0.375 0.375 0 0 1 -0.375 0.375h-2.25a0.375 0.375 0 0 1 -0.375 -0.375v-2.25a0.375 0.375 0 0 1 0.375 -0.375Z"></path></svg>
+  <span>USB</span>
 </a>
 
 <a href="./document" class="icon-card" title="file, paper, page, sheet, record, document">
@@ -604,7 +984,7 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
 </a>
 
 <a href="./clipboard-document-check" class="icon-card" title="checklist, task, done, audit, inventory, clipboard-document-check">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375M6.75 15l2 2 4-4"></path></svg>
   <span>Clipboard Document Check</span>
 </a>
 
@@ -638,359 +1018,44 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Book Stacked</span>
 </a>
 
-<a href="./lock-closed" class="icon-card" title="secure, password, private, protect, auth, login, lock-closed">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"></path></svg>
-  <span>Lock Closed</span>
-</a>
-
-<a href="./lock-open" class="icon-card" title="unlock, public, access, insecure, logout, lock-open">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 10.5V6.75a4.5 4.5 0 119 0v3.75M3.75 21.75h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H3.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"></path></svg>
-  <span>Lock Open</span>
-</a>
-
-<a href="./key" class="icon-card" title="password, access, secure, admin, unlock, token, key">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z"></path></svg>
-  <span>Key</span>
-</a>
-
-<a href="./shield-check" class="icon-card" title="secure, safe, verified, protected, antivirus, shield-check">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"></path></svg>
-  <span>Shield Check</span>
-</a>
-
-<a href="./shield-exclamation" class="icon-card" title="danger, warning, security, risk, unsecured, shield-exclamation">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v3.75M12 15.75h.008v.008H12v-.008zM12 2.714A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"></path></svg>
-  <span>Shield Exclamation</span>
-</a>
-
-<a href="./exclamation-circle" class="icon-card" title="error, warning, alert, attention, problem, exclamation-circle">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"></path></svg>
-  <span>Exclamation Circle</span>
-</a>
-
-<a href="./exclamation-triangle" class="icon-card" title="warning, danger, caution, risk, hazard, exclamation-triangle">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.008v.008H12v-.008z"></path></svg>
-  <span>Exclamation Triangle</span>
-</a>
-
-<a href="./information-circle" class="icon-card" title="help, details, info, about, hint, guide, information-circle">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"></path></svg>
-  <span>Information Circle</span>
-</a>
-
-<a href="./question-mark-circle" class="icon-card" title="help, faq, support, unknown, query, question-mark-circle, senangwebs, question, sw-quiz">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z"></path></svg>
-  <span>Question Mark Circle</span>
-</a>
-
-<a href="./bell" class="icon-card" title="notification, alert, alarm, reminder, ring, bell, senangwebs, prompt, sw-notices">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"></path></svg>
-  <span>Bell</span>
-</a>
-
-<a href="./bell-alert" class="icon-card" title="notification, alert, alarm, active, urgent, reminder, bell-alert">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0M3.124 7.5A8.969 8.969 0 015.292 3m13.416 0a8.969 8.969 0 012.168 4.5"></path></svg>
-  <span>Bell Alert</span>
-</a>
-
-<a href="./eye" class="icon-card" title="view, show, visible, watch, see, reveal, eye">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178zM15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-  <span>Eye</span>
-</a>
-
-<a href="./eye-slash" class="icon-card" title="hide, invisible, password, conceal, blind, off, eye-slash">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88"></path></svg>
-  <span>Eye Slash</span>
-</a>
-
-<a href="./light-bulb" class="icon-card" title="idea, tip, solution, inspiration, lamp, light-bulb">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.25a7.5 7.5 0 00-7.5 7.5c0 2.5 1.2 4.8 3.1 6.2.8.6 1.4 1.4 1.4 2.4v1.9a.75.75 0 00.75.75h4.5a.75.75 0 00.75-.75v-1.9c0-1 .6-1.8 1.4-2.4 1.9-1.4 3.1-3.7 3.1-6.2a7.5 7.5 0 00-7.5-7.5ZM10 17h4M11 22v0L13 22M9.75 9.75c0-1.25 1.125-2.25 2.25-2.25s2.25 1 2.25 2.25"></path></svg>
-  <span>Light Bulb</span>
-</a>
-
-<a href="./bolt" class="icon-card" title="energy, power, fast, lightning, flash, electric, bolt">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path></svg>
-  <span>Bolt</span>
-</a>
-
-<a href="./moon" class="icon-card" title="dark mode, night, sleep, weather, crescent, moon">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"></path></svg>
-  <span>Moon</span>
-</a>
-
-<a href="./sun" class="icon-card" title="light mode, day, bright, weather, sunny, sun">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.263l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"></path></svg>
-  <span>Sun</span>
-</a>
-
-<a href="./cloud" class="icon-card" title="weather, sky, overcast, upload, server, cloud">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-4.232-3.943 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z"></path></svg>
-  <span>Cloud</span>
-</a>
-
-<a href="./thunder" class="icon-card" title="weather, storm, lightning, rain, flash, thunder">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h5L12 8 18 8 8.5 22l3.5-10h-6l2-9z"></path></svg>
-  <span>Thunder</span>
-</a>
-
-<a href="./star" class="icon-card" title="favorite, rating, like, review, bookmark, featured, star">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.563.045.797.77.364 1.154l-4.22 3.737a.563.563 0 00-.172.527l1.283 5.376c.15.628-.548 1.13-1.066.77l-4.654-3.192a.563.563 0 00-.636 0l-4.654 3.192c-.518.36-1.216-.142-1.066-.77l1.283-5.376a.563.563 0 00-.172-.527l-4.22-3.737c-.433-.384-.199-1.11.364-1.154l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"></path></svg>
-  <span>Star</span>
-</a>
-
-<a href="./heart" class="icon-card" title="like, love, favorite, save, health, romance, heart">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"></path></svg>
-  <span>Heart</span>
-</a>
-
-<a href="./hand-thumb-up" class="icon-card" title="like, approve, good, yes, agree, vote, hand-thumb-up">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 11h-4v9h4m0-9v-5a2.25 2.25 0 015 0v3h5a2.25 2.25 0 012 2l-1 7a2.25 2.25 0 01-2 2h-9L8 11"></path></svg>
-  <span>Hand Thumb Up</span>
-</a>
-
-<a href="./hand-thumb-down" class="icon-card" title="dislike, reject, bad, no, disagree, vote, hand-thumb-down">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 13h-4v-9h4m0 9v5a2.25 2.25 0 0 0 5 0v-3h5a2.25 2.25 0 0 0 2-2l-1-7a2.25 2.25 0 0 0-2-2h-9L8 13"></path></svg>
-  <span>Hand Thumb Down</span>
-</a>
-
-<a href="./hand" class="icon-card" title="hand, pointer, select, palm, open, click, human, gesture">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16 4 10C3.5 7 8 7 8 10M8 14 8 6C8 5 9 3.9 10 4L18 5C19 5.1 20 6 20 7L20 17C20 18.5 18.5 20 17 20L9 20C7 20 5.4 18 5 16M11 11 11 4.2M14 11.5 14 4.5M17 12 17 4.9"></path></svg>
-  <span>Hand</span>
-</a>
-
-<a href="./hand-grab" class="icon-card" title="hand, grab, clenched, fist, drag, hold, select, gesture, hand-grab">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 14 5 11C5 9 6 8 8 8M8 13 8 8C8 7 9 5.9 10 6L18 7C19 7.1 20 8 20 9L20 15C20 16.5 18.5 18 17 18L9 18C7 18 5 16 5 14M11 9.5 11 6.2M14 10 14 6.5M17 10.5 17 6.9"></path></svg>
-  <span>Hand Grab</span>
-</a>
-
-<a href="./flag" class="icon-card" title="report, country, goal, mark, banner, finish, flag">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5"></path></svg>
-  <span>Flag</span>
-</a>
-
 <a href="./bookmark" class="icon-card" title="save, favorite, tag, marker, read later, bookmark">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"></path></svg>
   <span>Bookmark</span>
 </a>
 
-<a href="./map" class="icon-card" title="location, travel, guide, navigation, place, map">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5v13.5l6-3 6 3 6-3V4.5l-6 3-6-3-6 3Z M9 4.5v13.5 M15 7.5v13.5"></path></svg>
-  <span>Map</span>
+<a href="./printer" class="icon-card" title="print, document, receipt, paper, office, printer">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8V3h10v5M7 17H4a1 1 0 0 1-1-1v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1h-3M7 14h10v7H7zM17 11h1"></path></svg>
+  <span>Printer</span>
 </a>
 
-<a href="./map-pin" class="icon-card" title="location, marker, spot, point, destination, gps, map-pin">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0zM19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"></path></svg>
-  <span>Map Pin</span>
+<a href="./calendar" class="icon-card" title="date, schedule, time, event, plan, month, year, calendar">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"></path></svg>
+  <span>Calendar</span>
 </a>
 
-<a href="./globe-alt" class="icon-card" title="world, internet, web, earth, network, global, globe-alt">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"></path></svg>
-  <span>Globe Alt</span>
+<a href="./calendar-plus" class="icon-card" title="date, schedule, time, calendar, add, new event, create, plus, calendar-plus">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5M12 12v6m3-3h-6"></path></svg>
+  <span>Calendar Plus</span>
 </a>
 
-<a href="./truck" class="icon-card" title="delivery, shipping, transport, vehicle, logistics, lorry, truck">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"></path></svg>
-  <span>Truck</span>
+<a href="./calendar-minus" class="icon-card" title="date, schedule, time, calendar, subtract, remove event, delete, minus, calendar-minus">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25M15 15H9"></path></svg>
+  <span>Calendar Minus</span>
 </a>
 
-<a href="./cake" class="icon-card" title="birthday, celebrate, party, dessert, food, cake">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.379a48.474 48.474 0 00-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39.049.777.102 1.163.16 1.07.163 1.837 1.09 1.837 2.175v5.169c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 013 20.625v-5.169c0-1.085.768-2.012 1.837-2.175a48.041 48.041 0 011.163-.16"></path></svg>
-  <span>Cake</span>
+<a href="./calendar-approve" class="icon-card" title="date, schedule, time, calendar, approve, check, accept, booked, calendar-approve">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5M8.25 15l2.5 2.5 5-5"></path></svg>
+  <span>Calendar Approve</span>
 </a>
 
-<a href="./gift" class="icon-card" title="present, reward, bonus, box, surprise, giveaway, gift">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H4.5a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"></path></svg>
-  <span>Gift</span>
+<a href="./calendar-reject" class="icon-card" title="date, schedule, time, calendar, reject, x-mark, remove, cancel, calendar-reject">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25M9.5 17.5 14.5 12.5M9.5 12.5l5 5"></path></svg>
+  <span>Calendar Reject</span>
 </a>
 
-<a href="./trophy" class="icon-card" title="award, winner, achievement, champion, prize, trophy">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9c-1.5 0-3-1.5-3-3V5h3M18 9c1.5 0 3-1.5 3-3V5h-3M6 9V5h12v4c0 3.3-2.7 6-6 6s-6-2.7-6-6zM12 15v3M9 21h6M10 18h4"></path></svg>
-  <span>Trophy</span>
-</a>
-
-<a href="./medal" class="icon-card" title="award, achievement, winner, badge, ribbon, medal">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15M11 12 5.12 2.2M13 12l5.88-9.8M8 7h8M12 22a5 5 0 100-10 5 5 0 000 10zM12 18v-2h-.5"></path></svg>
-  <span>Medal</span>
-</a>
-
-<a href="./qr-code" class="icon-card" title="scan, code, link, barcode, reader, qr-code">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-3a1 1 0 011-1zM17 3h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-3a1 1 0 011-1zM4 16h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-3a1 1 0 011-1zM20 16h-2a2 2 0 00-2 2v2M12 8v2a2 2 0 01-2 2H8M4 12h0M12 4h0M16 12h5M12 21v-5"></path></svg>
-  <span>Qr Code</span>
-</a>
-
-<a href="./wifi" class="icon-card" title="internet, connection, network, signal, online, wifi">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 8.25 13.5 a 3.75 3.75 0 0 1 5.25 0 m -8.25 -3 a 7.5 7.5 0 0 1 11.25 0 m -14.25 -3 a 11.25 11.25 0 0 1 17.25 0 M 11 16.5 a 1.125 1.125 0 1 0 0 2.25 a 1.125 1.125 0 0 0 0 -2.25 z"></path></svg>
-  <span>Wifi</span>
-</a>
-
-<a href="./vr" class="icon-card" title="virtual reality, glasses, game, headset, metaverse, vr">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7h14a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-4l-2.29-2.29a1 1 0 0 0-1.42 0L9 17H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2zm2.5 3.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm9 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"></path></svg>
-  <span>Vr</span>
-</a>
-
-<a href="./ar" class="icon-card" title="augmented reality, 3d, cube, virtual, model, ar">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 7.5-2.25-1.313M21 7.5v2.25m0-2.25-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3 2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75 2.25-1.313M12 21.75V19.5m0 2.25-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25"></path></svg>
-  <span>AR</span>
-</a>
-
-<a href="./group-object" class="icon-card" title="combine, merge, join, select, design, group-object">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5c0-1.1.9-2 2-2h2M17 3h2c1.1 0 2 .9 2 2v2M21 17v2c0 1.1-.9 2-2 2h-2M7 21H5c-1.1 0-2-.9-2-2v-2M8 7h5a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1ZM11 12h5a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1Z"></path></svg>
-  <span>Group Object</span>
-</a>
-
-<a href="./ungroup-object" class="icon-card" title="separate, split, detach, divide, design, ungroup-object">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h6a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1ZM12 14h6a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1Z"></path></svg>
-  <span>Ungroup Object</span>
-</a>
-
-<a href="./align-left-object" class="icon-card" title="align, left, object, layout, position, design, align-left-object">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h6a1 1 0 011 1v4a1 1 0 01-1 1H7a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h6a1 1 0 011 1v4a1 1 0 01-1 1h-11a1 1 0 01-1-1v-4a1 1 0 011-1ZM3 21 3 3"></path></svg>
-  <span>Align Left Object</span>
-</a>
-
-<a href="./align-center-object" class="icon-card" title="align, center, object, layout, position, design, align-center-object">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4h3a1 1 0 011 1v4a1 1 0 01-1 1H9a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h6a1 1 0 011 1v4a1 1 0 01-1 1h-12a1 1 0 01-1-1v-4a1 1 0 011-1ZM12 21 12 3"></path></svg>
-  <span>Align Center Object</span>
-</a>
-
-<a href="./align-right-object" class="icon-card" title="align, right, object, layout, position, design, align-right-object">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4h4a1 1 0 011 1v4a1 1 0 01-1 1H11a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h5a1 1 0 011 1v4a1 1 0 01-1 1h-11a1 1 0 01-1-1v-4a1 1 0 011-1ZM21 21 21 3"></path></svg>
-  <span>Align Right Object</span>
-</a>
-
-<a href="./align-top-object" class="icon-card" title="align, top, object, layout, position, design, align-top-object">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15h3a1 1 0 011 1v3a1 1 0 01-1 1H9a1 1 0 01-1-1V16a1 1 0 011-1ZM12 7h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 4 3 4"></path></svg>
-  <span>Align Top Object</span>
-</a>
-
-<a href="./align-middle-object" class="icon-card" title="align, middle, object, layout, position, design, align-middle-object">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4h6a1 1 0 011 1v3a1 1 0 01-1 1H6a1 1 0 01-1-1V5a1 1 0 011-1ZM12 15h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 12 3 12"></path></svg>
-  <span>Align Middle Object</span>
-</a>
-
-<a href="./align-bottom-object" class="icon-card" title="align, bottom, object, layout, position, design, align-bottom-object">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4h3a1 1 0 011 1v3a1 1 0 01-1 1H9a1 1 0 01-1-1V5a1 1 0 011-1ZM12 12h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 20 3 20"></path></svg>
-  <span>Align Bottom Object</span>
-</a>
-
-<a href="./carousel" class="icon-card" title="slider, gallery, images, swipe, carousel, senangwebs, sw-frame">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6v12M21 6v12M8 5h8a2 2 0 012 2v10a2 2 0 01-2 2H8a2 2 0 01-2-2V7a2 2 0 012-2Z"></path></svg>
-  <span>Carousel</span>
-</a>
-
-<a href="./reel" class="icon-card" title="video, movie, film, tape, cinema, reel, senangwebs, sw-reel">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12M6 21h12M19 8v8a2 2 0 01-2 2H7a2 2 0 01-2-2V8a2 2 0 012-2h10a2 2 0 012 2Z"></path></svg>
-  <span>Reel</span>
-</a>
-
-<a href="./container" class="icon-card" title="container, box, center, layout, design">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12M6 21h12M18 8v8a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2h8a2 2 0 012 2ZM3 6 3 18M21 6 21 18"></path></svg>
-  <span>Container</span>
-</a>
-
-<a href="./flip-horizontal" class="icon-card" title="flip, horizontal, flip-horizontal, design">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3L12 21M8 20 8 4 3 20 8 20M16 4 16 20 21 20 16 4"></path></svg>
-  <span>Flip Horizontal</span>
-</a>
-
-<a href="./flip-vertical" class="icon-card" title="flip, vertical, flip-vertical, design">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 12L3 12m1-4L20 8 4 3 4 8M20 16 4 16 4 21 20 16"></path></svg>
-  <span>Flip Vertical</span>
-</a>
-
-<a href="./grid" class="icon-card" title="layout, view, table, cells, pattern, grid">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v18M15 3v18M3 9h18M3 15h18M3 21h18M3 3h18M3 3v18M21 3v18"></path></svg>
-  <span>Grid</span>
-</a>
-
-<a href="./tic-tac-toe" class="icon-card" title="layout, view, game, grid, tic-tac-toe">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v18 M15 3v18 M3 9h18 M3 15h18"></path></svg>
-  <span>Tic Tac Toe</span>
-</a>
-
-<a href="./robot" class="icon-card" title="bot, ai, automation, toy, android, machine, robot">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h12a2.25 2.25 0 0 1 2.25 2.25v7.5A2.25 2.25 0 0 1 18 18H6a2.25 2.25 0 0 1-2.25-2.25v-7.5A2.25 2.25 0 0 1 6 6zM12 3v3M9 3h6M8.25 12a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5zM15.75 12a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5zM9 15h6M7.5 18v3M16.5 18v3"></path></svg>
-  <span>Robot</span>
-</a>
-
-<a href="./chatbot" class="icon-card" title="bot, ai, support, chat, assistant, chatbot, senangwebs, sw-chatbot">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h12a2.25 2.25 0 012.25 2.25v7.5A2.25 2.25 0 0118 18h-6l-4 3 0-3H6a2.25 2.25 0 01-2.25-2.25v-7.5A2.25 2.25 0 016 6zM12 3v3M9 3h6M8.25 12a.75.75 0 110-1.5.75.75 0 010 1.5zM15.75 12a.75.75 0 110-1.5.75.75 0 010 1.5zM9 15h6"></path></svg>
-  <span>Chatbot</span>
-</a>
-
-<a href="./arrow-left-arrow-right" class="icon-card" title="swap, exchange, switch, trade, compare, transfer, arrow-left-arrow-right">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 21 3 16.5m0 0 4.5-4.5M3 16.5h13.5m0-13.5L21 7.5m0 0-4.5 4.5M21 7.5H7.5"></path></svg>
-  <span>Arrow Left Arrow Right</span>
-</a>
-
-<a href="./arrow-up-arrow-down" class="icon-card" title="sort, swap, switch, order, transfer, vertical, arrow-up-arrow-down">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"></path></svg>
-  <span>Arrow Up Arrow Down</span>
-</a>
-
-<a href="./arrow-left-right" class="icon-card" title="swap, horizontal, resize, stretch, expand, arrow-left-right">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 3 12 h 18 M 7 16 L 3 12 l 4 -4 M 17 8 L 21 12 l -4 4"></path></svg>
-  <span>Arrow Left Right</span>
-</a>
-
-<a href="./arrow-up-down" class="icon-card" title="swap, vertical, resize, stretch, expand, arrow-up-down">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 12 3 v 18 M 8 7 L 12 3 l 4 4 M 16 17 L 12 21 l -4 -4"></path></svg>
-  <span>Arrow Up Down</span>
-</a>
-
-<a href="./arrow-up-down-left-right" class="icon-card" title="move, all directions, pan, drag, position, arrow-up-down-left-right">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 3 12 h 18 M 12 3 v 18 M 6 15 L 3 12 l 3 -3 M 18 9 L 21 12 l -3 3 M 9 6 L 12 3 l 3 3 M 15 18 L 12 21 l -3 -3"></path></svg>
-  <span>Arrow Up Down Left Right</span>
-</a>
-
-<a href="./maximize" class="icon-card" title="expand, fullscreen, enlarge, scale up, maximize">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15"></path></svg>
-  <span>Maximize</span>
-</a>
-
-<a href="./minimize" class="icon-card" title="collapse, small, shrink, scale down, minimize">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 9h4.5v-4.5m0 4.5L3.75 3.75M19.5 9h-4.5v-4.5m0 4.5L20.25 3.75M19.5 15h-4.5v4.5m0-4.5L20.25 20.25M4.5 15h4.5v4.5m0-4.5L3.75 20.25"></path></svg>
-  <span>Minimize</span>
-</a>
-
-<a href="./compress" class="icon-card" title="compress, small, shrink, scale down, minimize">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l3 3 3-3m-3 3L12 2M18 15l-3-3 3-3m-3 3L22 12M15 18l-3-3-3 3m3-3L12 22m-6-13 3 3-3 3m3-3L2 12"></path></svg>
-  <span>Compress</span>
-</a>
-
-<a href="./expand" class="icon-card" title="expand, large, grow, scale up, maximize">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9l0-7L15 5 12 2 9 5M9 12l-7 0L5 9 2 12 5 15M12 15l0 7L9 19 12 22 15 19M15 12l7 0L19 9 22 12 19 15"></path></svg>
-  <span>Expand</span>
-</a>
-
-<a href="./layout" class="icon-card" title="dashboard, ui, grid, interface, sidebar, template, layout">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5Z M3 9h18 M12 9v12"></path></svg>
-  <span>Layout</span>
-</a>
-
-<a href="./sidebar-left" class="icon-card" title="dashboard, ui, grid, interface, sidebar, template, layout">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21V9M21 9H3M3 5V19a2 2 0 002 2H19a2 2 0 002-2V5A2 2 0 0019 3H5A2 2 0 003 5Z"></path></svg>
-  <span>Sidebar Left</span>
-</a>
-
-<a href="./sidebar-right" class="icon-card" title="dashboard, ui, grid, interface, sidebar, template, layout">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21V9m6 0H3M3 5V19a2 2 0 002 2H19a2 2 0 002-2V5A2 2 0 0019 3H5A2 2 0 003 5Z"></path></svg>
-  <span>Sidebar Right</span>
-</a>
-
-<a href="./table" class="icon-card" title="table, grid, spreadsheet, data, rows, columns, cells, layout">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5ZM3 9h18M16 9v12M3 13 21 13M3 17 21 17"></path></svg>
-  <span>Table</span>
-</a>
-
-<a href="./focus" class="icon-card" title="focus, lock in, scan, fullscreen, aim, target, center">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5c0-1.1.9-2 2-2h2M17 3h2c1.1 0 2 .9 2 2v2M21 17v2c0 1.1-.9 2-2 2h-2M7 21H5c-1.1 0-2-.9-2-2v-2M5 3 7 3Z"></path></svg>
-  <span>Focus</span>
-</a>
-
-<a href="./crosshair" class="icon-card" title="crosshair, aim, target, center, focus, game">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9l0-6M12 15l0 6M15 12l6 0M9 12l-6 0M12 6A1 1 0 0012 18 1 1 0 0012 6"></path></svg>
-  <span>Crosshair</span>
+<a href="./calendar-days" class="icon-card" title="date, schedule, time, week, month, agenda, calendar-days">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5M7.5 13.5h0M7.5 17.25h0M12 13.5h0M12 17.25h0M16.5 13.5h0M16.5 17.25h0"></path></svg>
+  <span>Calendar Days</span>
 </a>
 
 <a href="./hourglass-0" class="icon-card" title="time, wait, loading, start, timer, hourglass-0">
@@ -1023,104 +1088,144 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Time Reset</span>
 </a>
 
-<a href="./layer-stacks" class="icon-card" title="layers, stack, group, collection, database, layer-stacks">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 9L12 13.5 20.25 9 12 4.5 3.75 9zm0 4.5l8.25 4.5 8.25-4.5M3.75 18l8.25 4.5 8.25-4.5"></path></svg>
-  <span>Layer Stacks</span>
+<a href="./shopping-cart" class="icon-card" title="buy, checkout, store, retail, ecommerce, shopping-cart">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path></svg>
+  <span>Shopping Cart</span>
 </a>
 
-<a href="./cube" class="icon-card" title="3d, block, shape, geometry, box, cube, senangwebs, model, sw-kiln">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"></path></svg>
-  <span>Cube</span>
+<a href="./shopping-bag" class="icon-card" title="buy, checkout, store, mall, retail, shopping-bag">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"></path></svg>
+  <span>Shopping Bag</span>
 </a>
 
-<a href="./sphere" class="icon-card" title="shape, round, 3d, circle, geometry, ball, sphere">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z M3 12c0 2.5 4.5 4.5 9 4.5s9-2 9-4.5 M12 3c2.5 0 4.5 4.5 4.5 9s-2 9-4.5 9"></path></svg>
-  <span>Sphere</span>
+<a href="./basket" class="icon-card" title="buy, checkout, store, market, grocery, basket, senangwebs, cart, shop, sw-buy">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 11 0 9m4-9-4-7M2 11h20m-18.5 0 1.6 7.4a2 2 0 002 1.6h9.8a2 2 0 002-1.6l1.7-7.4M4.5 15.5h15m-14.5-4.5 4-7m0 7 0 9"></path></svg>
+  <span>Basket</span>
 </a>
 
-<a href="./cylinder" class="icon-card" title="shape, round, 3d, geometry, column, tube, cylinder">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 6.5c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5S7.03 3 12 3s9 1.567 9 3.5z M21 6.5v11c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5v-11"></path></svg>
-  <span>Cylinder</span>
+<a href="./credit-card" class="icon-card" title="payment, money, purchase, debit, plastic, credit-card">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"></path></svg>
+  <span>Credit Card</span>
 </a>
 
-<a href="./tube" class="icon-card" title="shape, round, 3d, pipe, hollow, geometry, tube">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 6.5c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5S7 3 12 3s9 1.567 9 3.5zM21 6.5v11c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5v-11M17 6.5c0 .7-2 1.5-5 1.5s-5-.8-5-1.5S9 5 12 5s5 .8 5 1.5zM17 20.4 17 9.5"></path></svg>
-  <span>Tube</span>
+<a href="./banknotes" class="icon-card" title="money, cash, payment, bill, finance, banknotes">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 18.75l15.75 2.25c1 .2 1-0 1.2-1L19.4 18.8M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z"></path></svg>
+  <span>Banknotes</span>
 </a>
 
-<a href="./cone" class="icon-card" title="shape, triangle, 3d, geometry, pointed, cone">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 19c0 1-3 3-9 3s-9-2-9-3c0-1 3-3 9-3s9 2 9 3zM3 19 12 3l9 16"></path></svg>
-  <span>Cone</span>
+<a href="./currency-dollar" class="icon-card" title="money, price, cost, usd, cash, finance, currency-dollar">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+  <span>Currency Dollar</span>
 </a>
 
-<a href="./pyramid" class="icon-card" title="shape, triangle, 3d, geometry, egypt, pyramid">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.75 15-9.75 3-9.75-3L12 3z M12 3v18"></path></svg>
-  <span>Pyramid</span>
+<a href="./currency-euro" class="icon-card" title="money, price, cost, eur, cash, finance, currency-euro">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.25 7.756a4.5 4.5 0 100 8.488M7.5 10.5h5.25m-5.25 3h5.25M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+  <span>Currency Euro</span>
 </a>
 
-<a href="./polygon" class="icon-card" title="shape, polygon, 3d, mesh, geometry, hexagon">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3l8 0L22 7 16 11 8 11 2 7 8 3M22 7v10M2 7v10M16 11v10M8 11v10M2 17l6 4L16 21 22 17"></path></svg>
-  <span>Polygon</span>
+<a href="./currency-pound" class="icon-card" title="money, price, cost, gbp, cash, finance, currency-pound">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.1213 7.62877C12.9497 6.45719 11.0503 6.45719 9.87868 7.62877C9.37424 8.13321 9.08699 8.7726 9.01694 9.43073C8.9944 9.64251 9.01512 9.85582 9.04524 10.0667L9.5512 13.6084C9.68065 14.5146 9.5307 15.4386 9.12135 16.2573L9 16.5L10.5385 15.9872C11.0003 15.8332 11.4997 15.8332 11.9615 15.9872L12.6158 16.2053C13.182 16.394 13.7999 16.3501 14.3336 16.0832L15 15.75M8.25 12H12M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"></path></svg>
+  <span>Currency Pound</span>
 </a>
 
-<a href="./torus" class="icon-card" title="shape, donut, 3d, ring, circular, geometry, torus">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c5 0 8.7 3 9 6s-1.5 8-9 8-9.3-5-9-8 4-6 9-6zM12 8c2.5 0 4.4 1.3 4.5 3s-2 3-4.5 3-4.6-1.3-4.5-3 2-3 4.5-3z"></path></svg>
-  <span>Torus</span>
+<a href="./currency-yen" class="icon-card" title="money, price, cost, jpy, cash, finance, currency-yen">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7.5l3 4.5m0 0l3-4.5M12 12v5.25M15 12H9m6 3H9m12-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+  <span>Currency Yen</span>
 </a>
 
-<a href="./plane" class="icon-card" title="shape, flat, 3d, surface, floor, ground, plane">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12l10 5 10-5-10-5-10 5zM2 12"></path></svg>
-  <span>Plane</span>
+<a href="./currency-ringgit" class="icon-card" title="money, price, cost, myr, cash, finance, currency-ringgit">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 15V9h2a1.5 1.5 0 0 1 0 3H7m2 0l1.5 3M13 15V9l2 3 2-3v6M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+  <span>Currency Ringgit</span>
 </a>
 
-<a href="./wedge" class="icon-card" title="shape, triangle, 3d, incline, slope, ramp, wedge">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21H17L3 7V21ZM3 7 17 21m0 0 4-5M3 7 8 3M8 3 21 16"></path></svg>
-  <span>Wedge</span>
+<a href="./briefcase" class="icon-card" title="work, business, office, job, portfolio, briefcase">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.675.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.675-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"></path></svg>
+  <span>Briefcase</span>
 </a>
 
-<a href="./roof" class="icon-card" title="shape, prism, 3d, house, top, shelter, roof">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 7 3 19h14L10 7zM10 7 14 5 21 17 17 19"></path></svg>
-  <span>Roof</span>
+<a href="./barcode" class="icon-card" title="barcode, sku, inventory, product code, scan product, retail label">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v15M6 3v12M9 3v15M12 3v12M15 3v15M18 3v12M21 3v15M6 21h3M12 21h3M18 21h3"></path></svg>
+  <span>Barcode</span>
 </a>
 
-<a href="./cylinder-half" class="icon-card" title="shape, half, 3d, cut, section, geometry, cylinder-half">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a9 3 0 0 1 18 0H3zM3 5v14h18V5M3 19h18"></path></svg>
-  <span>Cylinder Half</span>
+<a href="./tag" class="icon-card" title="tag, label, category, taxonomy, product label, metadata">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4.5v6L13.5 21l7.5-7.5L10.5 3h-6A1.5 1.5 0 0 0 3 4.5ZM5.625 6.75a1.125 1.125 0 1 0 2.25 0a1.125 1.125 0 1 0 -2.25 0Z"></path></svg>
+  <span>Tag</span>
 </a>
 
-<a href="./sphere-half" class="icon-card" title="shape, hemisphere, 3d, dome, half, round, sphere-half">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14a9 9 0 0118 0v2c0 1-4 3-9 3s-9-2-9-3v-2zM12 13c-5 0-9 2-9 3S7 19 12 19s9-2 9-3-4-3-9-3"></path></svg>
-  <span>Sphere Half</span>
+<a href="./ticket" class="icon-card" title="ticket, coupon, voucher, admission, event pass, redemption">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18v3a3 3 0 0 0 0 6v3H3v-3a3 3 0 0 0 0-6V6ZM15 8.25V9M15 12v.01M15 15v.75"></path></svg>
+  <span>Ticket</span>
 </a>
 
-<a href="./heart-extruded" class="icon-card" title="shape, love, 3d, valentine, like, favorite, heart-extruded">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c-1-1.5-2.5-2-4-2C5.5 3 4 4.5 4 7c0 2 1.5 4 8 9 6.5-5 8-7 8-9 0-2.5-1.5-4-4-4-1.5 0-3 .5-4 2zM4 7v5c0 2 1.5 4 8 9v-5M20 7v5c0 2-1.5 4-8 9"></path></svg>
-  <span>Heart Extruded</span>
+<a href="./wallet" class="icon-card" title="wallet, digital wallet, balance, payment account, stored value, billing">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.25 10.5V8.25A2.25 2.25 0 0 0 18 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21H18a2.25 2.25 0 0 0 2.25-2.25V16.5M18 6V3H6a3 3 0 0 0-3 3v2.25M15.75 10.5h5.25a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1 -1.5 1.5h-5.25a1.5 1.5 0 0 1 -1.5 -1.5v-3a1.5 1.5 0 0 1 1.5 -1.5ZM17.25 13.5h.01"></path></svg>
+  <span>Wallet</span>
 </a>
 
-<a href="./torus-knot" class="icon-card" title="shape, knot, 3d, twisted, loop, geometry, torus-knot">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 12.0 L20.7 13.2 L20.3 14.4 L19.7 15.4 L18.9 16.4 L18.0 17.1 L17.0 17.6 L15.9 17.9 L14.8 18.1 L13.8 18.0 L12.9 17.8 L12.1 17.6 L11.3 17.2 L10.7 16.8 L10.1 16.5 L9.7 16.1 L9.2 15.8 L8.7 15.6 L8.3 15.3 L7.7 15.1 L7.2 14.8 L6.5 14.4 L5.9 14.0 L5.2 13.5 L4.6 12.8 L4.0 12.0 L3.5 11.1 L3.2 10.0 L3.1 8.9 L3.2 7.7 L3.5 6.6 L4.1 5.5 L4.8 4.5 L5.8 3.7 L6.8 3.2 L8.0 2.8 L9.2 2.7 L10.4 2.9 L11.6 3.2 L12.6 3.8 L13.4 4.5 L14.1 5.3 L14.7 6.2 L15.0 7.1 L15.2 8.0 L15.3 8.9 L15.3 9.6 L15.3 10.3 L15.3 10.9 L15.2 11.5 L15.2 12.0 L15.2 12.5 L15.3 13.1 L15.3 13.7 L15.3 14.4 L15.3 15.1 L15.2 16.0 L15.0 16.9 L14.7 17.8 L14.1 18.7 L13.4 19.5 L12.6 20.2 L11.6 20.8 L10.4 21.1 L9.2 21.3 L8.0 21.2 L6.8 20.8 L5.8 20.3 L4.8 19.5 L4.1 18.5 L3.5 17.4 L3.2 16.3 L3.1 15.1 L3.2 14.0 L3.5 12.9 L4.0 12.0 L4.6 11.2 L5.2 10.5 L5.9 10.0 L6.5 9.6 L7.2 9.2 L7.7 8.9 L8.3 8.7 L8.7 8.4 L9.2 8.2 L9.7 7.9 L10.1 7.5 L10.7 7.2 L11.3 6.8 L12.1 6.4 L12.9 6.2 L13.8 6.0 L14.8 5.9 L15.9 6.1 L17.0 6.4 L18.0 6.9 L18.9 7.6 L19.7 8.6 L20.3 9.6 L20.7 10.8 L20.8 12.0Z"></path></svg>
-  <span>Torus Knot</span>
+<a href="./coins" class="icon-card" title="coins, credits, tokens, loyalty points, cash balance, currency amount">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 10.5a5.25 2.25 0 1 0 10.5 0a5.25 2.25 0 1 0 -10.5 0ZM2.25 10.5v9a5.25 2.25 0 0 0 10.5 0v-9M2.25 15a5.25 2.25 0 0 0 10.5 0M12 5.25a4.5 2.25 0 1 0 9 0a4.5 2.25 0 1 0 -9 0ZM12 5.25v1.5M21 5.25v9c0 1.25-2.01 2.25-4.5 2.25M21 9.75c0 1.25-2.01 2.25-4.5 2.25H15"></path></svg>
+  <span>Coins</span>
 </a>
 
-<a href="./tetrahedron" class="icon-card" title="shape, pyramid, 3d, triangle, platonic, geometry, tetrahedron">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 18H3L12 3zM12 3v12M12 15l-9 6M12 15l9 6"></path></svg>
-  <span>Tetrahedron</span>
+<a href="./bank" class="icon-card" title="bank, banking, financial institution, bank transfer, treasury, finance">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9 12 3l9 6H3ZM4.5 21h15M3 18h18M6 9v9M12 9v9M18 9v9"></path></svg>
+  <span>Bank</span>
 </a>
 
-<a href="./octahedron" class="icon-card" title="shape, diamond, 3d, crystal, platonic, geometry, octahedron">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 L22 12 L12 22 L2 12 Z M12 2 L12 14 L22 12 M12 22 L12 14 L2 12"></path></svg>
-  <span>Octahedron</span>
+<a href="./storefront" class="icon-card" title="storefront, shop, merchant, seller dashboard, marketplace, retail store">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.25 5.25 3.75h13.5L21 8.25H3v2.25a2.25 2.25 0 0 0 4.5 0 2.25 2.25 0 0 0 4.5 0 2.25 2.25 0 0 0 4.5 0 2.25 2.25 0 0 0 4.5 0V8.25M4.5 12.5V21h15v-8.5M9 21v-6h6v6M7.5 8.25l1.125-4.5M12 8.25v-4.5M16.5 8.25l-1.125-4.5"></path></svg>
+  <span>Storefront</span>
 </a>
 
-<a href="./icosahedron" class="icon-card" title="shape, poly, 3d, d20, game, platonic, geometry, icosahedron">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L21 7L21 17L12 22L3 17L3 7L12 2Z M12 22V15 M12 15L7 9L17 9L12 15Z M12 2L7 9 M12 2L17 9 M21 7L17 9 M21 17L17 9 M21 17L12 15 M3 17L12 15 M3 17L7 9 M3 7L7 9"></path></svg>
-  <span>Icosahedron</span>
+<a href="./percent" class="icon-card" title="percent, percentage, discount rate, tax rate, interest rate, commission">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 6.75a3 3 0 1 0 6 0a3 3 0 1 0 -6 0ZM14.25 17.25a3 3 0 1 0 6 0a3 3 0 1 0 -6 0ZM4.5 19.5l15-15"></path></svg>
+  <span>Percent</span>
 </a>
 
-<a href="./dodecahedron" class="icon-card" title="shape, pentagon, 3d, d12, platonic, geometry, dodecahedron">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 18 6 21 11 20 17 18 21H6L4 17 3 11 6 6zM12 3v6M12 9l-6 5M12 9l6 5M6 14l2 7M18 14l-2 7M18 14 21 11M6 14 3 11"></path></svg>
-  <span>Dodecahedron</span>
+<a href="./calculator" class="icon-card" title="calculator, arithmetic, calculate, estimate, numeric keypad, pricing calculator">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 2.25h10.5a2.25 2.25 0 0 1 2.25 2.25v15a2.25 2.25 0 0 1-2.25 2.25h-10.5a2.25 2.25 0 0 1-2.25-2.25v-15a2.25 2.25 0 0 1 2.25-2.25ZM8.25 6.75h7.5M8.25 11.25h0M8.25 15h0M12 11.25h0M12 15h0M15.75 11.25h0M15.75 15h0M8.25 18.75h3.75M15.75 18.75h0"></path></svg>
+  <span>Calculator</span>
+</a>
+
+<a href="./office-building" class="icon-card" title="office building, company, organization, business address, enterprise, workplace, office-building">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V4.5A1.5 1.5 0 0 1 4.5 3H12v18M12 8.25h6a1.5 1.5 0 0 1 1.5 1.5V21M2.25 21h19.5M6.75 6.75h1.5M6.75 10.5h1.5M6.75 14.25h1.5M15.75 12h.75M15.75 15.75h.75M6.75 21v-3H9v3"></path></svg>
+  <span>Office Building</span>
+</a>
+
+<a href="./presentation-chart-line" class="icon-card" title="analytics, graph, stats, report, data, trends, presentation-chart-line">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605"></path></svg>
+  <span>Presentation Chart Line</span>
+</a>
+
+<a href="./presentation-media" class="icon-card" title="analytics, graph, screen, slide, projection, presentation-media, senangwebs, presentation, sw-deck">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 3.75 3 v 11.25 A 2.25 2.25 0 0 0 6 16.5 h 2.25 M 3.75 3 h -1.5 m 1.5 0 h 16.5 m 0 0 h 1.5 m -1.5 0 v 11.25 A 2.25 2.25 0 0 1 18 16.5 h -2.25 m -7.5 0 h 7.5 m -7.5 0 l -1 3 m 8.5 -3 l 1 3 m 0 0 l 0.5 1.5 m -0.5 -1.5 h -9.5 m 0 0 l -0.5 1.5 M 10 7 l 5.005 2.487 l -5.005 2.513 z"></path></svg>
+  <span>Presentation Media</span>
+</a>
+
+<a href="./whiteboard" class="icon-card" title="draw, present, board, stand, easel, whiteboard, senangwebs, vector, sw-whiteboard">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5zM2 17h20M6 17v4M18 17v4"></path></svg>
+  <span>Whiteboard</span>
+</a>
+
+<a href="./chart-line" class="icon-card" title="graph, analytics, stats, growth, trends, chart-line">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v15c0 2 1 3 3 3h13M8 15l3-4 2 2 6-8"></path></svg>
+  <span>Chart Line</span>
+</a>
+
+<a href="./chart-bar" class="icon-card" title="graph, analytics, stats, comparison, data, chart-bar">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"></path></svg>
+  <span>Chart Bar</span>
+</a>
+
+<a href="./chart-pie" class="icon-card" title="graph, analytics, stats, ratio, percentage, chart-pie, senangwebs, chart, sw-yield">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"></path></svg>
+  <span>Chart Pie</span>
+</a>
+
+<a href="./gauge" class="icon-card" title="gauge, performance, speed, capacity, utilization, meter">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 18a9 9 0 1 1 15 0M7.5 20.25h9M12 14.25l4.5-4.5M11.25 14.25a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0ZM5.25 12h.01M8.25 6.75h.01M15.75 6.75h.01M18.75 12h.01"></path></svg>
+  <span>Gauge</span>
 </a>
 
 <a href="./sparkles" class="icon-card" title="ai, magic, new, shine, clean, glitter, sparkles, senangwebs, motion, sw-animations">
@@ -1151,36 +1256,6 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
 <a href="./marquee" class="icon-card" title="marquee, select, arrow, cursor">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6 3 3 6 3M10 3 14 3M3 10 3 14M10 21 14 21M21 10 21 14M18 3 21 3 21 6M21 18 21 21 18 21M3 18 3 21 6 21"></path></svg>
   <span>Marquee</span>
-</a>
-
-<a href="./shapes" class="icon-card" title="shapes, triangle, circle, square, geometry, design, graphic">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19l4-7 4 7H3zM12.5 11a3 3 0 110-8 3 3 0 010 8zM14 14h7v7h-7z"></path></svg>
-  <span>Shapes</span>
-</a>
-
-<a href="./square" class="icon-card" title="shape, box, stop, block, geometry, square">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path></svg>
-  <span>Square</span>
-</a>
-
-<a href="./rectangle" class="icon-card" title="shape, box, card, geometry, rectangle">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18v14H3z"></path></svg>
-  <span>Rectangle</span>
-</a>
-
-<a href="./circle" class="icon-card" title="shape, round, radio, dot, geometry, circle">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-  <span>Circle</span>
-</a>
-
-<a href="./diamond" class="icon-card" title="shape, rhombus, gem, card, geometry, diamond">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 9-9 9-9-9 9-9z"></path></svg>
-  <span>Diamond</span>
-</a>
-
-<a href="./hexagon" class="icon-card" title="shape, polygon, nut, geometry, hexagon">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v8l-7 4-7-4V6l7-4z"></path></svg>
-  <span>Hexagon</span>
 </a>
 
 <a href="./draw-line" class="icon-card" title="edit, write, draw, line, stroke, diagonal, draw-line">
@@ -1228,14 +1303,14 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Text</span>
 </a>
 
-<a href="./text-align-center" class="icon-card" title="format, paragraph, center, middle, text-align-center">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 5h16.5M5.625 9h12.75M3.75 13h16.5M5.625 17h12.75"></path></svg>
-  <span>Text Align Center</span>
-</a>
-
 <a href="./text-align-left" class="icon-card" title="format, paragraph, left, start, text-align-left">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 5h16.5M3.75 9h12.75M3.75 13h16.5M3.75 17h12.75"></path></svg>
   <span>Text Align Left</span>
+</a>
+
+<a href="./text-align-center" class="icon-card" title="format, paragraph, center, middle, text-align-center">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 5h16.5M5.625 9h12.75M3.75 13h16.5M5.625 17h12.75"></path></svg>
+  <span>Text Align Center</span>
 </a>
 
 <a href="./text-align-right" class="icon-card" title="format, paragraph, right, end, text-align-right">
@@ -1248,74 +1323,359 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Text Align Justify</span>
 </a>
 
-<a href="./sliders-horizontal" class="icon-card" title="settings, filters, adjust, levels, controls, sliders-horizontal">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"></path></svg>
-  <span>Sliders Horizontal</span>
+<a href="./palette" class="icon-card" title="palette, colors, theme colors, swatches, brand colors, appearance">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18h1.5a2.25 2.25 0 0 0 1.59-3.84l-.18-.18a1.5 1.5 0 0 1 1.06-2.56h1.78A3.75 3.75 0 0 0 21.5 10.67C20.8 6.28 16.98 3 12 3ZM7.5 9.75h.01M10.5 6.75h.01M15 7.5h.01M17.25 11.25h.01"></path></svg>
+  <span>Palette</span>
 </a>
 
-<a href="./sliders-vertical" class="icon-card" title="settings, filters, adjust, levels, controls, sliders-vertical">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 6H3.75m9.75 0a1.5 1.5 0 0 1 3 0m-3 0a1.5 1.5 0 0 0 3 0m3.75 0H16.5m-3 12H3.75m9.75 0a1.5 1.5 0 0 1 3 0m-3 0a1.5 1.5 0 0 0 3 0m3.75 0H16.5m-9-6H3.75m3.75 0a1.5 1.5 0 0 1 3 0m-3 0a1.5 1.5 0 0 0 3 0m9.75 0H10.5"></path></svg>
-  <span>Sliders Vertical</span>
+<a href="./pipette" class="icon-card" title="pipette, eyedropper, color picker, sample color, pick pixel, design tool">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.25 3.75a3.182 3.182 0 0 1 4.5 4.5L16.5 10.5 12 6l2.25-2.25ZM10.5 4.5l9 9M12 6 4.5 13.5V18H9l7.5-7.5M3 21h.01"></path></svg>
+  <span>Pipette</span>
 </a>
 
-<a href="./arrow-down-tray" class="icon-card" title="download, export, save, file, transfer, receive, arrow-down-tray">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v11m-4-4 4 4 4-4M4 16v4h16v-4"></path></svg>
-  <span>Arrow Down Tray</span>
+<a href="./ruler" class="icon-card" title="ruler, measure, dimensions, spacing, distance, design measurement">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15 15 3l6 6L9 21 3 15ZM6 12l2.25 2.25M9 9l1.5 1.5M12 6l2.25 2.25"></path></svg>
+  <span>Ruler</span>
 </a>
 
-<a href="./arrow-up-tray" class="icon-card" title="upload, import, file, transfer, send, arrow-up-tray">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14V3m-4 4 4-4 4 4M4 16v4h16v-4"></path></svg>
-  <span>Arrow Up Tray</span>
+<a href="./bold" class="icon-card" title="bold, font weight, strong, text formatting, rich text, emphasis">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3v18h6a4.5 4.5 0 0 0 0-9h-6M7.5 3h6a4.5 4.5 0 0 1 0 9"></path></svg>
+  <span>Bold</span>
 </a>
 
-<a href="./funnel" class="icon-card" title="filter, refine, results, search, table, funnel">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h18l-7 8v7l-4 2v-9L3 4z"></path></svg>
-  <span>Funnel</span>
+<a href="./italic" class="icon-card" title="italic, oblique, emphasis, text formatting, rich text, font style">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3h7.5M4.5 21H12M15 3 9 21"></path></svg>
+  <span>Italic</span>
 </a>
 
-<a href="./link" class="icon-card" title="url, hyperlink, chain, connect, insert link, copy link, link">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 7l3-3a5 5 0 0 1 7 7l-3 3M14 17l-3 3a5 5 0 0 1-7-7l3-3M8 16l8-8"></path></svg>
-  <span>Link</span>
+<a href="./underline" class="icon-card" title="underline, text decoration, text formatting, rich text, emphasis, typography">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3.75V12a6 6 0 0 0 12 0V3.75M4.5 21h15"></path></svg>
+  <span>Underline</span>
 </a>
 
-<a href="./link-slash" class="icon-card" title="unlink, remove link, disconnect, broken link, url, link-slash">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 6l2-2a5 5 0 017 7l-2 2m-5 5-2 2a5 5 0 01-7-7l2-2m2 5 1-1m6-6 1-1M3 3l18 18"></path></svg>
-  <span>Link Slash</span>
+<a href="./strikethrough" class="icon-card" title="strikethrough, strike, deleted text, text decoration, rich text, formatting">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 5.25C16.5 3 12 2.25 8.25 3.75c-3.75 1.5-3.75 6.75.75 8.25l6 2.25c4.5 1.5 4.5 5.25.75 6.75-3 1.5-7.5.75-9-1.5M3 12h18"></path></svg>
+  <span>Strikethrough</span>
 </a>
 
-<a href="./share" class="icon-card" title="share, social, send, distribute, connect">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 19a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM7.65 10.6l7.7-4.2M7.65 13.4l7.7 4.2"></path></svg>
-  <span>Share</span>
+<a href="./quote" class="icon-card" title="quote, quotation, blockquote, citation, rich text, testimonial">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.25h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1ZM16 5.25h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1ZM9 11.25v3a4.5 4.5 0 0 1-4.5 4.5M21 11.25v3a4.5 4.5 0 0 1-4.5 4.5"></path></svg>
+  <span>Quote</span>
 </a>
 
-<a href="./check-circle" class="icon-card" title="success, complete, confirm, approve, valid, tick, done, check-circle">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zM7.5 12l3 3 6-6"></path></svg>
-  <span>Check Circle</span>
+<a href="./paragraph" class="icon-card" title="paragraph, pilcrow, formatting marks, text structure, rich text, editor">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 21V3H9a6 6 0 0 0 0 12h4.5M18 3v18M13.5 3H21"></path></svg>
+  <span>Paragraph</span>
 </a>
 
-<a href="./x-circle" class="icon-card" title="error, failure, reject, invalid, cancel, close, x-circle">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9 9l6 6m0-6-6 6"></path></svg>
-  <span>X Circle</span>
+<a href="./translate" class="icon-card" title="translate, translation, language, localization, multilingual, locale">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.25h12M9 2.25v3M6 5.25c0 5.25 3.75 9 8.25 10.5M12 5.25c0 5.25-3.75 9-9 10.5M13.5 21 18 10.5 22.5 21M15 18h6"></path></svg>
+  <span>Translate</span>
 </a>
 
-<a href="./paper-airplane" class="icon-card" title="send, message, submit, mail, outgoing, paper plane, paper-airplane">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3 3 10l7 3 3 8 8-18zM10 13 21 3"></path></svg>
-  <span>Paper Airplane</span>
+<a href="./superscript" class="icon-card" title="superscript, raised text, exponent, power notation, rich text, text formatting">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9 12M12 9 3 21M16.5 4.5a2.25 2.25 0 0 1 4.5 0c0 1.5-4.5 3.75-4.5 5.25H21"></path></svg>
+  <span>Superscript</span>
 </a>
 
-<a href="./printer" class="icon-card" title="print, document, receipt, paper, office, printer">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8V3h10v5M7 17H4a1 1 0 0 1-1-1v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1h-3M7 14h10v7H7zM17 11h1"></path></svg>
-  <span>Printer</span>
+<a href="./subscript" class="icon-card" title="subscript, lowered text, chemical formula, index notation, rich text, text formatting">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l9 12M12 3 3 15M16.5 16.5a2.25 2.25 0 0 1 4.5 0c0 1.5-4.5 3.75-4.5 5.25H21"></path></svg>
+  <span>Subscript</span>
 </a>
 
-<a href="./bell-slash" class="icon-card" title="mute, notification, silent, alarm off, do not disturb, bell-slash">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3.8A6 6 0 0 1 18 9v.75a8.967 8.967 0 0 0 2.31 6.02M6.2 7.5A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.31 6.02A24 24 0 0 0 15 17.07M9.14 17.08a3 3 0 0 0 5.72 0M3 3l18 18"></path></svg>
-  <span>Bell Slash</span>
+<a href="./highlighter" class="icon-card" title="highlighter, highlight annotation, chisel marker, mark passage, document markup, annotation tool">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 9-6 6L6 9l6-6ZM7.5 10.5l-3.75 3.75v3l3 3h3l3.75-3.75M3 21h6"></path></svg>
+  <span>Highlighter</span>
 </a>
 
-<a href="./wifi-slash" class="icon-card" title="offline, disconnected, no internet, network, signal, wifi off, wifi-slash">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 7.5a11.25 11.25 0 0 1 1.4-1.25M7.4 4.55A11.25 11.25 0 0 1 19.5 7.5M5.25 10.5a7.5 7.5 0 0 1 1.5-1.15M10.5 7.98a7.5 7.5 0 0 1 6 2.52M8.25 13.5a3.75 3.75 0 0 1 2.75-1.08M11 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25zM3 3l18 18"></path></svg>
-  <span>Wifi Slash</span>
+<a href="./paint-roller" class="icon-card" title="paint roller, theme styling, apply appearance, surface styling, theme editor, visual customization, paint-roller">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 3h12a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1 -1.5 1.5h-12a1.5 1.5 0 0 1 -1.5 -1.5v-3a1.5 1.5 0 0 1 1.5 -1.5ZM18 6h1.5a2.25 2.25 0 0 1 2.25 2.25V12a2.25 2.25 0 0 1-2.25 2.25H12v2.25M10.875 16.5h2.25a1.125 1.125 0 0 1 1.125 1.125v3a1.125 1.125 0 0 1 -1.125 1.125h-2.25a1.125 1.125 0 0 1 -1.125 -1.125v-3a1.125 1.125 0 0 1 1.125 -1.125Z"></path></svg>
+  <span>Paint Roller</span>
+</a>
+
+<a href="./group-object" class="icon-card" title="combine, merge, join, select, design, group-object">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5c0-1.1.9-2 2-2h2M17 3h2c1.1 0 2 .9 2 2v2M21 17v2c0 1.1-.9 2-2 2h-2M7 21H5c-1.1 0-2-.9-2-2v-2M8 7h5a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1ZM11 12h5a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1Z"></path></svg>
+  <span>Group Object</span>
+</a>
+
+<a href="./ungroup-object" class="icon-card" title="separate, split, detach, divide, design, ungroup-object">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h6a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1ZM12 14h6a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1Z"></path></svg>
+  <span>Ungroup Object</span>
+</a>
+
+<a href="./align-left-object" class="icon-card" title="align, left, object, layout, position, design, align-left-object">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h6a1 1 0 011 1v4a1 1 0 01-1 1H7a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h6a1 1 0 011 1v4a1 1 0 01-1 1h-11a1 1 0 01-1-1v-4a1 1 0 011-1ZM3 21 3 3"></path></svg>
+  <span>Align Left Object</span>
+</a>
+
+<a href="./align-center-object" class="icon-card" title="align, center, object, layout, position, design, align-center-object">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4h3a1 1 0 011 1v4a1 1 0 01-1 1H9a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h6a1 1 0 011 1v4a1 1 0 01-1 1h-12a1 1 0 01-1-1v-4a1 1 0 011-1ZM12 21 12 3"></path></svg>
+  <span>Align Center Object</span>
+</a>
+
+<a href="./align-right-object" class="icon-card" title="align, right, object, layout, position, design, align-right-object">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4h4a1 1 0 011 1v4a1 1 0 01-1 1H11a1 1 0 01-1-1V5a1 1 0 011-1ZM12 14h5a1 1 0 011 1v4a1 1 0 01-1 1h-11a1 1 0 01-1-1v-4a1 1 0 011-1ZM21 21 21 3"></path></svg>
+  <span>Align Right Object</span>
+</a>
+
+<a href="./align-top-object" class="icon-card" title="align, top, object, layout, position, design, align-top-object">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15h3a1 1 0 011 1v3a1 1 0 01-1 1H9a1 1 0 01-1-1V16a1 1 0 011-1ZM12 7h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 4 3 4"></path></svg>
+  <span>Align Top Object</span>
+</a>
+
+<a href="./align-middle-object" class="icon-card" title="align, middle, object, layout, position, design, align-middle-object">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4h6a1 1 0 011 1v3a1 1 0 01-1 1H6a1 1 0 01-1-1V5a1 1 0 011-1ZM12 15h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 12 3 12"></path></svg>
+  <span>Align Middle Object</span>
+</a>
+
+<a href="./align-bottom-object" class="icon-card" title="align, bottom, object, layout, position, design, align-bottom-object">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4h3a1 1 0 011 1v3a1 1 0 01-1 1H9a1 1 0 01-1-1V5a1 1 0 011-1ZM12 12h6a1 1 0 011 1v3a1 1 0 01-1 1h-12a1 1 0 01-1-1v-3a1 1 0 011-1ZM21 20 3 20"></path></svg>
+  <span>Align Bottom Object</span>
+</a>
+
+<a href="./flip-horizontal" class="icon-card" title="flip, horizontal, flip-horizontal, design">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3L12 21M8 20 8 4 3 20 8 20M16 4 16 20 21 20 16 4"></path></svg>
+  <span>Flip Horizontal</span>
+</a>
+
+<a href="./flip-vertical" class="icon-card" title="flip, vertical, flip-vertical, design">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 12L3 12m1-4L20 8 4 3 4 8M20 16 4 16 4 21 20 16"></path></svg>
+  <span>Flip Vertical</span>
+</a>
+
+<a href="./maximize" class="icon-card" title="expand, fullscreen, enlarge, scale up, maximize">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15"></path></svg>
+  <span>Maximize</span>
+</a>
+
+<a href="./minimize" class="icon-card" title="collapse, small, shrink, scale down, minimize">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 9h4.5v-4.5m0 4.5L3.75 3.75M19.5 9h-4.5v-4.5m0 4.5L20.25 3.75M19.5 15h-4.5v4.5m0-4.5L20.25 20.25M4.5 15h4.5v4.5m0-4.5L3.75 20.25"></path></svg>
+  <span>Minimize</span>
+</a>
+
+<a href="./compress" class="icon-card" title="compress, small, shrink, scale down, minimize">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l3 3 3-3m-3 3L12 2M18 15l-3-3 3-3m-3 3L22 12M15 18l-3-3-3 3m3-3L12 22m-6-13 3 3-3 3m3-3L2 12"></path></svg>
+  <span>Compress</span>
+</a>
+
+<a href="./expand" class="icon-card" title="expand, large, grow, scale up, maximize">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9l0-7L15 5 12 2 9 5M9 12l-7 0L5 9 2 12 5 15M12 15l0 7L9 19 12 22 15 19M15 12l7 0L19 9 22 12 19 15"></path></svg>
+  <span>Expand</span>
+</a>
+
+<a href="./focus" class="icon-card" title="focus, lock in, scan, fullscreen, aim, target, center">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5c0-1.1.9-2 2-2h2M17 3h2c1.1 0 2 .9 2 2v2M21 17v2c0 1.1-.9 2-2 2h-2M7 21H5c-1.1 0-2-.9-2-2v-2M5 3 7 3Z"></path></svg>
+  <span>Focus</span>
+</a>
+
+<a href="./crosshair" class="icon-card" title="crosshair, aim, target, center, focus, game">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9l0-6M12 15l0 6M15 12l6 0M9 12l-6 0M12 6A1 1 0 0012 18 1 1 0 0012 6"></path></svg>
+  <span>Crosshair</span>
+</a>
+
+<a href="./layer-stacks" class="icon-card" title="layers, stack, group, collection, database, layer-stacks">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 9L12 13.5 20.25 9 12 4.5 3.75 9zm0 4.5l8.25 4.5 8.25-4.5M3.75 18l8.25 4.5 8.25-4.5"></path></svg>
+  <span>Layer Stacks</span>
+</a>
+
+<a href="./shapes" class="icon-card" title="shapes, triangle, circle, square, geometry, design, graphic">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19l4-7 4 7H3zM12.5 11a3 3 0 110-8 3 3 0 010 8zM14 14h7v7h-7z"></path></svg>
+  <span>Shapes</span>
+</a>
+
+<a href="./square" class="icon-card" title="shape, box, stop, block, geometry, square">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path></svg>
+  <span>Square</span>
+</a>
+
+<a href="./rectangle" class="icon-card" title="shape, box, card, geometry, rectangle">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18v14H3z"></path></svg>
+  <span>Rectangle</span>
+</a>
+
+<a href="./circle" class="icon-card" title="shape, round, radio, dot, geometry, circle">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+  <span>Circle</span>
+</a>
+
+<a href="./diamond" class="icon-card" title="shape, rhombus, gem, card, geometry, diamond">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 9-9 9-9-9 9-9z"></path></svg>
+  <span>Diamond</span>
+</a>
+
+<a href="./hexagon" class="icon-card" title="shape, polygon, nut, geometry, hexagon">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v8l-7 4-7-4V6l7-4z"></path></svg>
+  <span>Hexagon</span>
+</a>
+
+<a href="./cube" class="icon-card" title="3d, block, shape, geometry, box, cube, senangwebs, model, sw-kiln">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"></path></svg>
+  <span>Cube</span>
+</a>
+
+<a href="./sphere" class="icon-card" title="shape, round, 3d, circle, geometry, ball, sphere">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z M3 12c0 2.5 4.5 4.5 9 4.5s9-2 9-4.5 M12 3c2.5 0 4.5 4.5 4.5 9s-2 9-4.5 9"></path></svg>
+  <span>Sphere</span>
+</a>
+
+<a href="./sphere-half" class="icon-card" title="shape, hemisphere, 3d, dome, half, round, sphere-half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14a9 9 0 0118 0v2c0 1-4 3-9 3s-9-2-9-3v-2zM12 13c-5 0-9 2-9 3S7 19 12 19s9-2 9-3-4-3-9-3"></path></svg>
+  <span>Sphere Half</span>
+</a>
+
+<a href="./cylinder" class="icon-card" title="shape, round, 3d, geometry, column, tube, cylinder">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 6.5c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5S7.03 3 12 3s9 1.567 9 3.5z M21 6.5v11c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5v-11"></path></svg>
+  <span>Cylinder</span>
+</a>
+
+<a href="./cylinder-half" class="icon-card" title="shape, half, 3d, cut, section, geometry, cylinder-half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6c0-4 18-4 18 0 0 2-2.5 4-6 4L3 6ZM3 6v11l12 4V10M21 6v11c0 2-2.5 4-6 4"></path></svg>
+  <span>Cylinder Half</span>
+</a>
+
+<a href="./tube" class="icon-card" title="shape, round, 3d, pipe, hollow, geometry, tube">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 6.5c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5S7 3 12 3s9 1.567 9 3.5zM21 6.5v11c0 1.933-4.03 3.5-9 3.5s-9-1.567-9-3.5v-11M17 6.5c0 .7-2 1.5-5 1.5s-5-.8-5-1.5S9 5 12 5s5 .8 5 1.5zM17 20.4 17 9.5"></path></svg>
+  <span>Tube</span>
+</a>
+
+<a href="./cone" class="icon-card" title="shape, triangle, 3d, geometry, pointed, cone">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 19c0 1-3 3-9 3s-9-2-9-3c0-1 3-3 9-3s9 2 9 3zM3 19 12 3l9 16"></path></svg>
+  <span>Cone</span>
+</a>
+
+<a href="./pyramid" class="icon-card" title="shape, triangle, 3d, geometry, egypt, pyramid">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.75 15-9.75 3-9.75-3L12 3z M12 3v18"></path></svg>
+  <span>Pyramid</span>
+</a>
+
+<a href="./polygon" class="icon-card" title="shape, polygon, 3d, mesh, geometry, hexagon">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3l8 0L22 7 16 11 8 11 2 7 8 3M22 7v10M2 7v10M16 11v10M8 11v10M2 17l6 4L16 21 22 17"></path></svg>
+  <span>Polygon</span>
+</a>
+
+<a href="./torus" class="icon-card" title="shape, donut, 3d, ring, circular, geometry, torus">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c5 0 8.7 3 9 6s-1.5 8-9 8-9.3-5-9-8 4-6 9-6zM12 8c2.5 0 4.4 1.3 4.5 3s-2 3-4.5 3-4.6-1.3-4.5-3 2-3 4.5-3z"></path></svg>
+  <span>Torus</span>
+</a>
+
+<a href="./torus-knot" class="icon-card" title="shape, knot, 3d, twisted, loop, geometry, torus-knot">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 12.0 L20.7 13.2 L20.3 14.4 L19.7 15.4 L18.9 16.4 L18.0 17.1 L17.0 17.6 L15.9 17.9 L14.8 18.1 L13.8 18.0 L12.9 17.8 L12.1 17.6 L11.3 17.2 L10.7 16.8 L10.1 16.5 L9.7 16.1 L9.2 15.8 L8.7 15.6 L8.3 15.3 L7.7 15.1 L7.2 14.8 L6.5 14.4 L5.9 14.0 L5.2 13.5 L4.6 12.8 L4.0 12.0 L3.5 11.1 L3.2 10.0 L3.1 8.9 L3.2 7.7 L3.5 6.6 L4.1 5.5 L4.8 4.5 L5.8 3.7 L6.8 3.2 L8.0 2.8 L9.2 2.7 L10.4 2.9 L11.6 3.2 L12.6 3.8 L13.4 4.5 L14.1 5.3 L14.7 6.2 L15.0 7.1 L15.2 8.0 L15.3 8.9 L15.3 9.6 L15.3 10.3 L15.3 10.9 L15.2 11.5 L15.2 12.0 L15.2 12.5 L15.3 13.1 L15.3 13.7 L15.3 14.4 L15.3 15.1 L15.2 16.0 L15.0 16.9 L14.7 17.8 L14.1 18.7 L13.4 19.5 L12.6 20.2 L11.6 20.8 L10.4 21.1 L9.2 21.3 L8.0 21.2 L6.8 20.8 L5.8 20.3 L4.8 19.5 L4.1 18.5 L3.5 17.4 L3.2 16.3 L3.1 15.1 L3.2 14.0 L3.5 12.9 L4.0 12.0 L4.6 11.2 L5.2 10.5 L5.9 10.0 L6.5 9.6 L7.2 9.2 L7.7 8.9 L8.3 8.7 L8.7 8.4 L9.2 8.2 L9.7 7.9 L10.1 7.5 L10.7 7.2 L11.3 6.8 L12.1 6.4 L12.9 6.2 L13.8 6.0 L14.8 5.9 L15.9 6.1 L17.0 6.4 L18.0 6.9 L18.9 7.6 L19.7 8.6 L20.3 9.6 L20.7 10.8 L20.8 12.0Z"></path></svg>
+  <span>Torus Knot</span>
+</a>
+
+<a href="./plane" class="icon-card" title="shape, flat, 3d, surface, floor, ground, plane">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12l10 5 10-5-10-5-10 5zM2 12"></path></svg>
+  <span>Plane</span>
+</a>
+
+<a href="./wedge" class="icon-card" title="shape, triangle, 3d, incline, slope, ramp, wedge">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21H17L3 7V21ZM3 7 17 21m0 0 4-5M3 7 8 3M8 3 21 16"></path></svg>
+  <span>Wedge</span>
+</a>
+
+<a href="./roof" class="icon-card" title="shape, prism, 3d, house, top, shelter, roof">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 7 3 19h14L10 7zM10 7 14 5 21 17 17 19"></path></svg>
+  <span>Roof</span>
+</a>
+
+<a href="./heart-extruded" class="icon-card" title="shape, love, 3d, valentine, like, favorite, heart-extruded">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c-1-1.5-2.5-2-4-2C5.5 3 4 4.5 4 7c0 2 1.5 4 8 9 6.5-5 8-7 8-9 0-2.5-1.5-4-4-4-1.5 0-3 .5-4 2zM4 7v5c0 2 1.5 4 8 9v-5M20 7v5c0 2-1.5 4-8 9"></path></svg>
+  <span>Heart Extruded</span>
+</a>
+
+<a href="./tetrahedron" class="icon-card" title="shape, pyramid, 3d, triangle, platonic, geometry, tetrahedron">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 18H3L12 3zM12 3v12M12 15l-9 6M12 15l9 6"></path></svg>
+  <span>Tetrahedron</span>
+</a>
+
+<a href="./octahedron" class="icon-card" title="shape, diamond, 3d, crystal, platonic, geometry, octahedron">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 L22 12 L12 22 L2 12 Z M12 2 L12 14 L22 12 M12 22 L12 14 L2 12"></path></svg>
+  <span>Octahedron</span>
+</a>
+
+<a href="./icosahedron" class="icon-card" title="shape, poly, 3d, d20, game, platonic, geometry, icosahedron">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L21 7L21 17L12 22L3 17L3 7L12 2Z M12 22V15 M12 15L7 9L17 9L12 15Z M12 2L7 9 M12 2L17 9 M21 7L17 9 M21 17L17 9 M21 17L12 15 M3 17L12 15 M3 17L7 9 M3 7L7 9"></path></svg>
+  <span>Icosahedron</span>
+</a>
+
+<a href="./dodecahedron" class="icon-card" title="shape, pentagon, 3d, d12, platonic, geometry, dodecahedron">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 18 6 21 11 20 17 18 21H6L4 17 3 11 6 6zM12 3v6M12 9l-6 5M12 9l6 5M6 14l2 7M18 14l-2 7M18 14 21 11M6 14 3 11"></path></svg>
+  <span>Dodecahedron</span>
+</a>
+
+<a href="./map" class="icon-card" title="location, travel, guide, navigation, place, map">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5v13.5l6-3 6 3 6-3V4.5l-6 3-6-3-6 3Z M9 4.5v13.5 M15 7.5v13.5"></path></svg>
+  <span>Map</span>
+</a>
+
+<a href="./map-pin" class="icon-card" title="location, marker, spot, point, destination, gps, map-pin">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0zM19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"></path></svg>
+  <span>Map Pin</span>
+</a>
+
+<a href="./globe-alt" class="icon-card" title="world, internet, web, earth, network, global, globe-alt">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"></path></svg>
+  <span>Globe Alt</span>
+</a>
+
+<a href="./truck" class="icon-card" title="delivery, shipping, transport, vehicle, logistics, lorry, truck">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"></path></svg>
+  <span>Truck</span>
+</a>
+
+<a href="./car" class="icon-card" title="car, vehicle, automobile, transport, travel, drive, road">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 10.5 6 5.25h12l1.5 5.25M4.5 10.5h15a1.5 1.5 0 0 1 1.5 1.5v5.25H3V12a1.5 1.5 0 0 1 1.5-1.5ZM4.5 17.25v3h3v-3M16.5 17.25v3h3v-3M6.75 13.875h0M17.25 13.875h0"></path></svg>
+  <span>Car</span>
+</a>
+
+<a href="./sailboat" class="icon-card" title="sailboat, boat, sail, sailing, water, sea, transport, travel">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13.5M9 5.25 3 13.5h6V5.25ZM15 6.75l6 6.75h-6V6.75ZM2.25 16.5h19.5l-3 4.5H6l-3.75-4.5Z"></path></svg>
+  <span>Sailboat</span>
+</a>
+
+<a href="./train" class="icon-card" title="train, rail, railway, railroad, transport, travel, transit">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3h9A2.25 2.25 0 0 1 18.75 5.25v10.5A2.25 2.25 0 0 1 16.5 18h-9a2.25 2.25 0 0 1-2.25-2.25V5.25A2.25 2.25 0 0 1 7.5 3ZM5.25 10.5h13.5M12 3v7.5M8.25 14.25h0M15.75 14.25h0M8.25 18l-3 3M15.75 18l3 3"></path></svg>
+  <span>Train</span>
+</a>
+
+<a href="./route" class="icon-card" title="route, itinerary, directions, journey, origin destination, waypoints">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4.5a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0ZM16.5 19.5a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0ZM5.25 6.75V9a3 3 0 0 0 3 3h7.5a3 3 0 0 1 3 3v2.25"></path></svg>
+  <span>Route</span>
+</a>
+
+<a href="./rocket" class="icon-card" title="rocket, launch, go live, product launch, deployment launch, startup">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.25C15 3 18 2.25 21.75 2.25c0 3.75-.75 6.75-3 9.75L12 18l-6-6 6-6.75ZM9.75 7.5h-4.5l-3 6H7.5M16.5 14.25v4.5l-6 3v-5.25M5.25 17.25l-3 4.5 4.5-3M14.25 7.5a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0Z"></path></svg>
+  <span>Rocket</span>
+</a>
+
+<a href="./anchor" class="icon-card" title="anchor, anchor link, section anchor, permalink target, document destination, jump target">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.75 4.5a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0ZM12 6.75v15M7.5 10.5h9M3.75 14.25v2.25a8.25 5.25 0 0 0 16.5 0v-2.25M2.25 16.5l1.5-2.25L6 15M18 15l2.25-.75 1.5 2.25"></path></svg>
+  <span>Anchor</span>
+</a>
+
+<a href="./light-bulb" class="icon-card" title="idea, tip, solution, inspiration, lamp, light-bulb">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.25a7.5 7.5 0 00-7.5 7.5c0 2.5 1.2 4.8 3.1 6.2.8.6 1.4 1.4 1.4 2.4v1.9a.75.75 0 00.75.75h4.5a.75.75 0 00.75-.75v-1.9c0-1 .6-1.8 1.4-2.4 1.9-1.4 3.1-3.7 3.1-6.2a7.5 7.5 0 00-7.5-7.5ZM10 17h4M11 22v0L13 22M9.75 9.75c0-1.25 1.125-2.25 2.25-2.25s2.25 1 2.25 2.25"></path></svg>
+  <span>Light Bulb</span>
+</a>
+
+<a href="./bolt" class="icon-card" title="energy, power, fast, lightning, flash, electric, bolt">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path></svg>
+  <span>Bolt</span>
+</a>
+
+<a href="./moon" class="icon-card" title="dark mode, night, sleep, weather, crescent, moon">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"></path></svg>
+  <span>Moon</span>
+</a>
+
+<a href="./sun" class="icon-card" title="light mode, day, bright, weather, sunny, sun">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.263l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"></path></svg>
+  <span>Sun</span>
+</a>
+
+<a href="./cloud" class="icon-card" title="weather, sky, overcast, upload, server, cloud">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-4.232-3.943 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z"></path></svg>
+  <span>Cloud</span>
 </a>
 
 <a href="./cloud-arrow-up" class="icon-card" title="cloud, upload, backup, storage, sync, save, cloud-arrow-up">
@@ -1328,64 +1688,109 @@ Setelah anda menemui ikon yang diperlukan, gunakannya seperti ini:
   <span>Cloud Arrow Down</span>
 </a>
 
-<a href="./arrow-trending-up" class="icon-card" title="trend, increase, growth, analytics, rising, statistics, arrow-trending-up">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-10M15 5h6v6"></path></svg>
-  <span>Arrow Trending Up</span>
+<a href="./thunder" class="icon-card" title="weather, storm, lightning, rain, flash, thunder">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h5L12 8 18 8 8.5 22l3.5-10h-6l2-9z"></path></svg>
+  <span>Thunder</span>
 </a>
 
-<a href="./arrow-trending-down" class="icon-card" title="trend, decrease, decline, analytics, falling, statistics, arrow-trending-down">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l6 6 4-4 8 10M15 19h6v-6"></path></svg>
-  <span>Arrow Trending Down</span>
+<a href="./leaf" class="icon-card" title="leaf, eco mode, sustainability, environment, carbon footprint, green initiative">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3C10.5 3 3 6.75 3 13.5A7.5 7.5 0 0 0 10.5 21C17.25 21 21 13.5 21 3ZM3 21 15 9"></path></svg>
+  <span>Leaf</span>
 </a>
 
-<a href="./checkbox-unchecked" class="icon-card" title="checkbox, unchecked, unselected, empty, form, selection, checkbox-unchecked">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path></svg>
-  <span>Checkbox Unchecked</span>
+<a href="./controller" class="icon-card" title="game, play, joystick, gamepad, console, controller, senangwebs, vr, sw-verse">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2V6M5 6H19C20.6569 6 22 7.34315 22 9V15C22 16.6569 20.6569 18 19 18H5C3.34315 18 2 16.6569 2 15V9C2 7.34315 3.34315 6 5 6Z M6 12H10M8 10V14 M18 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"></path></svg>
+  <span>Controller</span>
 </a>
 
-<a href="./checkbox-checked" class="icon-card" title="checkbox, checked, selected, tick, form, selection, checkbox-checked">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4zM7.5 12l3 3 6-6"></path></svg>
-  <span>Checkbox Checked</span>
+<a href="./game" class="icon-card" title="controller, play, joystick, arcade, entertainment, game, senangwebs, 2d, sw-xperience">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M 13 13 L 13 4 A 9 9 0 1 0 22 13 Z M 20 8 a 2 2 0 1 1 -4 0 a 2 2 0 0 1 4 0 z M 10 12 a 1.5 1.5 0 1 1 -3 0 a 1.5 1.5 0 0 1 3 0 z"></path></svg>
+  <span>Game</span>
 </a>
 
-<a href="./radio-unchecked" class="icon-card" title="radio, unchecked, unselected, option, form, choice, radio-unchecked">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-  <span>Radio Unchecked</span>
+<a href="./cake" class="icon-card" title="birthday, celebrate, party, dessert, food, cake">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.379a48.474 48.474 0 00-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39.049.777.102 1.163.16 1.07.163 1.837 1.09 1.837 2.175v5.169c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 013 20.625v-5.169c0-1.085.768-2.012 1.837-2.175a48.041 48.041 0 011.163-.16"></path></svg>
+  <span>Cake</span>
 </a>
 
-<a href="./radio-checked" class="icon-card" title="radio, checked, selected, option, form, choice, radio-checked">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path></svg>
-  <span>Radio Checked</span>
+<a href="./gift" class="icon-card" title="present, reward, bonus, box, surprise, giveaway, gift">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H4.5a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"></path></svg>
+  <span>Gift</span>
 </a>
 
-<a href="./toggle-off" class="icon-card" title="toggle, switch, off, disabled, setting, false, toggle-off">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h8a6 6 0 0 1 0 12H8A6 6 0 0 1 8 6zM11 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path></svg>
-  <span>Toggle Off</span>
+<a href="./trophy" class="icon-card" title="award, winner, achievement, champion, prize, trophy">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9c-1.5 0-3-1.5-3-3V5h3M18 9c1.5 0 3-1.5 3-3V5h-3M6 9V5h12v4c0 3.3-2.7 6-6 6s-6-2.7-6-6zM12 15v3M9 21h6M10 18h4"></path></svg>
+  <span>Trophy</span>
 </a>
 
-<a href="./toggle-on" class="icon-card" title="toggle, switch, on, enabled, setting, true, toggle-on">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h8a6 6 0 0 1 0 12H8A6 6 0 0 1 8 6zM19 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path></svg>
-  <span>Toggle On</span>
+<a href="./medal" class="icon-card" title="award, achievement, winner, badge, ribbon, medal">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15M11 12 5.12 2.2M13 12l5.88-9.8M8 7h8M12 22a5 5 0 100-10 5 5 0 000 10zM12 18v-2h-.5"></path></svg>
+  <span>Medal</span>
 </a>
 
-<a href="./phone-incoming" class="icon-card" title="phone-incoming, incoming call, receive call, answer, phone">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.055.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z"></path></svg>
-  <span>Phone Incoming</span>
+<a href="./pushpin" class="icon-card" title="pushpin, pin item, pinned items, keep visible, affix, tack">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 2.25l5.25 5.25M17.25 3l-4.5 4.5-3 .75-3 3 6 6 3-3 .75-3L21 6.75M9.75 14.25l-7.5 7.5"></path></svg>
+  <span>Pushpin</span>
 </a>
 
-<a href="./phone-reject" class="icon-card" title="phone-reject, reject call, hang up, disconnect, decline, phone">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3l6 6m0-6-6 6M17.25 21.75c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.055.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z"></path></svg>
-  <span>Phone Reject</span>
+<a href="./cookie" class="icon-card" title="cookie, cookie consent, browser storage, privacy preferences, tracking, consent">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9 4.5 4.5 0 0 1-4.5-4.5A4.5 4.5 0 0 1 12 3ZM7.5 9h.01M7.5 15h.01M13.5 16.5h.01"></path></svg>
+  <span>Cookie</span>
 </a>
 
-<a href="./sign-in" class="icon-card" title="sign-in, login, signin, enter, access, account">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l3-3L9 9m3 3H4m17 9-5-4V7l5-4M11 17v4H21V3H11V7"></path></svg>
-  <span>Sign In</span>
+<a href="./puzzle" class="icon-card" title="puzzle, extension, plugin, add-on, module, integration marketplace">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.75 6h-6v5.25H6a2.25 2.25 0 1 1 0 4.5H3.75V21h6v-2.25a2.25 2.25 0 1 1 4.5 0V21H18v-6.75h1.5a2.25 2.25 0 1 0 0-4.5H18V6h-3.75V4.5a2.25 2.25 0 1 0-4.5 0V6Z"></path></svg>
+  <span>Puzzle</span>
 </a>
 
-<a href="./sign-out" class="icon-card" title="sign-out, logout, signout, exit, leave, account">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 15 4 12 7 9M4 12h8m9 9-5-4V7l5-4M11 17v4H21V3H11V7"></path></svg>
-  <span>Sign Out</span>
+<a href="./scale" class="icon-card" title="scale, balance, legal, fairness, compliance, weighing">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M6 21h12M3.75 6h16.5M6.75 6 3 14.25h7.5L6.75 6ZM17.25 6l-3.75 8.25H21L17.25 6ZM3 14.25a3.75 3.75 0 0 0 7.5 0M13.5 14.25a3.75 3.75 0 0 0 7.5 0"></path></svg>
+  <span>Scale</span>
+</a>
+
+<a href="./stamp" class="icon-card" title="stamp, approval stamp, endorsement, certification, rubber stamp, authorize">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12V9c0-1.5-.75-2.25-.75-3a3.75 3.75 0 0 1 7.5 0c0 .75-.75 1.5-.75 3v3M6 12h12l3 5.25H3L6 12ZM3 21h18"></path></svg>
+  <span>Stamp</span>
+</a>
+
+<a href="./flask" class="icon-card" title="flask, experiment, experimental, labs, beta features, feature testing">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3h9M9 3v6.75L3.75 18a2 2 0 0 0 1.69 3h13.12a2 2 0 0 0 1.69-3L15 9.75V3M6 15h12"></path></svg>
+  <span>Flask</span>
+</a>
+
+<a href="./graduation-cap" class="icon-card" title="graduation cap, education, courses, learning platform, qualification, training, graduation-cap">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 9 12 4.5 21.75 9 12 13.5 2.25 9ZM6 10.75v6.5c3.75 3 8.25 3 12 0v-6.5M21.75 9v8.25"></path></svg>
+  <span>Graduation Cap</span>
+</a>
+
+<a href="./wrench" class="icon-card" title="wrench, maintenance, repair, service tools, troubleshooting, technical service">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.25 6.75l3 3L21 6a5.25 5.25 0 0 1-6.75 6.75L6 21a2.121 2.121 0 0 1-3-3l8.25-8.25A5.25 5.25 0 0 1 18 3l-3.75 3.75Z"></path></svg>
+  <span>Wrench</span>
+</a>
+
+<a href="./gavel" class="icon-card" title="gavel, moderation, ruling, auction, enforcement, policy decision">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5L10.5 3L15 7.5L7.5 15L3 10.5ZM12.75 9.75L21 18l-3 3l-8.25-8.25l6 6M3 21h10"></path></svg>
+  <span>Gavel</span>
+</a>
+
+<a href="./construction-barrier" class="icon-card" title="construction barrier, under construction, maintenance mode, work in progress, roadblock, temporarily closed, construction-barrier">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5h18V15H3V7.5ZM6 15v6M18 15v6M5.25 7.5l7.5 7.5M12 7.5l7.5 7.5"></path></svg>
+  <span>Construction Barrier</span>
+</a>
+
+<a href="./crown" class="icon-card" title="crown, premium, vip, pro plan, membership tier, exclusive access">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l4.5 5.25L12 3l4.5 8.25L21 6l-2.25 12H5.25L3 6ZM5.25 21h13.5"></path></svg>
+  <span>Crown</span>
+</a>
+
+<a href="./stethoscope" class="icon-card" title="stethoscope, healthcare, diagnostics, medical consultation, clinical, patient care">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 3v5.25a5.25 5.25 0 0 0 10.5 0V3M3 3h3M13.5 3h3M9.75 13.5v2.25a5.25 5.25 0 0 0 10.5 0V15M18 12.75a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0Z"></path></svg>
+  <span>Stethoscope</span>
+</a>
+
+<a href="./pill" class="icon-card" title="pill, medication, prescription, pharmacy, dose, medicine">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.25 3.75a4.243 4.243 0 0 1 6 6L9.75 20.25a4.243 4.243 0 0 1-6-6l10.5-10.5ZM9 9l6 6"></path></svg>
+  <span>Pill</span>
 </a>
 
 </div>

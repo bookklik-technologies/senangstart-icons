@@ -14,8 +14,8 @@ const icons = JSON.parse(fs.readFileSync(iconsJsonPath, 'utf8'));
 // Compatibility notes live in the generator so rebuilding preserves them.
 const usageNotes = {
   "phone-x-mark": {
-    "en": "Legacy name: this drawing depicts an incoming call, not a rejection. The existing name and artwork remain available for compatibility. Prefer [phone-incoming](./phone-incoming) for incoming calls or [phone-reject](./phone-reject) for a handset with an X.",
-    "ms": "Nama legasi: lukisan ini menunjukkan panggilan masuk, bukan penolakan. Nama dan lukisan sedia ada dikekalkan untuk keserasian. Gunakan [phone-incoming](./phone-incoming) untuk panggilan masuk atau [phone-reject](./phone-reject) untuk gagang telefon dengan tanda X."
+    "en": "A handset with an X for rejecting or declining a call. The artwork has been corrected to match the name; for the incoming-call arrow previously shown here, use [phone-incoming](./phone-incoming).",
+    "ms": "Gagang telefon dengan tanda X untuk menolak panggilan. Lukisan telah dibetulkan agar sepadan dengan namanya; untuk anak panah panggilan masuk yang dipaparkan sebelum ini, gunakan [phone-incoming](./phone-incoming)."
   },
   "arrow-right-on-rectangle": {
     "en": "Legacy name: the arrow points left into the door. Prefer [sign-in](./sign-in) for this action. The legacy name and drawing are preserved for compatibility.",
@@ -26,12 +26,8 @@ const usageNotes = {
     "ms": "Nama legasi: anak panah menghala ke kanan, keluar dari pintu. Gunakan [sign-out](./sign-out) untuk tindakan ini. Nama dan lukisan legasi dikekalkan untuk keserasian."
   },
   "phone-incoming": {
-    "en": "Preferred name for the incoming-call drawing also available under the legacy name [phone-x-mark](./phone-x-mark). For rejecting a call, use [phone-reject](./phone-reject).",
-    "ms": "Nama yang disyorkan untuk lukisan panggilan masuk yang turut tersedia dengan nama legasi [phone-x-mark](./phone-x-mark). Untuk menolak panggilan, gunakan [phone-reject](./phone-reject)."
-  },
-  "phone-reject": {
-    "en": "A handset with an X for rejecting or declining a call. For an incoming-call arrow, use [phone-incoming](./phone-incoming).",
-    "ms": "Gagang telefon dengan tanda X untuk menolak panggilan. Untuk anak panah panggilan masuk, gunakan [phone-incoming](./phone-incoming)."
+    "en": "A handset with an incoming-call arrow. For a handset with an X, use [phone-x-mark](./phone-x-mark).",
+    "ms": "Gagang telefon dengan anak panah panggilan masuk. Untuk gagang telefon dengan tanda X, gunakan [phone-x-mark](./phone-x-mark)."
   },
   "sign-in": {
     "en": "Preferred name for an arrow entering the door. Shares its drawing with the legacy name [arrow-right-on-rectangle](./arrow-right-on-rectangle).",
