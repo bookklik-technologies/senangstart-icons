@@ -44,7 +44,7 @@ console.log(svg);
 |------|-------|
 | **Nama** | Phone X Mark |
 | **Slug** | `phone-x-mark` |
-| **Tag** | `incoming call`, `receive call`, `answer`, `phone`, `legacy`, `phone-x-mark` |
+| **Tag** | `reject call`, `decline call`, `end call`, `hang up`, `phone`, `phone-x-mark` |
 
 ## Laluan SVG
 

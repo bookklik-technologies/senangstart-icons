@@ -4,7 +4,7 @@ title: Icon Library
 
 # Icon Library
 
-Browse all **355** available icons in SenangStart Icons.
+Browse all **357** available icons in SenangStart Icons.
 
 ## Usage
 
@@ -584,12 +584,12 @@ Once you find the icon you need, use it like this:
 </a>
 
 <a href="./fingerprint" class="icon-card" title="fingerprint, biometric, authentication, identity, touch id, verification">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.75 10.5a8.25 8.25 0 0 1 16.5 0M6.75 10.5a5.25 5.25 0 0 1 10.5 0v2.25a14 14 0 0 1-2.25 7.5M9.75 10.5a2.25 2.25 0 0 1 4.5 0v2.25c0 3-1.125 5.625-3 8.25M3.75 13.5c0 2.25-.375 4.5-1.5 6.75M6.75 13.5c0 3-.75 5.25-2.25 7.5M9.75 13.5c0 3-1.125 5.25-2.25 6.75M20.25 13.5c0 2.25-.375 4.5-1.125 6.75"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.75 4.5C10.5 .5 17.25 .75 21 6M22.25 9.5c1 4-.75 7-3 9.25L15.5 22.5M15.25 7c3.5 1.5 4 5 1.5 7.75M2.25 9.25l2-2M2.75 15.25 6 12M8.5 9.5 10 8q.75-.75 1.75-1.25M5 19.5l2.75-2.75M9.25 21.75l4.5-4.5M10.25 14.25l3-3"></path></svg>
   <span>Fingerprint</span>
 </a>
 
 <a href="./identification-card" class="icon-card" title="identification card, id card, identity document, employee badge, member credentials, verification document, identification-card">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 5.25h15a2.25 2.25 0 0 1 2.25 2.25v9a2.25 2.25 0 0 1 -2.25 2.25h-15a2.25 2.25 0 0 1 -2.25 -2.25v-9a2.25 2.25 0 0 1 2.25 -2.25ZM6 10.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM4.5 16.5v-.75a3 3 0 0 1 6 0v.75M14.25 9.75h4.5M14.25 14.25h3"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 2.25h9a2.25 2.25 0 0 1 2.25 2.25v15a2.25 2.25 0 0 1-2.25 2.25h-9a2.25 2.25 0 0 1-2.25-2.25v-15A2.25 2.25 0 0 1 7.5 2.25ZM10.5 5.25h3M10.75 9.75a1.25 1.25 0 1 0 2.5 0 1.25 1.25 0 1 0-2.5 0ZM8.25 16.5c0-1.65 1.68-3 3.75-3s3.75 1.35 3.75 3M10.5 18.75h3"></path></svg>
   <span>Identification Card</span>
 </a>
 
@@ -638,7 +638,7 @@ Once you find the icon you need, use it like this:
   <span>Phone Incoming</span>
 </a>
 
-<a href="./phone-x-mark" class="icon-card" title="incoming call, receive call, answer, phone, legacy, phone-x-mark">
+<a href="./phone-x-mark" class="icon-card" title="reject call, decline call, end call, hang up, phone, phone-x-mark">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3l6 6m0-6-6 6M17.25 21.75c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.055.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z"></path></svg>
   <span>Phone X Mark</span>
 </a>
@@ -821,6 +821,16 @@ Once you find the icon you need, use it like this:
 <a href="./device-tablet" class="icon-card" title="ipad, kindle, reader, screen, mobile, device-tablet">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 19.5h3m-6.75 2.25h10.5a2.25 2.25 0 002.25-2.25v-15a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 4.5v15a2.25 2.25 0 002.25 2.25z"></path></svg>
   <span>Device Tablet</span>
+</a>
+
+<a href="./device-unfold" class="icon-card" title="device-unfold, unfold, unfolded, foldable, folding phone, folding screen, dual screen, smartphone, hinge, mobile, device">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.25 5.62 4.18A2.25 2.25 0 0 0 3 6.4v11.2a2.25 2.25 0 0 0 2.62 2.22L12 18.75l6.38 1.07A2.25 2.25 0 0 0 21 17.6V6.4a2.25 2.25 0 0 0-2.62-2.22L12 5.25Zm0 0v13.5"></path></svg>
+  <span>Device Unfold</span>
+</a>
+
+<a href="./device-fold" class="icon-card" title="device-fold, fold, folded, foldable, folding phone, smartphone, hinge, mobile, device">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.25 3H16.5a2.25 2.25 0 01 2.25 2.25v13.5A2.25 2.25 0 01 16.5 21H5.25V3ZM16 5.75h0"></path></svg>
+  <span>Device Fold</span>
 </a>
 
 <a href="./keyboard" class="icon-card" title="keyboard, typing, input, shortcuts, hotkeys, keys">
@@ -1164,7 +1174,7 @@ Once you find the icon you need, use it like this:
 </a>
 
 <a href="./coins" class="icon-card" title="coins, credits, tokens, loyalty points, cash balance, currency amount">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 10.5a5.25 2.25 0 1 0 10.5 0a5.25 2.25 0 1 0 -10.5 0ZM2.25 10.5v9a5.25 2.25 0 0 0 10.5 0v-9M2.25 15a5.25 2.25 0 0 0 10.5 0M12 5.25a4.5 2.25 0 1 0 9 0a4.5 2.25 0 1 0 -9 0ZM12 5.25v1.5M21 5.25v9c0 1.25-2.01 2.25-4.5 2.25M21 9.75c0 1.25-2.01 2.25-4.5 2.25H15"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.75 10a5.25 2.25 0 10 10.5 0a5.25 2.25 0 10-10.5 0ZM2.75 10v9a5.25 2.25 0 00 10.5 0v-9M2.75 14.5a5.25 2.25 0 00 10.5 0M12.5 4.75a4.5 2.25 0 10 9 0a4.5 2.25 0 10-9 0ZM12.5 4.75M21.5 4.75v9c0 1.25-2.01 2.25-4.5 2.25M21.5 9.25c0 1.25-2.01 2.25-4.5 2.25"></path></svg>
   <span>Coins</span>
 </a>
 
@@ -1224,7 +1234,7 @@ Once you find the icon you need, use it like this:
 </a>
 
 <a href="./gauge" class="icon-card" title="gauge, performance, speed, capacity, utilization, meter">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 18a9 9 0 1 1 15 0M7.5 20.25h9M12 14.25l4.5-4.5M11.25 14.25a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0ZM5.25 12h.01M8.25 6.75h.01M15.75 6.75h.01M18.75 12h.01"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 18A1.5 1.5 0 01 3 16.5V15a9 9 0 01 18 0v1.5a1.5 1.5 0 01-1.5 1.5h-15ZM5.5 13.5h1.5M12 8.4v1.5M17 13.5H18.5M12 14.25L15.75 10.5M11.25 14.25a0.75 0.75 0 10 1.5 0a0.75 0.75 0 10-1.5 0Z"></path></svg>
   <span>Gauge</span>
 </a>
 
@@ -1734,12 +1744,12 @@ Once you find the icon you need, use it like this:
 </a>
 
 <a href="./cookie" class="icon-card" title="cookie, cookie consent, browser storage, privacy preferences, tracking, consent">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9 4.5 4.5 0 0 1-4.5-4.5A4.5 4.5 0 0 1 12 3ZM7.5 9h.01M7.5 15h.01M13.5 16.5h.01"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 10 9 9a4.5 4.5 0 01-4.5-4.5A4.5 4.5 0 01 12 3ZM7.5 9h0.01M8 15h0M13.5 16.5h0.01M13 11h0"></path></svg>
   <span>Cookie</span>
 </a>
 
 <a href="./puzzle" class="icon-card" title="puzzle, extension, plugin, add-on, module, integration marketplace">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.75 6h-6v5.25H6a2.25 2.25 0 1 1 0 4.5H3.75V21h6v-2.25a2.25 2.25 0 1 1 4.5 0V21H18v-6.75h1.5a2.25 2.25 0 1 0 0-4.5H18V6h-3.75V4.5a2.25 2.25 0 1 0-4.5 0V6Z"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6.5h-6v5H4.5a2.25 2.25 0 11 0 4.5H3V21.5h6v-1.5a2.25 2.25 0 11 4.5 0V21.5H17.25v-5.5h1.5a2.25 2.25 0 10 0-4.5H17.25V6.5h-3.75V5a2.25 2.25 0 10-4.5 0V6.5Z"></path></svg>
   <span>Puzzle</span>
 </a>
 

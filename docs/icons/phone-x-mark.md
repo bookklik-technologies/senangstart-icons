@@ -44,7 +44,7 @@ console.log(svg);
 |----------|-------|
 | **Name** | Phone X Mark |
 | **Slug** | `phone-x-mark` |
-| **Tags** | `incoming call`, `receive call`, `answer`, `phone`, `legacy`, `phone-x-mark` |
+| **Tags** | `reject call`, `decline call`, `end call`, `hang up`, `phone`, `phone-x-mark` |
 
 ## SVG Path
 

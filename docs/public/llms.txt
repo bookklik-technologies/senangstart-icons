@@ -56,7 +56,7 @@ License: MIT
    <i class="ss ss-icon-slug"></i>
    ```
 
-## Available Icons (355)
+## Available Icons (357)
 
 Format: Icon Name (`slug`) - Tags
 
@@ -184,7 +184,7 @@ Format: Icon Name (`slug`) - Tags
 - Chat Bubble Left Right (`chat-bubble-left-right`) - conversation, exchange, discussion, interview, forum, chat-bubble-left-right
 - Phone (`phone`) - call, contact, mobile, telephone, support, dial, hotline, phone
 - Phone Incoming (`phone-incoming`) - phone-incoming, incoming call, receive call, answer, phone
-- Phone X Mark (`phone-x-mark`) - incoming call, receive call, answer, phone, legacy, phone-x-mark
+- Phone X Mark (`phone-x-mark`) - reject call, decline call, end call, hang up, phone, phone-x-mark
 - Paper Airplane (`paper-airplane`) - send, message, submit, mail, outgoing, paper plane, paper-airplane
 - Share (`share`) - share, social, send, distribute, connect
 - Link (`link`) - url, hyperlink, chain, connect, insert link, copy link, link
@@ -221,6 +221,8 @@ Format: Icon Name (`slug`) - Tags
 - Computer Desktop (`computer-desktop`) - monitor, screen, pc, imac, display, workstation, computer-desktop
 - Device Phone Mobile (`device-phone-mobile`) - iphone, smartphone, cell, screen, app, device-phone-mobile, senangwebs, sw-roll
 - Device Tablet (`device-tablet`) - ipad, kindle, reader, screen, mobile, device-tablet
+- Device Unfold (`device-unfold`) - device-unfold, unfold, unfolded, foldable, folding phone, folding screen, dual screen, smartphone, hinge, mobile, device
+- Device Fold (`device-fold`) - device-fold, fold, folded, foldable, folding phone, smartphone, hinge, mobile, device
 - Keyboard (`keyboard`) - keyboard, typing, input, shortcuts, hotkeys, keys
 - Command (`command`) - command, shortcut, hotkey, modifier, mac, keyboard
 - Enter (`enter`) - enter, return, submit, confirm, keyboard, shortcut
