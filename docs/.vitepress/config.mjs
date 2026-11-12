@@ -40,6 +40,12 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: 'https://senangstart.com/img/ss_icon_accent.svg' }],
     ['script', { type: 'senangstart/config' }, '{ "darkMode": "selector" }'],
+    ['script', {
+      src: 'https://web.senanglab.com/widget.js',
+      'data-site': '613e89d5-4f65-4f19-92ad-193c49a24c34',
+      referrerpolicy: 'no-referrer',
+      defer: ''
+    }],
   ],
 
   locales: {
